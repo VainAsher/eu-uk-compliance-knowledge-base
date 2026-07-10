@@ -1,0 +1,3 @@
+# Normalize line endings; treat Markdown as text
+* text=auto eol=lf
+*.md text eol=lf

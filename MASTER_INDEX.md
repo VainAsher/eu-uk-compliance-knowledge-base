@@ -1,0 +1,43 @@
+# Master Index
+
+Catalogue of all knowledge-base documents. Updated by the Repository Maintainer after every approved document.
+
+**Last updated:** 2026-07-10
+
+## Legend
+
+Status: `draft` · `in-review` · `approved` · `frozen` · `superseded`
+Confidence: evidence sufficiency — `High` · `Medium` · `Low`
+
+## Documents
+
+| ID | Title | Topic | Tier | Jurisdiction | Version | Status | Confidence | Path |
+|----|-------|-------|------|--------------|---------|--------|-----------|------|
+| gdpr-foundations | GDPR: Foundations & Core Principles | GDPR (EU) | 1 | EU | 0.1.0 | in-review | — | `docs/01-gdpr/gdpr-foundations.md` |
+
+## Topic coverage (16 programme topics)
+
+| Topic | Documents | Status |
+|-------|-----------|--------|
+| GDPR (EU) | 1 | in production |
+| UK GDPR | 0 | not started |
+| AI Act | 0 | not started |
+| Data Act | 0 | not started |
+| NIS2 | 0 | not started |
+| DORA | 0 | not started |
+| ePrivacy | 0 | not started |
+| Consumer Rights | 0 | not started |
+| Digital Services | 0 | not started |
+| Digital Markets | 0 | not started |
+| AI Governance | 0 | not started |
+| Privacy Engineering | 0 | not started |
+| Cloud Hosting | 0 | not started |
+| Game Hosting | 0 | not started |
+| Cybersecurity | 0 | not started |
+| Compliance Operations | 0 | not started |
+
+## Knowledge graph (cross-references)
+
+_Populated as documents are approved. Format: `doc-a → relationship → doc-b`._
+
+- _(none yet)_
