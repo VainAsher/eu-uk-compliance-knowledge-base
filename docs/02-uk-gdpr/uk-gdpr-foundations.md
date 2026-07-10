@@ -1,8 +1,8 @@
 ---
 id: uk-gdpr-foundations
 title: "UK GDPR: Foundations & Divergence from the EU GDPR"
-version: 0.1.0
-status: in-review
+version: 1.0.0
+status: approved
 classification: public
 jurisdiction: [UK]
 topic: UK GDPR
@@ -26,15 +26,15 @@ sources_verified: 2026-07-10
 | Field | Value |
 |-------|-------|
 | Document ID | uk-gdpr-foundations |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.3.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-10 |
 | Last Updated | 2026-07-10 |
 | Review Due | 2027-07-10 |
 | Confidence | High |
-| Approved By | *pending human review* |
+| Approved By | Human reviewer — 2026-07-10 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**. UK data protection law is undergoing phased reform under the Data (Use and Access) Act 2025; confirm the commencement status of specific provisions before relying on them.
 
@@ -273,4 +273,5 @@ Not Applicable — this foundational reference relies on primary legislation and
 
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
-| 0.1.0 | 2026-07-10 | Technical Writer (virtual agent) | Initial draft; researched against legislation.gov.uk (EUWA 2018, DPA 2018, DUAA 2025), ICO, GOV.UK and European Commission adequacy sources. | *pending human review* |
+| 0.1.0 | 2026-07-10 | Technical Writer (virtual agent) | Initial draft; researched against legislation.gov.uk (EUWA 2018, DPA 2018, DUAA 2025), ICO, GOV.UK and European Commission adequacy sources. | — |
+| 1.0.0 | 2026-07-10 | Editorial Reviewer (virtual agent) | Approved at human review gate; frozen in release 0.3.0. | Human reviewer |
