@@ -14,13 +14,14 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 | ID | Title | Topic | Tier | Jurisdiction | Version | Status | Confidence | Path |
 |----|-------|-------|------|--------------|---------|--------|-----------|------|
 | gdpr-foundations | GDPR: Foundations & Core Principles | GDPR (EU) | 1 | EU | 1.0.0 | approved | High | `docs/01-gdpr/gdpr-foundations.md` |
+| uk-gdpr-foundations | UK GDPR: Foundations & Divergence from the EU GDPR | UK GDPR | 1 | UK | 0.1.0 | in-review | High | `docs/02-uk-gdpr/uk-gdpr-foundations.md` |
 
 ## Topic coverage (16 programme topics)
 
 | Topic | Documents | Status |
 |-------|-----------|--------|
 | GDPR (EU) | 1 | 1 approved; sub-topics in backlog |
-| UK GDPR | 0 | not started |
+| UK GDPR | 1 | 1 in review; sub-topics in backlog |
 | AI Act | 0 | not started |
 | Data Act | 0 | not started |
 | NIS2 | 0 | not started |
@@ -44,3 +45,5 @@ _Populated as documents are approved. Format: `doc-a → relationship → doc-b`
 - `gdpr-foundations` → *lex generalis to* → `eprivacy-foundations` (planned)
 - `gdpr-foundations` → *implemented by* → `privacy-engineering-foundations` (planned)
 - `gdpr-foundations` → *interplays with* → `ai-act-foundations` (planned)
+- `uk-gdpr-foundations` → *builds on / diverges from* → `gdpr-foundations`
+- `uk-gdpr-foundations` → *detailed by* → `duaa-2025-detail`, `uk-transfers`, `uk-childrens-code` (planned)

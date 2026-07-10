@@ -4,7 +4,7 @@ Shared, authoritative definitions of terms of art used across the knowledge base
 
 **Convention:** Each term cites its authoritative source. Where a term is defined in legislation, the statutory definition governs. Keys in the *Source* column reference `SOURCE_REGISTRY.md`.
 
-**Last updated:** 2026-07-10
+**Last updated:** 2026-07-10 (added UK GDPR, assimilated law, adequacy decision for `uk-gdpr-foundations`)
 
 | Term | Definition | Source |
 |------|------------|--------|
@@ -18,6 +18,9 @@ Shared, authoritative definitions of terms of art used across the knowledge base
 | Processor | A natural or legal person, public authority, agency or other body that processes personal data on behalf of the controller (GDPR Art. 4(8)). | eurlex-gdpr |
 | Pseudonymisation | Processing personal data so it can no longer be attributed to a specific data subject without additional information kept separately and secured (GDPR Art. 4(5)). Pseudonymised data remains *personal data*. | eurlex-gdpr |
 | Special category data | Personal data revealing racial/ethnic origin, political opinions, religious/philosophical beliefs, trade-union membership; genetic, biometric, health, sex-life or sexual-orientation data (GDPR Art. 9). | eurlex-gdpr |
-| Supervisory authority | An independent public authority established by a Member State to monitor the application of the GDPR (GDPR Art. 4(21), Art. 51). | eurlex-gdpr |
+| Supervisory authority | An independent public authority established by a Member State to monitor the application of the GDPR (GDPR Art. 4(21), Art. 51). In the UK, the ICO / Information Commission. | eurlex-gdpr |
+| UK GDPR | Regulation (EU) 2016/679 as retained/assimilated in UK domestic law under EUWA 2018 s.3 and amended for the UK context; read together with the DPA 2018. | euwa-2018-s3 / legislation-uk-dpa2018 |
+| Assimilated law | Status (from 1 January 2024) of former "retained EU law", incl. the UK GDPR, following the Retained EU Law (Revocation and Reform) Act 2023. | euwa-2018-s3 |
+| Adequacy decision | A European Commission finding that a third country ensures an adequate level of protection, permitting EEA→that-country transfers without further safeguards. The UK holds adequacy renewed to 27 December 2031. | ec-adequacy-decisions / ec-uk-adequacy-2025 |
 
 > Terms are added as documents introduce them. Do not redefine a glossary term inconsistently in a document; if a narrower meaning is needed, state it explicitly as document-specific.

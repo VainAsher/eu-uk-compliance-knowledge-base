@@ -4,7 +4,10 @@ All notable changes to this repository. Format based on [Keep a Changelog](https
 
 ## [Unreleased]
 
-_Nothing yet._
+### Added
+- `docs/02-uk-gdpr/uk-gdpr-foundations.md` — UK GDPR Foundations (v0.1.0, **in review**). Covers the EUWA 2018 basis, UK GDPR/DPA 2018 relationship, key divergences (consent age 13), the Data (Use and Access) Act 2025 reforms, and the EU adequacy renewal to 2031. 11 references, all links verified live 2026-07-10.
+- Source registry: EUWA 2018 s.3, DPA 2018 s.9, DUAA 2025, ICO/GOV.UK/EC adequacy sources.
+- Glossary: UK GDPR, assimilated law, adequacy decision.
 
 ## [0.2.0] — 2026-07-10
 

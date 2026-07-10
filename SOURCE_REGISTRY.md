@@ -35,5 +35,14 @@ Canonical registry of authoritative sources cited across the knowledge base. Eac
 | case-schrems2 | Schrems II, C-311/18, ECLI:EU:C:2020:559 | Primary | CJEU | https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:62018CJ0311 |
 | ec-dp-legal-framework | Legal framework of EU data protection | Regulatory | European Commission | https://commission.europa.eu/law/law-topic/data-protection/legal-framework-eu-data-protection_en |
 | iso-27701 | ISO/IEC 27701 (PIMS) | Standard | ISO/IEC | https://www.iso.org/standard/71670.html |
+| euwa-2018-s3 | European Union (Withdrawal) Act 2018, s.3 | Primary | legislation.gov.uk | https://www.legislation.gov.uk/ukpga/2018/16/section/3 |
+| dpa-2018-s9 | Data Protection Act 2018, s.9 (child consent, age 13) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/ukpga/2018/12/section/9 |
+| duaa-2025 | Data (Use and Access) Act 2025 (c.18) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/ukpga/2025/18/contents |
+| ico-dp-eu | Overview — Data Protection and the EU | Regulatory | ICO (UK) | https://ico.org.uk/for-organisations/data-protection-and-the-eu/overview-data-protection-and-the-eu/ |
+| ico-duaa | Data (Use and Access) Act 2025 — for organisations | Regulatory | ICO (UK) | https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025/ |
+| govuk-duaa-changes | DUAA 2025: data protection and privacy changes | Regulatory | GOV.UK | https://www.gov.uk/guidance/data-use-and-access-act-2025-data-protection-and-privacy-changes |
+| ec-uk-adequacy-2025 | Commission renews UK adequacy decisions (IP/25/3059) | Regulatory | European Commission | https://ec.europa.eu/commission/presscorner/detail/en/ip_25_3059 |
+| ec-uk-adequacy-2021 | Commission adopts UK adequacy decisions (IP/21/3183) | Regulatory | European Commission | https://ec.europa.eu/commission/presscorner/detail/en/ip_21_3183 |
+| ec-adequacy-decisions | Adequacy decisions (international transfers) | Regulatory | European Commission | https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en |
 
 > Additional sources are appended as documents cite them. Never cite a source not verified live at the citing document's `sources_verified` date.
