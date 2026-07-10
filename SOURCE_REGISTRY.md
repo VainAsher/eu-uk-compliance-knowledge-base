@@ -2,7 +2,7 @@
 
 Canonical registry of authoritative sources cited across the knowledge base. Each source is classified and given a stable short key used in document References. Links are verified per document at that document's `sources_verified` date.
 
-**Last updated:** 2026-07-11 (added EDPB Guidelines 4/2019, ICO DPbDD, ENISA PbD, NIST Privacy Framework, ISO/IEC 29100, Hoepman for `privacy-engineering-foundations`)
+**Last updated:** 2026-07-11 (added AI Act ELI, EC AI framework, Digital Omnibus on AI, EP AI-omnibus deal, ISO/IEC 42001 for `ai-act-foundations`)
 
 ## Classification classes
 
@@ -58,5 +58,10 @@ Canonical registry of authoritative sources cited across the knowledge base. Eac
 | nist-privacy-framework | NIST Privacy Framework (v1.0 2020; v1.1 draft) | Standard | NIST | https://www.nist.gov/privacy-framework |
 | iso-29100 | ISO/IEC 29100 — Privacy framework | Standard | ISO/IEC | https://www.iso.org/standard/45123.html |
 | hoepman-pds | Hoepman, "Privacy Design Strategies" (IFIP SEC 2014; arXiv:1210.6621) | Academic | Springer / arXiv | https://arxiv.org/abs/1210.6621 |
+| eurlex-aiact-eli | Regulation (EU) 2024/1689 (AI Act), ELI | Primary | EUR-Lex / EU | https://eur-lex.europa.eu/eli/reg/2024/1689/oj |
+| ec-ai-framework | Regulatory framework on AI / AI Act | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai |
+| ec-digital-omnibus-ai | Digital Omnibus on AI — regulation proposal | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/library/digital-omnibus-ai-regulation-proposal |
+| ep-ai-omnibus-deal | EP: AI Act deal on simplification (provisional, 7 May 2026) | Regulatory | European Parliament | https://www.europarl.europa.eu/news/en/press-room/20260427IPR42011/ai-act-deal-on-simplification-measures-ban-on-nudifier-apps |
+| iso-42001 | ISO/IEC 42001 — AI Management System | Standard | ISO/IEC | https://www.iso.org/standard/42001 |
 
 > Additional sources are appended as documents cite them. Never cite a source not verified live at the citing document's `sources_verified` date.

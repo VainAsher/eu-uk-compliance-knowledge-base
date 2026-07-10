@@ -17,6 +17,7 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 | uk-gdpr-foundations | UK GDPR: Foundations & Divergence from the EU GDPR | UK GDPR | 1 | UK | 1.0.0 | approved | High | `docs/02-uk-gdpr/uk-gdpr-foundations.md` |
 | eprivacy-foundations | ePrivacy: Foundations, Cookies & Electronic Communications | ePrivacy | 1 | EU, UK | 1.0.0 | approved | High | `docs/03-eprivacy/eprivacy-foundations.md` |
 | privacy-engineering-foundations | Privacy Engineering: Foundations, DPbDD | Privacy Engineering | 1 | EU, UK | 1.0.0 | approved | High | `docs/04-privacy-engineering/privacy-engineering-foundations.md` |
+| ai-act-foundations | EU AI Act: Foundations, Risk Tiers & Timeline | AI Act | 2 | EU | 0.1.0 | in-review | High | `docs/05-ai-act/ai-act-foundations.md` |
 
 ## Topic coverage (16 programme topics)
 
@@ -24,7 +25,7 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 |-------|-----------|--------|
 | GDPR (EU) | 1 | 1 approved; sub-topics in backlog |
 | UK GDPR | 1 | 1 approved; sub-topics in backlog |
-| AI Act | 0 | not started |
+| AI Act | 1 | 1 in review; sub-topics in backlog |
 | Data Act | 0 | not started |
 | NIS2 | 0 | not started |
 | DORA | 0 | not started |
@@ -54,3 +55,6 @@ _Populated as documents are approved. Format: `doc-a → relationship → doc-b`
 - `eprivacy-foundations` → *detailed by* → `cookie-consent-implementation`, `pecr-detail`, `data-retention-caselaw`, `digital-omnibus` (planned)
 - `privacy-engineering-foundations` → *implements* → `gdpr-foundations`, `uk-gdpr-foundations`, `eprivacy-foundations`
 - `privacy-engineering-foundations` → *detailed by* → `dpia-methodology`, `pets-catalogue`, `privacy-threat-modelling`, `anonymisation-techniques` (planned)
+- `ai-act-foundations` → *operates alongside* → `gdpr-foundations`
+- `ai-act-foundations` → *operationalised by* → `ai-governance-foundations`
+- `ai-act-foundations` → *detailed by* → `ai-act-high-risk`, `ai-act-gpai`, `ai-act-prohibited-practices`, `digital-omnibus` (planned)

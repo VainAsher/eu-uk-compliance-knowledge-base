@@ -4,7 +4,7 @@ Shared, authoritative definitions of terms of art used across the knowledge base
 
 **Convention:** Each term cites its authoritative source. Where a term is defined in legislation, the statutory definition governs. Keys in the *Source* column reference `SOURCE_REGISTRY.md`.
 
-**Last updated:** 2026-07-11 (added DPbDD, TOMs, PET, differential privacy for `privacy-engineering-foundations`)
+**Last updated:** 2026-07-11 (added AI system, GPAI model, high-risk AI system, AI Office for `ai-act-foundations`)
 
 | Term | Definition | Source |
 |------|------------|--------|
@@ -29,5 +29,9 @@ Shared, authoritative definitions of terms of art used across the knowledge base
 | Technical and organisational measures (TOMs) | The combined technical and organisational controls used to meet GDPR Arts. 24, 25 and 32. | eurlex-gdpr |
 | Privacy-enhancing technology (PET) | A technology that minimises personal-data processing or protects it (e.g. pseudonymisation, encryption, differential privacy, aggregation). | enisa-pbd |
 | Differential privacy | A formal mathematical guarantee that including or excluding any single individual's data does not significantly change an analysis's output. | enisa-pbd / hoepman-pds |
+| AI system | A machine-based system operating with varying autonomy that infers from inputs how to generate outputs (predictions, content, recommendations, decisions) influencing environments (AI Act Art. 3(1)). | eurlex-aiact-eli |
+| GPAI model | A general-purpose AI model with significant generality, capable of a wide range of distinct tasks (AI Act Art. 3(63)). | eurlex-aiact-eli |
+| High-risk AI system | An AI system within AI Act Art. 6 and Annex I/III, subject to the Chapter III obligations. | eurlex-aiact-eli / ec-ai-framework |
+| AI Office | The European Commission body overseeing GPAI and supporting AI Act implementation and enforcement. | ec-ai-framework |
 
 > Terms are added as documents introduce them. Do not redefine a glossary term inconsistently in a document; if a narrower meaning is needed, state it explicitly as document-specific.

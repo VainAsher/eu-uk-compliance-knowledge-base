@@ -4,7 +4,10 @@ All notable changes to this repository. Format based on [Keep a Changelog](https
 
 ## [Unreleased]
 
-_Nothing yet._
+### Added
+- `docs/05-ai-act/ai-act-foundations.md` — EU AI Act Foundations (v0.1.0, **in review**; first Tier 2 doc). Covers the four risk tiers, GPAI/systemic risk, governance (AI Office), penalties, and the phased timeline. **Live-verified** the AI Omnibus provisional agreement (7 May 2026) postponing high-risk to 2 Dec 2027 / 2 Aug 2028 — flagged as awaiting formal adoption. 6 references, all links verified live 2026-07-11.
+- Source registry: AI Act ELI, EC AI framework, Digital Omnibus on AI, EP AI-omnibus deal, ISO/IEC 42001.
+- Glossary: AI system, GPAI model, high-risk AI system, AI Office.
 
 ## [0.5.0] — 2026-07-11
 
