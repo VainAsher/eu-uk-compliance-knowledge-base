@@ -1,0 +1,1 @@
+See conversation-derived bootstrap. Role: orchestrate multi-agent workflow with planning, research, evidence, drafting, QA, citation audit, link validation, repository updates, human review. Golden rule: evidence over model confidence.
