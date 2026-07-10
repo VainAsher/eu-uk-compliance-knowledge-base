@@ -4,7 +4,7 @@ Shared, authoritative definitions of terms of art used across the knowledge base
 
 **Convention:** Each term cites its authoritative source. Where a term is defined in legislation, the statutory definition governs. Keys in the *Source* column reference `SOURCE_REGISTRY.md`.
 
-**Last updated:** 2026-07-10 (added UK GDPR, assimilated law, adequacy decision for `uk-gdpr-foundations`)
+**Last updated:** 2026-07-11 (added lex specialis, cookie rule, PECR for `eprivacy-foundations`)
 
 | Term | Definition | Source |
 |------|------------|--------|
@@ -22,5 +22,8 @@ Shared, authoritative definitions of terms of art used across the knowledge base
 | UK GDPR | Regulation (EU) 2016/679 as retained/assimilated in UK domestic law under EUWA 2018 s.3 and amended for the UK context; read together with the DPA 2018. | euwa-2018-s3 / legislation-uk-dpa2018 |
 | Assimilated law | Status (from 1 January 2024) of former "retained EU law", incl. the UK GDPR, following the Retained EU Law (Revocation and Reform) Act 2023. | euwa-2018-s3 |
 | Adequacy decision | A European Commission finding that a third country ensures an adequate level of protection, permitting EEA→that-country transfers without further safeguards. The UK holds adequacy renewed to 27 December 2031. | ec-adequacy-decisions / ec-uk-adequacy-2025 |
+| Lex specialis | A specific law that prevails over a general law on the matters it specifically governs (e.g. the ePrivacy Directive over the GDPR for electronic communications). | eurlex-eprivacy-consolidated |
+| Cookie rule (Art. 5(3)) | The ePrivacy requirement to obtain consent before storing/accessing information on a user's terminal equipment, unless strictly necessary for a service the user requested. | eurlex-eprivacy-consolidated |
+| PECR | Privacy and Electronic Communications (EC Directive) Regulations 2003 — the UK transposition of the ePrivacy Directive. | uk-pecr-2003 |
 
 > Terms are added as documents introduce them. Do not redefine a glossary term inconsistently in a document; if a narrower meaning is needed, state it explicitly as document-specific.

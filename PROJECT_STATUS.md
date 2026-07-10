@@ -30,7 +30,7 @@
 
 ## In progress
 
-- **Document #3: ePrivacy Foundations** (`docs/03-eprivacy/eprivacy-foundations.md`) — next in production per `ROADMAP.md`.
+- **Document #3: ePrivacy Foundations** (`docs/03-eprivacy/eprivacy-foundations.md`) — research, draft and QA **complete** (citation audit fixed ICO attributions; all links verified 2026-07-11); **awaiting human review gate**.
 
 ## Pending work
 

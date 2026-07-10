@@ -15,6 +15,7 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 |----|-------|-------|------|--------------|---------|--------|-----------|------|
 | gdpr-foundations | GDPR: Foundations & Core Principles | GDPR (EU) | 1 | EU | 1.0.0 | approved | High | `docs/01-gdpr/gdpr-foundations.md` |
 | uk-gdpr-foundations | UK GDPR: Foundations & Divergence from the EU GDPR | UK GDPR | 1 | UK | 1.0.0 | approved | High | `docs/02-uk-gdpr/uk-gdpr-foundations.md` |
+| eprivacy-foundations | ePrivacy: Foundations, Cookies & Electronic Communications | ePrivacy | 1 | EU, UK | 0.1.0 | in-review | High | `docs/03-eprivacy/eprivacy-foundations.md` |
 
 ## Topic coverage (16 programme topics)
 
@@ -26,7 +27,7 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 | Data Act | 0 | not started |
 | NIS2 | 0 | not started |
 | DORA | 0 | not started |
-| ePrivacy | 0 | not started |
+| ePrivacy | 1 | 1 in review; sub-topics in backlog |
 | Consumer Rights | 0 | not started |
 | Digital Services | 0 | not started |
 | Digital Markets | 0 | not started |
@@ -47,3 +48,6 @@ _Populated as documents are approved. Format: `doc-a → relationship → doc-b`
 - `gdpr-foundations` → *interplays with* → `ai-act-foundations` (planned)
 - `uk-gdpr-foundations` → *builds on / diverges from* → `gdpr-foundations`
 - `uk-gdpr-foundations` → *detailed by* → `duaa-2025-detail`, `uk-transfers`, `uk-childrens-code` (planned)
+- `eprivacy-foundations` → *lex specialis to* → `gdpr-foundations`
+- `eprivacy-foundations` → *transposed in UK via PECR, relates to* → `uk-gdpr-foundations`
+- `eprivacy-foundations` → *detailed by* → `cookie-consent-implementation`, `pecr-detail`, `data-retention-caselaw`, `digital-omnibus` (planned)

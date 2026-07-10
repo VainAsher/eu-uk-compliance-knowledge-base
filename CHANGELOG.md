@@ -4,7 +4,10 @@ All notable changes to this repository. Format based on [Keep a Changelog](https
 
 ## [Unreleased]
 
-_Nothing yet._
+### Added
+- `docs/03-eprivacy/eprivacy-foundations.md` — ePrivacy Foundations (v0.1.0, **in review**). Covers the ePrivacy Directive as lex specialis to the GDPR, the Art. 5(3) cookie/consent rule, direct marketing (Art. 13), PECR transposition, Planet49, and the 2025 reform status (ePrivacy Regulation withdrawal + Digital Omnibus). 9 references, all links verified live 2026-07-11.
+- Source registry: ePrivacy Directive, Planet49, PECR 2003, EDPB interplay opinion, EP legislative-train (reform + omnibus), ICO PECR, EC ePrivacy policy.
+- Glossary: lex specialis, cookie rule (Art. 5(3)), PECR.
 
 ## [0.3.0] — 2026-07-10
 
