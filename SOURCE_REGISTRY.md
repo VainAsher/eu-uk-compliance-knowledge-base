@@ -2,7 +2,7 @@
 
 Canonical registry of authoritative sources cited across the knowledge base. Each source is classified and given a stable short key used in document References. Links are verified per document at that document's `sources_verified` date.
 
-**Last updated:** 2026-07-11 (added ePrivacy Directive, Planet49, PECR 2003, EDPB interplay opinion, EP legislative-train reform/omnibus, ICO PECR, EC ePrivacy policy for `eprivacy-foundations`)
+**Last updated:** 2026-07-11 (added EDPB Guidelines 4/2019, ICO DPbDD, ENISA PbD, NIST Privacy Framework, ISO/IEC 29100, Hoepman for `privacy-engineering-foundations`)
 
 ## Classification classes
 
@@ -52,5 +52,11 @@ Canonical registry of authoritative sources cited across the knowledge base. Eac
 | ep-digital-package | Legislative Train — Digital Omnibus / digital package | Regulatory | European Parliament | https://www.europarl.europa.eu/legislative-train/theme-a-new-plan-for-europe-s-sustainable-prosperity-and-competitiveness/file-digital-package |
 | ico-pecr | Guide to PECR | Regulatory | ICO (UK) | https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guide-to-pecr/ |
 | ec-eprivacy-policy | ePrivacy Regulation policy page | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/policies/eprivacy-regulation |
+| edpb-guidelines-4-2019 | EDPB Guidelines 4/2019 on Art. 25 (DPbDD), v2.0 | Regulatory | EDPB | https://www.edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-42019-article-25-data-protection-design-and_en |
+| ico-dpbdd | ICO — Data protection by design and by default | Regulatory | ICO (UK) | https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/guide-to-accountability-and-governance/data-protection-by-design-and-by-default/ |
+| enisa-pbd | ENISA — Privacy and Data Protection by Design | Regulatory | ENISA | https://www.enisa.europa.eu/publications/privacy-and-data-protection-by-design |
+| nist-privacy-framework | NIST Privacy Framework (v1.0 2020; v1.1 draft) | Standard | NIST | https://www.nist.gov/privacy-framework |
+| iso-29100 | ISO/IEC 29100 — Privacy framework | Standard | ISO/IEC | https://www.iso.org/standard/45123.html |
+| hoepman-pds | Hoepman, "Privacy Design Strategies" (IFIP SEC 2014; arXiv:1210.6621) | Academic | Springer / arXiv | https://arxiv.org/abs/1210.6621 |
 
 > Additional sources are appended as documents cite them. Never cite a source not verified live at the citing document's `sources_verified` date.

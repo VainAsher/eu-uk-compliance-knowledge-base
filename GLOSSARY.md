@@ -4,7 +4,7 @@ Shared, authoritative definitions of terms of art used across the knowledge base
 
 **Convention:** Each term cites its authoritative source. Where a term is defined in legislation, the statutory definition governs. Keys in the *Source* column reference `SOURCE_REGISTRY.md`.
 
-**Last updated:** 2026-07-11 (added lex specialis, cookie rule, PECR for `eprivacy-foundations`)
+**Last updated:** 2026-07-11 (added DPbDD, TOMs, PET, differential privacy for `privacy-engineering-foundations`)
 
 | Term | Definition | Source |
 |------|------------|--------|
@@ -25,5 +25,9 @@ Shared, authoritative definitions of terms of art used across the knowledge base
 | Lex specialis | A specific law that prevails over a general law on the matters it specifically governs (e.g. the ePrivacy Directive over the GDPR for electronic communications). | eurlex-eprivacy-consolidated |
 | Cookie rule (Art. 5(3)) | The ePrivacy requirement to obtain consent before storing/accessing information on a user's terminal equipment, unless strictly necessary for a service the user requested. | eurlex-eprivacy-consolidated |
 | PECR | Privacy and Electronic Communications (EC Directive) Regulations 2003 — the UK transposition of the ePrivacy Directive. | uk-pecr-2003 |
+| Data protection by design & by default (DPbDD) | The GDPR Art. 25 obligation to embed data-protection principles into processing from the design stage, and to process only necessary data by default. | eurlex-gdpr / edpb-guidelines-4-2019 |
+| Technical and organisational measures (TOMs) | The combined technical and organisational controls used to meet GDPR Arts. 24, 25 and 32. | eurlex-gdpr |
+| Privacy-enhancing technology (PET) | A technology that minimises personal-data processing or protects it (e.g. pseudonymisation, encryption, differential privacy, aggregation). | enisa-pbd |
+| Differential privacy | A formal mathematical guarantee that including or excluding any single individual's data does not significantly change an analysis's output. | enisa-pbd / hoepman-pds |
 
 > Terms are added as documents introduce them. Do not redefine a glossary term inconsistently in a document; if a narrower meaning is needed, state it explicitly as document-specific.

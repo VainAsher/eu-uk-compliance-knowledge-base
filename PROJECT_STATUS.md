@@ -31,7 +31,7 @@
 
 ## In progress
 
-- **Document #4: Privacy Engineering Foundations** (`docs/04-privacy-engineering/privacy-engineering-foundations.md`) — next in production per `ROADMAP.md`; completes Tier 1.
+- **Document #4: Privacy Engineering Foundations** (`docs/04-privacy-engineering/privacy-engineering-foundations.md`) — research, draft and QA **complete** (citation audit + evidence-hygiene fix; all 9 links verified 2026-07-11); **awaiting human review gate**. Completes Tier 1 on approval.
 
 ## Pending work
 
