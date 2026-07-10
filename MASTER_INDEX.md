@@ -13,13 +13,13 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 
 | ID | Title | Topic | Tier | Jurisdiction | Version | Status | Confidence | Path |
 |----|-------|-------|------|--------------|---------|--------|-----------|------|
-| gdpr-foundations | GDPR: Foundations & Core Principles | GDPR (EU) | 1 | EU | 0.1.0 | in-review | High | `docs/01-gdpr/gdpr-foundations.md` |
+| gdpr-foundations | GDPR: Foundations & Core Principles | GDPR (EU) | 1 | EU | 1.0.0 | approved | High | `docs/01-gdpr/gdpr-foundations.md` |
 
 ## Topic coverage (16 programme topics)
 
 | Topic | Documents | Status |
 |-------|-----------|--------|
-| GDPR (EU) | 1 | in production |
+| GDPR (EU) | 1 | 1 approved; sub-topics in backlog |
 | UK GDPR | 0 | not started |
 | AI Act | 0 | not started |
 | Data Act | 0 | not started |

@@ -4,8 +4,10 @@ Frozen snapshots of the knowledge base. A release is cut when a batch of documen
 
 | Release | Date | Highlights | Docs frozen |
 |---------|------|-----------|-------------|
+| 0.2.0 | 2026-07-10 | First knowledge-base document frozen: GDPR Foundations (v1.0.0). Added shared GLOSSARY; sub-topic scoping policy. | 1 |
 | 0.1.0 | 2026-07-10 | Repository bootstrap: git, full template, governance scaffolding. | 0 |
 
 ## Notes
 
-- **0.1.0** establishes the operating model and control-file set. No knowledge-base documents are frozen yet; Document #1 (GDPR Foundations) is in review and will be included in the next release once approved.
+- **0.2.0** freezes `gdpr-foundations` at v1.0.0 (approved at the human review gate). Frozen documents are locked at their stated version; further changes cut a new document version and a new release.
+- **0.1.0** establishes the operating model and control-file set.

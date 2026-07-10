@@ -10,16 +10,17 @@ An autonomous multi-agent pipeline that produces a professional, evidence-based 
 
 ## Current state (snapshot)
 
-- **Maturity:** Stage 1 — scaffolding complete, first document in production.
+- **Maturity:** Stage 2 — Document #1 (GDPR Foundations) approved & frozen at v1.0.0 in release 0.2.0.
 - **Version control:** git initialised locally on branch `main`. No remote yet.
 - **Template:** `templates/document_template.md` reconciled to full spec.
-- **Governance files:** all present (this file, `PROJECT_STATUS.md`, `MASTER_INDEX.md`, `ROADMAP.md`, `AGENTS.md`, `CHANGELOG.md`, `RELEASE_HISTORY.md`, `SOURCE_REGISTRY.md`).
+- **Governance files:** all present, incl. `GLOSSARY.md`.
+- **Editorial policy:** shared glossary + dedicated sub-topic documents (see `ROADMAP.md`).
 
 ## What to do next
 
-1. Complete **Document #1: GDPR Foundations** through the full pipeline.
+1. Produce **Document #2: UK GDPR Foundations** (`docs/02-uk-gdpr/uk-gdpr-foundations.md`) through the full pipeline, applying the sub-topic-scoping and glossary policy.
 2. Present it at the **human review gate** and wait for a decision.
-3. On `APPROVE`: freeze it, update all control files, then start Document #2 (UK GDPR) per `ROADMAP.md`.
+3. On `APPROVE`: freeze it, update all control files, then start Document #3 (ePrivacy) per `ROADMAP.md`.
 
 ## Open decisions for the human
 
@@ -34,6 +35,8 @@ An autonomous multi-agent pipeline that produces a professional, evidence-based 
 | 2026-07-10 | Flatten nested repo; git init on `main` | User instruction; enables version control. |
 | 2026-07-10 | Full 24-section template adopted | Matches bootstrap spec; supersedes thin starter template. |
 | 2026-07-10 | Roadmap sequenced Tier 1 (data-protection core) first | Later docs cross-reference GDPR foundations. |
+| 2026-07-10 | Document #1 (GDPR Foundations) approved & frozen at v1.0.0 | Passed human review gate; confidence High, all links verified. |
+| 2026-07-10 | Adopt shared `GLOSSARY.md` + dedicated sub-topic documents | User feedback at Doc #1 approval; keeps flagship docs focused, avoids repeated definitions. |
 
 ## Control files to update after every approved document
 

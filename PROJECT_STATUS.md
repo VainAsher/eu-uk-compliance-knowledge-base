@@ -1,15 +1,15 @@
 # Project Status
 
 **Last updated:** 2026-07-10
-**Maturity:** Stage 1 of 10 — *Scaffolding established; first document in production.*
+**Maturity:** Stage 2 of 10 — *First document approved & frozen (release 0.2.0).*
 
 ## Maturity model (repository level)
 
 | Stage | Description | State |
 |-------|-------------|-------|
 | 0 | Bare starter kit | ✅ passed |
-| 1 | Governance scaffolding + reconciled template + git | ✅ **current** |
-| 2 | First document approved & frozen | ⏳ in progress |
+| 1 | Governance scaffolding + reconciled template + git | ✅ passed |
+| 2 | First document approved & frozen | ✅ **current** |
 | 3 | Tier 1 foundations complete (4 docs) | ⬜ |
 | 4 | Tier 2 digital & AI complete | ⬜ |
 | 5 | Tier 3 security & resilience complete | ⬜ |
@@ -23,11 +23,13 @@
 
 - Flattened nested repository; initialised git on `main`.
 - Reconciled `templates/document_template.md` to the full ~24-section specification.
-- Created governance/control files: `AGENTS.md`, `ROADMAP.md`, `PROJECT_STATUS.md`, `PROJECT_HANDOVER.md`, `MASTER_INDEX.md`, `CHANGELOG.md`, `RELEASE_HISTORY.md`, `SOURCE_REGISTRY.md`.
+- Created governance/control files: `AGENTS.md`, `ROADMAP.md`, `PROJECT_STATUS.md`, `PROJECT_HANDOVER.md`, `MASTER_INDEX.md`, `CHANGELOG.md`, `RELEASE_HISTORY.md`, `SOURCE_REGISTRY.md`, `GLOSSARY.md`.
+- **Document #1 (GDPR Foundations) approved & frozen at v1.0.0 (release 0.2.0).**
+- Adopted shared-glossary + sub-topic-scoping editorial policy.
 
 ## In progress
 
-- **Document #1: GDPR Foundations** (`docs/01-gdpr/gdpr-foundations.md`) — research, draft and QA **complete** (fact-check, citation audit, link validation all passed 2026-07-10); **awaiting human review gate**.
+- **Document #2: UK GDPR Foundations** (`docs/02-uk-gdpr/uk-gdpr-foundations.md`) — next in production per `ROADMAP.md`.
 
 ## Pending work
 
@@ -55,8 +57,8 @@
 
 | Metric | Value |
 |--------|-------|
-| Approved documents | 0 |
-| Draft documents | 1 (in production) |
-| Governance files | 8 |
-| Topics covered | 0 / 16 |
+| Approved documents | 1 |
+| Draft documents | 1 (Doc #2 in production) |
+| Governance files | 9 |
+| Topics covered | 1 / 16 |
 | Sources in registry | see `SOURCE_REGISTRY.md` |

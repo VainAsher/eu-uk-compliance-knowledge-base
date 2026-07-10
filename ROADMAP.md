@@ -42,7 +42,24 @@ These underpin almost everything else and are cited by later documents.
 
 See `PROJECT_STATUS.md` → *Known Gaps* and *Research Backlog*.
 
+## Document-scoping policy (editorial standard, 2026-07-10)
+
+Confirmed with the user: **prefer narrowly-scoped, dedicated sub-topic documents over mega-documents.** Each topic opens with a focused *Foundations* document, then deeper areas are split into their own documents rather than bloating the flagship. Shared terms live in `GLOSSARY.md`, not repeated in full per document.
+
+### GDPR (EU) — planned document set
+
+| # | Document | Status |
+|---|----------|--------|
+| 1 | `gdpr-foundations` — Foundations & Core Principles | ✅ approved (v1.0.0) |
+| — | `gdpr-dsar` — Data-subject rights & DSAR handling (Arts. 12–23) | backlog |
+| — | `gdpr-transfers` — International transfers (Chapter V) | backlog |
+| — | `gdpr-dpia` — Data Protection Impact Assessments (Art. 35) | backlog |
+| — | `gdpr-ropa` — Records of processing (Art. 30) | backlog |
+| — | `gdpr-lawful-basis` — Lawful bases in depth incl. legitimate-interests balancing | backlog |
+
+The same split applies to every topic (e.g., NIS2 → foundations, incident reporting, supply-chain; AI Act → foundations, high-risk obligations, GPAI).
+
 ## Notes
 
 - Documents may be produced out of order on request (`CHANGE ROADMAP`).
-- Each topic may expand into multiple documents (e.g., GDPR → Foundations, DSAR handling, International transfers, DPIA). The roadmap tracks topics; `MASTER_INDEX.md` tracks individual documents.
+- The roadmap tracks topics and their planned document sets; `MASTER_INDEX.md` tracks individual documents.

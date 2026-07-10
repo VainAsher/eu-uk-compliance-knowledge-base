@@ -1,0 +1,23 @@
+# Glossary
+
+Shared, authoritative definitions of terms of art used across the knowledge base. Documents should reference this glossary for common terms and reserve their own Definitions section for document-specific or narrowed usages.
+
+**Convention:** Each term cites its authoritative source. Where a term is defined in legislation, the statutory definition governs. Keys in the *Source* column reference `SOURCE_REGISTRY.md`.
+
+**Last updated:** 2026-07-10
+
+| Term | Definition | Source |
+|------|------------|--------|
+| Accountability | The controller's obligation to be responsible for, and able to *demonstrate* compliance with, the data-protection principles (GDPR Art. 5(2)). | eurlex-gdpr |
+| Anonymous data | Data that does not relate to an identified or identifiable natural person, or is rendered anonymous such that the subject is no longer identifiable; falls outside the GDPR (Recital 26). Contrast *pseudonymisation*. | eurlex-gdpr |
+| Consent | Any freely given, specific, informed and unambiguous indication of the data subject's wishes by a statement or clear affirmative action (GDPR Art. 4(11)). | eurlex-gdpr |
+| Controller | The natural or legal person, public authority, agency or other body which, alone or jointly, determines the purposes and means of processing (GDPR Art. 4(7)). | eurlex-gdpr |
+| Data subject | An identified or identifiable natural person to whom personal data relates (GDPR Art. 4(1)). | eurlex-gdpr |
+| Personal data | Any information relating to an identified or identifiable natural person; identifiability may be direct or indirect (GDPR Art. 4(1)). Construed broadly (Nowak; Breyer). | eurlex-gdpr / case-nowak / case-breyer |
+| Processing | Any operation performed on personal data, whether or not by automated means (collection, storage, use, disclosure, erasure, etc.) (GDPR Art. 4(2)). | eurlex-gdpr |
+| Processor | A natural or legal person, public authority, agency or other body that processes personal data on behalf of the controller (GDPR Art. 4(8)). | eurlex-gdpr |
+| Pseudonymisation | Processing personal data so it can no longer be attributed to a specific data subject without additional information kept separately and secured (GDPR Art. 4(5)). Pseudonymised data remains *personal data*. | eurlex-gdpr |
+| Special category data | Personal data revealing racial/ethnic origin, political opinions, religious/philosophical beliefs, trade-union membership; genetic, biometric, health, sex-life or sexual-orientation data (GDPR Art. 9). | eurlex-gdpr |
+| Supervisory authority | An independent public authority established by a Member State to monitor the application of the GDPR (GDPR Art. 4(21), Art. 51). | eurlex-gdpr |
+
+> Terms are added as documents introduce them. Do not redefine a glossary term inconsistently in a document; if a narrower meaning is needed, state it explicitly as document-specific.
