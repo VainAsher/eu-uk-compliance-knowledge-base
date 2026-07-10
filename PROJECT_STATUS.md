@@ -1,7 +1,7 @@
 # Project Status
 
 **Last updated:** 2026-07-11
-**Maturity:** Stage 2 of 10 — *Tier 1 in progress: 3 of 4 foundation documents approved & frozen (release 0.4.0).*
+**Maturity:** Stage 3 of 10 — *Tier 1 (data-protection core) complete: 4/4 approved & frozen (release 0.5.0). Tier 2 starting.*
 
 ## Maturity model (repository level)
 
@@ -9,8 +9,8 @@
 |-------|-------------|-------|
 | 0 | Bare starter kit | ✅ passed |
 | 1 | Governance scaffolding + reconciled template + git | ✅ passed |
-| 2 | First document approved & frozen | ✅ **current** |
-| 3 | Tier 1 foundations complete (4 docs) | ⬜ |
+| 2 | First document approved & frozen | ✅ passed |
+| 3 | Tier 1 foundations complete (4 docs) | ✅ **current** |
 | 4 | Tier 2 digital & AI complete | ⬜ |
 | 5 | Tier 3 security & resilience complete | ⬜ |
 | 6 | Tier 4 sector/consumer/ops complete | ⬜ |
@@ -27,11 +27,12 @@
 - **Document #1 (GDPR Foundations) approved & frozen at v1.0.0 (release 0.2.0).**
 - **Document #2 (UK GDPR Foundations) approved & frozen at v1.0.0 (release 0.3.0).**
 - **Document #3 (ePrivacy Foundations) approved & frozen at v1.0.0 (release 0.4.0).**
+- **Document #4 (Privacy Engineering Foundations) approved & frozen at v1.0.0 (release 0.5.0) — Tier 1 complete.**
 - Adopted shared-glossary + sub-topic-scoping editorial policy.
 
 ## In progress
 
-- **Document #4: Privacy Engineering Foundations** (`docs/04-privacy-engineering/privacy-engineering-foundations.md`) — research, draft and QA **complete** (citation audit + evidence-hygiene fix; all 9 links verified 2026-07-11); **awaiting human review gate**. Completes Tier 1 on approval.
+- **Document #5: AI Act Foundations** (`docs/05-ai-act/ai-act-foundations.md`) — first Tier 2 document; per `ROADMAP.md`.
 
 ## Pending work
 
@@ -59,8 +60,8 @@
 
 | Metric | Value |
 |--------|-------|
-| Approved documents | 3 |
-| Draft documents | 1 (Doc #4 in production) |
+| Approved documents | 4 |
+| Draft documents | 1 (Doc #5 in production) |
 | Governance files | 9 |
-| Topics covered | 3 / 16 |
+| Topics covered | 4 / 16 |
 | Sources in registry | see `SOURCE_REGISTRY.md` |

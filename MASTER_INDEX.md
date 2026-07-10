@@ -16,7 +16,7 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 | gdpr-foundations | GDPR: Foundations & Core Principles | GDPR (EU) | 1 | EU | 1.0.0 | approved | High | `docs/01-gdpr/gdpr-foundations.md` |
 | uk-gdpr-foundations | UK GDPR: Foundations & Divergence from the EU GDPR | UK GDPR | 1 | UK | 1.0.0 | approved | High | `docs/02-uk-gdpr/uk-gdpr-foundations.md` |
 | eprivacy-foundations | ePrivacy: Foundations, Cookies & Electronic Communications | ePrivacy | 1 | EU, UK | 1.0.0 | approved | High | `docs/03-eprivacy/eprivacy-foundations.md` |
-| privacy-engineering-foundations | Privacy Engineering: Foundations, DPbDD | Privacy Engineering | 1 | EU, UK | 0.1.0 | in-review | High | `docs/04-privacy-engineering/privacy-engineering-foundations.md` |
+| privacy-engineering-foundations | Privacy Engineering: Foundations, DPbDD | Privacy Engineering | 1 | EU, UK | 1.0.0 | approved | High | `docs/04-privacy-engineering/privacy-engineering-foundations.md` |
 
 ## Topic coverage (16 programme topics)
 
@@ -33,7 +33,7 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 | Digital Services | 0 | not started |
 | Digital Markets | 0 | not started |
 | AI Governance | 0 | not started |
-| Privacy Engineering | 1 | 1 in review; sub-topics in backlog |
+| Privacy Engineering | 1 | 1 approved; sub-topics in backlog |
 | Cloud Hosting | 0 | not started |
 | Game Hosting | 0 | not started |
 | Cybersecurity | 0 | not started |

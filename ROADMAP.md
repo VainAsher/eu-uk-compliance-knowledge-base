@@ -12,12 +12,14 @@ These underpin almost everything else and are cited by later documents.
 | 1 | **GDPR (EU)** ✅ approved | Regulation (EU) 2016/679 | Root of the data-protection framework; referenced everywhere. |
 | 2 | **UK GDPR** ✅ approved | UK GDPR + DPA 2018 | Post-Brexit divergence; builds directly on #1. |
 | 3 | **ePrivacy** ✅ approved | Directive 2002/58/EC | Lex specialis to GDPR for communications/cookies. |
-| 4 | **Privacy Engineering** ⏳ next | ISO 27701, GDPR Art. 25 | Implementation layer for #1–#3. |
+| 4 | **Privacy Engineering** ✅ approved | ISO 27701, GDPR Art. 25 | Implementation layer for #1–#3. |
+
+**Tier 1 complete (2026-07-11) — data-protection core fully covered.**
 
 ### Tier 2 — Digital & AI regulation
 | Order | Topic | Lead instrument(s) | Rationale |
 |-------|-------|--------------------|-----------|
-| 5 | **AI Act** | Regulation (EU) 2024/1689 | Flagship AI law; overlaps GDPR. |
+| 5 | **AI Act** ⏳ next | Regulation (EU) 2024/1689 | Flagship AI law; overlaps GDPR. |
 | 6 | **AI Governance** | AI Act + ISO/IEC 42001 | Operationalising #5. |
 | 7 | **Data Act** | Regulation (EU) 2023/2854 | Data access/sharing; interacts with GDPR. |
 | 8 | **Digital Services** | Regulation (EU) 2022/2065 (DSA) | Platform obligations. |

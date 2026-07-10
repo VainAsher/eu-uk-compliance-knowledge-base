@@ -1,8 +1,8 @@
 ---
 id: privacy-engineering-foundations
 title: "Privacy Engineering: Foundations, Data Protection by Design & Default"
-version: 0.1.0
-status: in-review
+version: 1.0.0
+status: approved
 classification: public
 jurisdiction: [EU, UK]
 topic: Privacy Engineering
@@ -26,15 +26,15 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | privacy-engineering-foundations |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.5.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
 | Last Updated | 2026-07-11 |
 | Review Due | 2027-07-11 |
 | Confidence | High |
-| Approved By | *pending human review* |
+| Approved By | Human reviewer — 2026-07-11 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**.
 
@@ -282,4 +282,5 @@ Labels: **OBLIGATION** / **BEST PRACTICE** / **EDITORIAL RECOMMENDATION**.
 
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
-| 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (Arts. 25/32), EDPB Guidelines 4/2019, ICO, ENISA, NIST Privacy Framework, ISO standards and Hoepman (academic). NIST PF version status live-verified. | *pending human review* |
+| 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (Arts. 25/32), EDPB Guidelines 4/2019, ICO, ENISA, NIST Privacy Framework, ISO standards and Hoepman (academic). NIST PF version status live-verified. | — |
+| 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at human review gate; removed unsourced ISO/IEC 27018 citation; frozen in release 0.5.0. Completes Tier 1. | Human reviewer |

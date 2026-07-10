@@ -4,10 +4,20 @@ All notable changes to this repository. Format based on [Keep a Changelog](https
 
 ## [Unreleased]
 
+_Nothing yet._
+
+## [0.5.0] — 2026-07-11
+
 ### Added
-- `docs/04-privacy-engineering/privacy-engineering-foundations.md` — Privacy Engineering Foundations (v0.1.0, **in review**). Covers DPbDD (Art. 25), security of processing (Art. 32), privacy design strategies, PETs, and the ISO/NIST frameworks. 9 references across all four classes incl. an academic source (Hoepman). NIST Privacy Framework version status live-verified (v1.0 current; v1.1 in draft). All links verified live 2026-07-11.
+- `docs/04-privacy-engineering/privacy-engineering-foundations.md` — Privacy Engineering Foundations (**v1.0.0, approved & frozen**). Covers DPbDD (Art. 25), security of processing (Art. 32), privacy design strategies, PETs, and the ISO/NIST frameworks. 9 references across all four classes incl. an academic source (Hoepman). NIST Privacy Framework version status live-verified (v1.0 current; v1.1 in draft). All links verified live 2026-07-11.
 - Source registry: EDPB Guidelines 4/2019, ICO DPbDD, ENISA PbD, NIST Privacy Framework, ISO/IEC 29100, Hoepman.
 - Glossary: DPbDD, TOMs, PET, differential privacy.
+
+### Milestone
+- **Tier 1 (data-protection core) complete** — GDPR, UK GDPR, ePrivacy, Privacy Engineering all approved & frozen.
+
+### Changed
+- Document #4 approved at the human review gate (removed unsourced ISO/IEC 27018 citation) and bumped 0.1.0 → 1.0.0.
 
 ## [0.4.0] — 2026-07-11
 
