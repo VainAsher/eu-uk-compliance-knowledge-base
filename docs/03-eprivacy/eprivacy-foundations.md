@@ -1,8 +1,8 @@
 ---
 id: eprivacy-foundations
 title: "ePrivacy: Foundations, Cookies & Electronic Communications"
-version: 0.1.0
-status: in-review
+version: 1.0.0
+status: approved
 classification: public
 jurisdiction: [EU, UK]
 topic: ePrivacy
@@ -26,15 +26,15 @@ sources_verified: 2026-07-10
 | Field | Value |
 |-------|-------|
 | Document ID | eprivacy-foundations |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.4.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-10 |
 | Last Updated | 2026-07-10 |
 | Review Due | 2027-07-10 |
 | Confidence | High |
-| Approved By | *pending human review* |
+| Approved By | Human reviewer — 2026-07-11 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**. The ePrivacy landscape is in flux: the 2017 ePrivacy Regulation proposal was **withdrawn** in 2025 and cookie rules are proposed to move into the GDPR via the "Digital Omnibus" — confirm the live legal position before relying on future-state provisions.
 
@@ -268,4 +268,5 @@ Not Applicable — this foundational reference relies on primary legislation, ca
 
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
-| 0.1.0 | 2026-07-10 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (Directive 2002/58/EC, Planet49), EDPB, ICO, European Commission and European Parliament sources; reform status (ePrivacy Regulation withdrawal, Digital Omnibus) live-verified. | *pending human review* |
+| 0.1.0 | 2026-07-10 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (Directive 2002/58/EC, Planet49), EDPB, ICO, European Commission and European Parliament sources; reform status (ePrivacy Regulation withdrawal, Digital Omnibus) live-verified. | — |
+| 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at human review gate; citation audit corrected ICO attributions ([7]→[8]); frozen in release 0.4.0. | Human reviewer |

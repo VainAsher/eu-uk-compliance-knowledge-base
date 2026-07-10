@@ -15,7 +15,7 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 |----|-------|-------|------|--------------|---------|--------|-----------|------|
 | gdpr-foundations | GDPR: Foundations & Core Principles | GDPR (EU) | 1 | EU | 1.0.0 | approved | High | `docs/01-gdpr/gdpr-foundations.md` |
 | uk-gdpr-foundations | UK GDPR: Foundations & Divergence from the EU GDPR | UK GDPR | 1 | UK | 1.0.0 | approved | High | `docs/02-uk-gdpr/uk-gdpr-foundations.md` |
-| eprivacy-foundations | ePrivacy: Foundations, Cookies & Electronic Communications | ePrivacy | 1 | EU, UK | 0.1.0 | in-review | High | `docs/03-eprivacy/eprivacy-foundations.md` |
+| eprivacy-foundations | ePrivacy: Foundations, Cookies & Electronic Communications | ePrivacy | 1 | EU, UK | 1.0.0 | approved | High | `docs/03-eprivacy/eprivacy-foundations.md` |
 
 ## Topic coverage (16 programme topics)
 
@@ -27,7 +27,7 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 | Data Act | 0 | not started |
 | NIS2 | 0 | not started |
 | DORA | 0 | not started |
-| ePrivacy | 1 | 1 in review; sub-topics in backlog |
+| ePrivacy | 1 | 1 approved; sub-topics in backlog |
 | Consumer Rights | 0 | not started |
 | Digital Services | 0 | not started |
 | Digital Markets | 0 | not started |

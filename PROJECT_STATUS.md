@@ -1,7 +1,7 @@
 # Project Status
 
-**Last updated:** 2026-07-10
-**Maturity:** Stage 2 of 10 — *Tier 1 in progress: 2 of 4 foundation documents approved & frozen (release 0.3.0).*
+**Last updated:** 2026-07-11
+**Maturity:** Stage 2 of 10 — *Tier 1 in progress: 3 of 4 foundation documents approved & frozen (release 0.4.0).*
 
 ## Maturity model (repository level)
 
@@ -26,11 +26,12 @@
 - Created governance/control files: `AGENTS.md`, `ROADMAP.md`, `PROJECT_STATUS.md`, `PROJECT_HANDOVER.md`, `MASTER_INDEX.md`, `CHANGELOG.md`, `RELEASE_HISTORY.md`, `SOURCE_REGISTRY.md`, `GLOSSARY.md`.
 - **Document #1 (GDPR Foundations) approved & frozen at v1.0.0 (release 0.2.0).**
 - **Document #2 (UK GDPR Foundations) approved & frozen at v1.0.0 (release 0.3.0).**
+- **Document #3 (ePrivacy Foundations) approved & frozen at v1.0.0 (release 0.4.0).**
 - Adopted shared-glossary + sub-topic-scoping editorial policy.
 
 ## In progress
 
-- **Document #3: ePrivacy Foundations** (`docs/03-eprivacy/eprivacy-foundations.md`) — research, draft and QA **complete** (citation audit fixed ICO attributions; all links verified 2026-07-11); **awaiting human review gate**.
+- **Document #4: Privacy Engineering Foundations** (`docs/04-privacy-engineering/privacy-engineering-foundations.md`) — next in production per `ROADMAP.md`; completes Tier 1.
 
 ## Pending work
 
@@ -58,8 +59,8 @@
 
 | Metric | Value |
 |--------|-------|
-| Approved documents | 2 |
-| Draft documents | 1 (Doc #3 in production) |
+| Approved documents | 3 |
+| Draft documents | 1 (Doc #4 in production) |
 | Governance files | 9 |
-| Topics covered | 2 / 16 |
+| Topics covered | 3 / 16 |
 | Sources in registry | see `SOURCE_REGISTRY.md` |

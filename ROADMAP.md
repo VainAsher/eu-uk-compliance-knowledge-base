@@ -9,10 +9,10 @@ These underpin almost everything else and are cited by later documents.
 
 | Order | Topic | Lead instrument(s) | Rationale |
 |-------|-------|--------------------|-----------|
-| 1 | **GDPR (EU)** | Regulation (EU) 2016/679 | Root of the data-protection framework; referenced everywhere. |
-| 2 | **UK GDPR** | UK GDPR + DPA 2018 | Post-Brexit divergence; builds directly on #1. |
-| 3 | **ePrivacy** | Directive 2002/58/EC | Lex specialis to GDPR for communications/cookies. |
-| 4 | **Privacy Engineering** | ISO 27701, GDPR Art. 25 | Implementation layer for #1–#3. |
+| 1 | **GDPR (EU)** ✅ approved | Regulation (EU) 2016/679 | Root of the data-protection framework; referenced everywhere. |
+| 2 | **UK GDPR** ✅ approved | UK GDPR + DPA 2018 | Post-Brexit divergence; builds directly on #1. |
+| 3 | **ePrivacy** ✅ approved | Directive 2002/58/EC | Lex specialis to GDPR for communications/cookies. |
+| 4 | **Privacy Engineering** ⏳ next | ISO 27701, GDPR Art. 25 | Implementation layer for #1–#3. |
 
 ### Tier 2 — Digital & AI regulation
 | Order | Topic | Lead instrument(s) | Rationale |
