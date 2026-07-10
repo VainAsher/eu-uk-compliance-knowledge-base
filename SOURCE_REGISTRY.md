@@ -2,7 +2,7 @@
 
 Canonical registry of authoritative sources cited across the knowledge base. Each source is classified and given a stable short key used in document References. Links are verified per document at that document's `sources_verified` date.
 
-**Last updated:** 2026-07-10
+**Last updated:** 2026-07-10 (added GDPR case law, EC legal-framework page, ISO/IEC 27701 for `gdpr-foundations`)
 
 ## Classification classes
 
@@ -29,5 +29,11 @@ Canonical registry of authoritative sources cited across the knowledge base. Eac
 | nist-csf | NIST Cybersecurity Framework 2.0 | Standard | NIST | https://www.nist.gov/cyberframework |
 | owasp | OWASP projects | Standard | OWASP Foundation | https://owasp.org/ |
 | curia | CJEU case law (InfoCuria) | Primary | Court of Justice of the EU | https://curia.europa.eu/ |
+| case-google-spain | Google Spain, C-131/12, ECLI:EU:C:2014:317 | Primary | CJEU | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62012CJ0131 |
+| case-nowak | Nowak, C-434/16, ECLI:EU:C:2017:994 | Primary | CJEU | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62016CJ0434 |
+| case-breyer | Breyer, C-582/14, ECLI:EU:C:2016:779 | Primary | CJEU | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62014CJ0582 |
+| case-schrems2 | Schrems II, C-311/18, ECLI:EU:C:2020:559 | Primary | CJEU | https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:62018CJ0311 |
+| ec-dp-legal-framework | Legal framework of EU data protection | Regulatory | European Commission | https://commission.europa.eu/law/law-topic/data-protection/legal-framework-eu-data-protection_en |
+| iso-27701 | ISO/IEC 27701 (PIMS) | Standard | ISO/IEC | https://www.iso.org/standard/71670.html |
 
 > Additional sources are appended as documents cite them. Never cite a source not verified live at the citing document's `sources_verified` date.

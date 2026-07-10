@@ -13,7 +13,7 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 
 | ID | Title | Topic | Tier | Jurisdiction | Version | Status | Confidence | Path |
 |----|-------|-------|------|--------------|---------|--------|-----------|------|
-| gdpr-foundations | GDPR: Foundations & Core Principles | GDPR (EU) | 1 | EU | 0.1.0 | in-review | — | `docs/01-gdpr/gdpr-foundations.md` |
+| gdpr-foundations | GDPR: Foundations & Core Principles | GDPR (EU) | 1 | EU | 0.1.0 | in-review | High | `docs/01-gdpr/gdpr-foundations.md` |
 
 ## Topic coverage (16 programme topics)
 
@@ -40,4 +40,7 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 
 _Populated as documents are approved. Format: `doc-a → relationship → doc-b`._
 
-- _(none yet)_
+- `gdpr-foundations` → *foundation for* → `uk-gdpr-foundations` (planned)
+- `gdpr-foundations` → *lex generalis to* → `eprivacy-foundations` (planned)
+- `gdpr-foundations` → *implemented by* → `privacy-engineering-foundations` (planned)
+- `gdpr-foundations` → *interplays with* → `ai-act-foundations` (planned)

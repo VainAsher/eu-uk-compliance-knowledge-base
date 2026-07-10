@@ -27,7 +27,7 @@
 
 ## In progress
 
-- **Document #1: GDPR Foundations** (`docs/01-gdpr/gdpr-foundations.md`) — research → draft → QA → human review.
+- **Document #1: GDPR Foundations** (`docs/01-gdpr/gdpr-foundations.md`) — research, draft and QA **complete** (fact-check, citation audit, link validation all passed 2026-07-10); **awaiting human review gate**.
 
 ## Pending work
 
