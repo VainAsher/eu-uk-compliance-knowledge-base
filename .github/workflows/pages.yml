@@ -1,8 +1,10 @@
 name: Publish (GitHub Pages)
 
+# Manual-only while the repository is private (free-plan Pages needs a public
+# repo). To go live: make the repo public, enable Pages (Settings → Pages →
+# Source: GitHub Actions), then run this workflow — or change the trigger to
+# `push: {branches: [main]}` for automatic publishing on every merge.
 on:
-  push:
-    branches: [main]
   workflow_dispatch: {}
 
 permissions:
