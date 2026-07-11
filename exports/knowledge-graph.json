@@ -556,6 +556,139 @@
         "cybersecurity-foundations",
         "nis2-foundations"
       ]
+    },
+    {
+      "id": "ai-act-prohibited-practices",
+      "title": "EU AI Act: Prohibited Practices (Article 5)",
+      "topic": "AI Act",
+      "tier": "2",
+      "jurisdiction": "EU",
+      "version": "0.1.0",
+      "status": "in-review",
+      "confidence": "High",
+      "path": "docs/05-ai-act/ai-act-prohibited-practices.md",
+      "legal_basis": "Regulation (EU) 2024/1689 (Article 5; Articles 4, 99, 113; Recitals 28–46)",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "ai-act-foundations",
+        "ai-act-high-risk",
+        "ai-act-gpai",
+        "gdpr-foundations",
+        "digital-omnibus"
+      ]
+    },
+    {
+      "id": "gdpr-dsar",
+      "title": "GDPR: Data-Subject Rights & Access Requests",
+      "topic": "GDPR (EU)",
+      "tier": "1",
+      "jurisdiction": "EU, UK",
+      "version": "0.1.0",
+      "status": "in-review",
+      "confidence": "High",
+      "path": "docs/01-gdpr/gdpr-dsar.md",
+      "legal_basis": "Regulation (EU) 2016/679 (Arts. 12–23); Data Protection Act 2018; Data (Use and Access) Act 2025 (c.18)",
+      "document_type": "guidance",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "gdpr-foundations",
+        "uk-gdpr-foundations",
+        "duaa-2025-detail",
+        "gdpr-transfers",
+        "privacy-engineering-foundations"
+      ]
+    },
+    {
+      "id": "nis2-incident-reporting",
+      "title": "NIS2: Significant-Incident Reporting",
+      "topic": "NIS2",
+      "tier": "3",
+      "jurisdiction": "EU",
+      "version": "0.1.0",
+      "status": "in-review",
+      "confidence": "High",
+      "path": "docs/10-nis2/nis2-incident-reporting.md",
+      "legal_basis": "Directive (EU) 2022/2555; Commission Implementing Regulation (EU) 2024/2690",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "nis2-foundations",
+        "dora-foundations",
+        "gdpr-foundations",
+        "cyber-resilience-act",
+        "cybersecurity-foundations"
+      ]
+    },
+    {
+      "id": "dma-obligations",
+      "title": "EU Digital Markets Act: Gatekeeper Obligations in Depth",
+      "topic": "Digital Markets",
+      "tier": "2",
+      "jurisdiction": "EU",
+      "version": "0.1.0",
+      "status": "in-review",
+      "confidence": "High",
+      "path": "docs/09-digital-markets/dma-obligations.md",
+      "legal_basis": "Regulation (EU) 2022/1925",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "dma-foundations",
+        "dsa-foundations",
+        "ai-act-foundations",
+        "gdpr-foundations"
+      ]
+    },
+    {
+      "id": "uk-childrens-code",
+      "title": "UK Children's Code (Age-Appropriate Design Code)",
+      "topic": "UK GDPR",
+      "tier": "1",
+      "jurisdiction": "UK",
+      "version": "0.1.0",
+      "status": "in-review",
+      "confidence": "High",
+      "path": "docs/02-uk-gdpr/uk-childrens-code.md",
+      "legal_basis": "Data Protection Act 2018 (esp. ss.123, 125, 9); UK GDPR (Regulation (EU) 2016/679 as assimilated), esp. Arts. 8, 25, 35; Data (Use and Access) Act 2025 (c.18) s.81",
+      "document_type": "guidance",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "uk-gdpr-foundations",
+        "duaa-2025-detail",
+        "game-hosting-foundations",
+        "gdpr-foundations",
+        "eprivacy-foundations",
+        "privacy-engineering-foundations",
+        "dpia-methodology"
+      ]
+    },
+    {
+      "id": "pets-catalogue",
+      "title": "Privacy-Enhancing Technologies: A Catalogue",
+      "topic": "Privacy Engineering",
+      "tier": "1",
+      "jurisdiction": "EU, UK",
+      "version": "0.1.0",
+      "status": "in-review",
+      "confidence": "High",
+      "path": "docs/04-privacy-engineering/pets-catalogue.md",
+      "legal_basis": "Regulation (EU) 2016/679, Articles 25, 32 & Recital 26",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "privacy-engineering-foundations",
+        "dpia-methodology",
+        "gdpr-foundations",
+        "anonymisation-techniques",
+        "ai-act-foundations"
+      ]
     }
   ],
   "edges": [
@@ -605,7 +738,7 @@
       "from": "uk-gdpr-foundations",
       "to": "uk-childrens-code",
       "rel": "detailed by",
-      "target": "planned"
+      "target": "known"
     },
     {
       "from": "eprivacy-foundations",
@@ -671,7 +804,7 @@
       "from": "privacy-engineering-foundations",
       "to": "pets-catalogue",
       "rel": "detailed by",
-      "target": "planned"
+      "target": "known"
     },
     {
       "from": "privacy-engineering-foundations",
@@ -719,7 +852,7 @@
       "from": "ai-act-foundations",
       "to": "ai-act-prohibited-practices",
       "rel": "detailed by",
-      "target": "planned"
+      "target": "known"
     },
     {
       "from": "ai-governance-foundations",
@@ -1070,6 +1203,120 @@
       "target": "known"
     },
     {
+      "from": "ai-act-prohibited-practices",
+      "to": "ai-act-foundations",
+      "rel": "details; sibling of; amended by",
+      "target": "known"
+    },
+    {
+      "from": "ai-act-prohibited-practices",
+      "to": "ai-act-high-risk",
+      "rel": "details; sibling of; amended by",
+      "target": "known"
+    },
+    {
+      "from": "gdpr-dsar",
+      "to": "gdpr-foundations",
+      "rel": "details; diverges under UK law via; relates to",
+      "target": "known"
+    },
+    {
+      "from": "gdpr-dsar",
+      "to": "duaa-2025-detail",
+      "rel": "details; diverges under UK law via; relates to",
+      "target": "known"
+    },
+    {
+      "from": "gdpr-dsar",
+      "to": "gdpr-transfers",
+      "rel": "details; diverges under UK law via; relates to",
+      "target": "known"
+    },
+    {
+      "from": "gdpr-dsar",
+      "to": "privacy-engineering-foundations",
+      "rel": "details; diverges under UK law via; relates to",
+      "target": "known"
+    },
+    {
+      "from": "nis2-incident-reporting",
+      "to": "nis2-foundations",
+      "rel": "details; parallel with; defers to",
+      "target": "known"
+    },
+    {
+      "from": "nis2-incident-reporting",
+      "to": "gdpr-foundations",
+      "rel": "details; parallel with; defers to",
+      "target": "known"
+    },
+    {
+      "from": "nis2-incident-reporting",
+      "to": "dora-foundations",
+      "rel": "details; parallel with; defers to",
+      "target": "known"
+    },
+    {
+      "from": "dma-obligations",
+      "to": "dma-foundations",
+      "rel": "details; sibling of; relies on",
+      "target": "known"
+    },
+    {
+      "from": "dma-obligations",
+      "to": "dsa-foundations",
+      "rel": "details; sibling of; relies on",
+      "target": "known"
+    },
+    {
+      "from": "dma-obligations",
+      "to": "gdpr-foundations",
+      "rel": "details; sibling of; relies on",
+      "target": "known"
+    },
+    {
+      "from": "uk-childrens-code",
+      "to": "uk-gdpr-foundations",
+      "rel": "details; strengthened by; sibling of; depends on",
+      "target": "known"
+    },
+    {
+      "from": "uk-childrens-code",
+      "to": "duaa-2025-detail",
+      "rel": "details; strengthened by; sibling of; depends on",
+      "target": "known"
+    },
+    {
+      "from": "uk-childrens-code",
+      "to": "game-hosting-foundations",
+      "rel": "details; strengthened by; sibling of; depends on",
+      "target": "known"
+    },
+    {
+      "from": "uk-childrens-code",
+      "to": "dpia-methodology",
+      "rel": "details; strengthened by; sibling of; depends on",
+      "target": "known"
+    },
+    {
+      "from": "pets-catalogue",
+      "to": "privacy-engineering-foundations",
+      "rel": "details; feeds; supports",
+      "target": "known"
+    },
+    {
+      "from": "pets-catalogue",
+      "to": "dpia-methodology",
+      "rel": "details; feeds; supports",
+      "target": "known"
+    },
+    {
+      "from": "pets-catalogue",
+      "to": "ai-act-high-risk",
+      "rel": "details; feeds; supports",
+      "target": "known"
+    },
+    {
       "from": "uk-gdpr-foundations",
       "to": "eprivacy-foundations",
       "rel": "related",
@@ -1265,7 +1512,7 @@
       "from": "duaa-2025-detail",
       "to": "uk-childrens-code",
       "rel": "related",
-      "target": "planned"
+      "target": "known"
     },
     {
       "from": "duaa-2025-detail",
@@ -1372,6 +1619,84 @@
     {
       "from": "dora-tlpt",
       "to": "nis2-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "ai-act-prohibited-practices",
+      "to": "ai-act-gpai",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "ai-act-prohibited-practices",
+      "to": "gdpr-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "ai-act-prohibited-practices",
+      "to": "digital-omnibus",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "gdpr-dsar",
+      "to": "uk-gdpr-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "nis2-incident-reporting",
+      "to": "cyber-resilience-act",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "nis2-incident-reporting",
+      "to": "cybersecurity-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "dma-obligations",
+      "to": "ai-act-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "uk-childrens-code",
+      "to": "gdpr-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "uk-childrens-code",
+      "to": "eprivacy-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "uk-childrens-code",
+      "to": "privacy-engineering-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "pets-catalogue",
+      "to": "gdpr-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "pets-catalogue",
+      "to": "anonymisation-techniques",
+      "rel": "related",
+      "target": "planned"
+    },
+    {
+      "from": "pets-catalogue",
+      "to": "ai-act-foundations",
       "rel": "related",
       "target": "known"
     }

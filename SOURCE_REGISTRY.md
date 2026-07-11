@@ -2,7 +2,7 @@
 
 Canonical registry of authoritative sources cited across the knowledge base. Each source is classified and given a stable short key used in document References. Links are verified per document at that document's `sources_verified` date.
 
-**Last updated:** 2026-07-11 (sub-topics batch 2: added GPAI Code of Practice + EC GPAI guidance; DORA TLPT RTS 2025/1190 + TIBER-EU + NIST SP 800-115; cookie-consent sources incl. IAB Europe C-604/22, EDPB Opinion 08/2024 and Guidelines 2/2023·05/2020·03/2022, Nouwens et al.; DPIA sources (WP248, ICO DPIA pages/template, ISO 29134); UK-transfers DUAA ss.85/Sch.7, SI 2026/82 reg.2, DPA 2018 s.119A, ICO adequacy regs.)
+**Last updated:** 2026-07-11 (sub-topics batch 3: added AI Act prohibited-practices guidelines; DMA enforcement/specification sources; UK Children's Code (DPA s.125, DUAA s.81, ICO AADC, Ofcom); GDPR-DSAR sources incl. NINE CJEU judgments + EDPB Guidelines 01/2022 + DUAA ss.76/78/79; NIS2 incident standards (ISO 27035-1, NIST 800-61r3); and PETs sources incl. ENISA/ICO/UN/NIST/ISO guidance and ELEVEN peer-reviewed academic works (Sweeney, Dwork, Yao, Gentry, GMR, McMahan, …).)
 
 ## Classification classes
 
@@ -214,5 +214,51 @@ Canonical registry of authoritative sources cited across the knowledge base. Eac
 | duaa-comm6-2026-reg2 | DUAA 2025 (Commencement No. 6) Regs 2026, reg. 2 (transfers in force 5 Feb 2026) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/uksi/2026/82/regulation/2/made |
 | dpa-2018-s119a | Data Protection Act 2018, s.119A (standard clauses — IDTA/Addendum) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/ukpga/2018/12/section/119A |
 | ico-adequacy-regs | ICO — Adequacy regulations (UK data-bridge list) | Regulatory | ICO (UK) | https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/international-transfers/adequacy-regulations/ |
+| ec-guidelines-prohibited-practices | Commission Guidelines on prohibited AI practices (C(2025) 884) | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-prohibited-artificial-intelligence-ai-practices-defined-ai-act |
+| ec-ai-act-first-rules | First rules of the AI Act now applicable (2 Feb 2025) | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/news/first-rules-artificial-intelligence-act-are-now-applicable |
+| ec-dma-apple-interop-2025 | Art. 6(7) specification decisions on Apple interoperability (DMA.100203/100204, 19 Mar 2025) | Regulatory | European Commission | https://digital-markets-act.ec.europa.eu/commission-provides-guidance-under-digital-markets-act-facilitate-development-innovative-products-2025-03-19_en |
+| ec-dma-apple-ads-maps-2026 | Apple Ads and Apple Maps should not be designated (5 Feb 2026) | Regulatory | European Commission | https://digital-markets-act.ec.europa.eu/commission-finds-apple-ads-and-apple-maps-should-not-be-designated-under-digital-markets-act-2026-02-05_en |
+| ec-ip-24-1689 | Commission opens DMA non-compliance investigations (Alphabet, Apple, Meta) (IP/24/1689) | Regulatory | European Commission | https://ec.europa.eu/commission/presscorner/detail/en/ip_24_1689 |
+| dpa-2018-s125 | Data Protection Act 2018, s.125 (approval/issue of codes) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/ukpga/2018/12/section/125 |
+| duaa-2025-s81 | DUAA 2025, s.81 (children's higher protection matters — UK GDPR Art. 25(1A)/(1B)) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/ukpga/2025/18/section/81 |
+| ico-aadc-code | Age Appropriate Design Code (the 15 standards) | Regulatory | ICO (UK) | https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/ |
+| govuk-child-online-safety | Child online safety: data protection and privacy | Regulatory | GOV.UK | https://www.gov.uk/guidance/child-online-safety-data-protection-and-privacy |
+| ofcom-protecting-children | Protection of Children Codes (in force 25 Jul 2025) | Regulatory | Ofcom | https://www.ofcom.org.uk/online-safety/protecting-children/new-rules-for-a-safer-generation-of-children-online |
+| govuk-duaa-factsheet-ukgdpr | DUAA 2025 factsheet: UK GDPR and DPA | Regulatory | GOV.UK / DSIT | https://www.gov.uk/government/publications/data-use-and-access-act-2025-factsheets/data-use-and-access-act-factsheet-uk-gdpr-and-dpa |
+| duaa-2025-s76 | DUAA 2025, s.76 (right of access — Art. 12A stop-the-clock) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/ukpga/2025/18/section/76/enacted |
+| duaa-2025-s78 | DUAA 2025, s.78 (Art. 15(1A) reasonable-and-proportionate search) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/ukpga/2025/18/section/78/enacted |
+| duaa-2025-s79 | DUAA 2025, s.79 (DPA 2018 s.45A legal-professional-privilege exemption) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/ukpga/2025/18/section/79/enacted |
+| case-oesterr-post-c154-21 | Österreichische Post, C-154/21, ECLI:EU:C:2023:3 (recipients' identity) | Primary | CJEU | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62021CJ0154 |
+| case-crif-c487-21 | CRIF, C-487/21, ECLI:EU:C:2023:369 (meaning of "copy") | Primary | CJEU | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62021CJ0487 |
+| case-ft-dw-c307-22 | FT v DW, C-307/22, ECLI:EU:C:2023:811 (first copy free; motive irrelevant) | Primary | CJEU | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62022CJ0307 |
+| case-schufa-c634-21 | SCHUFA, C-634/21, ECLI:EU:C:2023:957 (automated credit scoring as Art. 22 decision) | Primary | CJEU | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62021CJ0634 |
+| case-ys-c141-12 | YS and Others, C-141/12 & C-372/12, ECLI:EU:C:2014:2081 (legal analysis) | Primary | CJEU | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62012CJ0141 |
+| case-gc-cnil-c136-17 | GC v CNIL, C-136/17, ECLI:EU:C:2019:773 (de-referencing sensitive data) | Primary | CJEU | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62017CJ0136 |
+| case-google-cnil-c507-17 | Google v CNIL, C-507/17, ECLI:EU:C:2019:772 (de-referencing EU-wide) | Primary | CJEU | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62017CJ0507 |
+| case-tu-re-google-c460-20 | TU and RE v Google, C-460/20, ECLI:EU:C:2022:962 (inaccurate content) | Primary | CJEU | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62020CJ0460 |
+| edpb-guidelines-01-2022 | Guidelines 01/2022 on data subject rights — Right of access | Regulatory | EDPB | https://www.edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-012022-data-subject-rights-right-access_en |
+| ico-right-of-access | Right of access (updated for the DUAA) | Regulatory | ICO (UK) | https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/right-of-access/ |
+| ico-individual-rights | Individual rights (Guide to the UK GDPR) | Regulatory | ICO (UK) | https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/ |
+| wp242-portability | Guidelines on the right to data portability (WP242 rev.01) | Regulatory | Art. 29 WP (EDPB-endorsed) | https://ec.europa.eu/newsroom/article29/items/611233 |
+| iso-27035-1 | ISO/IEC 27035-1:2023 — Incident management, Part 1 | Standard | ISO/IEC | https://www.iso.org/standard/78973.html |
+| nist-sp-800-61-r3 | NIST SP 800-61 Rev. 3 — Incident Response Recommendations | Standard | NIST | https://csrc.nist.gov/pubs/sp/800/61/r3/final |
+| ico-pets | Privacy-enhancing technologies (PETs) | Regulatory | ICO (UK) | https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/privacy-enhancing-technologies/ |
+| ico-anonymisation-intro | Introduction to anonymisation (draft guidance) | Regulatory | ICO (UK) | https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/anonymisation/introduction-to-anonymisation/ |
+| enisa-dp-engineering | Data Protection Engineering (2022) | Regulatory | ENISA | https://www.enisa.europa.eu/publications/data-protection-engineering |
+| enisa-pseudonymisation-2019 | Pseudonymisation Techniques and Best Practices (2019) | Regulatory | ENISA | https://www.enisa.europa.eu/publications/pseudonymisation-techniques-and-best-practices |
+| enisa-pseudonymisation-2021 | Data Pseudonymisation: Advanced Techniques and Use Cases (2021) | Regulatory | ENISA | https://www.enisa.europa.eu/publications/data-pseudonymisation-advanced-techniques-and-use-cases |
+| un-pet-guide | The PET Guide (UN Committee of Experts on Big Data) | Regulatory | United Nations | https://unstats.un.org/bigdata/task-teams/privacy/guide/ |
+| nist-sp-800-226 | NIST SP 800-226 — Evaluating Differential Privacy Guarantees (2025) | Standard | NIST | https://csrc.nist.gov/pubs/sp/800/226/final |
+| iso-20889 | ISO/IEC 20889:2018 — Privacy-enhancing de-identification | Standard | ISO/IEC | https://www.iso.org/standard/69373.html |
+| sweeney-k-anonymity | Sweeney, "k-anonymity" (2002) | Academic | IJUFKS / dataprivacylab | https://dataprivacylab.org/dataprivacy/projects/kanonymity/kanonymity.pdf |
+| machanavajjhala-l-diversity | Machanavajjhala et al., "l-diversity" (ACM TKDD 2007) | Academic | ACM | https://personal.utdallas.edu/~muratk/courses/privacy08f_files/ldiversity.pdf |
+| li-t-closeness | Li et al., "t-Closeness" (IEEE ICDE 2007) | Academic | IEEE | https://doi.org/10.1109/ICDE.2007.367856 |
+| dwork-dp-2006 | Dwork, "Differential Privacy" (ICALP 2006) | Academic | Springer | https://link.springer.com/chapter/10.1007/11681878_14 |
+| dwork-roth-2014 | Dwork & Roth, "Algorithmic Foundations of Differential Privacy" (2014) | Academic | Now Publishers | https://www.cis.upenn.edu/~aaroth/Papers/privacybook.pdf |
+| yao-1982 | Yao, "Protocols for Secure Computations" (FOCS 1982) | Academic | IEEE | https://doi.org/10.1109/SFCS.1982.38 |
+| gentry-fhe-2009 | Gentry, "Fully homomorphic encryption using ideal lattices" (STOC 2009) | Academic | ACM | https://doi.org/10.1145/1536414.1536440 |
+| gmr-zkp-1989 | Goldwasser, Micali & Rackoff, "Knowledge Complexity of Interactive Proof Systems" (1989) | Academic | SIAM / MIT | https://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Proof%20Systems/The_Knowledge_Complexity_Of_Interactive_Proof_Systems.pdf |
+| mcmahan-fl-2017 | McMahan et al., federated learning (AISTATS 2017) | Academic | PMLR / arXiv | https://arxiv.org/abs/1602.05629 |
+| kairouz-fl-2021 | Kairouz, McMahan et al., "Advances and Open Problems in Federated Learning" (2021) | Academic | arXiv | https://arxiv.org/abs/1912.04977 |
 
 > Additional sources are appended as documents cite them. Never cite a source not verified live at the citing document's `sources_verified` date.

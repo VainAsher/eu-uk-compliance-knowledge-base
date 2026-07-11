@@ -36,9 +36,8 @@
 
 ## In progress
 
-- **All 10 maturity stages complete.** The pipeline now spans research → QA automation → graph/matrix/RAG exports → a deployable GitHub Pages site.
-- **To go live:** enable GitHub Pages (Actions source) and/or make the repo public — see `PROJECT_HANDOVER.md`.
-- Ongoing/optional work: more sub-topic clusters (depth), document review cycles as law changes (`review_due` 2027-07-11), and optional QA extras (glossary-consistency checker, `vale`).
+- **Third depth-layer sub-topic cluster (#27–#32)** produced in parallel, **awaiting batch human gate**: `ai-act-prohibited-practices`, `gdpr-dsar`, `nis2-incident-reporting`, `dma-obligations`, `uk-childrens-code`, `pets-catalogue`. Workers self-ran validate + check_links + markdownlint; orchestrator full-repo QA: validate 32/32 clean, links 99/100 live, lint clean; spot-checked NIS2 2024/2690 thresholds.
+- **All 10 maturity stages complete;** ongoing work is depth (more clusters) + review cycles. To publish the site, make the repo public / enable Pages (see `PROJECT_HANDOVER.md`).
 
 ## Pending work
 

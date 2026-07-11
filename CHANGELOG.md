@@ -4,7 +4,15 @@ All notable changes to this repository. Format based on [Keep a Changelog](https
 
 ## [Unreleased]
 
-*Nothing yet.*
+### Added (third depth-layer sub-topic cluster — in-review, awaiting batch gate; workers self-ran all three QA gates)
+
+- `docs/05-ai-act/ai-act-prohibited-practices.md` — Art. 5 prohibited practices; verified the AI-Omnibus NCII/CSAM ("nudifier") addition.
+- `docs/01-gdpr/gdpr-dsar.md` — data-subject rights & DSAR handling; **nine CJEU judgments**; DUAA subject-access changes (stop-the-clock, reasonable-and-proportionate search).
+- `docs/10-nis2/nis2-incident-reporting.md` — significant-incident reporting; Implementing Reg 2024/2690 thresholds read from primary text (>€500k/5%; cloud/CDN >30 min).
+- `docs/09-digital-markets/dma-obligations.md` — Arts. 5–7 obligation-by-obligation; current enforcement (Apple €500m/Meta €200m, Apple interop specification decisions) verified.
+- `docs/02-uk-gdpr/uk-childrens-code.md` — the 15 AADC standards; DUAA s.81 children's-higher-protection duty.
+- `docs/04-privacy-engineering/pets-catalogue.md` — technique-by-technique PETs catalogue with **eleven peer-reviewed academic sources**.
+- Full-repo QA: `validate.py` **32/32, 0 issues**; markdownlint **CLEAN**; new-doc links **99/100 live**. Orchestrator spot-checked the NIS2 2024/2690 thresholds against the EUR-Lex text.
 
 ## [0.13.0] — 2026-07-11
 

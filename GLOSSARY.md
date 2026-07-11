@@ -4,7 +4,7 @@ Shared, authoritative definitions of terms of art used across the knowledge base
 
 **Convention:** Each term cites its authoritative source. Where a term is defined in legislation, the statutory definition governs. Keys in the *Source* column reference `SOURCE_REGISTRY.md`.
 
-**Last updated:** 2026-07-11 (sub-topics batch 2: added DPIA, prior consultation, GPAI systemic risk, GPAI Code of Practice, CMP, TC String, consent or pay, cookie wall, TIBER-EU, data protection test, Digital Omnibus)
+**Last updated:** 2026-07-11 (sub-topics batch 3: added prohibited AI practice, RBI, DSAR, right to erasure, stop-the-clock, reasonable-and-proportionate search, likely-to-be-accessed-by-children, age assurance, k-anonymity, synthetic data, federated learning, homomorphic encryption, SMPC, ZKP)
 
 | Term | Definition | Source |
 |------|------------|--------|
@@ -91,5 +91,19 @@ Shared, authoritative definitions of terms of art used across the knowledge base
 | TIBER-EU | The Eurosystem Threat Intelligence-Based Ethical Red Teaming framework; recognised delivery vehicle for DORA threat-led penetration testing. | ecb-tiber-eu |
 | Data protection test | The DUAA 2025 transfers standard — whether protection in the destination is "not materially lower" than under UK law — governing both UK adequacy regulations and exporter TRAs. | duaa-2025-sch7 / ico-tra |
 | Digital Omnibus | The EU's late-2025 simplification package: an *adopted* Digital Omnibus on AI (amending the AI Act) and a *proposed* Digital Omnibus Regulation (data/ePrivacy strand). | ep-legtrain-digital-omnibus-ai |
+| Prohibited AI practice | An AI practice of unacceptable risk banned outright under AI Act Art. 5 (no conformity route) — e.g. social scoring, certain manipulation, untargeted facial-image scraping, workplace emotion recognition. | eurlex-aiact-eli |
+| Remote biometric identification (RBI) | An AI system identifying persons at a distance against a reference database; "real-time" where near-instant (AI Act Art. 3(41)–(42)). | eurlex-aiact-eli |
+| Subject access request (DSAR/SAR) | A data subject's request under GDPR/UK GDPR Art. 15 for confirmation of processing and a copy of their personal data. | eurlex-gdpr |
+| Right to erasure ("right to be forgotten") | The GDPR Art. 17 right to have personal data erased in defined circumstances (cf. Google Spain). | eurlex-gdpr / case-google-spain |
+| Stop-the-clock (DUAA) | The DUAA-inserted UK GDPR Art. 12A rule pausing the DSAR time limit while awaiting identity confirmation, a fee, or reasonably-required clarification. | duaa-2025-s76 |
+| Reasonable and proportionate search | The DUAA-inserted UK GDPR Art. 15(1A) standard confining the access duty to what such a search yields. | duaa-2025-s78 |
+| Likely to be accessed by children | The UK Children's Code scope test: access by under-18s is more probable than not, judged on the service's nature, appeal and user evidence. | dpa-2018-s123 / ico-childrens-code |
+| Age assurance | Techniques to establish or estimate a user's age or age range (self-declaration → estimation → verification), applied proportionately to data risk. | ico-aadc-code |
+| k-anonymity | A de-identification property where each record is indistinguishable from at least k-1 others on quasi-identifiers (extended by l-diversity, t-closeness). | sweeney-k-anonymity |
+| Synthetic data | Artificially generated data preserving statistical properties of a source dataset without one-to-one correspondence to real individuals. | ico-pets |
+| Federated learning | Training a shared model across decentralised data holders without moving the raw data to a central server. | mcmahan-fl-2017 |
+| Homomorphic encryption | Encryption permitting computation on ciphertext, yielding an encrypted result matching operations on the plaintext. | gentry-fhe-2009 |
+| Secure multi-party computation (SMPC) | Cryptographic protocols letting parties jointly compute a function over their inputs while keeping those inputs private. | yao-1982 |
+| Zero-knowledge proof (ZKP) | A protocol proving a statement is true without revealing anything beyond its truth. | gmr-zkp-1989 |
 
 > Terms are added as documents introduce them. Do not redefine a glossary term inconsistently in a document; if a narrower meaning is needed, state it explicitly as document-specific.
