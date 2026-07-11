@@ -4,7 +4,14 @@ All notable changes to this repository. Format based on [Keep a Changelog](https
 
 ## [Unreleased]
 
-_Nothing yet._
+### Added (in-review — awaiting batch human gate; first depth-layer sub-topic cluster)
+- `docs/01-gdpr/gdpr-transfers.md` — GDPR International Transfers (Chapter V). SCCs/BCRs/adequacy/derogations; **EU-US DPF verified valid-but-contingent** (Latombe upheld at GC 3 Sep 2025; appeal C-703/25 P pending); UK IDTA/data-bridge.
+- `docs/02-uk-gdpr/duaa-2025-detail.md` — DUAA 2025 detailed analysis. Recognised legitimate interests, ADM (Arts 22A–22D), complaints; **commencement verified** (Part 5 in force 5 Feb 2026 via SI 2026/82; s.103 due 19 Jun 2026).
+- `docs/05-ai-act/ai-act-high-risk.md` — AI Act high-risk & conformity assessment. Annex III, Arts 8–15, CE marking, FRIA.
+- `docs/12-cybersecurity/cyber-resilience-act.md` — CRA product cybersecurity. PDE classes, vulnerability reporting, phased dates (full application 11 Dec 2027).
+
+### Flagged for maintenance (regulatory change surfaced by this batch)
+- **AI Omnibus now FORMALLY ADOPTED** (EP plenary 16 Jun 2026; **Council final approval 29 Jun 2026** — orchestrator-verified). The frozen `ai-act-foundations` (v1.0.0) records it as only "provisional"; a corrective maintenance revision is proposed at the human gate.
 
 ## [0.9.0] — 2026-07-11
 

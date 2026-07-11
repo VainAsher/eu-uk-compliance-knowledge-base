@@ -29,14 +29,18 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 | cloud-hosting-foundations | Cloud Hosting: Compliance Foundations | Cloud Hosting | 4 | EU, UK | 1.0.0 | approved | Medium | `docs/14-cloud-hosting/cloud-hosting-foundations.md` |
 | game-hosting-foundations | Game Hosting: Compliance Foundations | Game Hosting | 4 | EU, UK | 1.0.0 | approved | Medium | `docs/15-game-hosting/game-hosting-foundations.md` |
 | compliance-operations-foundations | Compliance Operations: Running a Compliance Programme | Compliance Operations | 4 | EU, UK | 1.0.0 | approved | High | `docs/16-compliance-operations/compliance-operations-foundations.md` |
+| gdpr-transfers | GDPR: International Data Transfers (Chapter V) | GDPR (EU) | 1 | EU, UK | 0.1.0 | in-review | High | `docs/01-gdpr/gdpr-transfers.md` |
+| duaa-2025-detail | Data (Use and Access) Act 2025: Detailed Analysis | UK GDPR | 1 | UK | 0.1.0 | in-review | High | `docs/02-uk-gdpr/duaa-2025-detail.md` |
+| ai-act-high-risk | EU AI Act: High-Risk Systems & Conformity Assessment | AI Act | 2 | EU | 0.1.0 | in-review | Medium | `docs/05-ai-act/ai-act-high-risk.md` |
+| cyber-resilience-act | EU Cyber Resilience Act: Product Cybersecurity Foundations | Cybersecurity | 3 | EU | 0.1.0 | in-review | High | `docs/12-cybersecurity/cyber-resilience-act.md` |
 
 ## Topic coverage (16 programme topics)
 
 | Topic | Documents | Status |
 |-------|-----------|--------|
-| GDPR (EU) | 1 | 1 approved; sub-topics in backlog |
-| UK GDPR | 1 | 1 approved; sub-topics in backlog |
-| AI Act | 1 | 1 approved; sub-topics in backlog |
+| GDPR (EU) | 2 | 1 approved + 1 sub-topic in review (transfers) |
+| UK GDPR | 2 | 1 approved + 1 sub-topic in review (DUAA detail) |
+| AI Act | 2 | 1 approved + 1 sub-topic in review (high-risk) |
 | Data Act | 1 | 1 approved; sub-topics in backlog |
 | NIS2 | 1 | 1 approved; sub-topics in backlog |
 | DORA | 1 | 1 approved; sub-topics in backlog |
@@ -48,7 +52,7 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 | Privacy Engineering | 1 | 1 approved; sub-topics in backlog |
 | Cloud Hosting | 1 | 1 approved; sub-topics in backlog |
 | Game Hosting | 1 | 1 approved; sub-topics in backlog |
-| Cybersecurity | 1 | 1 approved; sub-topics in backlog |
+| Cybersecurity | 2 | 1 approved + 1 sub-topic in review (CRA) |
 | Compliance Operations | 1 | 1 approved; sub-topics in backlog |
 
 ## Knowledge graph (cross-references)
@@ -81,3 +85,7 @@ _Populated as documents are approved. Format: `doc-a → relationship → doc-b`
 - `cloud-hosting-foundations` → *synthesises* → `gdpr-foundations`, `privacy-engineering-foundations`, `cybersecurity-foundations`, `nis2-foundations`, `dora-foundations`, `data-act-foundations`
 - `game-hosting-foundations` → *synthesises* → `gdpr-foundations`, `uk-gdpr-foundations`, `eprivacy-foundations`, `dsa-foundations`, `ai-act-foundations`, `consumer-rights-foundations`, `cloud-hosting-foundations`
 - `compliance-operations-foundations` → *capstone: operationalises* → **all 15 other topic documents** (anchored on GDPR Art. 5(2))
+- `gdpr-transfers` → *details* → `gdpr-foundations` (Chapter V); *relates to* → `uk-gdpr-foundations`, `cloud-hosting-foundations`
+- `duaa-2025-detail` → *details* → `uk-gdpr-foundations` (DUAA reforms)
+- `ai-act-high-risk` → *details* → `ai-act-foundations`; *operationalised by* → `ai-governance-foundations`; *amended by* → AI Omnibus (adopted 29 Jun 2026)
+- `cyber-resilience-act` → *details* → `cybersecurity-foundations`; *complements* → `nis2-foundations` (product ↔ entity security)

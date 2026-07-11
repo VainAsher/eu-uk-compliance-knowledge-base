@@ -2,7 +2,7 @@
 
 Canonical registry of authoritative sources cited across the knowledge base. Each source is classified and given a stable short key used in document References. Links are verified per document at that document's `sources_verified` date.
 
-**Last updated:** 2026-07-11 (Tier 4 cluster batch: added EU/UK consumer-law instruments incl. DMCCA 2024 + commencement SI; Cybersecurity Act/EUCS, ISO 27017/27018, CSA STAR; children's-code/PEGI/loot-box/OSA sources; ISO 37301/31000/19011/37000, IIA Three Lines, ICO accountability. Deduped consumer-directive keys shared by #13/#15.)
+**Last updated:** 2026-07-11 (sub-topics batch: added transfers sources incl. EU-US DPF decision, 2021 SCCs, Schrems I/Latombe + appeal, UK IDTA/data-bridge; DUAA commencement SIs + ICO DUAA guidance; AI Omnibus adoption (EP 16 Jun + Council 29 Jun 2026), CEN-CENELEC, Veale & Borgesius; CRA SRP/standards-mapping, ETSI EN 303 645.)
 
 ## Classification classes
 
@@ -153,5 +153,34 @@ Canonical registry of authoritative sources cited across the knowledge base. Eac
 | ico-accountability | ICO — Guide to accountability and governance | Regulatory | ICO (UK) | https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/guide-to-accountability-and-governance/ |
 | ico-accountability-framework | ICO — Accountability Framework | Regulatory | ICO (UK) | https://ico.org.uk/for-organisations/accountability-framework/ |
 | ico-breach | ICO — Personal data breaches (report a breach) | Regulatory | ICO (UK) | https://ico.org.uk/for-organisations/report-a-breach/personal-data-breach/ |
+| eurlex-dpf-2023-1795 | Implementing Decision (EU) 2023/1795 (EU-US DPF adequacy, 10 Jul 2023) | Primary | EUR-Lex / EU | https://eur-lex.europa.eu/eli/dec_impl/2023/1795/oj |
+| eurlex-sccs-2021 | Implementing Decision (EU) 2021/914 (2021 Standard Contractual Clauses) | Primary | EUR-Lex / EU | https://eur-lex.europa.eu/eli/dec_impl/2021/914/oj |
+| case-schrems1 | Schrems I, C-362/14, ECLI:EU:C:2015:650 | Primary | CJEU | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62014CJ0362 |
+| case-latombe | Latombe v Commission, T-553/23 (GC, 3 Sep 2025 — DPF upheld) | Primary | CJEU (General Court) | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:62023TJ0553 |
+| case-latombe-appeal | Latombe v Commission, C-703/25 P (appeal, pending) | Primary | CJEU | https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:C_202506610 |
+| uk-si-2023-1028 | Data Protection (Adequacy) (USA) Regulations 2023 (SI 2023/1028) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/uksi/2023/1028/contents/made |
+| ec-eu-us-data-transfers | EU-US data transfers / Data Privacy Framework | Regulatory | European Commission | https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/eu-us-data-transfers_en |
+| ico-intl-transfers | International transfers — guidance and resources | Regulatory | ICO (UK) | https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/international-transfers/ |
+| ico-idta-addendum | UK IDTA and Addendum (standard data protection clauses) | Regulatory | ICO (UK) | https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/international-transfers/appropriate-safeguards/what-are-standard-data-protection-clauses-the-uk-idta-and-the-addendum/ |
+| ico-uk-dpf-extension | UK Extension to the EU-US DPF | Regulatory | ICO (UK) | https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/international-transfers/adequacy-regulations/how-does-the-uk-extension-to-the-eu-us-data-privacy-framework-work/ |
+| ico-tra | Completing a transfer risk assessment | Regulatory | ICO (UK) | https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/international-transfers/completing-a-transfer-risk-assessment/ |
+| govuk-uk-us-data-bridge | UK-US data bridge factsheet | Regulatory | GOV.UK / DSIT | https://www.gov.uk/government/publications/uk-us-data-bridge-supporting-documents/uk-us-data-bridge-factsheet-for-uk-organisations |
+| us-dpf-program | EU-U.S. Data Privacy Framework — Program Overview | Regulatory | U.S. Dept of Commerce | https://www.dataprivacyframework.gov/Program-Overview |
+| duaa-2025-s80 | Data (Use and Access) Act 2025, s.80 (ADM — Arts 22A–22D) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/ukpga/2025/18/section/80 |
+| duaa-comm6-2026 | DUAA 2025 (Commencement No. 6) Regs 2026 (SI 2026/82) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/uksi/2026/82/contents/made |
+| duaa-comm5-2026 | DUAA 2025 (Commencement No. 5) Regs 2026 (SI 2026/31) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/uksi/2026/31/made |
+| govuk-duaa-commencement | DUAA 2025: plans for commencement (DSIT timetable) | Regulatory | GOV.UK | https://www.gov.uk/guidance/data-use-and-access-act-2025-plans-for-commencement |
+| ico-duaa-orgs | DUAA 2025 — what it means for organisations | Regulatory | ICO (UK) | https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025/the-data-use-and-access-act-2025-what-does-it-mean-for-organisations/ |
+| ico-duaa-summary-dp | DUAA — summary of changes: data protection | Regulatory | ICO (UK) | https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025/the-data-use-and-access-act-2025-duaa-summary-of-the-changes/data-protection/ |
+| ico-duaa-commencement-statement | ICO statement on DUAA commencement (5 Feb 2026) | Regulatory | ICO (UK) | https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/02/statement-on-the-commencement-of-the-data-use-and-access-act-duaa/ |
+| ico-duaa-rli | Recognised legitimate interest (guidance) | Regulatory | ICO (UK) | https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/a-guide-to-lawful-basis/recognised-legitimate-interest/ |
+| ep-ai-omnibus-adopted | AI Act: EP approves simplification (plenary 16 Jun 2026) | Regulatory | European Parliament | https://www.europarl.europa.eu/news/en/press-room/20260611IPR45207/ai-act-ep-approves-simplification-measures-and-nudifier-app-ban |
+| council-ai-omnibus-2026 | AI: Council gives final green light to simplify rules (29 Jun 2026) | Regulatory | Council of the EU | https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/ |
+| ep-legtrain-digital-omnibus-ai | Digital Omnibus on AI — Legislative Train | Regulatory | European Parliament | https://www.europarl.europa.eu/legislative-train/package-digital-package/file-digital-omnibus-on-ai |
+| cen-cenelec-ai | CEN-CENELEC — AI Act harmonised standards | Standard | CEN-CENELEC | https://www.cencenelec.eu/areas-of-work/cen-cenelec-topics/artificial-intelligence/ |
+| veale-borgesius-2021 | Veale & Zuiderveen Borgesius, "Demystifying the Draft EU AI Act" (2021) | Academic | arXiv | https://arxiv.org/abs/2107.03721 |
+| enisa-cra-srp | CRA Single Reporting Platform (SRP) | Regulatory | ENISA | https://www.enisa.europa.eu/topics/product-security-and-certification/single-reporting-platform-srp |
+| enisa-jrc-cra-standards-mapping | CRA Requirements — Standards Mapping (JRC & ENISA) | Regulatory | ENISA / EC JRC | https://www.enisa.europa.eu/publications/cyber-resilience-act-requirements-standards-mapping |
+| etsi-en-303-645 | ETSI EN 303 645 — Cyber Security for Consumer IoT | Standard | ETSI | https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.01_60/en_303645v020101p.pdf |
 
 > Additional sources are appended as documents cite them. Never cite a source not verified live at the citing document's `sources_verified` date.

@@ -4,7 +4,7 @@ Shared, authoritative definitions of terms of art used across the knowledge base
 
 **Convention:** Each term cites its authoritative source. Where a term is defined in legislation, the statutory definition governs. Keys in the *Source* column reference `SOURCE_REGISTRY.md`.
 
-**Last updated:** 2026-07-11 (Tier 4 batch: added consumer/trader, right of withdrawal, unfair commercial practice, dark pattern, ISS, Children's Code, loot box, shared-responsibility model, EUCS, CMS, Three Lines Model, RoPA)
+**Last updated:** 2026-07-11 (sub-topics batch: added restricted transfer, SCCs, BCRs, TIA, IDTA, recognised legitimate interest, conformity assessment, notified body, FRIA, SBOM)
 
 | Term | Definition | Source |
 |------|------------|--------|
@@ -70,5 +70,15 @@ Shared, authoritative definitions of terms of art used across the knowledge base
 | Compliance management system (CMS) | Interrelated elements an organisation uses to set compliance policy/objectives and processes, embedding a compliance culture (ISO 37301). | iso-37301 |
 | Three Lines Model | IIA governance model: first line (operational risk ownership), second line (risk/compliance oversight), third line (independent internal audit); 2020 update of "three lines of defence". | iia-three-lines |
 | Records of Processing Activities (RoPA) | The GDPR Art. 30 record of processing operations (purposes, categories, recipients, transfers, retention, security). | eurlex-gdpr |
+| Restricted transfer | A transfer of personal data to a third country/international organisation that triggers GDPR Chapter V. | eurlex-gdpr |
+| Standard Contractual Clauses (SCCs) | Commission-approved modular model clauses providing Art. 46(2)(c) transfer safeguards; current set Decision (EU) 2021/914. | eurlex-sccs-2021 |
+| Binding Corporate Rules (BCRs) | Supervisory-authority-approved intra-group data-protection rules enabling group transfers (GDPR Art. 47). | eurlex-gdpr |
+| Transfer impact assessment (TIA) | The Schrems II case-by-case assessment of whether a destination ensures essentially equivalent protection, and what supplementary measures are needed. | case-schrems2 / edpb-rec-01-2020 |
+| International Data Transfer Agreement (IDTA) | The ICO's standalone UK Art. 46 transfer contract; alternative to EU SCCs + UK Addendum. | ico-idta-addendum |
+| Recognised legitimate interest | A specified public-interest purpose (DUAA-inserted UK GDPR Annex) for which processing needs no legitimate-interests balancing test. | ico-duaa-rli |
+| Conformity assessment | The AI Act / CRA process of demonstrating a product/system meets the applicable requirements (via internal control or a notified body). | eurlex-aiact-eli / eurlex-cra |
+| Notified body | A conformity-assessment body designated to perform third-party conformity assessment under EU harmonisation law (AI Act; CRA). | eurlex-aiact-eli |
+| Fundamental-rights impact assessment (FRIA) | The AI Act Art. 27 assessment certain deployers must run before deploying an Annex III high-risk AI system. | eurlex-aiact-eli |
+| Software Bill of Materials (SBOM) | A machine-readable inventory of a product's software components/dependencies; required for CRA vulnerability handling. | eurlex-cra |
 
 > Terms are added as documents introduce them. Do not redefine a glossary term inconsistently in a document; if a narrower meaning is needed, state it explicitly as document-specific.

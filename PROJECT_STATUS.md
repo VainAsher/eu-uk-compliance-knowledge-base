@@ -36,7 +36,8 @@
 
 ## In progress
 
-- **Foundation layer complete.** Next phase (Stage 7+): high-value backlog sub-topics, QA automation (lint/link/citation), knowledge-graph/compliance-mapping artefacts, and the publication/RAG pipeline. See `PROJECT_HANDOVER.md` → *What to do next*.
+- **First depth-layer sub-topic cluster (#17–#20)** produced in parallel, **awaiting batch human gate**: `gdpr-transfers`, `duaa-2025-detail`, `ai-act-high-risk`, `cyber-resilience-act`. Orchestrator re-verified all 60 links live and independently confirmed the AI Omnibus final adoption (Council 29 Jun 2026).
+- **⚠️ Maintenance item:** frozen `ai-act-foundations` needs a corrective revision (AI Omnibus now adopted, not provisional) — proposed at the gate.
 
 ## Pending work
 
