@@ -1,7 +1,7 @@
 # Project Status
 
 **Last updated:** 2026-07-11
-**Maturity:** Stage 4 of 10 — *Tiers 1 & 2 complete: 9/16 topics approved & frozen (release 0.7.0). Tier 3 (security & resilience) next.*
+**Maturity:** Stage 4 of 10 — *Tiers 1–3 complete: 12/16 topics approved & frozen (release 0.8.0). Tier 4 (sector/consumer/ops) is the final foundation tier.*
 
 ## Maturity model (repository level)
 
@@ -11,8 +11,8 @@
 | 1 | Governance scaffolding + reconciled template + git | ✅ passed |
 | 2 | First document approved & frozen | ✅ passed |
 | 3 | Tier 1 foundations complete (4 docs) | ✅ passed |
-| 4 | Tier 2 digital & AI complete | ✅ **current** |
-| 5 | Tier 3 security & resilience complete | ⬜ |
+| 4 | Tier 2 digital & AI complete | ✅ passed |
+| 5 | Tier 3 security & resilience complete | ✅ **current** |
 | 6 | Tier 4 sector/consumer/ops complete | ⬜ |
 | 7 | Cross-references & knowledge graph populated | ⬜ |
 | 8 | QA automation (lint/link/citation) implemented | ⬜ |
@@ -30,11 +30,12 @@
 - **Document #4 (Privacy Engineering Foundations) approved & frozen at v1.0.0 (release 0.5.0) — Tier 1 complete.**
 - **Document #5 (AI Act Foundations) approved & frozen at v1.0.0 (release 0.6.0).**
 - **Tier 2 batch (#6–#9: AI Governance, Data Act, DSA, DMA) approved & frozen at v1.0.0 (release 0.7.0) — Tier 2 complete.** First parallel-cluster batch.
+- **Tier 3 batch (#10–#12: NIS2, DORA, Cybersecurity) approved & frozen at v1.0.0 (release 0.8.0) — Tier 3 complete.**
 - Adopted shared-glossary + sub-topic-scoping editorial policy; introduced parallel-cluster production.
 
 ## In progress
 
-- **Tier 3 cluster batch (#10–#12)** produced in parallel and **awaiting batch human gate**: `nis2-foundations`, `dora-foundations`, `cybersecurity-foundations`. Orchestrator re-verified all 34 links live and spot-checked NIS2 Art. 23/34 against EUR-Lex raw text (confirmed) and the DORA CTPP designation date.
+- **Tier 4 (sector, consumer & operations)** next — the final foundation tier: Consumer Rights (#13), Cloud Hosting (#14), Game Hosting (#15), Compliance Operations (#16). Candidate for a 4-worker parallel cluster.
 
 ## Pending work
 
@@ -62,8 +63,8 @@
 
 | Metric | Value |
 |--------|-------|
-| Approved documents | 9 |
+| Approved documents | 12 |
 | Draft documents | 0 |
 | Governance files | 9 |
-| Topics covered | 9 / 16 |
+| Topics covered | 12 / 16 |
 | Sources in registry | see `SOURCE_REGISTRY.md` |

@@ -30,14 +30,16 @@ These underpin almost everything else and are cited by later documents.
 ### Tier 3 — Security & resilience
 | Order | Topic | Lead instrument(s) | Rationale |
 |-------|-------|--------------------|-----------|
-| 10 | **NIS2** ⏳ next | Directive (EU) 2022/2555 | Baseline cybersecurity for essential/important entities. |
-| 11 | **DORA** | Regulation (EU) 2022/2554 | Financial-sector operational resilience. |
-| 12 | **Cybersecurity** | NIS2, ISO 27001, NIST CSF, NCSC | Cross-cutting technical security. |
+| 10 | **NIS2** ✅ approved | Directive (EU) 2022/2555 | Baseline cybersecurity for essential/important entities. |
+| 11 | **DORA** ✅ approved | Regulation (EU) 2022/2554 | Financial-sector operational resilience. |
+| 12 | **Cybersecurity** ✅ approved | NIS2, ISO 27001, NIST CSF, NCSC | Cross-cutting technical security. |
+
+**Tier 3 complete (2026-07-11) — second parallel-cluster batch (#10–#12).**
 
 ### Tier 4 — Sector, consumer & operations
 | Order | Topic | Lead instrument(s) | Rationale |
 |-------|-------|--------------------|-----------|
-| 13 | **Consumer Rights** | Consumer Rights Act 2015; Dir. 2011/83/EU | B2C obligations. |
+| 13 | **Consumer Rights** ⏳ next | Consumer Rights Act 2015; Dir. 2011/83/EU | B2C obligations. |
 | 14 | **Cloud Hosting** | GDPR, NIS2, ISO 27017 | Infrastructure compliance. |
 | 15 | **Game Hosting** | GDPR (children/Art.8), DSA, PEGI | Sector specialisation of #14. |
 | 16 | **Compliance Operations** | Cross-cutting | How to run the programme; ties everything together. |

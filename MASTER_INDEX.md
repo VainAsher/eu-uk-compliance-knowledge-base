@@ -22,9 +22,9 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 | data-act-foundations | EU Data Act: Foundations, Data Access & Sharing | Data Act | 2 | EU | 1.0.0 | approved | High | `docs/07-data-act/data-act-foundations.md` |
 | dsa-foundations | EU Digital Services Act: Foundations & Platform Obligations | Digital Services | 2 | EU | 1.0.0 | approved | High | `docs/08-digital-services/dsa-foundations.md` |
 | dma-foundations | EU Digital Markets Act: Foundations & Gatekeeper Obligations | Digital Markets | 2 | EU | 1.0.0 | approved | High | `docs/09-digital-markets/dma-foundations.md` |
-| nis2-foundations | NIS2 Directive: Foundations, Scope & Cybersecurity Obligations | NIS2 | 3 | EU | 0.1.0 | in-review | High | `docs/10-nis2/nis2-foundations.md` |
-| dora-foundations | DORA: Foundations & Digital Operational Resilience for Finance | DORA | 3 | EU | 0.1.0 | in-review | High | `docs/11-dora/dora-foundations.md` |
-| cybersecurity-foundations | Cybersecurity: Foundations, Frameworks & Controls | Cybersecurity | 3 | EU, UK | 0.1.0 | in-review | High | `docs/12-cybersecurity/cybersecurity-foundations.md` |
+| nis2-foundations | NIS2 Directive: Foundations, Scope & Cybersecurity Obligations | NIS2 | 3 | EU | 1.0.0 | approved | High | `docs/10-nis2/nis2-foundations.md` |
+| dora-foundations | DORA: Foundations & Digital Operational Resilience for Finance | DORA | 3 | EU | 1.0.0 | approved | High | `docs/11-dora/dora-foundations.md` |
+| cybersecurity-foundations | Cybersecurity: Foundations, Frameworks & Controls | Cybersecurity | 3 | EU, UK | 1.0.0 | approved | High | `docs/12-cybersecurity/cybersecurity-foundations.md` |
 
 ## Topic coverage (16 programme topics)
 
@@ -34,8 +34,8 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 | UK GDPR | 1 | 1 approved; sub-topics in backlog |
 | AI Act | 1 | 1 approved; sub-topics in backlog |
 | Data Act | 1 | 1 approved; sub-topics in backlog |
-| NIS2 | 1 | 1 in review; sub-topics in backlog |
-| DORA | 1 | 1 in review; sub-topics in backlog |
+| NIS2 | 1 | 1 approved; sub-topics in backlog |
+| DORA | 1 | 1 approved; sub-topics in backlog |
 | ePrivacy | 1 | 1 approved; sub-topics in backlog |
 | Consumer Rights | 0 | not started |
 | Digital Services | 1 | 1 approved; sub-topics in backlog |
@@ -44,7 +44,7 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 | Privacy Engineering | 1 | 1 approved; sub-topics in backlog |
 | Cloud Hosting | 0 | not started |
 | Game Hosting | 0 | not started |
-| Cybersecurity | 1 | 1 in review; sub-topics in backlog |
+| Cybersecurity | 1 | 1 approved; sub-topics in backlog |
 | Compliance Operations | 0 | not started |
 
 ## Knowledge graph (cross-references)

@@ -4,6 +4,7 @@ Frozen snapshots of the knowledge base. A release is cut when a batch of documen
 
 | Release | Date | Highlights | Docs frozen |
 |---------|------|-----------|-------------|
+| 0.8.0 | 2026-07-11 | Tier 3 cluster batch frozen: NIS2, DORA, Cybersecurity (v1.0.0 each). **Tier 3 complete; 12/16 topics.** | 12 (cumulative) |
 | 0.7.0 | 2026-07-11 | Tier 2 cluster batch frozen: AI Governance, Data Act, DSA, DMA (v1.0.0 each). **Tier 2 complete; 9/16 topics.** First parallel-cluster batch. | 9 (cumulative) |
 | 0.6.0 | 2026-07-11 | AI Act Foundations frozen (v1.0.0) — first Tier 2 doc. Parallel cluster model introduced. | 5 (cumulative) |
 | 0.5.0 | 2026-07-11 | Privacy Engineering Foundations frozen (v1.0.0). **Tier 1 (data-protection core) complete: 4/4.** | 4 (cumulative) |

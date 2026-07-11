@@ -10,8 +10,8 @@ An autonomous multi-agent pipeline that produces a professional, evidence-based 
 
 ## Current state (snapshot)
 
-- **Maturity:** Stage 4 — **Tiers 1 & 2 complete** (9 docs approved & frozen at v1.0.0; releases 0.2.0–0.7.0). Tier 3 next.
-- **Version control:** git on `main`, tags `v0.2.0`–`v0.7.0`. No remote yet.
+- **Maturity:** Stage 4 — **Tiers 1–3 complete** (12 docs approved & frozen at v1.0.0; releases 0.2.0–0.8.0). Tier 4 is the final foundation tier.
+- **Version control:** git on `main`, tags `v0.2.0`–`v0.8.0`. No remote yet.
 - **Template:** `templates/document_template.md` reconciled to full spec.
 - **Governance files:** all present, incl. `GLOSSARY.md`.
 - **Editorial policy:** shared glossary + dedicated sub-topic documents (see `ROADMAP.md`).
@@ -19,9 +19,9 @@ An autonomous multi-agent pipeline that produces a professional, evidence-based 
 
 ## What to do next
 
-1. Run the **Tier 3 (security & resilience) cluster**: NIS2 (#10), DORA (#11), Cybersecurity (#12). Live-verify NIS2 national transposition status and DORA application (17 Jan 2025).
-2. Present the batch at the **human review gate**.
-3. On `APPROVE`: freeze, cut release, then Tier 4 (Consumer Rights, Cloud Hosting, Game Hosting, Compliance Operations).
+1. Run the **Tier 4 (sector, consumer & operations) cluster** — the final foundation tier: Consumer Rights (#13), Cloud Hosting (#14), Game Hosting (#15), Compliance Operations (#16).
+2. Present the batch at the **human review gate**; on `APPROVE`, freeze and cut release 0.9.0.
+3. After Tier 4: all 16 topics covered → move to Stage 5+ (backlog sub-topics, QA automation, knowledge graph, publication/RAG export). Consider `duaa-2025-detail`, `digital-omnibus`, `cyber-resilience-act` as high-value backlog docs.
 
 ## Parallel-cluster operating notes (for the orchestrator)
 
@@ -50,6 +50,7 @@ An autonomous multi-agent pipeline that produces a professional, evidence-based 
 | 2026-07-11 | Document #5 (AI Act) approved & frozen at v1.0.0 | Passed human review gate; AI Omnibus provisional status live-verified. |
 | 2026-07-11 | Adopt parallel-cluster production model | User request to speed up while retaining quality; orchestrator + worker agents. |
 | 2026-07-11 | Tier 2 batch (#6–#9) approved & frozen at v1.0.0 — **Tier 2 complete** | Batch human gate ("approve with spot check"); DSA article/recital numbers verified against EUR-Lex. |
+| 2026-07-11 | Tier 3 batch (#10–#12) approved & frozen at v1.0.0 — **Tier 3 complete** | Batch human gate ("APPROVE ALL"); NIS2 Art. 23/34 verified against EUR-Lex raw text. |
 
 ## Control files to update after every approved document
 

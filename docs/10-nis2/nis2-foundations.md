@@ -1,8 +1,8 @@
 ---
 id: nis2-foundations
 title: "NIS2 Directive: Foundations, Scope & Cybersecurity Obligations"
-version: 0.1.0
-status: in-review
+version: 1.0.0
+status: approved
 classification: public
 jurisdiction: [EU]
 topic: NIS2
@@ -26,15 +26,15 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | nis2-foundations |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.8.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
 | Last Updated | 2026-07-11 |
 | Review Due | 2027-07-11 |
 | Confidence | High |
-| Approved By | pending human review |
+| Approved By | Human reviewer — 2026-07-11 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**. NIS2 is a **Directive**, so the binding rules that apply to any organisation are the **national transposition laws**, not the Directive text directly — and transposition is **incomplete and still moving**: as at this document's date the Commission has **referred four Member States (Ireland, Spain, France, the Netherlands) to the Court of Justice** (8–9 July 2026) for non-transposition [8]. Always confirm the current national law and its exact obligations for each Member State in which an entity operates before relying on this document.
 
@@ -296,3 +296,4 @@ Not Applicable — this foundational reference relies on primary legislation and
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (Directive (EU) 2022/2555, DORA, CRA, Implementing Regulation (EU) 2024/2690) and European Commission/ENISA sources. **Transposition status live-verified on 2026-07-11**: deadline 17 Oct 2024; reasoned opinions to 19 Member States (7 May 2025); CJEU referrals of Ireland, Spain, France and the Netherlands (IP/26/1499, 8–9 July 2026) with a request for financial penalties. Art. 23 (24h/72h/1-month) and Art. 34 fines (≥€10m/2% essential; ≥€7m/1.4% important) confirmed. All 12 external links returned HTTP 200. | — |
+| 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at batch human review gate; orchestrator verified Art. 23 timeline and Art. 34 fines against EUR-Lex raw text; frozen in release 0.8.0. | Human reviewer |

@@ -1,8 +1,8 @@
 ---
 id: cybersecurity-foundations
 title: "Cybersecurity: Foundations, Frameworks & Controls"
-version: 0.1.0
-status: in-review
+version: 1.0.0
+status: approved
 classification: public
 jurisdiction: [EU, UK]
 topic: Cybersecurity
@@ -26,15 +26,15 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | cybersecurity-foundations |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.8.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
 | Last Updated | 2026-07-11 |
 | Review Due | 2027-07-11 |
 | Confidence | High |
-| Approved By | pending human review |
+| Approved By | Human reviewer — 2026-07-11 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**. Note that most content here is **standards-based best practice**, not legal obligation; where a legal duty exists it is labelled and sourced. The Cyber Resilience Act is in its **phased transition** (full application 11 December 2027); confirm current application dates before relying on them [4][5].
 
@@ -302,4 +302,5 @@ Labels: **OBLIGATION** (where a cited law requires the outcome) / **BEST PRACTIC
 
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
-| 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (GDPR Art. 32, NIS2, DORA, CRA), European Commission CRA guidance, NCSC, ENISA, ISO (27001/27002:2022), NIST (CSF 2.0, SP 800-207), OWASP Top 10:2025 and Saltzer & Schroeder (academic). NIST CSF 2.0 six Functions incl. Govern, ISO 27001:2022 edition, and CRA number/status/dates live-verified. | pending |
+| 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (GDPR Art. 32, NIS2, DORA, CRA), European Commission CRA guidance, NCSC, ENISA, ISO (27001/27002:2022), NIST (CSF 2.0, SP 800-207), OWASP Top 10:2025 and Saltzer & Schroeder (academic). NIST CSF 2.0 six Functions incl. Govern, ISO 27001:2022 edition, and CRA number/status/dates live-verified. | — |
+| 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at batch human review gate; NIST CSF 2.0, ISO 27001/27002:2022 and CRA (Reg (EU) 2024/2847) dates verified; frozen in release 0.8.0. | Human reviewer |

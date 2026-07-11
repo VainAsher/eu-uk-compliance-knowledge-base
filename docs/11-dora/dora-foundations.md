@@ -1,8 +1,8 @@
 ---
 id: dora-foundations
 title: "DORA: Foundations & Digital Operational Resilience for Finance"
-version: 0.1.0
-status: in-review
+version: 1.0.0
+status: approved
 classification: public
 jurisdiction: [EU]
 topic: DORA
@@ -26,15 +26,15 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | dora-foundations |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.8.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
 | Last Updated | 2026-07-11 |
 | Review Due | 2027-07-11 |
 | Confidence | High |
-| Approved By | pending human review |
+| Approved By | Human reviewer — 2026-07-11 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**. DORA's supporting rulebook and its oversight of critical ICT third-party providers are **actively developing**: the Regulatory/Implementing Technical Standards (RTS/ITS) are being adopted and applied in tranches, and the list of designated critical ICT third-party providers (CTPPs) changes as the European Supervisory Authorities re-run their criticality assessment. Confirm the current RTS/ITS status and the live CTPP list before relying on them.
 
@@ -312,6 +312,7 @@ Not Applicable — this foundational reference relies on primary legislation and
 
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
-| 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (Reg (EU) 2022/2554), the European Commission (DG FISMA), EIOPA, ESMA and EBA. The **17 January 2025 application date**, the **RTS/ITS first-batch status**, and the **first CTPP designation of 18 November 2025 (reported as 19 providers)** were live-verified. All 11 checked external links returned HTTP 200. | pending |
+| 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (Reg (EU) 2022/2554), the European Commission (DG FISMA), EIOPA, ESMA and EBA. The **17 January 2025 application date**, the **RTS/ITS first-batch status**, and the **first CTPP designation of 18 November 2025 (reported as 19 providers)** were live-verified. All 11 checked external links returned HTTP 200. | — |
+| 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at batch human review gate; 17 Jan 2025 application + 18 Nov 2025 CTPP designation verified; frozen in release 0.8.0. | Human reviewer |
 </content>
 </invoke>
