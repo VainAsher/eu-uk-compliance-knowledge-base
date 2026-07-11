@@ -2,7 +2,7 @@
 
 Canonical registry of authoritative sources cited across the knowledge base. Each source is classified and given a stable short key used in document References. Links are verified per document at that document's `sources_verified` date.
 
-**Last updated:** 2026-07-11 (Tier 2 cluster batch: added AI-governance standards/frameworks (ISO 23894/22989/42005, NIST AI RMF + GenAI Profile, OECD, ICO/UK-Gov), Data Act, DSA and DMA official sources incl. enforcement press releases and a CJEU judgment)
+**Last updated:** 2026-07-11 (Tier 3 cluster batch: added NIS2 (impl reg 2024/2690, EC/ENISA, transposition + CJEU-referral press releases), DORA (RTS 2024/1774, ESAs, CTPP designation), and Cybersecurity sources (Cyber Resilience Act, ISO 27002, NIST CSF 2.0, OWASP Top 10:2025, SP 800-207, NCSC, Saltzer & Schroeder))
 
 ## Classification classes
 
@@ -90,5 +90,28 @@ Canonical registry of authoritative sources cited across the knowledge base. Eac
 | ec-dma-apple-meta-breach | Commission finds Apple and Meta in breach of the DMA (23 Apr 2025) | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/news/commission-finds-apple-and-meta-breach-digital-markets-act |
 | ec-ip-25-1085 | Apple/Meta DMA breach — press release IP/25/1085 | Regulatory | European Commission | https://ec.europa.eu/commission/presscorner/detail/en/ip_25_1085 |
 | curia-cp-96-26-apple-dma | GC judgment 8 Jul 2026, Apple v Commission (T-1079/23 etc.), CP 96/26 | Primary | CJEU | https://curia.europa.eu/site/upload/docs/application/pdf/2026-07/cp260096en.pdf |
+| eurlex-cra | Regulation (EU) 2024/2847 (Cyber Resilience Act) | Primary | EUR-Lex / EU | https://eur-lex.europa.eu/eli/reg/2024/2847/oj |
+| eurlex-nis2-impl-2690 | Implementing Regulation (EU) 2024/2690 (NIS2 technical requirements) | Primary | EUR-Lex / EU | https://eur-lex.europa.eu/eli/reg_impl/2024/2690/oj |
+| ec-nis2-policy | NIS2 Directive (policy page) | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/policies/nis2-directive |
+| ec-nis2-transposition | NIS2 transposition state-of-play | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/policies/nis-transposition |
+| ec-nis2-19ms-reasoned | Commission calls on 19 MS to transpose NIS2 (7 May 2025) | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/news/commission-calls-19-member-states-fully-transpose-nis2-directive |
+| ec-nis2-cjeu-referral | Commission refers IE/ES/FR/NL to CJEU over NIS2 (IP/26/1499) | Regulatory | European Commission | https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1499 |
+| enisa-nis2 | NIS2 topic page | Regulatory | ENISA | https://www.enisa.europa.eu/topics/state-of-cybersecurity-in-the-eu/cybersecurity-policies/nis-directive-2 |
+| enisa-nis2-guidance | NIS2 Technical Implementation Guidance | Regulatory | ENISA | https://www.enisa.europa.eu/publications/nis2-technical-implementation-guidance |
+| eurlex-dora-rts-1774 | Delegated Regulation (EU) 2024/1774 — RTS on ICT risk-management | Primary | EUR-Lex / EU | https://eur-lex.europa.eu/eli/reg_del/2024/1774/oj |
+| ec-dora | DORA (DG FISMA policy) | Regulatory | European Commission | https://finance.ec.europa.eu/regulation-and-supervision/financial-services-legislation/implementing-and-delegated-acts/digital-operational-resilience-regulation_en |
+| eiopa-dora | DORA overview | Regulatory | EIOPA | https://www.eiopa.europa.eu/digital-operational-resilience-act-dora_en |
+| esma-dora | DORA overview | Regulatory | ESMA | https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/digital-operational-resilience-act-dora |
+| eba-dora-first-rts | ESAs publish first set of rules under DORA | Regulatory | EBA | https://www.eba.europa.eu/publications-and-media/press-releases/esas-publish-first-set-rules-under-dora-ict-and-third-party |
+| esas-dora-ctpp-2025 | ESAs designate critical ICT third-party providers (18 Nov 2025) | Regulatory | EIOPA/EBA/ESMA | https://www.eiopa.europa.eu/european-supervisory-authorities-designate-critical-ict-third-party-providers-under-digital-2025-11-18_en |
+| ec-cra-summary | Cyber Resilience Act — summary | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/policies/cra-summary |
+| ec-cra-policy | Cyber Resilience Act (policy) | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act |
+| ncsc-cyber-essentials | Cyber Essentials: overview | Regulatory | NCSC (UK) | https://www.ncsc.gov.uk/cyberessentials/overview |
+| ncsc-10-steps | 10 Steps to Cyber Security | Regulatory | NCSC (UK) | https://www.ncsc.gov.uk/collection/10-steps |
+| iso-27002 | ISO/IEC 27002:2022 — Information security controls | Standard | ISO/IEC | https://www.iso.org/standard/75652.html |
+| nist-csf-cswp29 | NIST CSF 2.0 (CSWP 29, Feb 2024) | Standard | NIST | https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf |
+| owasp-top10-2025 | OWASP Top 10:2025 | Standard | OWASP Foundation | https://owasp.org/Top10/2025/ |
+| nist-sp-800-207 | NIST SP 800-207 — Zero Trust Architecture | Standard | NIST | https://csrc.nist.gov/pubs/sp/800/207/final |
+| saltzer-schroeder | Saltzer & Schroeder, "The Protection of Information in Computer Systems" (Proc. IEEE, 1975) | Academic | IEEE / MIT | https://web.mit.edu/Saltzer/www/publications/protection/ |
 
 > Additional sources are appended as documents cite them. Never cite a source not verified live at the citing document's `sources_verified` date.

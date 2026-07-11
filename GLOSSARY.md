@@ -4,7 +4,7 @@ Shared, authoritative definitions of terms of art used across the knowledge base
 
 **Convention:** Each term cites its authoritative source. Where a term is defined in legislation, the statutory definition governs. Keys in the *Source* column reference `SOURCE_REGISTRY.md`.
 
-**Last updated:** 2026-07-11 (added AI governance, AIMS, trustworthy AI, human oversight, connected product, data holder, intermediary service, online platform, VLOP/VLOSE, DSC, gatekeeper, CPS for the Tier 2 cluster batch)
+**Last updated:** 2026-07-11 (Tier 3 batch: added essential/important entity, significant incident, CSIRT, digital operational resilience, CTPP, TLPT, CIA triad, ISMS, zero trust, product with digital elements)
 
 | Term | Definition | Source |
 |------|------------|--------|
@@ -46,5 +46,16 @@ Shared, authoritative definitions of terms of art used across the knowledge base
 | Digital Services Coordinator (DSC) | The independent national authority supervising DSA compliance and coordinating at EU level (DSA Art. 49). | eurlex-dsa |
 | Gatekeeper | An undertaking providing a core platform service, designated by the Commission under DMA Art. 3 (significant impact + important gateway + entrenched/durable position). | eurlex-dma |
 | Core platform service (CPS) | One of the DMA Art. 2(2) service categories to which gatekeeper obligations attach. | eurlex-dma |
+| Essential entity | Entity classified "essential" under NIS2 Art. 3(1) — broadly large entities in Annex I high-criticality sectors plus specified types regardless of size; ex-ante + ex-post supervision. | eurlex-nis2 |
+| Important entity | An in-scope NIS2 entity that is not an essential entity (Art. 3(2)); ex-post supervision only. | eurlex-nis2 |
+| Significant incident | NIS2 incident causing or capable of causing severe operational disruption/financial loss or considerable damage to others (Art. 23(3)). | eurlex-nis2 |
+| CSIRT | Computer Security Incident Response Team designated by each Member State (NIS2 Art. 10), receiving incident reports and providing response support. | eurlex-nis2 |
+| Digital operational resilience | A financial entity's ability to build, assure and review its operational integrity/reliability so it can keep providing services through ICT disruptions (DORA Art. 3(1)). | eurlex-dora |
+| Critical ICT third-party provider (CTPP) | An ICT third-party provider designated critical by the ESAs (DORA Art. 31), brought within the Union Oversight Framework. | eurlex-dora |
+| Threat-led penetration testing (TLPT) | Controlled test of live production systems mimicking real threat actors' TTPs, based on targeted threat intelligence (DORA Arts. 3(17), 26). | eurlex-dora |
+| CIA triad | Confidentiality, integrity and availability — the three core security objectives; GDPR Art. 32 also names resilience. | eurlex-gdpr |
+| Information Security Management System (ISMS) | A systematic, risk-based framework of policies, processes and controls for protecting information, specified by ISO/IEC 27001. | iso-27001 |
+| Zero trust | A security model removing implicit network-location trust; continuous per-resource verification (NIST SP 800-207). | nist-sp-800-207 |
+| Product with digital elements | A software/hardware product with a data connection, regulated for cybersecurity by the Cyber Resilience Act. | eurlex-cra |
 
 > Terms are added as documents introduce them. Do not redefine a glossary term inconsistently in a document; if a narrower meaning is needed, state it explicitly as document-specific.

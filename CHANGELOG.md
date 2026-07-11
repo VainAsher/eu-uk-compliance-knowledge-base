@@ -4,7 +4,10 @@ All notable changes to this repository. Format based on [Keep a Changelog](https
 
 ## [Unreleased]
 
-_Nothing yet._
+### Added (in-review — awaiting batch human gate; parallel cluster)
+- `docs/10-nis2/nis2-foundations.md` — NIS2 Foundations. Essential/important entities, Art. 21 measures, Art. 23 incident cascade (24h/72h/1-month), Art. 34 fines. Transposition status live-verified (CJEU referral of IE/ES/FR/NL, Jul 2026).
+- `docs/11-dora/dora-foundations.md` — DORA Foundations. Five pillars, CTPP oversight; 17 Jan 2025 application + first RTS + 18 Nov 2025 CTPP designation live-verified.
+- `docs/12-cybersecurity/cybersecurity-foundations.md` — Cybersecurity Foundations. ISO 27001/27002:2022, NIST CSF 2.0 (Govern function), OWASP Top 10:2025, zero trust, Cyber Resilience Act (Reg (EU) 2024/2847). Academic source: Saltzer & Schroeder (1975).
 
 ## [0.7.0] — 2026-07-11
 

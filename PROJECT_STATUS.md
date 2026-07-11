@@ -34,7 +34,7 @@
 
 ## In progress
 
-- **Tier 3 (security & resilience)** next: NIS2 (#10), DORA (#11), Cybersecurity (#12) — candidate for the next parallel cluster batch.
+- **Tier 3 cluster batch (#10–#12)** produced in parallel and **awaiting batch human gate**: `nis2-foundations`, `dora-foundations`, `cybersecurity-foundations`. Orchestrator re-verified all 34 links live and spot-checked NIS2 Art. 23/34 against EUR-Lex raw text (confirmed) and the DORA CTPP designation date.
 
 ## Pending work
 
