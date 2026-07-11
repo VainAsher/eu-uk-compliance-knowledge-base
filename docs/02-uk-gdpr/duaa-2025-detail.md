@@ -1,8 +1,8 @@
 ---
 id: duaa-2025-detail
 title: "Data (Use and Access) Act 2025: Detailed Analysis"
-version: 0.1.0
-status: in-review
+version: 1.0.0
+status: approved
 classification: public
 jurisdiction: [UK]
 topic: UK GDPR
@@ -26,15 +26,15 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | duaa-2025-detail |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.10.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
 | Last Updated | 2026-07-11 |
 | Review Due | 2027-07-11 |
 | Confidence | High |
-| Approved By | pending human review |
+| Approved By | Human reviewer — 2026-07-11 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**. The Data (Use and Access) Act 2025 is being **commenced in stages**; several provisions came into force on **5 February 2026**, the complaints-handling duty is scheduled for **19 June 2026**, and some governance provisions follow later. Confirm the in-force status of any specific provision before relying on it [1][3][9].
 
@@ -287,3 +287,4 @@ Labels: **OBLIGATION** / **BEST PRACTICE** / **EDITORIAL RECOMMENDATION**.
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against legislation.gov.uk (DUAA c.18, SI 2026/82, SI 2026/31, DPA 2018), GOV.UK commencement/changes guidance, ICO DUAA guidance suite and European Commission adequacy sources. **Staged commencement timetable live-verified: most Part 5 data-protection provisions in force 5 February 2026 (SI 2026/82); s.103 complaints scheduled 19 June 2026.** | — |
+| 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at sub-topics batch gate; commencement (SI 2026/82) verified; frozen in release 0.10.0. | Human reviewer |

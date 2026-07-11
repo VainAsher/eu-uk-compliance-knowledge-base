@@ -4,16 +4,18 @@ All notable changes to this repository. Format based on [Keep a Changelog](https
 
 ## [Unreleased]
 
-### Added (in-review — awaiting batch human gate; first depth-layer sub-topic cluster)
+_Nothing yet._
+
+## [0.10.0] — 2026-07-11
+
+### Added (first depth-layer sub-topic cluster — approved & frozen at v1.0.0; parallel cluster)
 - `docs/01-gdpr/gdpr-transfers.md` — GDPR International Transfers (Chapter V). SCCs/BCRs/adequacy/derogations; **EU-US DPF verified valid-but-contingent** (Latombe upheld at GC 3 Sep 2025; appeal C-703/25 P pending); UK IDTA/data-bridge.
 - `docs/02-uk-gdpr/duaa-2025-detail.md` — DUAA 2025 detailed analysis. Recognised legitimate interests, ADM (Arts 22A–22D), complaints; **commencement verified** (Part 5 in force 5 Feb 2026 via SI 2026/82; s.103 due 19 Jun 2026).
 - `docs/05-ai-act/ai-act-high-risk.md` — AI Act high-risk & conformity assessment. Annex III, Arts 8–15, CE marking, FRIA.
 - `docs/12-cybersecurity/cyber-resilience-act.md` — CRA product cybersecurity. PDE classes, vulnerability reporting, phased dates (full application 11 Dec 2027).
 
-### Flagged for maintenance (regulatory change surfaced by this batch)
-- **AI Omnibus now FORMALLY ADOPTED** (EP plenary 16 Jun 2026; **Council final approval 29 Jun 2026** — orchestrator-verified). The frozen `ai-act-foundations` (v1.0.0) records it as only "provisional"; a corrective maintenance revision is proposed at the human gate.
-
-## [0.9.0] — 2026-07-11
+### Changed (corrective maintenance — regulatory-change management)
+- `docs/05-ai-act/ai-act-foundations.md` bumped **v1.0.0 → v1.1.0**: the **AI Omnibus is now FORMALLY ADOPTED** (EP plenary 16 Jun 2026; **Council final approval 29 Jun 2026** — orchestrator-verified via the Council press release). Updated the change gate, exec summary, key takeaways, background, regulatory interpretation, operational guidance, risk R5, audit Q7 and references [6][7]; the reform is no longer "provisional." First live regulatory-change correction to a frozen document.
 
 ### Added (Tier 4 cluster batch — all approved & frozen at v1.0.0; parallel cluster — final foundation tier)
 - `docs/13-consumer-rights/consumer-rights-foundations.md` — Consumer Rights (EU & UK). CRD/UCPD/UCTD/DCD/SGD/Omnibus, CRA 2015, and DMCCA 2024 live-verified (consumer provisions in force 6 Apr 2025; subscription regime delayed to Spring 2027).

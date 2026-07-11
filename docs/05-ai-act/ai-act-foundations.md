@@ -1,7 +1,7 @@
 ---
 id: ai-act-foundations
 title: "EU AI Act: Foundations, Risk Tiers & Timeline"
-version: 1.0.0
+version: 1.1.0
 status: approved
 classification: public
 jurisdiction: [EU]
@@ -26,8 +26,8 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | ai-act-foundations |
-| Version | 1.0.0 |
-| Status | approved (frozen in release 0.6.0) |
+| Version | 1.1.0 |
+| Status | approved (frozen in release 0.10.0; supersedes v1.0.0 / 0.6.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
@@ -36,7 +36,7 @@ sources_verified: 2026-07-11
 | Confidence | High |
 | Approved By | Human reviewer — 2026-07-11 |
 
-**Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**. The AI Act's timeline is **actively changing**: an "AI Omnibus" simplification package reached provisional agreement in May 2026 but was **not yet formally adopted** at this document's date — always confirm the current in-force dates before relying on them.
+**Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**. **Update (v1.1.0):** the "AI Omnibus" simplification package was **formally adopted** on **29 June 2026** (Council final approval, following European Parliament plenary approval on 16 June 2026), postponing the main high-risk obligations; it enters into force on the third day after Official Journal publication. Always confirm the current in-force dates and the OJ citation before relying on them.
 
 # Executive Summary
 
@@ -44,7 +44,7 @@ The **EU Artificial Intelligence Act (Regulation (EU) 2024/1689**, "AI Act") is 
 
 This document establishes the foundations: the risk tiers and what each requires, the GPAI regime, the governance architecture (the **European AI Office**, AI Board, Scientific Panel), the **penalty** structure, the **phased application timeline**, and the AI Act's **relationship with the GDPR**. As of this document's date, the following are already in force: **prohibited practices and AI literacy (from 2 February 2025)** and **GPAI and governance obligations (from 2 August 2025)** [3].
 
-The most important — and most volatile — point concerns **high-risk timing**. Under the original text, most high-risk and transparency rules would apply from **2 August 2026**. However, the **"AI Omnibus"** simplification package (Commission proposal of 19 November 2025) reached a **provisional political agreement on 7 May 2026** to **postpone** high-risk obligations to **2 December 2027** (stand-alone listed use cases) and **2 August 2028** (AI as safety components in regulated products), and to shift AI-content transparency/watermarking to 2 December 2026 [4][5]. **That agreement still requires formal adoption by Parliament and Council** and is therefore treated here as a **proposal, not settled law** [5].
+The most important point concerns **high-risk timing**. Under the original text, most high-risk and transparency rules would apply from **2 August 2026**. However, the **"AI Omnibus"** simplification package (Commission proposal of 19 November 2025) was, after a provisional agreement on 7 May 2026, **formally adopted** — European Parliament plenary on **16 June 2026** and Council final approval on **29 June 2026** — postponing high-risk obligations to **2 December 2027** (stand-alone Annex III use cases) and **2 August 2028** (AI as safety components in regulated products), and shifting AI-content transparency/watermarking to 2 December 2026 [4][5][6][7]. It **enters into force on the third day after Official Journal publication**; confirm the OJ citation before relying on the exact dates [7].
 
 # Key Takeaways
 
@@ -53,7 +53,7 @@ The most important — and most volatile — point concerns **high-risk timing**
 - **Prohibited practices** (e.g., social scoring, certain manipulative AI, untargeted facial-image scraping, some biometric/emotion-recognition uses) and **AI literacy** duties apply from **2 February 2025** [3]. *(Legal obligation — in force.)*
 - **GPAI model** obligations (transparency, copyright, technical documentation) and the **governance** framework apply from **2 August 2025**; GPAI models with **systemic risk** face additional risk-assessment and mitigation duties [3]. *(Legal obligation — in force.)*
 - **High-risk** systems face the heaviest duties (risk management, data governance, logging, documentation, human oversight, robustness/cybersecurity, conformity assessment) [1][3]. *(Legal obligation.)*
-- **Timeline in flux:** the **AI Omnibus** provisional agreement (7 May 2026) would postpone high-risk application to **2 Dec 2027 / 2 Aug 2028**, but **requires formal adoption** — treat as a proposal [4][5]. *(Proposal, not in force.)*
+- **Timeline updated:** the **AI Omnibus** was **adopted** (EP 16 Jun 2026; Council 29 Jun 2026), postponing high-risk application to **2 Dec 2027 / 2 Aug 2028**; it binds on OJ publication (+3 days) [6][7]. *(Adopted; in force on OJ publication.)*
 - **Penalties** are severe: up to **€35 million or 7% of worldwide annual turnover** for prohibited-practice breaches (Art. 99) [1]. *(Legal obligation.)*
 - The AI Act **operates alongside the GDPR**; where AI processes personal data, both apply, and DPbDD (see `privacy-engineering-foundations`) remains required [1][2]. *(Legal obligation.)*
 
@@ -85,7 +85,7 @@ This document is the Tier 2 entry point for AI regulation. It supports legal res
 
 # Background
 
-AI systems increasingly make or inform consequential decisions, creating risks to safety and fundamental rights that existing law addressed only partially. The EU responded with a **horizontal, risk-based** Regulation rather than sector-by-sector rules, aiming to protect health, safety and fundamental rights while supporting innovation and a single market for trustworthy AI [3]. The AI Act was adopted in 2024 with a deliberately **staggered application** to give providers, deployers and standards bodies time to prepare [1][3]. During 2025 the Commission launched a broader **simplification agenda** ("Digital Omnibus"), part of which — the **AI Omnibus** — proposes to adjust the AI Act's timeline and reduce administrative burden; that proposal was progressing through the legislature at this document's date [4][5].
+AI systems increasingly make or inform consequential decisions, creating risks to safety and fundamental rights that existing law addressed only partially. The EU responded with a **horizontal, risk-based** Regulation rather than sector-by-sector rules, aiming to protect health, safety and fundamental rights while supporting innovation and a single market for trustworthy AI [3]. The AI Act was adopted in 2024 with a deliberately **staggered application** to give providers, deployers and standards bodies time to prepare [1][3]. During 2025 the Commission launched a broader **simplification agenda** ("Digital Omnibus"), part of which — the **AI Omnibus** — adjusts the AI Act's timeline and reduces administrative burden; it was **adopted** by the European Parliament (16 June 2026) and the Council (29 June 2026) [6][7].
 
 # Legal Framework
 
@@ -133,7 +133,7 @@ Not Applicable at the foundational level — the AI Act is recent and its high-r
 - **Transparency (Art. 50):** users must be told when they interact with AI (e.g., chatbots), and providers of generative AI must ensure AI-generated content is **identifiable** (labelling of deepfakes/synthetic content) [3]. *(Legal obligation, as interpreted.)*
 - **GPAI:** providers must meet transparency and copyright duties; **systemic-risk** models require risk assessment and mitigation, supported by guidelines and a **Code of Practice** [3]. *(Regulatory interpretation.)*
 - **Governance:** the **AI Office** (within the Commission), an **AI Board**, a **Scientific Panel** and an **Advisory Forum** oversee implementation and enforcement [3]. *(Regulatory interpretation.)*
-- **Reform (AI Omnibus):** the Commission and co-legislators reached a **provisional agreement (7 May 2026)** to postpone high-risk application (to 2 Dec 2027 / 2 Aug 2028) and adjust content-transparency timing; this **requires formal adoption** and is not yet law [4][5]. *(Proposal — track, do not pre-implement the delay as certainty.)*
+- **Reform (AI Omnibus):** after a provisional agreement (7 May 2026), the package was **formally adopted** — EP plenary 16 June 2026 and Council 29 June 2026 — postponing high-risk application (to 2 Dec 2027 / 2 Aug 2028) and adjusting content-transparency timing; it binds on OJ publication [6][7]. *(Adopted; confirm the OJ citation. Detailed in `ai-act-high-risk`.)*
 
 # Technical Considerations
 
@@ -160,8 +160,8 @@ Not Applicable at the foundational level — the AI Act is recent and its high-r
 *This document is itself the AI-regulation foundation; the "AI Considerations" here concern interaction with other AI regimes.*
 
 - **GDPR overlap** — where an AI system processes personal data, the **GDPR applies in full alongside** the AI Act; lawful basis, DPbDD, DPIAs and (for solely automated decisions) Art. 22 remain relevant [1][2]. *(Legal obligation.)*
-- **AI governance/standards** — operationalising AI Act duties benefits from **ISO/IEC 42001** (AI management systems); covered in `ai-governance-foundations` [6]. *(Best practice.)*
-- **Product-safety overlap** — high-risk AI embedded in regulated products interacts with EU sectoral/product-safety law (extended transition to 2 Aug 2028 under the AI Omnibus proposal) [4][5]. *(Cross-reference.)*
+- **AI governance/standards** — operationalising AI Act duties benefits from **ISO/IEC 42001** (AI management systems); covered in `ai-governance-foundations` [8]. *(Best practice.)*
+- **Product-safety overlap** — high-risk AI embedded in regulated products interacts with EU sectoral/product-safety law (extended transition to 2 Aug 2028 under the adopted AI Omnibus) [6][7]. *(Cross-reference.)*
 
 # Operational Guidance
 
@@ -173,7 +173,7 @@ Labels: **OBLIGATION** / **BEST PRACTICE** / **EDITORIAL RECOMMENDATION**.
 4. **Meet GPAI duties** if you provide GPAI models (transparency, copyright, documentation). *(OBLIGATION — in force.)* [3]
 5. **Prepare high-risk controls now** even though timing may shift — risk management, data governance, logging, oversight. *(BEST PRACTICE — obligation once applicable.)* [1]
 6. **Implement Art. 50 transparency** for chatbots and synthetic content. *(OBLIGATION.)* [1][3]
-7. **Track the AI Omnibus** — plan to the current legal dates; do not assume the delay until formally adopted. *(EDITORIAL RECOMMENDATION.)* [4][5]
+7. **Plan to the adopted AI Omnibus dates** — high-risk applies 2 Dec 2027 (standalone) / 2 Aug 2028 (embedded); confirm OJ entry into force. *(EDITORIAL RECOMMENDATION.)* [6][7]
 8. **Run AI and GDPR compliance together** — DPIAs and DPbDD alongside AI Act conformity work. *(OBLIGATION + BEST PRACTICE.)* [1][2]
 
 # Risk Register
@@ -184,7 +184,7 @@ Labels: **OBLIGATION** / **BEST PRACTICE** / **EDITORIAL RECOMMENDATION**.
 | R2 | Misclassifying a high-risk system as minimal | Medium | High | Art. 6, Annex III [1] | Documented tier assessment; re-assess on change | Low |
 | R3 | Missing GPAI provider obligations | Medium | High | Arts. 51–56 [1][3] | GPAI documentation, copyright, transparency | Low |
 | R4 | No Art. 50 transparency for chatbots/deepfakes | Medium | Medium | Art. 50 [1][3] | AI-interaction disclosure; content marking | Low |
-| R5 | Assuming the AI Omnibus delay is in force | Medium | High | Provisional agreement [4][5] | Plan to current legal dates; track adoption | Medium |
+| R5 | Relying on exact high-risk dates before OJ publication | Medium | Medium | AI Omnibus adopted 29 Jun 2026 [6][7] | Track OJ publication; plan to 2 Dec 2027 / 2 Aug 2028 | Low |
 | R6 | Treating AI Act compliance as replacing GDPR | Medium | High | Parallel application [1][2] | Joint AI + data-protection programme | Low |
 | R7 | Weak data governance/logging for high-risk | Medium | High | Arts. 10, 12 [1] | Data-quality controls; automatic logging | Medium |
 
@@ -215,7 +215,7 @@ Labels: **OBLIGATION** / **BEST PRACTICE** / **EDITORIAL RECOMMENDATION**.
 4. If you provide GPAI models, how do you meet transparency, copyright and documentation duties? *(Arts. 51–56 [1][3].)*
 5. For high-risk systems, how are risk management, data governance, logging and human oversight implemented? *(Arts. 8–15 [1].)*
 6. How do you meet Art. 50 transparency for chatbots and synthetic content? *(Art. 50 [1][3].)*
-7. How are you tracking the AI Omnibus without pre-implementing unadopted timelines? *([4][5].)*
+7. How are you preparing for the adopted AI Omnibus high-risk dates (2 Dec 2027 / 2 Aug 2028)? *([6][7].)*
 8. How are AI Act and GDPR obligations run together (DPIAs, DPbDD)? *([1][2].)*
 
 # Implementation Checklist
@@ -243,11 +243,13 @@ Labels: **OBLIGATION** / **BEST PRACTICE** / **EDITORIAL RECOMMENDATION**.
 
 - [3] **Regulatory framework on AI / AI Act.** European Commission, Shaping Europe's Digital Future. https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
 - [4] **Digital Omnibus on AI — regulation proposal.** European Commission. https://digital-strategy.ec.europa.eu/en/library/digital-omnibus-ai-regulation-proposal
-- [5] **AI Act: deal on simplification measures, ban on "nudifier" apps** (provisional agreement 7 May 2026; new high-risk dates 2 Dec 2027 / 2 Aug 2028; awaiting formal adoption). European Parliament. https://www.europarl.europa.eu/news/en/press-room/20260427IPR42011/ai-act-deal-on-simplification-measures-ban-on-nudifier-apps
+- [5] **AI Act: deal on simplification measures, ban on "nudifier" apps** (provisional agreement 7 May 2026; new high-risk dates 2 Dec 2027 / 2 Aug 2028). European Parliament. https://www.europarl.europa.eu/news/en/press-room/20260427IPR42011/ai-act-deal-on-simplification-measures-ban-on-nudifier-apps
+- [6] **AI Act: EP approves simplification measures and "nudifier" app ban** (European Parliament plenary adoption, 16 June 2026, 423–57–174). European Parliament. https://www.europarl.europa.eu/news/en/press-room/20260611IPR45207/ai-act-ep-approves-simplification-measures-and-nudifier-app-ban
+- [7] **Artificial Intelligence: Council gives final green light to simplify and streamline rules** (Council of the EU final adoption, 29 June 2026; enters into force on the third day after OJ publication). Council of the EU. https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/
 
 ## Standards
 
-- [6] **ISO/IEC 42001** — Artificial Intelligence Management System (AIMS). ISO. https://www.iso.org/standard/42001
+- [8] **ISO/IEC 42001** — Artificial Intelligence Management System (AIMS). ISO. https://www.iso.org/standard/42001
 
 ## Academic Sources
 
@@ -275,3 +277,4 @@ Not Applicable — this foundational reference relies on primary legislation and
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (Reg (EU) 2024/1689), European Commission and European Parliament sources; phased timeline and AI Omnibus provisional-agreement status live-verified. | — |
 | 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at human review gate; frozen in release 0.6.0. First Tier 2 document. | Human reviewer |
+| 1.1.0 | 2026-07-11 | Repository Maintainer (virtual agent) | Corrective maintenance revision: AI Omnibus now **formally adopted** (EP plenary 16 Jun 2026; Council final approval 29 Jun 2026) — updated change gate, exec summary, key takeaways, background, regulatory interpretation, operational guidance, risk R5, audit Q7 and references [6][7]; ISO 42001 renumbered [6]→[8]. Surfaced by the `ai-act-high-risk` sub-topic and orchestrator-verified. Re-frozen in release 0.10.0. | Human reviewer |

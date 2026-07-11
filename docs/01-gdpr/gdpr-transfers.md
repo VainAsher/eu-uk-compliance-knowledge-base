@@ -1,8 +1,8 @@
 ---
 id: gdpr-transfers
 title: "GDPR: International Data Transfers (Chapter V)"
-version: 0.1.0
-status: in-review
+version: 1.0.0
+status: approved
 classification: public
 jurisdiction: [EU, UK]
 topic: GDPR (EU)
@@ -26,15 +26,15 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | gdpr-transfers |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.10.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
 | Last Updated | 2026-07-11 |
 | Review Due | 2027-07-11 |
 | Confidence | High |
-| Approved By | pending human review |
+| Approved By | Human reviewer — 2026-07-11 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**. **Time-sensitive area:** the validity of the **EU-US Data Privacy Framework** is the subject of a **pending appeal before the Court of Justice (Case C-703/25 P)** and further legal pressure arising in mid-2026 — always confirm its current status before relying on it (see Executive Summary and Legal Framework). This document details Chapter V of `gdpr-foundations`.
 
@@ -308,3 +308,4 @@ Not Applicable — this reference relies on primary legislation, CJEU judgments,
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (GDPR Ch. V; Decisions 2021/914 and 2023/1795), CJEU (Schrems I/II; Latombe T-553/23 and appeal C-703/25 P), EDPB Rec 01/2020, European Commission, ICO and GOV.UK. **EU-US DPF current status live-verified 2026-07-11.** | — |
+| 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at sub-topics batch gate; EU-US DPF status independently confirmed; frozen in release 0.10.0. | Human reviewer |

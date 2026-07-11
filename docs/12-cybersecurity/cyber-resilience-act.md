@@ -1,8 +1,8 @@
 ---
 id: cyber-resilience-act
 title: "EU Cyber Resilience Act: Product Cybersecurity Foundations"
-version: 0.1.0
-status: in-review
+version: 1.0.0
+status: approved
 classification: public
 jurisdiction: [EU]
 topic: Cybersecurity
@@ -26,15 +26,15 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | cyber-resilience-act |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.10.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
 | Last Updated | 2026-07-11 |
 | Review Due | 2027-07-11 |
 | Confidence | High |
-| Approved By | pending human review |
+| Approved By | Human reviewer — 2026-07-11 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**. The CRA is a **Regulation** (directly applicable, no national transposition) but is in a **phased transition**: reporting duties apply from **11 September 2026** and the substantive requirements from **full application on 11 December 2027**. The **harmonised standards** that will operationalise the essential requirements are **still under development** by CEN/CENELEC/ETSI. Confirm the current application dates and the state of harmonised standards before relying on them [1][5][8].
 
@@ -301,3 +301,4 @@ Not Applicable — this foundational reference relies on the primary Regulation 
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (Regulation (EU) 2024/2847), the European Commission CRA summary/policy pages, ENISA (Single Reporting Platform; JRC/ENISA standards mapping), and standards (ETSI EN 303 645, ISO/IEC 27001, NIST CSF 2.0). **Phased application dates live-verified on 2026-07-11** against EUR-Lex (Art. 71) and the Commission summary: entry into force 10 Dec 2024; notified-body provisions 11 Jun 2026; reporting obligations 11 Sep 2026; full application 11 Dec 2027. Article numbering (Art. 13 manufacturers, Art. 14 reporting, Art. 16 SRP, Arts. 19–20 importers/distributors, Art. 24 stewards, Arts. 29–32 CE/conformity, Art. 64 penalties, Annex I/III/IV), the ≥5-year support period (Art. 13(8)) and the Art. 64 fines (€15m/2.5%; €10m/2%; €5m/1%) verified. All 11 external links returned HTTP 200. | — |
+| 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at sub-topics batch gate; CRA phased dates cross-verified; frozen in release 0.10.0. | Human reviewer |

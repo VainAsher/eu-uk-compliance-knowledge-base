@@ -1,8 +1,8 @@
 ---
 id: ai-act-high-risk
 title: "EU AI Act: High-Risk Systems & Conformity Assessment"
-version: 0.1.0
-status: in-review
+version: 1.0.0
+status: approved
 classification: public
 jurisdiction: [EU]
 topic: AI Act
@@ -26,15 +26,15 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | ai-act-high-risk |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.10.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
 | Last Updated | 2026-07-11 |
 | Review Due | 2027-07-11 |
 | Confidence | Medium |
-| Approved By | <pending human review> |
+| Approved By | Human reviewer — 2026-07-11 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**. It is a Tier 2 **deep-dive** that details the high-risk material introduced at overview level in `ai-act-foundations`; it does not repeat that overview. **Timeline warning:** the high-risk application dates were amended by the **"AI Omnibus"** simplification package, which — unlike the position recorded in the parent foundation document — was **formally adopted by both co-legislators in June 2026** (European Parliament plenary, 16 June 2026; Council final approval, 29 June 2026) and was awaiting **publication in the Official Journal** at this document's date. The revised dates become legally binding only on that publication (entry into force on the third day thereafter) — confirm the OJ citation before relying on them [3][4][5][6].
 
@@ -314,3 +314,4 @@ Labels: **OBLIGATION** / **BEST PRACTICE** / **EDITORIAL RECOMMENDATION**.
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft. Deep-dive on AI Act high-risk classification (Arts. 6–7, Annexes I/III, Art. 6(3) filter), requirements (Arts. 8–15), provider obligations and conformity chain (Arts. 16–25, 40–49, 71), and deployer obligations incl. the FRIA (Arts. 26–27). Researched against EUR-Lex (Reg (EU) 2024/1689), European Commission and European Parliament sources. **High-risk timeline / AI Omnibus adoption status live-verified: found the package has now been FORMALLY ADOPTED (EP plenary 16 Jun 2026; Council final approval 29 Jun 2026), superseding the "provisional" status recorded in `ai-act-foundations`; OJ publication pending at this date.** All external links checked HTTP 200 on 2026-07-11 (Council/Consilium 29 Jun release corroborated via EP sources, as consilium.europa.eu bot-blocks curl). | — |
+| 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at sub-topics batch gate; AI Omnibus final adoption (Council 29 Jun 2026) orchestrator-verified; frozen in release 0.10.0. | Human reviewer |

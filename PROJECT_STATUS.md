@@ -1,7 +1,7 @@
 # Project Status
 
 **Last updated:** 2026-07-11
-**Maturity:** Stage 6 of 10 — *🏁 ALL 16 foundation topics approved & frozen (release 0.9.0). Foundation layer complete; next is depth (sub-topics), QA automation and publication.*
+**Maturity:** Stage 7 of 10 — *16 foundation topics + 4 depth sub-topics approved (release 0.10.0). Depth layer underway; QA automation and publication still ahead.*
 
 ## Maturity model (repository level)
 
@@ -36,8 +36,8 @@
 
 ## In progress
 
-- **First depth-layer sub-topic cluster (#17–#20)** produced in parallel, **awaiting batch human gate**: `gdpr-transfers`, `duaa-2025-detail`, `ai-act-high-risk`, `cyber-resilience-act`. Orchestrator re-verified all 60 links live and independently confirmed the AI Omnibus final adoption (Council 29 Jun 2026).
-- **⚠️ Maintenance item:** frozen `ai-act-foundations` needs a corrective revision (AI Omnibus now adopted, not provisional) — proposed at the gate.
+- **Depth layer underway** — 4 sub-topics approved & frozen (release 0.10.0). `ai-act-foundations` corrected to v1.1.0 (AI Omnibus adopted).
+- **Next candidates:** further sub-topic clusters (e.g. `dpia-methodology`, `ai-act-gpai`, `digital-omnibus`, `uk-transfers`, `cookie-consent-implementation`, `dora-tlpt`); plus QA automation, knowledge-graph export, and publication/RAG (see `PROJECT_HANDOVER.md`).
 
 ## Pending work
 
@@ -65,8 +65,8 @@
 
 | Metric | Value |
 |--------|-------|
-| Approved documents | 16 |
+| Approved documents | 20 (16 foundations + 4 sub-topics) |
 | Draft documents | 0 |
 | Governance files | 9 |
-| Topics covered | 16 / 16 ✅ |
+| Topics covered | 16 / 16 ✅ (4 topics now have depth docs) |
 | Sources in registry | see `SOURCE_REGISTRY.md` |
