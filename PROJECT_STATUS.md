@@ -32,7 +32,7 @@
 
 ## In progress
 
-- **Document #5: AI Act Foundations** (`docs/05-ai-act/ai-act-foundations.md`) — first Tier 2 document; per `ROADMAP.md`.
+- **Tier 2 cluster batch (#6–#9)** produced in parallel and **awaiting batch human gate**: `ai-governance-foundations`, `data-act-foundations`, `dsa-foundations`, `dma-foundations`. All self-QA'd; orchestrator re-verified all 39 links live (2026-07-11) and citation contiguity.
 
 ## Pending work
 
@@ -60,8 +60,8 @@
 
 | Metric | Value |
 |--------|-------|
-| Approved documents | 4 |
-| Draft documents | 1 (Doc #5 in production) |
+| Approved documents | 5 |
+| Draft documents | 4 (Tier 2 batch #6–#9, in review) |
 | Governance files | 9 |
-| Topics covered | 4 / 16 |
+| Topics covered | 9 / 16 |
 | Sources in registry | see `SOURCE_REGISTRY.md` |

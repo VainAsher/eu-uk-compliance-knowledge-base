@@ -4,7 +4,7 @@ Shared, authoritative definitions of terms of art used across the knowledge base
 
 **Convention:** Each term cites its authoritative source. Where a term is defined in legislation, the statutory definition governs. Keys in the *Source* column reference `SOURCE_REGISTRY.md`.
 
-**Last updated:** 2026-07-11 (added AI system, GPAI model, high-risk AI system, AI Office for `ai-act-foundations`)
+**Last updated:** 2026-07-11 (added AI governance, AIMS, trustworthy AI, human oversight, connected product, data holder, intermediary service, online platform, VLOP/VLOSE, DSC, gatekeeper, CPS for the Tier 2 cluster batch)
 
 | Term | Definition | Source |
 |------|------------|--------|
@@ -33,5 +33,18 @@ Shared, authoritative definitions of terms of art used across the knowledge base
 | GPAI model | A general-purpose AI model with significant generality, capable of a wide range of distinct tasks (AI Act Art. 3(63)). | eurlex-aiact-eli |
 | High-risk AI system | An AI system within AI Act Art. 6 and Annex I/III, subject to the Chapter III obligations. | eurlex-aiact-eli / ec-ai-framework |
 | AI Office | The European Commission body overseeing GPAI and supporting AI Act implementation and enforcement. | ec-ai-framework |
+| AI governance | The organisational structures, policies, roles and processes that direct, resource and assure responsible development, deployment and use of AI systems. | iso-42001 / oecd-ai-principles |
+| AI management system (AIMS) | Interrelated elements an organisation uses to set AI policies/objectives and processes for responsible AI development and use (ISO/IEC 42001). | iso-42001 |
+| Trustworthy AI | AI that is valid/reliable, safe, secure/resilient, accountable/transparent, explainable, privacy-enhanced and fair with harmful bias managed (NIST characterisation). | nist-ai-rmf |
+| Human oversight | Measures enabling natural persons to understand, monitor, intervene in or override an AI system's operation (AI Act Art. 14). | eurlex-aiact-eli |
+| Connected product | An item that obtains, generates or collects data about its use/environment and can communicate product data (Data Act Art. 2(5)). | eurlex-dataact |
+| Data holder | A person with the right or obligation to use and make available data, including product/related-service data (Data Act Art. 2(13)). | eurlex-dataact |
+| Data processing service | An on-demand, scalable cloud or edge computing service (Data Act Art. 2(8)). | eurlex-dataact |
+| Intermediary service | A "mere conduit", "caching" or "hosting" service (DSA Art. 3(g)). | eurlex-dsa |
+| Online platform | A hosting service that stores and disseminates information to the public at a recipient's request (DSA Art. 3(i)). | eurlex-dsa |
+| VLOP / VLOSE | Very Large Online Platform / Search Engine designated for ≥45m average monthly active EU recipients (DSA Art. 33). | eurlex-dsa |
+| Digital Services Coordinator (DSC) | The independent national authority supervising DSA compliance and coordinating at EU level (DSA Art. 49). | eurlex-dsa |
+| Gatekeeper | An undertaking providing a core platform service, designated by the Commission under DMA Art. 3 (significant impact + important gateway + entrenched/durable position). | eurlex-dma |
+| Core platform service (CPS) | One of the DMA Art. 2(2) service categories to which gatekeeper obligations attach. | eurlex-dma |
 
 > Terms are added as documents introduce them. Do not redefine a glossary term inconsistently in a document; if a narrower meaning is needed, state it explicitly as document-specific.

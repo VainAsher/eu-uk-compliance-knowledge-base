@@ -2,7 +2,7 @@
 
 Canonical registry of authoritative sources cited across the knowledge base. Each source is classified and given a stable short key used in document References. Links are verified per document at that document's `sources_verified` date.
 
-**Last updated:** 2026-07-11 (added AI Act ELI, EC AI framework, Digital Omnibus on AI, EP AI-omnibus deal, ISO/IEC 42001 for `ai-act-foundations`)
+**Last updated:** 2026-07-11 (Tier 2 cluster batch: added AI-governance standards/frameworks (ISO 23894/22989/42005, NIST AI RMF + GenAI Profile, OECD, ICO/UK-Gov), Data Act, DSA and DMA official sources incl. enforcement press releases and a CJEU judgment)
 
 ## Classification classes
 
@@ -63,5 +63,32 @@ Canonical registry of authoritative sources cited across the knowledge base. Eac
 | ec-digital-omnibus-ai | Digital Omnibus on AI — regulation proposal | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/library/digital-omnibus-ai-regulation-proposal |
 | ep-ai-omnibus-deal | EP: AI Act deal on simplification (provisional, 7 May 2026) | Regulatory | European Parliament | https://www.europarl.europa.eu/news/en/press-room/20260427IPR42011/ai-act-deal-on-simplification-measures-ban-on-nudifier-apps |
 | iso-42001 | ISO/IEC 42001 — AI Management System | Standard | ISO/IEC | https://www.iso.org/standard/42001 |
+| ico-ai-guidance | Artificial intelligence — guidance for organisations | Regulatory | ICO (UK) | https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/ |
+| uk-ai-proinnovation | A pro-innovation approach to AI regulation | Regulatory | UK Gov (DSIT) | https://www.gov.uk/government/publications/a-pro-innovation-approach-to-ai-regulation |
+| ec-ai-office | The AI Office | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/policies/ai-office |
+| oecd-ai-recommendation | Recommendation of the Council on AI (OECD/LEGAL/0449) | Regulatory | OECD | https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0449 |
+| oecd-ai-principles | OECD AI Principles overview | Regulatory | OECD.AI | https://oecd.ai/en/ai-principles |
+| iso-23894 | ISO/IEC 23894:2023 — AI risk management | Standard | ISO/IEC | https://www.iso.org/standard/77304.html |
+| iso-22989 | ISO/IEC 22989:2022 — AI concepts and terminology | Standard | ISO/IEC | https://www.iso.org/standard/74296.html |
+| iso-42005 | ISO/IEC 42005:2025 — AI system impact assessment | Standard | ISO/IEC | https://www.iso.org/standard/42005 |
+| nist-ai-rmf | NIST AI Risk Management Framework (AI RMF 1.0) | Standard | NIST | https://www.nist.gov/itl/ai-risk-management-framework |
+| nist-ai-rmf-100-1 | NIST AI 100-1 — AI RMF 1.0 (Jan 2023) | Standard | NIST | https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf |
+| nist-ai-600-1 | NIST AI 600-1 — Generative AI Profile (26 Jul 2024) | Standard | NIST | https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf |
+| nist-ai-rmf-playbook | NIST AI RMF Playbook | Standard | NIST AIRC | https://airc.nist.gov/airmf-resources/playbook/ |
+| ec-data-act | Data Act (policy page) | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/policies/data-act |
+| ec-data-act-faq | Data Act explained (FAQ) | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/faqs/data-act-explained |
+| ec-cloud-switching | Switching cloud service providers | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/policies/cloud-switching |
+| eurlex-dga | Regulation (EU) 2022/868 (Data Governance Act) | Primary | EUR-Lex / EU | https://eur-lex.europa.eu/eli/reg/2022/868/oj |
+| ec-dsa-package | The Digital Services Act package (overview) | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/policies/digital-services-act-package |
+| ec-dsa-vlop-list | List of designated VLOPs and VLOSEs | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/policies/list-designated-vlops-and-vloses |
+| ec-dsa-first-designation | Commission designates first VLOPs/VLOSEs (IP/23/2413) | Regulatory | European Commission | https://ec.europa.eu/commission/presscorner/detail/en/ip_23_2413 |
+| ec-dsa-x-fine | Commission fines X €120m under the DSA (5 Dec 2025) | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/news/commission-fines-x-eu120-million-under-digital-services-act |
+| ec-dsa-tiktok-meta-prelim | Preliminary findings: TikTok & Meta breach DSA transparency (Oct 2025) | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktok-and-meta-breach-their-transparency-obligations-under-digital |
+| ec-dma-about | About the Digital Markets Act | Regulatory | European Commission | https://digital-markets-act.ec.europa.eu/about-dma_en |
+| ec-dma-gatekeepers | DMA designated gatekeepers portal | Regulatory | European Commission | https://digital-markets-act.ec.europa.eu/gatekeepers-portal_en |
+| ec-dma-comply-2024 | Designated gatekeepers must now comply (7 Mar 2024) | Regulatory | European Commission | https://digital-markets-act.ec.europa.eu/designated-gatekeepers-must-now-comply-all-obligations-under-digital-markets-act-2024-03-07_en |
+| ec-dma-apple-meta-breach | Commission finds Apple and Meta in breach of the DMA (23 Apr 2025) | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/news/commission-finds-apple-and-meta-breach-digital-markets-act |
+| ec-ip-25-1085 | Apple/Meta DMA breach — press release IP/25/1085 | Regulatory | European Commission | https://ec.europa.eu/commission/presscorner/detail/en/ip_25_1085 |
+| curia-cp-96-26-apple-dma | GC judgment 8 Jul 2026, Apple v Commission (T-1079/23 etc.), CP 96/26 | Primary | CJEU | https://curia.europa.eu/site/upload/docs/application/pdf/2026-07/cp260096en.pdf |
 
 > Additional sources are appended as documents cite them. Never cite a source not verified live at the citing document's `sources_verified` date.

@@ -18,6 +18,10 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 | eprivacy-foundations | ePrivacy: Foundations, Cookies & Electronic Communications | ePrivacy | 1 | EU, UK | 1.0.0 | approved | High | `docs/03-eprivacy/eprivacy-foundations.md` |
 | privacy-engineering-foundations | Privacy Engineering: Foundations, DPbDD | Privacy Engineering | 1 | EU, UK | 1.0.0 | approved | High | `docs/04-privacy-engineering/privacy-engineering-foundations.md` |
 | ai-act-foundations | EU AI Act: Foundations, Risk Tiers & Timeline | AI Act | 2 | EU | 1.0.0 | approved | High | `docs/05-ai-act/ai-act-foundations.md` |
+| ai-governance-foundations | AI Governance: Foundations, ISO/IEC 42001 & Operational Assurance | AI Governance | 2 | EU, UK | 0.1.0 | in-review | High | `docs/06-ai-governance/ai-governance-foundations.md` |
+| data-act-foundations | EU Data Act: Foundations, Data Access & Sharing | Data Act | 2 | EU | 0.1.0 | in-review | High | `docs/07-data-act/data-act-foundations.md` |
+| dsa-foundations | EU Digital Services Act: Foundations & Platform Obligations | Digital Services | 2 | EU | 0.1.0 | in-review | High | `docs/08-digital-services/dsa-foundations.md` |
+| dma-foundations | EU Digital Markets Act: Foundations & Gatekeeper Obligations | Digital Markets | 2 | EU | 0.1.0 | in-review | High | `docs/09-digital-markets/dma-foundations.md` |
 
 ## Topic coverage (16 programme topics)
 
@@ -26,14 +30,14 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 | GDPR (EU) | 1 | 1 approved; sub-topics in backlog |
 | UK GDPR | 1 | 1 approved; sub-topics in backlog |
 | AI Act | 1 | 1 approved; sub-topics in backlog |
-| Data Act | 0 | not started |
+| Data Act | 1 | 1 in review; sub-topics in backlog |
 | NIS2 | 0 | not started |
 | DORA | 0 | not started |
 | ePrivacy | 1 | 1 approved; sub-topics in backlog |
 | Consumer Rights | 0 | not started |
-| Digital Services | 0 | not started |
-| Digital Markets | 0 | not started |
-| AI Governance | 0 | not started |
+| Digital Services | 1 | 1 in review; sub-topics in backlog |
+| Digital Markets | 1 | 1 in review; sub-topics in backlog |
+| AI Governance | 1 | 1 in review; sub-topics in backlog |
 | Privacy Engineering | 1 | 1 approved; sub-topics in backlog |
 | Cloud Hosting | 0 | not started |
 | Game Hosting | 0 | not started |
@@ -58,3 +62,7 @@ _Populated as documents are approved. Format: `doc-a → relationship → doc-b`
 - `ai-act-foundations` → *operates alongside* → `gdpr-foundations`
 - `ai-act-foundations` → *operationalised by* → `ai-governance-foundations`
 - `ai-act-foundations` → *detailed by* → `ai-act-high-risk`, `ai-act-gpai`, `ai-act-prohibited-practices`, `digital-omnibus` (planned)
+- `ai-governance-foundations` → *operationalises* → `ai-act-foundations`; *integrates with* → `gdpr-foundations`; *builds on* → `privacy-engineering-foundations`
+- `data-act-foundations` → *complements* → `gdpr-foundations` (GDPR prevails on personal-data conflict); *adjacent to* → `ai-act-foundations`
+- `dsa-foundations` → *sibling of* → `dma-foundations` (Digital Services package); *overlaps* → `ai-act-foundations`, `gdpr-foundations`
+- `dma-foundations` → *complements* → `dsa-foundations`; *relates to* → `gdpr-foundations` (consent, Art. 5(2) DMA)

@@ -4,8 +4,8 @@ All notable changes to this repository. Format based on [Keep a Changelog](https
 
 ## [Unreleased]
 
-### Added (in-review — awaiting batch human gate)
-- `docs/06-ai-governance/ai-governance-foundations.md` — *(produced by parallel cluster; pending)*.
+### Added (in-review — awaiting batch human gate; produced by the parallel cluster)
+- `docs/06-ai-governance/ai-governance-foundations.md` — AI Governance Foundations (v0.1.0, in-review). ISO/IEC 42001, NIST AI RMF (+GenAI Profile), OECD Principles, operational assurance; 16 references, all links verified.
 - `docs/07-data-act/data-act-foundations.md` — EU Data Act Foundations (v0.1.0, in-review). Data access/sharing, IoT connected products, cloud switching; application 12 Sep 2025 live-verified.
 - `docs/08-digital-services/dsa-foundations.md` — EU DSA Foundations (v0.1.0, in-review). Platform tiers, VLOPs/VLOSEs, notice-and-action; X €120m fine (Dec 2025) live-verified.
 - `docs/09-digital-markets/dma-foundations.md` — EU DMA Foundations (v0.1.0, in-review). Gatekeepers (7 designated), do's/don'ts; Apple €500m/Meta €200m (Apr 2025) live-verified.
