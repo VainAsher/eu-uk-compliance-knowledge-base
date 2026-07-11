@@ -4,7 +4,15 @@ All notable changes to this repository. Format based on [Keep a Changelog](https
 
 ## [Unreleased]
 
-*Nothing yet.*
+### Added (second depth-layer sub-topic cluster — in-review, awaiting batch gate; parallel cluster; workers self-ran the QA validators)
+
+- `docs/04-privacy-engineering/dpia-methodology.md` — DPIA methodology (Art. 35/36, WP248, ICO list & template, ISO 29134).
+- `docs/05-ai-act/ai-act-gpai.md` — GPAI & systemic risk (Arts. 51–56; **GPAI Code of Practice published 10 Jul 2025**; 10²⁵ FLOP; GPAI **not** postponed by the AI Omnibus).
+- `docs/03-eprivacy/digital-omnibus.md` — the Digital Omnibus package: **AI strand adopted** vs **data/ePrivacy strand proposed** (with an adopted-vs-proposed table). Confidence Medium.
+- `docs/02-uk-gdpr/uk-transfers.md` — UK transfers: data bridges, IDTA/Addendum, TRA; **DUAA "data protection test" in force 5 Feb 2026** (SI 2026/82 reg. 2).
+- `docs/03-eprivacy/cookie-consent-implementation.md` — cookie consent & CMPs; **EDPB Opinion 08/2024** (consent or pay) + **IAB Europe C-604/22** (TC String personal data).
+- `docs/11-dora/dora-tlpt.md` — DORA threat-led penetration testing; **RTS on TLPT finalised** (Delegated Reg (EU) 2025/1190, in force 8 Jul 2025) + TIBER-EU alignment.
+- Full-repo QA: `validate.py` **26/26 files, 0 issues**; `check_links.py` **237/238 live** (1 allowlisted).
 
 ## [0.10.1] — 2026-07-11
 

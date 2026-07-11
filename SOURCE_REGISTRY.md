@@ -2,7 +2,7 @@
 
 Canonical registry of authoritative sources cited across the knowledge base. Each source is classified and given a stable short key used in document References. Links are verified per document at that document's `sources_verified` date.
 
-**Last updated:** 2026-07-11 (sub-topics batch: added transfers sources incl. EU-US DPF decision, 2021 SCCs, Schrems I/Latombe + appeal, UK IDTA/data-bridge; DUAA commencement SIs + ICO DUAA guidance; AI Omnibus adoption (EP 16 Jun + Council 29 Jun 2026), CEN-CENELEC, Veale & Borgesius; CRA SRP/standards-mapping, ETSI EN 303 645.)
+**Last updated:** 2026-07-11 (sub-topics batch 2: added GPAI Code of Practice + EC GPAI guidance; DORA TLPT RTS 2025/1190 + TIBER-EU + NIST SP 800-115; cookie-consent sources incl. IAB Europe C-604/22, EDPB Opinion 08/2024 and Guidelines 2/2023·05/2020·03/2022, Nouwens et al.; DPIA sources (WP248, ICO DPIA pages/template, ISO 29134); UK-transfers DUAA ss.85/Sch.7, SI 2026/82 reg.2, DPA 2018 s.119A, ICO adequacy regs.)
 
 ## Classification classes
 
@@ -182,5 +182,37 @@ Canonical registry of authoritative sources cited across the knowledge base. Eac
 | enisa-cra-srp | CRA Single Reporting Platform (SRP) | Regulatory | ENISA | https://www.enisa.europa.eu/topics/product-security-and-certification/single-reporting-platform-srp |
 | enisa-jrc-cra-standards-mapping | CRA Requirements — Standards Mapping (JRC & ENISA) | Regulatory | ENISA / EC JRC | https://www.enisa.europa.eu/publications/cyber-resilience-act-requirements-standards-mapping |
 | etsi-en-303-645 | ETSI EN 303 645 — Cyber Security for Consumer IoT | Standard | ETSI | https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.01_60/en_303645v020101p.pdf |
+| ec-gpai-obligations | General-purpose AI obligations under the AI Act (factpage) | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/factpages/general-purpose-ai-obligations-under-ai-act |
+| ec-gpai-cop | The General-Purpose AI Code of Practice | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai |
+| ec-gpai-qa | GPAI Models in the AI Act — Q&A | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/faqs/general-purpose-ai-models-ai-act-questions-answers |
+| ec-gpai-guidelines-2025 | Guidelines on scope of obligations for GPAI providers (18 Jul 2025) | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/library/guidelines-scope-obligations-providers-general-purpose-ai-models-under-ai-act |
+| ec-gpai-incident-template | Reporting template for serious incidents (GPAI systemic risk) | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/library/ai-act-commission-publishes-reporting-template-serious-incidents-involving-general-purpose-ai |
+| gpai-code-of-practice-final | EU AI Act GPAI Code of Practice — final text (published 10 Jul 2025) | Regulatory | AI Office multi-stakeholder process | https://code-of-practice.ai/ |
+| aiact-eu-article-51 | AI Act Article 51 (annotated) — GPAI systemic-risk classification | Further | artificialintelligenceact.eu | https://artificialintelligenceact.eu/article/51/ |
+| eurlex-dora-rts-tlpt-1190 | Delegated Regulation (EU) 2025/1190 — RTS on TLPT (DORA Art. 26(11)) | Primary | EUR-Lex / EU | https://eur-lex.europa.eu/eli/reg_del/2025/1190/oj |
+| eba-dora-tlpt-rts | Joint RTS specifying elements related to threat-led penetration tests | Regulatory | EBA (for the ESAs) | https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/joint-regulatory-technical-standards-specifying-elements-related-threat-led-penetration-tests |
+| ecb-tiber-eu-dora-2025 | TIBER-EU updated to align with DORA (11 Feb 2025) | Regulatory | ECB | https://www.ecb.europa.eu/press/intro/news/html/ecb.mipnews250211.en.html |
+| ecb-tiber-eu | TIBER-EU framework (cyber-resilience hub) | Regulatory | ECB | https://www.ecb.europa.eu/paym/cyber-resilience/tiber-eu/html/index.en.html |
+| ecb-tiber-ssm-guide-2025 | TIBER-EU Guide for DORA TLPT (SSM guide, Nov 2025) | Regulatory | ECB Banking Supervision | https://www.bankingsupervision.europa.eu/ecb/pub/pdf/ssm.supervisory_guide202511.en.pdf |
+| nist-sp-800-115 | NIST SP 800-115 — Technical Guide to Information Security Testing | Standard | NIST | https://csrc.nist.gov/pubs/sp/800/115/final |
+| case-iab-europe | IAB Europe, C-604/22, ECLI:EU:C:2024:214 (7 Mar 2024) | Primary | CJEU | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A62022CJ0604 |
+| edpb-opinion-08-2024 | Opinion 08/2024 (valid consent — consent or pay) | Regulatory | EDPB | https://www.edpb.europa.eu/our-work-tools/our-documents/opinion-board-art-64/opinion-082024-valid-consent-context-consent-or_en |
+| edpb-guidelines-2-2023 | Guidelines 2/2023 technical scope of Art. 5(3) ePrivacy | Regulatory | EDPB | https://www.edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-22023-technical-scope-art-53-eprivacy-directive_en |
+| edpb-guidelines-05-2020 | Guidelines 05/2020 on consent | Regulatory | EDPB | https://www.edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-052020-consent-under-regulation-2016679_en |
+| edpb-guidelines-03-2022 | Guidelines 03/2022 on deceptive design patterns | Regulatory | EDPB | https://www.edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-032022-deceptive-design-patterns-social-media_en |
+| apd-iab-europe | IAB Europe case — CJEU answers (Belgian DPA) | Regulatory | Belgian DPA (APD/GBA) | https://www.dataprotectionauthority.be/citizen/iab-europe-case-the-cjeu-answers-the-questions-referred-for-a-preliminary-ruling |
+| nouwens-dark-patterns-2020 | Nouwens et al., "Dark Patterns after the GDPR" (CHI 2020) | Academic | arXiv | https://arxiv.org/abs/2001.02479 |
+| wp248-dpia | Guidelines on DPIA and "likely to result in a high risk" (WP248 rev.01) | Regulatory | Art. 29 WP (EDPB-endorsed) | https://ec.europa.eu/newsroom/article29/item-detail.cfm?item_id=611236 |
+| edpb-endorsed-wp29 | Endorsed WP29 Guidelines | Regulatory | EDPB | https://www.edpb.europa.eu/our-work-tools/general-guidance/endorsed-wp29-guidelines_en |
+| ico-dpia | Data Protection Impact Assessments (DPIAs) | Regulatory | ICO (UK) | https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/ |
+| ico-dpia-when | ICO — When do we need to do a DPIA? | Regulatory | ICO (UK) | https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/when-do-we-need-to-do-a-dpia/ |
+| ico-dpia-how | ICO — How do we do a DPIA? | Regulatory | ICO (UK) | https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/how-do-we-do-a-dpia/ |
+| ico-dpia-template | ICO — Sample DPIA template | Regulatory | ICO (UK) | https://ico.org.uk/media2/migrated/2553993/dpia-template.docx |
+| iso-29134 | ISO/IEC 29134:2023 — Guidelines for privacy impact assessment | Standard | ISO/IEC | https://www.iso.org/standard/86012.html |
+| duaa-2025-s85 | Data (Use and Access) Act 2025, s.85 (international transfers) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/ukpga/2025/18/section/85 |
+| duaa-2025-sch7 | Data (Use and Access) Act 2025, Sch. 7 (transfers; Art. 44A; data protection test) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/ukpga/2025/18/schedule/7 |
+| duaa-comm6-2026-reg2 | DUAA 2025 (Commencement No. 6) Regs 2026, reg. 2 (transfers in force 5 Feb 2026) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/uksi/2026/82/regulation/2/made |
+| dpa-2018-s119a | Data Protection Act 2018, s.119A (standard clauses — IDTA/Addendum) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/ukpga/2018/12/section/119A |
+| ico-adequacy-regs | ICO — Adequacy regulations (UK data-bridge list) | Regulatory | ICO (UK) | https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/international-transfers/adequacy-regulations/ |
 
 > Additional sources are appended as documents cite them. Never cite a source not verified live at the citing document's `sources_verified` date.

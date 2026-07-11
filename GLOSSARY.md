@@ -4,7 +4,7 @@ Shared, authoritative definitions of terms of art used across the knowledge base
 
 **Convention:** Each term cites its authoritative source. Where a term is defined in legislation, the statutory definition governs. Keys in the *Source* column reference `SOURCE_REGISTRY.md`.
 
-**Last updated:** 2026-07-11 (sub-topics batch: added restricted transfer, SCCs, BCRs, TIA, IDTA, recognised legitimate interest, conformity assessment, notified body, FRIA, SBOM)
+**Last updated:** 2026-07-11 (sub-topics batch 2: added DPIA, prior consultation, GPAI systemic risk, GPAI Code of Practice, CMP, TC String, consent or pay, cookie wall, TIBER-EU, data protection test, Digital Omnibus)
 
 | Term | Definition | Source |
 |------|------------|--------|
@@ -80,5 +80,16 @@ Shared, authoritative definitions of terms of art used across the knowledge base
 | Notified body | A conformity-assessment body designated to perform third-party conformity assessment under EU harmonisation law (AI Act; CRA). | eurlex-aiact-eli |
 | Fundamental-rights impact assessment (FRIA) | The AI Act Art. 27 assessment certain deployers must run before deploying an Annex III high-risk AI system. | eurlex-aiact-eli |
 | Software Bill of Materials (SBOM) | A machine-readable inventory of a product's software components/dependencies; required for CRA vulnerability handling. | eurlex-cra |
+| Data Protection Impact Assessment (DPIA) | An assessment of the impact of envisaged processing on data protection, required where processing is likely to result in a high risk to individuals (GDPR Art. 35). | eurlex-gdpr / wp248-dpia |
+| Prior consultation | The GDPR Art. 36 duty to consult the supervisory authority before processing where a DPIA shows a high residual risk the controller cannot mitigate. | eurlex-gdpr |
+| GPAI systemic risk | Risk specific to the high-impact capabilities of general-purpose AI models with significant Union-level impact; presumed above 10²⁵ FLOP training compute (AI Act Arts. 3(65), 51). | eurlex-aiact-eli |
+| GPAI Code of Practice | Voluntary co-regulatory instrument (published 10 July 2025; Transparency, Copyright, Safety & Security chapters) used to demonstrate AI Act Art. 53/55 compliance pending harmonised standards. | gpai-code-of-practice-final / ec-gpai-cop |
+| Consent-management platform (CMP) | A tool that presents cookie/consent choices, records the decision and signals it to tags so non-essential technologies fire only with consent. | edpb-guidelines-2-2023 |
+| TC String | Encoded string under the IAB TCF recording a user's consent/objection preferences; held to be personal data in IAB Europe (C-604/22). | case-iab-europe |
+| Consent or pay ("pay-or-okay") | A binary model requiring the user to consent to tracking-based advertising or pay a fee for a tracking-free version; addressed in EDPB Opinion 08/2024. | edpb-opinion-08-2024 |
+| Cookie wall | Blocking access unless the user consents to non-essential cookies, leaving no genuine choice; invalidates "freely given" consent. | edpb-guidelines-05-2020 |
+| TIBER-EU | The Eurosystem Threat Intelligence-Based Ethical Red Teaming framework; recognised delivery vehicle for DORA threat-led penetration testing. | ecb-tiber-eu |
+| Data protection test | The DUAA 2025 transfers standard — whether protection in the destination is "not materially lower" than under UK law — governing both UK adequacy regulations and exporter TRAs. | duaa-2025-sch7 / ico-tra |
+| Digital Omnibus | The EU's late-2025 simplification package: an *adopted* Digital Omnibus on AI (amending the AI Act) and a *proposed* Digital Omnibus Regulation (data/ePrivacy strand). | ep-legtrain-digital-omnibus-ai |
 
 > Terms are added as documents introduce them. Do not redefine a glossary term inconsistently in a document; if a narrower meaning is needed, state it explicitly as document-specific.

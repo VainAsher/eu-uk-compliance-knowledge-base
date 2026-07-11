@@ -36,8 +36,8 @@
 
 ## In progress
 
-- **Depth layer underway** — 4 sub-topics approved & frozen (release 0.10.0). `ai-act-foundations` corrected to v1.1.0 (AI Omnibus adopted).
-- **Next candidates:** further sub-topic clusters (e.g. `dpia-methodology`, `ai-act-gpai`, `digital-omnibus`, `uk-transfers`, `cookie-consent-implementation`, `dora-tlpt`); plus QA automation, knowledge-graph export, and publication/RAG (see `PROJECT_HANDOVER.md`).
+- **Second depth-layer sub-topic cluster (#21–#26)** produced in parallel, **awaiting batch human gate**: `dpia-methodology`, `ai-act-gpai`, `digital-omnibus`, `uk-transfers`, `cookie-consent-implementation`, `dora-tlpt`. Workers self-ran the QA validators; orchestrator full-repo run: `validate.py` 26/26 clean, `check_links.py` 237/238 live.
+- QA automation live (release 0.10.1). Remaining phases: knowledge-graph/compliance-mapping export, and publication/RAG (needs a git remote).
 
 ## Pending work
 
