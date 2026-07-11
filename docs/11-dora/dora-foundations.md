@@ -1,7 +1,7 @@
 ---
 id: dora-foundations
 title: "DORA: Foundations & Digital Operational Resilience for Finance"
-version: 1.0.0
+version: 1.0.1
 status: approved
 classification: public
 jurisdiction: [EU]
@@ -26,8 +26,8 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | dora-foundations |
-| Version | 1.0.0 |
-| Status | approved (frozen in release 0.8.0) |
+| Version | 1.0.1 |
+| Status | approved (frozen in release 0.10.1) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
@@ -44,7 +44,7 @@ The **Digital Operational Resilience Act (Regulation (EU) 2022/2554**, "DORA") i
 
 DORA has a broad **scope**: it binds around twenty categories of "financial entities" — credit institutions, payment and e-money institutions, investment firms, **crypto-asset service providers**, insurance and reinsurance undertakings and intermediaries, central securities depositories, central counterparties, trading venues, fund managers, credit-rating agencies and more — and, critically, reaches the **ICT third-party service providers** that serve them (Art. 2) [1]. Obligations are organised into **five pillars**: (1) **ICT risk management** (governance and a documented framework, Arts. 5–16); (2) **ICT-related incident** management, classification and reporting (Arts. 17–23); (3) **digital operational resilience testing**, including **threat-led penetration testing (TLPT)** for the most significant entities (Arts. 24–27); (4) **ICT third-party risk management** plus a **Union Oversight Framework** for **critical ICT third-party providers (CTPPs)** (Arts. 28–44); and (5) **information sharing** on cyber threats (Art. 45) [1]. A **proportionality** principle (Art. 4) scales duties to size and risk, with a simplified framework for smaller entities (Art. 16) [1].
 
-The regime is operationalised by the three **European Supervisory Authorities (ESAs — EBA, EIOPA, ESMA)** through **RTS and ITS**: a first batch has applied since 17 January 2025 and further standards apply in tranches [8]. The Union Oversight Framework became concrete on **18 November 2025**, when the ESAs designated the **first list of critical ICT third-party providers (reported as 19)** — hyperscale cloud, core-banking, payments and market-infrastructure providers — placing them under **direct ESA oversight** for the first time [9]. DORA is **lex specialis** to NIS2 for financial entities and operates **alongside the GDPR** where personal data is involved [1][2][3].
+The regime is operationalised by the three **European Supervisory Authorities (ESAs — EBA, EIOPA, ESMA)** through **RTS and ITS** (e.g. Delegated Regulation (EU) 2024/1774 specifying the ICT risk-management framework [4]): a first batch has applied since 17 January 2025 and further standards apply in tranches [8]. The Union Oversight Framework became concrete on **18 November 2025**, when the ESAs designated the **first list of critical ICT third-party providers (reported as 19)** — hyperscale cloud, core-banking, payments and market-infrastructure providers — placing them under **direct ESA oversight** for the first time [9]. DORA is **lex specialis** to NIS2 for financial entities and operates **alongside the GDPR** where personal data is involved [1][2][3].
 
 # Key Takeaways
 
@@ -69,6 +69,7 @@ This document is the Tier 3 entry point for DORA. It supports legal research (ma
 **In scope:** DORA's purpose and the case for uniform ICT-risk rules; the definition of "financial entity" and the reach to ICT third-party providers (Art. 2); the **proportionality** principle (Art. 4); the **five pillars** at a foundational level — ICT risk management and governance (Arts. 5–16), ICT-related incident management, classification and reporting (Arts. 17–23), digital operational resilience testing including TLPT (Arts. 24–27), ICT third-party risk management and the **Union Oversight Framework** for **CTPPs** (Arts. 28–44), and information sharing (Art. 45); the role of the **ESAs** and the **RTS/ITS**; enforcement and penalties (Art. 50); and the relationship to **NIS2** and the **GDPR**. The **17 January 2025 application date**, the **RTS/ITS tranche status** and the **first CTPP designation** are **live-verified**.
 
 **Out of scope (spun off to the research backlog):**
+
 - The **TLPT** regime in depth — scoping, phases, the TIBER-EU alignment, threat intelligence and red-teaming mechanics (Arts. 26–27 and RTS) → `dora-tlpt`.
 - The **CTPP Oversight Framework** mechanics — designation criteria, Lead Overseer powers, recommendations, penalties and the joint examination teams (Arts. 31–44) → `dora-oversight-framework`.
 - **RTS/ITS-by-RTS** analysis — ICT risk-management framework, incident classification/reporting, register of information, subcontracting, threat-led testing standards → `dora-technical-standards`.
@@ -314,5 +315,7 @@ Not Applicable — this foundational reference relies on primary legislation and
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (Reg (EU) 2022/2554), the European Commission (DG FISMA), EIOPA, ESMA and EBA. The **17 January 2025 application date**, the **RTS/ITS first-batch status**, and the **first CTPP designation of 18 November 2025 (reported as 19 providers)** were live-verified. All 11 checked external links returned HTTP 200. | — |
 | 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at batch human review gate; 17 Jan 2025 application + 18 Nov 2025 CTPP designation verified; frozen in release 0.8.0. | Human reviewer |
+| 1.0.1 | 2026-07-11 | Repository Maintainer (virtual agent) | Citation-hygiene patch (surfaced by `scripts/validate.py`): added in-text citation for ref [4] (Delegated Regulation (EU) 2024/1774), previously listed but uncited. No substantive change. | Human reviewer |
+
 </content>
 </invoke>

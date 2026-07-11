@@ -68,6 +68,7 @@ This document is the Tier 2 foundational entry point for the EU Digital Markets 
 **In scope:** The DMA's purpose (contestability and fairness); the gatekeeper **designation** criteria (Art. 3 thresholds and the CPS categories in Art. 2); the **obligations** in Articles 5–7 at a foundational level (self-preferencing, data-use limits, sideloading, steering, bundling, interoperability, data access); the **compliance-report and audit** mechanics (Arts. 11, 15); **enforcement and penalties** (Arts. 18, 30); and the current designation and enforcement landscape as live-verified.
 
 **Out of scope (spun off to the research backlog):**
+
 - The **article-by-article obligation detail** and each remedy's technical specification → `dma-obligations` (planned).
 - **Messaging / NIICS interoperability mechanics** (Art. 7 reference offers, phasing) → `dma-interoperability` (planned).
 - **Specific gatekeeper cases** and non-compliance proceedings in depth (Apple, Meta, others), including appeals → `dma-enforcement-cases` (planned).
@@ -304,5 +305,6 @@ Not Applicable — this foundational reference relies on primary legislation, Co
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (Reg (EU) 2022/1925), European Commission (DMA portal, gatekeepers register, 7 March 2024 applicability, Apple/Meta non-compliance decisions IP/25/1085) and the Court of Justice (General Court judgment of 8 July 2026). Current gatekeeper list (7 gatekeepers / 23 CPS) and enforcement outcomes live-verified 2026-07-11. | — |
 | 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at batch human review gate (parallel cluster); frozen in release 0.7.0. | Human reviewer |
+
 </content>
 </invoke>

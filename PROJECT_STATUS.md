@@ -1,7 +1,7 @@
 # Project Status
 
 **Last updated:** 2026-07-11
-**Maturity:** Stage 7 of 10 — *16 foundation topics + 4 depth sub-topics approved (release 0.10.0). Depth layer underway; QA automation and publication still ahead.*
+**Maturity:** Stage 8 of 10 — *QA automation implemented (validator + link checker + markdownlint + CI). 16 foundation topics + 4 depth sub-topics approved (releases 0.10.0/0.10.1). Publication/RAG still ahead.*
 
 ## Maturity model (repository level)
 
@@ -15,7 +15,7 @@
 | 5 | Tier 3 security & resilience complete | ✅ passed |
 | 6 | Tier 4 sector/consumer/ops complete | ✅ **current** |
 | 7 | Cross-references & knowledge graph populated | 🟡 partial (knowledge graph populated; sub-topics pending) |
-| 8 | QA automation (lint/link/citation) implemented | ⬜ |
+| 8 | QA automation (lint/link/citation) implemented | ✅ **current** |
 | 9 | Wiki.js / GitHub publication pipeline | ⬜ |
 | 10 | RAG-ready export + audit dossier | ⬜ |
 

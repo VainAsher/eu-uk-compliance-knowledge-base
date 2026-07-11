@@ -57,7 +57,7 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 
 ## Knowledge graph (cross-references)
 
-_Populated as documents are approved. Format: `doc-a → relationship → doc-b`._
+*Populated as documents are approved. Format: `doc-a → relationship → doc-b`.*
 
 - `gdpr-foundations` → *foundation for* → `uk-gdpr-foundations`
 - `gdpr-foundations` → *lex generalis to* → `eprivacy-foundations`

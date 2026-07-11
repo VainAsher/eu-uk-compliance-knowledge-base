@@ -1,7 +1,7 @@
 ---
 id: uk-gdpr-foundations
 title: "UK GDPR: Foundations & Divergence from the EU GDPR"
-version: 1.0.0
+version: 1.0.1
 status: approved
 classification: public
 jurisdiction: [UK]
@@ -26,8 +26,8 @@ sources_verified: 2026-07-10
 | Field | Value |
 |-------|-------|
 | Document ID | uk-gdpr-foundations |
-| Version | 1.0.0 |
-| Status | approved (frozen in release 0.3.0) |
+| Version | 1.0.1 |
+| Status | approved (frozen in release 0.10.1) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-10 |
@@ -53,7 +53,7 @@ Three conclusions dominate. First, the UK framework is *substantially aligned* w
 - The **age at which a child can consent** to an information-society service is **13** in the UK (DPA 2018 s.9 modifying Art. 8(1)), versus the EU default of 16 [3]. *(Legal obligation.)*
 - The **Data (Use and Access) Act 2025 (c.18)** received Royal Assent on **19 June 2025** and is being **phased in between June 2025 and June 2026**; it amends the UK GDPR, DPA 2018 and PECR [4][7][8]. *(Legal obligation.)*
 - The DUAA introduces a new **"recognised legitimate interests"** lawful basis for specified public-interest purposes, liberalises **automated decision-making**, clarifies **scientific research**, adds duties on **children's online services** and **complaints handling**, and reconstitutes the regulator as the **Information Commission** with a new strategic framework [7][8]. *(Legal obligation / regulatory interpretation.)*
-- **EU adequacy** for the UK was renewed on **19 December 2025 and runs to 27 December 2031**, following a technical extension in June 2025 — this keeps EEA→UK transfers free of additional safeguards [9][11]. *(Regulatory / legal.)*
+- **EU adequacy** for the UK, first granted on **28 June 2021** [10], was **renewed on 19 December 2025 to run to 27 December 2031**, following a technical extension in June 2025 — this keeps EEA→UK transfers free of additional safeguards [9][11]. *(Regulatory / legal.)*
 - The **ICO** (transitioning to the Information Commission) is the UK supervisory authority; UK-based controllers deal with the ICO, not EU authorities [6][7]. *(Legal obligation.)*
 - Organisations subject to **both** regimes must manage **divergence**: the cores align, but consent age, ADM, recognised legitimate interests and future reforms differ. *(Editorial recommendation.)*
 
@@ -75,7 +75,7 @@ This document is the UK entry point to the data-protection topic area. It suppor
 
 | Term | Definition | Source |
 |------|------------|--------|
-| UK GDPR | Regulation (EU) 2016/679 as retained/assimilated in UK domestic law under EUWA 2018 s.3 and amended for the UK context. | [1][6] |
+| UK GDPR | Regulation (EU) 2016/679 as retained/assimilated in UK domestic law under EUWA 2018 s.3 and amended for the UK context. | [1][5][6] |
 | DPA 2018 | Data Protection Act 2018 — the UK Act that supplements the UK GDPR and implements the law-enforcement and intelligence-services regimes. | [2] |
 | DUAA / DUAA 2025 | Data (Use and Access) Act 2025 (c.18), which amends the UK GDPR, DPA 2018 and PECR. | [4] |
 | Assimilated law | The status (from 1 January 2024) of what was formerly "retained EU law", including the UK GDPR, following the Retained EU Law (Revocation and Reform) Act 2023. | [1] |
@@ -275,3 +275,4 @@ Not Applicable — this foundational reference relies on primary legislation and
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-07-10 | Technical Writer (virtual agent) | Initial draft; researched against legislation.gov.uk (EUWA 2018, DPA 2018, DUAA 2025), ICO, GOV.UK and European Commission adequacy sources. | — |
 | 1.0.0 | 2026-07-10 | Editorial Reviewer (virtual agent) | Approved at human review gate; frozen in release 0.3.0. | Human reviewer |
+| 1.0.1 | 2026-07-11 | Repository Maintainer (virtual agent) | Citation-hygiene patch (surfaced by `scripts/validate.py`): added in-text citations for refs [5] (base GDPR) and [10] (2021 adequacy decision), previously listed but uncited. No substantive change. | Human reviewer |

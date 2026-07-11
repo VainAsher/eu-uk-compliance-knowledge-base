@@ -21,6 +21,7 @@ An autonomous multi-agent pipeline that produces a professional, evidence-based 
 ## What to do next (Stage 7+ — depth, quality, publication)
 
 The foundation layer (one flagship doc per topic) is done. The natural next phases:
+
 1. **High-value backlog sub-topics** — e.g. `duaa-2025-detail`, `digital-omnibus`, `cyber-resilience-act`, `gdpr-transfers`, `dpia-methodology`, `ai-act-high-risk`. Each topic's planned document set is in `ROADMAP.md`; the full backlog is in `PROJECT_STATUS.md`.
 2. **QA automation** — implement the toolchain in `scripts/README.md` (markdownlint, yamllint, lychee/markdown-link-check, vale, a citation validator, glossary consistency checker) + CI.
 3. **Knowledge-graph / compliance-mapping artefacts** — machine-readable cross-reference and control-mapping exports.

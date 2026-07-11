@@ -5,6 +5,7 @@ Sequencing of the 16 programme topics. Ordered so that foundational instruments 
 ## Priority tiers
 
 ### Tier 1 — Foundations (data protection core)
+
 These underpin almost everything else and are cited by later documents.
 
 | Order | Topic | Lead instrument(s) | Rationale |
@@ -17,6 +18,7 @@ These underpin almost everything else and are cited by later documents.
 **Tier 1 complete (2026-07-11) — data-protection core fully covered.**
 
 ### Tier 2 — Digital & AI regulation
+
 | Order | Topic | Lead instrument(s) | Rationale |
 |-------|-------|--------------------|-----------|
 | 5 | **AI Act** ✅ approved | Regulation (EU) 2024/1689 | Flagship AI law; overlaps GDPR. |
@@ -28,6 +30,7 @@ These underpin almost everything else and are cited by later documents.
 **Tier 2 complete (2026-07-11) — first parallel-cluster batch (#6–#9).**
 
 ### Tier 3 — Security & resilience
+
 | Order | Topic | Lead instrument(s) | Rationale |
 |-------|-------|--------------------|-----------|
 | 10 | **NIS2** ✅ approved | Directive (EU) 2022/2555 | Baseline cybersecurity for essential/important entities. |
@@ -37,6 +40,7 @@ These underpin almost everything else and are cited by later documents.
 **Tier 3 complete (2026-07-11) — second parallel-cluster batch (#10–#12).**
 
 ### Tier 4 — Sector, consumer & operations
+
 | Order | Topic | Lead instrument(s) | Rationale |
 |-------|-------|--------------------|-----------|
 | 13 | **Consumer Rights** ✅ approved | Consumer Rights Act 2015; Dir. 2011/83/EU; DMCCA 2024 | B2C obligations. |

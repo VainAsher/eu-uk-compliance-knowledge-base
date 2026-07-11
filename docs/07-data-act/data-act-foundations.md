@@ -67,6 +67,7 @@ This document is the Tier 2 entry point for the EU Data Act. It supports legal r
 **In scope:** The Data Act's purpose and scope; its chapter structure; the phased application timeline (incl. the 12 September 2025, 12 September 2026, 12 September 2027 and 12 January 2027 milestones); a foundational overview of IoT/connected-product data access, B2B and B2G data sharing, unfair contractual terms, cloud/data-processing-service switching, interoperability and non-personal-data international-transfer safeguards; and the relationship with the GDPR.
 
 **Out of scope (spun off to the research backlog):**
+
 - Cloud/data-processing-service **switching** mechanics, timelines and charge-withdrawal detail → `data-act-cloud-switching` (planned).
 - **IoT / connected-product** data-sharing mechanics, data-holder/user obligations, trade-secret handling → `data-act-iot-sharing` (planned).
 - **B2G exceptional-need** access procedures and safeguards → `data-act-b2g` (planned).

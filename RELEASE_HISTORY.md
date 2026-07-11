@@ -4,6 +4,7 @@ Frozen snapshots of the knowledge base. A release is cut when a batch of documen
 
 | Release | Date | Highlights | Docs frozen |
 |---------|------|-----------|-------------|
+| 0.10.1 | 2026-07-11 | **QA automation:** document validator + link checker + markdownlint + CI. Fixed 2 citation defects the validator caught (uk-gdpr, dora → v1.0.1); repo-wide lint normalization. | 20 |
 | 0.10.0 | 2026-07-11 | First depth sub-topic cluster: GDPR transfers, DUAA detail, AI Act high-risk, CRA. **Corrective revision:** `ai-act-foundations` → v1.1.0 (AI Omnibus adopted 29 Jun 2026). | 20 (incl. 1 revised) |
 | 0.9.0 | 2026-07-11 | Tier 4 cluster batch frozen: Consumer Rights, Cloud Hosting, Game Hosting, Compliance Operations. **🏁 ALL 16 foundation topics complete.** | 16 (cumulative) |
 | 0.8.0 | 2026-07-11 | Tier 3 cluster batch frozen: NIS2, DORA, Cybersecurity (v1.0.0 each). **Tier 3 complete; 12/16 topics.** | 12 (cumulative) |

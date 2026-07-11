@@ -67,6 +67,7 @@ This document is the **Tier 4 cross-cutting entry point** for cloud/infrastructu
 **In scope:** The shared-responsibility model and a provider/customer **responsibility matrix**; GDPR **controller/processor** roles for hosting, **Article 28** DPAs and **Article 32** security at a foundational, cross-referencing level; **international transfers** for cloud (**Chapter V / Schrems II**) at a foundational level; **NIS2** obligations for cloud/infrastructure providers; **DORA** for cloud serving financial entities including **CTPP** oversight; the **Data Act** cloud-switching, portability and interoperability rules including the phase-out of switching charges; security standards (**ISO/IEC 27001, 27017, 27018, 27701**, **CSA STAR**); and the status of the **EUCS** under the Cybersecurity Act.
 
 **Out of scope (spun off to the research backlog):**
+
 - **Transfer-mechanism mechanics** — SCC module selection, Transfer Impact Assessments, supplementary measures, the UK IDTA/Addendum → `international-transfers` (planned).
 - **EUCS in detail** — assurance levels (Basic/Substantial/High), sovereignty requirements and the adoption debate → `eucs-deep-dive` (planned).
 - **Provider-specific shared-responsibility models** — AWS/Azure/GCP control matrices and service-by-service splits → `cloud-provider-responsibility-matrices` (planned).
