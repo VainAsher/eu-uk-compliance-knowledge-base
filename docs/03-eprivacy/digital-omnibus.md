@@ -1,7 +1,7 @@
 ---
 id: digital-omnibus
 title: "The EU Digital Omnibus: Simplification Package (2025–2026)"
-version: 0.1.0
+version: 1.0.0
 status: in-review
 classification: public
 jurisdiction: [EU]
@@ -26,15 +26,15 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | digital-omnibus |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.11.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
 | Last Updated | 2026-07-11 |
 | Review Due | 2027-07-11 |
 | Confidence | Medium |
-| Approved By | <pending human review> |
+| Approved By | Human reviewer — 2026-07-11 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**. This is a **fast-moving** topic. The package has **two distinct strands with different legal status**: the **Digital Omnibus on AI** (amending the AI Act) is **ADOPTED LAW** (European Parliament plenary 16 June 2026; Council final approval 29 June 2026; entry into force on the third day after Official Journal publication), whereas the **broader Digital Omnibus Regulation** (data-law simplification, including the cookie-consent migration into the GDPR) is a **PROPOSAL still in the ordinary legislative procedure** and is **not law**. Confirm the live position and the OJ citation before relying on any date or provision.
 
@@ -290,5 +290,6 @@ Not Applicable — this is a live legislative-status document relying on primary
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft. Deep-dive on the 2025–2026 EU Digital Omnibus. **Live-verified the two-strand split and their differing status:** the **Digital Omnibus on AI** (COM(2025) 836; 2025/0359(COD)) is **ADOPTED** (EP plenary 16 Jun 2026; Council 29 Jun 2026; entry into force OJ +3 days), while the **Digital Omnibus Regulation** (COM(2025) 837; 2025/0360(COD); cookie-consent migration into the GDPR, one-click/6-month consent, legitimate-interest-for-AI, DPIA/breach streamlining, Data Act consolidation) remains a **PROPOSAL** (EESC 18 Mar 2026, CoR 7 May 2026; not adopted). Sources: EUR-Lex (AI Act, GDPR, ePrivacy, Data Act, DGA), European Commission library page, European Parliament press releases and Legislative Train. All external links checked HTTP 200 on 2026-07-11; Council 29 Jun 2026 release corroborated via EP sources (consilium.europa.eu bot-blocks curl); Commission `policies/digital-omnibus` slug found to be a soft-404 and deliberately not cited. Confidence Medium given topic volatility. | — |
+| 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at sub-topics batch 2 human gate; frozen in release 0.11.0. | Human reviewer |
 </content>
 </invoke>

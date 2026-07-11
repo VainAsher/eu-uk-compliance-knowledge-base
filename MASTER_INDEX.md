@@ -2,7 +2,7 @@
 
 Catalogue of all knowledge-base documents. Updated by the Repository Maintainer after every approved document.
 
-**Last updated:** 2026-07-11 — 16 foundation topics + 4 depth sub-topics approved (release 0.10.0). `ai-act-foundations` at v1.1.0 (AI Omnibus adoption correction).
+**Last updated:** 2026-07-11 — 26 documents approved (16 foundations + 10 depth sub-topics; releases through 0.11.0). QA automation live.
 
 ## Legend
 
@@ -33,29 +33,29 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 | duaa-2025-detail | Data (Use and Access) Act 2025: Detailed Analysis | UK GDPR | 1 | UK | 1.0.0 | approved | High | `docs/02-uk-gdpr/duaa-2025-detail.md` |
 | ai-act-high-risk | EU AI Act: High-Risk Systems & Conformity Assessment | AI Act | 2 | EU | 1.0.0 | approved | Medium | `docs/05-ai-act/ai-act-high-risk.md` |
 | cyber-resilience-act | EU Cyber Resilience Act: Product Cybersecurity Foundations | Cybersecurity | 3 | EU | 1.0.0 | approved | High | `docs/12-cybersecurity/cyber-resilience-act.md` |
-| dpia-methodology | Data Protection Impact Assessments: Methodology | Privacy Engineering | 1 | EU, UK | 0.1.0 | in-review | High | `docs/04-privacy-engineering/dpia-methodology.md` |
-| ai-act-gpai | EU AI Act: General-Purpose AI Models & Systemic Risk | AI Act | 2 | EU | 0.1.0 | in-review | High | `docs/05-ai-act/ai-act-gpai.md` |
-| digital-omnibus | The EU Digital Omnibus: Simplification Package (2025–2026) | ePrivacy | 2 | EU | 0.1.0 | in-review | Medium | `docs/03-eprivacy/digital-omnibus.md` |
-| uk-transfers | UK GDPR: International Data Transfers | UK GDPR | 1 | UK | 0.1.0 | in-review | High | `docs/02-uk-gdpr/uk-transfers.md` |
-| cookie-consent-implementation | Cookie Consent: Implementation & Consent Management | ePrivacy | 1 | EU, UK | 0.1.0 | in-review | High | `docs/03-eprivacy/cookie-consent-implementation.md` |
-| dora-tlpt | DORA: Threat-Led Penetration Testing (TLPT) | DORA | 3 | EU | 0.1.0 | in-review | High | `docs/11-dora/dora-tlpt.md` |
+| dpia-methodology | Data Protection Impact Assessments: Methodology | Privacy Engineering | 1 | EU, UK | 1.0.0 | approved | High | `docs/04-privacy-engineering/dpia-methodology.md` |
+| ai-act-gpai | EU AI Act: General-Purpose AI Models & Systemic Risk | AI Act | 2 | EU | 1.0.0 | approved | High | `docs/05-ai-act/ai-act-gpai.md` |
+| digital-omnibus | The EU Digital Omnibus: Simplification Package (2025–2026) | ePrivacy | 2 | EU | 1.0.0 | approved | Medium | `docs/03-eprivacy/digital-omnibus.md` |
+| uk-transfers | UK GDPR: International Data Transfers | UK GDPR | 1 | UK | 1.0.0 | approved | High | `docs/02-uk-gdpr/uk-transfers.md` |
+| cookie-consent-implementation | Cookie Consent: Implementation & Consent Management | ePrivacy | 1 | EU, UK | 1.0.0 | approved | High | `docs/03-eprivacy/cookie-consent-implementation.md` |
+| dora-tlpt | DORA: Threat-Led Penetration Testing (TLPT) | DORA | 3 | EU | 1.0.0 | approved | High | `docs/11-dora/dora-tlpt.md` |
 
 ## Topic coverage (16 programme topics)
 
 | Topic | Documents | Status |
 |-------|-----------|--------|
 | GDPR (EU) | 2 | 2 approved (foundations + transfers) |
-| UK GDPR | 3 | 2 approved + 1 in review (uk-transfers) |
-| AI Act | 3 | 2 approved + 1 in review (gpai) |
+| UK GDPR | 3 | 3 approved (foundations, DUAA detail, transfers) |
+| AI Act | 3 | 3 approved (foundations, high-risk, gpai) |
 | Data Act | 1 | 1 approved; sub-topics in backlog |
 | NIS2 | 1 | 1 approved; sub-topics in backlog |
-| DORA | 2 | 1 approved + 1 in review (dora-tlpt) |
-| ePrivacy | 3 | 1 approved + 2 in review (cookies, digital-omnibus) |
+| DORA | 2 | 2 approved (foundations, TLPT) |
+| ePrivacy | 3 | 3 approved (foundations, cookies, digital-omnibus) |
 | Consumer Rights | 1 | 1 approved; sub-topics in backlog |
 | Digital Services | 1 | 1 approved; sub-topics in backlog |
 | Digital Markets | 1 | 1 approved; sub-topics in backlog |
 | AI Governance | 1 | 1 approved; sub-topics in backlog |
-| Privacy Engineering | 2 | 1 approved + 1 in review (dpia-methodology) |
+| Privacy Engineering | 2 | 2 approved (foundations, DPIA methodology) |
 | Cloud Hosting | 1 | 1 approved; sub-topics in backlog |
 | Game Hosting | 1 | 1 approved; sub-topics in backlog |
 | Cybersecurity | 2 | 2 approved (foundations + CRA) |
@@ -70,15 +70,15 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 - `gdpr-foundations` → *implemented by* → `privacy-engineering-foundations`
 - `gdpr-foundations` → *interplays with* → `ai-act-foundations`
 - `uk-gdpr-foundations` → *builds on / diverges from* → `gdpr-foundations`
-- `uk-gdpr-foundations` → *detailed by* → `duaa-2025-detail` (approved), `uk-transfers` (in review); `uk-childrens-code` (planned)
+- `uk-gdpr-foundations` → *detailed by* → `duaa-2025-detail` (approved), `uk-transfers` (approved); `uk-childrens-code` (planned)
 - `eprivacy-foundations` → *lex specialis to* → `gdpr-foundations`
 - `eprivacy-foundations` → *transposed in UK via PECR, relates to* → `uk-gdpr-foundations`
-- `eprivacy-foundations` → *detailed by* → `cookie-consent-implementation`, `digital-omnibus` (in review); `pecr-detail`, `data-retention-caselaw` (planned)
+- `eprivacy-foundations` → *detailed by* → `cookie-consent-implementation`, `digital-omnibus` (approved); `pecr-detail`, `data-retention-caselaw` (planned)
 - `privacy-engineering-foundations` → *implements* → `gdpr-foundations`, `uk-gdpr-foundations`, `eprivacy-foundations`
-- `privacy-engineering-foundations` → *detailed by* → `dpia-methodology` (in review); `pets-catalogue`, `privacy-threat-modelling`, `anonymisation-techniques` (planned)
+- `privacy-engineering-foundations` → *detailed by* → `dpia-methodology` (approved); `pets-catalogue`, `privacy-threat-modelling`, `anonymisation-techniques` (planned)
 - `ai-act-foundations` → *operates alongside* → `gdpr-foundations`
 - `ai-act-foundations` → *operationalised by* → `ai-governance-foundations`
-- `ai-act-foundations` → *detailed by* → `ai-act-high-risk` (approved), `ai-act-gpai`, `digital-omnibus` (in review); `ai-act-prohibited-practices` (planned)
+- `ai-act-foundations` → *detailed by* → `ai-act-high-risk` (approved), `ai-act-gpai`, `digital-omnibus` (approved); `ai-act-prohibited-practices` (planned)
 - `ai-governance-foundations` → *operationalises* → `ai-act-foundations`; *integrates with* → `gdpr-foundations`; *builds on* → `privacy-engineering-foundations`
 - `data-act-foundations` → *complements* → `gdpr-foundations` (GDPR prevails on personal-data conflict); *adjacent to* → `ai-act-foundations`
 - `dsa-foundations` → *sibling of* → `dma-foundations` (Digital Services package); *overlaps* → `ai-act-foundations`, `gdpr-foundations`

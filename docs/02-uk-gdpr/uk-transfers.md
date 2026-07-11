@@ -1,7 +1,7 @@
 ---
 id: uk-transfers
 title: "UK GDPR: International Data Transfers"
-version: 0.1.0
+version: 1.0.0
 status: in-review
 classification: public
 jurisdiction: [UK]
@@ -26,15 +26,15 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | uk-transfers |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.11.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
 | Last Updated | 2026-07-11 |
 | Review Due | 2027-07-11 |
 | Confidence | High |
-| Approved By | pending human review |
+| Approved By | Human reviewer — 2026-07-11 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**. **Two time-sensitive items — live-verified 2026-07-11:** (1) the UK international-transfer rules were **materially amended by the Data (Use and Access) Act 2025**, whose transfer provisions (**s.85 and Schedules 7–9**) came into force on **5 February 2026**, introducing a statutory **"data protection test"** ("not materially lower"); and (2) the **UK-US data bridge** is an *extension* of the **EU-US Data Privacy Framework**, whose validity is under appeal to the Court of Justice (**Latombe**, C-703/25 P). Confirm both before relying on them. This document details the UK transfer regime introduced at foundational level in `uk-gdpr-foundations` and contrasts with the EU regime in `gdpr-transfers`.
 
@@ -323,3 +323,4 @@ Labels: **OBLIGATION** (the law requires) / **BEST PRACTICE** (standards/regulat
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against legislation.gov.uk (UK GDPR/DPA 2018; DUAA c.18 s.85 + Sch. 7–9; SI 2026/82 reg. 2; SI 2023/1028; DPA 2018 s.119A), EUR-Lex (Decisions 2023/1795 and 2021/914; Schrems II; Latombe appeal C-703/25 P), ICO international-transfers suite, GOV.UK and European Commission. **Live-verified 2026-07-11:** DUAA transfer provisions (incl. the "data protection test") in force 5 February 2026; current UK data-bridge list incl. the UK-US data bridge; UK-US bridge's dependence on the EU-US DPF (Latombe appeal); EU→UK adequacy renewed to 27 December 2031. | — |
+| 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at sub-topics batch 2 human gate; frozen in release 0.11.0. | Human reviewer |

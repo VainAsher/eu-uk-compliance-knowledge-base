@@ -4,7 +4,11 @@ All notable changes to this repository. Format based on [Keep a Changelog](https
 
 ## [Unreleased]
 
-### Added (second depth-layer sub-topic cluster — in-review, awaiting batch gate; parallel cluster; workers self-ran the QA validators)
+*Nothing yet.*
+
+## [0.11.0] — 2026-07-11
+
+### Added (second depth-layer sub-topic cluster — approved & frozen at v1.0.0; parallel cluster; workers self-ran the QA validators)
 
 - `docs/04-privacy-engineering/dpia-methodology.md` — DPIA methodology (Art. 35/36, WP248, ICO list & template, ISO 29134).
 - `docs/05-ai-act/ai-act-gpai.md` — GPAI & systemic risk (Arts. 51–56; **GPAI Code of Practice published 10 Jul 2025**; 10²⁵ FLOP; GPAI **not** postponed by the AI Omnibus).

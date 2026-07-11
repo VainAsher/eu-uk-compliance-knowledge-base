@@ -1,7 +1,7 @@
 ---
 id: dpia-methodology
 title: "Data Protection Impact Assessments: Methodology"
-version: 0.1.0
+version: 1.0.0
 status: in-review
 classification: public
 jurisdiction: [EU, UK]
@@ -26,15 +26,15 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | dpia-methodology |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.11.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
 | Last Updated | 2026-07-11 |
 | Review Due | 2027-07-11 |
 | Confidence | High |
-| Approved By | pending human review |
+| Approved By | Human reviewer — 2026-07-11 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**.
 
@@ -309,3 +309,4 @@ Not Applicable — this methodology rests on primary legislation (GDPR; AI Act),
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (GDPR Arts. 35–36, 30, 39; AI Act Art. 27), WP248 rev.01 (EDPB-endorsed), ICO DPIA guidance/template and ISO/IEC 29134 / 42005 / 27701. Art. 35(3)/(4) lists, the WP29 nine criteria and the "two or more" rule live-verified against the ICO guidance. | — |
+| 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at sub-topics batch 2 human gate; frozen in release 0.11.0. | Human reviewer |

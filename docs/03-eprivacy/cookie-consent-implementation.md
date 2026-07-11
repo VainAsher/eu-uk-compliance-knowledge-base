@@ -1,7 +1,7 @@
 ---
 id: cookie-consent-implementation
 title: "Cookie Consent: Implementation & Consent Management"
-version: 0.1.0
+version: 1.0.0
 status: in-review
 classification: public
 jurisdiction: [EU, UK]
@@ -26,15 +26,15 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | cookie-consent-implementation |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.11.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
 | Last Updated | 2026-07-11 |
 | Review Due | 2027-07-11 |
 | Confidence | High |
-| Approved By | <pending human review> |
+| Approved By | Human reviewer — 2026-07-11 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**. It is a deep-dive that **details** the parent reference `eprivacy-foundations` (Art. 5(3) / cookie rule) — read that first. The ePrivacy landscape is in flux: the **Digital Omnibus** (published November 2025) proposes moving the cookie rule into the GDPR (new Arts. 88a/88b) — a **proposal, not law**. Confirm the live position before relying on any future-state provision.
 
@@ -301,3 +301,4 @@ Not Applicable — there is no ePrivacy-specific technical standard governing co
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (ePrivacy Art. 5(3), GDPR Arts. 4(11)/7, Planet49, IAB Europe C-604/22), EDPB (Opinion 08/2024 consent-or-pay; Guidelines 2/2023, 05/2020, 03/2022), ICO Guide to PECR, Belgian DPA and academic literature; consent-or-pay and TCF/C-604/22 (incl. Brussels Market Court 14 May 2025) live-verified. | pending |
+| 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at sub-topics batch 2 human gate; frozen in release 0.11.0. | Human reviewer |

@@ -1,7 +1,7 @@
 # Project Status
 
 **Last updated:** 2026-07-11
-**Maturity:** Stage 8 of 10 — *QA automation implemented (validator + link checker + markdownlint + CI). 16 foundation topics + 4 depth sub-topics approved (releases 0.10.0/0.10.1). Publication/RAG still ahead.*
+**Maturity:** Stage 8 of 10 — *QA automation live; 26 documents approved (16 foundations + 10 depth sub-topics; releases through 0.11.0). Publication/RAG still ahead.*
 
 ## Maturity model (repository level)
 
@@ -36,8 +36,8 @@
 
 ## In progress
 
-- **Second depth-layer sub-topic cluster (#21–#26)** produced in parallel, **awaiting batch human gate**: `dpia-methodology`, `ai-act-gpai`, `digital-omnibus`, `uk-transfers`, `cookie-consent-implementation`, `dora-tlpt`. Workers self-ran the QA validators; orchestrator full-repo run: `validate.py` 26/26 clean, `check_links.py` 237/238 live.
-- QA automation live (release 0.10.1). Remaining phases: knowledge-graph/compliance-mapping export, and publication/RAG (needs a git remote).
+- **Second depth-layer sub-topic cluster (#21–#26) approved & frozen at v1.0.0 (release 0.11.0).** 26 documents total.
+- Remaining phases: knowledge-graph/compliance-mapping export, and publication/RAG (needs a git remote). Further sub-topic clusters can run any time.
 
 ## Pending work
 
@@ -65,8 +65,8 @@
 
 | Metric | Value |
 |--------|-------|
-| Approved documents | 20 (16 foundations + 4 sub-topics) |
+| Approved documents | 26 (16 foundations + 10 sub-topics) |
 | Draft documents | 0 |
 | Governance files | 9 |
-| Topics covered | 16 / 16 ✅ (4 topics now have depth docs) |
+| Topics covered | 16 / 16 ✅ (7 topics now have depth docs) |
 | Sources in registry | see `SOURCE_REGISTRY.md` |

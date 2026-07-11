@@ -1,7 +1,7 @@
 ---
 id: ai-act-gpai
 title: "EU AI Act: General-Purpose AI Models & Systemic Risk"
-version: 0.1.0
+version: 1.0.0
 status: in-review
 classification: public
 jurisdiction: [EU]
@@ -26,15 +26,15 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | ai-act-gpai |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.11.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
 | Last Updated | 2026-07-11 |
 | Review Due | 2027-07-11 |
 | Confidence | High |
-| Approved By | <pending human review> |
+| Approved By | Human reviewer — 2026-07-11 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**. It is a Tier 2 **deep-dive** that details the general-purpose AI (GPAI) and systemic-risk material introduced at overview level in `ai-act-foundations`; it does not repeat that overview. **Status note:** unlike the high-risk timeline, the GPAI regime is **already in force** — GPAI provider obligations apply from **2 August 2025** — and the **AI Omnibus** simplification package (adopted by the European Parliament on 16 June 2026 and the Council on 29 June 2026) **did not postpone** the GPAI obligations; it reinforced the AI Office's supervisory role over GPAI [1][3][9].
 
@@ -308,3 +308,4 @@ Not Applicable — this deep-dive relies on the primary Regulation and authorita
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft. Deep-dive on the AI Act GPAI regime: GPAI definition (Art. 3(63)), Article 53 baseline obligations (Annex XI/XII documentation, copyright policy, training-content summary) and open-source relief, systemic-risk classification (Art. 51; 10²⁵ FLOP rebuttable presumption; Art. 52 notification), Article 55 systemic-risk duties (evaluation/adversarial testing, risk assessment/mitigation, serious-incident reporting, cybersecurity), the Code of Practice and AI Office role (Arts. 56, 88–94), penalties (Art. 101) and the value-chain link to high-risk. **Live-verified: GPAI Code of Practice PUBLISHED 10 July 2025 (voluntary; three chapters); Commission Guidelines 18 July 2025; 10²⁵ FLOP systemic-risk presumption (Art. 51(2)); GPAI obligations in application from 2 August 2025; AI Omnibus (adopted June 2026) did NOT postpone the GPAI obligations.** All external links checked HTTP 200 on 2026-07-11. | — |
+| 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at sub-topics batch 2 human gate; frozen in release 0.11.0. | Human reviewer |

@@ -10,8 +10,8 @@ An autonomous multi-agent pipeline that produces a professional, evidence-based 
 
 ## Current state (snapshot)
 
-- **Maturity:** Stage 7 — 16 foundation topics + 4 depth sub-topics approved (releases 0.2.0–0.10.0). `ai-act-foundations` at v1.1.0 (AI Omnibus adoption correction).
-- **Version control:** git on `main`, tags `v0.2.0`–`v0.10.0`. No remote yet.
+- **Maturity:** Stage 8 — **26 documents approved** (16 foundations + 10 depth sub-topics; releases 0.2.0–0.11.0). QA automation live (validator + link checker + markdownlint + CI).
+- **Version control:** git on `main`, tags `v0.2.0`–`v0.11.0`. No remote yet.
 - **Regulatory-change management proven:** the depth cluster surfaced that the AI Omnibus was adopted (Council 29 Jun 2026); a corrective v1.1.0 revision to the frozen `ai-act-foundations` was applied and re-frozen — the model for keeping frozen docs current.
 - **Template:** `templates/document_template.md` reconciled to full spec.
 - **Governance files:** all present, incl. `GLOSSARY.md` (~70 terms) and `SOURCE_REGISTRY.md` (~120 sources).
@@ -59,6 +59,8 @@ Each of the above can be run as a parallel cluster (for sub-topic docs) or as fo
 | 2026-07-11 | Tier 3 batch (#10–#12) approved & frozen at v1.0.0 — **Tier 3 complete** | Batch human gate ("APPROVE ALL"); NIS2 Art. 23/34 verified against EUR-Lex raw text. |
 | 2026-07-11 | Tier 4 batch (#13–#16) approved & frozen at v1.0.0 — **🏁 all 16 topics complete** | Batch human gate ("APPROVE ALL"); DMCCA 2024 commencement verified (SI 2025/272). |
 | 2026-07-11 | Depth sub-topics batch (#17–#20) approved & frozen; `ai-act-foundations` corrected to v1.1.0 | Batch gate ("APPROVE ALL + apply AI Act correction"); AI Omnibus adoption (Council 29 Jun 2026) verified. |
+| 2026-07-11 | QA automation implemented (release 0.10.1) | validator + link checker + markdownlint + CI; caught 2 citation defects (patched to v1.0.1). |
+| 2026-07-11 | Depth sub-topics batch 2 (#21–#26) approved & frozen (release 0.11.0) | Batch gate ("APPROVE ALL"); GPAI Code of Practice, DORA TLPT RTS 2025/1190, DUAA transfers test all live-verified. |
 
 ## Control files to update after every approved document
 
