@@ -1,8 +1,8 @@
 ---
 id: ai-act-foundations
 title: "EU AI Act: Foundations, Risk Tiers & Timeline"
-version: 0.1.0
-status: in-review
+version: 1.0.0
+status: approved
 classification: public
 jurisdiction: [EU]
 topic: AI Act
@@ -26,15 +26,15 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | ai-act-foundations |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.6.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
 | Last Updated | 2026-07-11 |
 | Review Due | 2027-07-11 |
 | Confidence | High |
-| Approved By | *pending human review* |
+| Approved By | Human reviewer — 2026-07-11 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**. The AI Act's timeline is **actively changing**: an "AI Omnibus" simplification package reached provisional agreement in May 2026 but was **not yet formally adopted** at this document's date — always confirm the current in-force dates before relying on them.
 
@@ -273,4 +273,5 @@ Not Applicable — this foundational reference relies on primary legislation and
 
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
-| 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (Reg (EU) 2024/1689), European Commission and European Parliament sources; phased timeline and AI Omnibus provisional-agreement status live-verified. | *pending human review* |
+| 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (Reg (EU) 2024/1689), European Commission and European Parliament sources; phased timeline and AI Omnibus provisional-agreement status live-verified. | — |
+| 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at human review gate; frozen in release 0.6.0. First Tier 2 document. | Human reviewer |

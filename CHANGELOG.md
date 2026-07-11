@@ -4,10 +4,22 @@ All notable changes to this repository. Format based on [Keep a Changelog](https
 
 ## [Unreleased]
 
+### Added (in-review — awaiting batch human gate)
+- `docs/06-ai-governance/ai-governance-foundations.md` — *(produced by parallel cluster; pending)*.
+- `docs/07-data-act/data-act-foundations.md` — EU Data Act Foundations (v0.1.0, in-review). Data access/sharing, IoT connected products, cloud switching; application 12 Sep 2025 live-verified.
+- `docs/08-digital-services/dsa-foundations.md` — EU DSA Foundations (v0.1.0, in-review). Platform tiers, VLOPs/VLOSEs, notice-and-action; X €120m fine (Dec 2025) live-verified.
+- `docs/09-digital-markets/dma-foundations.md` — EU DMA Foundations (v0.1.0, in-review). Gatekeepers (7 designated), do's/don'ts; Apple €500m/Meta €200m (Apr 2025) live-verified.
+
+## [0.6.0] — 2026-07-11
+
 ### Added
-- `docs/05-ai-act/ai-act-foundations.md` — EU AI Act Foundations (v0.1.0, **in review**; first Tier 2 doc). Covers the four risk tiers, GPAI/systemic risk, governance (AI Office), penalties, and the phased timeline. **Live-verified** the AI Omnibus provisional agreement (7 May 2026) postponing high-risk to 2 Dec 2027 / 2 Aug 2028 — flagged as awaiting formal adoption. 6 references, all links verified live 2026-07-11.
+- `docs/05-ai-act/ai-act-foundations.md` — EU AI Act Foundations (**v1.0.0, approved & frozen**; first Tier 2 doc). Covers the four risk tiers, GPAI/systemic risk, governance (AI Office), penalties, and the phased timeline. **Live-verified** the AI Omnibus provisional agreement (7 May 2026) postponing high-risk to 2 Dec 2027 / 2 Aug 2028 — flagged as awaiting formal adoption. 6 references, all links verified live 2026-07-11.
 - Source registry: AI Act ELI, EC AI framework, Digital Omnibus on AI, EP AI-omnibus deal, ISO/IEC 42001.
 - Glossary: AI system, GPAI model, high-risk AI system, AI Office.
+
+### Changed
+- Introduced the **parallel cluster** production model (orchestrator + per-document worker agents) to speed foundation-doc production while retaining quality and the human gate.
+- Document #5 approved at the human review gate and bumped 0.1.0 → 1.0.0.
 
 ## [0.5.0] — 2026-07-11
 
