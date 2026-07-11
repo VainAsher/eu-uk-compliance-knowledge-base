@@ -26,6 +26,10 @@ jobs:
       - run: pip install pyyaml
       - name: Validate documents
         run: python scripts/validate.py
+      - name: Build exports & validate cross-references
+        run: python scripts/build_graph.py
+      - name: Ensure committed exports are up to date
+        run: git diff --exit-code exports/ || (echo "exports/ is stale — run 'python scripts/build_graph.py' and commit" && exit 1)
 
   markdownlint:
     name: Markdown lint

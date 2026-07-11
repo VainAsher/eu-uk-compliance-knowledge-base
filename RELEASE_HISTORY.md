@@ -4,6 +4,7 @@ Frozen snapshots of the knowledge base. A release is cut when a batch of documen
 
 | Release | Date | Highlights | Docs frozen |
 |---------|------|-----------|-------------|
+| 0.12.0 | 2026-07-11 | Knowledge-graph & compliance-mapping export (`build_graph.py` + `exports/`): graph JSON/Mermaid, compliance matrix CSV/JSON, coverage report; cross-reference gate in CI. | 26 |
 | 0.11.0 | 2026-07-11 | Second depth sub-topic cluster: DPIA methodology, AI Act GPAI, Digital Omnibus, UK transfers, cookie consent, DORA TLPT. Workers self-ran QA validators; full repo 26/26 clean. | 26 |
 | 0.10.1 | 2026-07-11 | **QA automation:** document validator + link checker + markdownlint + CI. Fixed 2 citation defects the validator caught (uk-gdpr, dora → v1.0.1); repo-wide lint normalization. | 20 |
 | 0.10.0 | 2026-07-11 | First depth sub-topic cluster: GDPR transfers, DUAA detail, AI Act high-risk, CRA. **Corrective revision:** `ai-act-foundations` → v1.1.0 (AI Omnibus adopted 29 Jun 2026). | 20 (incl. 1 revised) |

@@ -1,0 +1,1379 @@
+{
+  "nodes": [
+    {
+      "id": "gdpr-foundations",
+      "title": "GDPR: Foundations & Core Principles",
+      "topic": "GDPR (EU)",
+      "tier": "1",
+      "jurisdiction": "EU",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/01-gdpr/gdpr-foundations.md",
+      "legal_basis": "Regulation (EU) 2016/679",
+      "document_type": "reference",
+      "review_due": "2027-07-10",
+      "created": "2026-07-10",
+      "related": [
+        "uk-gdpr-foundations",
+        "eprivacy-foundations",
+        "privacy-engineering-foundations"
+      ]
+    },
+    {
+      "id": "uk-gdpr-foundations",
+      "title": "UK GDPR: Foundations & Divergence from the EU GDPR",
+      "topic": "UK GDPR",
+      "tier": "1",
+      "jurisdiction": "UK",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/02-uk-gdpr/uk-gdpr-foundations.md",
+      "legal_basis": "UK GDPR; Data Protection Act 2018; Data (Use and Access) Act 2025",
+      "document_type": "reference",
+      "review_due": "2027-07-10",
+      "created": "2026-07-10",
+      "related": [
+        "gdpr-foundations",
+        "eprivacy-foundations",
+        "privacy-engineering-foundations"
+      ]
+    },
+    {
+      "id": "eprivacy-foundations",
+      "title": "ePrivacy: Foundations, Cookies & Electronic Communications",
+      "topic": "ePrivacy",
+      "tier": "1",
+      "jurisdiction": "EU, UK",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/03-eprivacy/eprivacy-foundations.md",
+      "legal_basis": "Directive 2002/58/EC (as amended by Directive 2009/136/EC); PECR 2003 (UK)",
+      "document_type": "reference",
+      "review_due": "2027-07-10",
+      "created": "2026-07-10",
+      "related": [
+        "gdpr-foundations",
+        "uk-gdpr-foundations",
+        "privacy-engineering-foundations"
+      ]
+    },
+    {
+      "id": "privacy-engineering-foundations",
+      "title": "Privacy Engineering: Foundations, DPbDD",
+      "topic": "Privacy Engineering",
+      "tier": "1",
+      "jurisdiction": "EU, UK",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/04-privacy-engineering/privacy-engineering-foundations.md",
+      "legal_basis": "Regulation (EU) 2016/679, Articles 25 & 32",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "gdpr-foundations",
+        "uk-gdpr-foundations",
+        "eprivacy-foundations"
+      ]
+    },
+    {
+      "id": "ai-act-foundations",
+      "title": "EU AI Act: Foundations, Risk Tiers & Timeline",
+      "topic": "AI Act",
+      "tier": "2",
+      "jurisdiction": "EU",
+      "version": "1.1.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/05-ai-act/ai-act-foundations.md",
+      "legal_basis": "Regulation (EU) 2024/1689",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "gdpr-foundations",
+        "privacy-engineering-foundations",
+        "ai-governance-foundations"
+      ]
+    },
+    {
+      "id": "ai-governance-foundations",
+      "title": "AI Governance: Foundations, ISO/IEC 42001 & Operational Assurance",
+      "topic": "AI Governance",
+      "tier": "2",
+      "jurisdiction": "EU, UK",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/06-ai-governance/ai-governance-foundations.md",
+      "legal_basis": "Regulation (EU) 2024/1689 (operationalised via ISO/IEC 42001, NIST AI RMF, OECD AI Principles)",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "ai-act-foundations",
+        "gdpr-foundations",
+        "privacy-engineering-foundations"
+      ]
+    },
+    {
+      "id": "data-act-foundations",
+      "title": "EU Data Act: Foundations, Data Access & Sharing",
+      "topic": "Data Act",
+      "tier": "2",
+      "jurisdiction": "EU",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/07-data-act/data-act-foundations.md",
+      "legal_basis": "Regulation (EU) 2023/2854",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "gdpr-foundations",
+        "privacy-engineering-foundations",
+        "ai-act-foundations"
+      ]
+    },
+    {
+      "id": "dsa-foundations",
+      "title": "EU Digital Services Act: Foundations & Platform Obligations",
+      "topic": "Digital Services",
+      "tier": "2",
+      "jurisdiction": "EU",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/08-digital-services/dsa-foundations.md",
+      "legal_basis": "Regulation (EU) 2022/2065",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "dma-foundations",
+        "ai-act-foundations",
+        "gdpr-foundations"
+      ]
+    },
+    {
+      "id": "dma-foundations",
+      "title": "EU Digital Markets Act: Foundations & Gatekeeper Obligations",
+      "topic": "Digital Markets",
+      "tier": "2",
+      "jurisdiction": "EU",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/09-digital-markets/dma-foundations.md",
+      "legal_basis": "Regulation (EU) 2022/1925",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "ai-act-foundations",
+        "gdpr-foundations",
+        "privacy-engineering-foundations"
+      ]
+    },
+    {
+      "id": "nis2-foundations",
+      "title": "NIS2 Directive: Foundations, Scope & Cybersecurity Obligations",
+      "topic": "NIS2",
+      "tier": "3",
+      "jurisdiction": "EU",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/10-nis2/nis2-foundations.md",
+      "legal_basis": "Directive (EU) 2022/2555",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "dora-foundations",
+        "dsa-foundations",
+        "ai-act-foundations",
+        "gdpr-foundations"
+      ]
+    },
+    {
+      "id": "dora-foundations",
+      "title": "DORA: Foundations & Digital Operational Resilience for Finance",
+      "topic": "DORA",
+      "tier": "3",
+      "jurisdiction": "EU",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/11-dora/dora-foundations.md",
+      "legal_basis": "Regulation (EU) 2022/2554",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "nis2-foundations",
+        "gdpr-foundations",
+        "ai-act-foundations",
+        "data-act-foundations"
+      ]
+    },
+    {
+      "id": "cybersecurity-foundations",
+      "title": "Cybersecurity: Foundations, Frameworks & Controls",
+      "topic": "Cybersecurity",
+      "tier": "3",
+      "jurisdiction": "EU, UK",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/12-cybersecurity/cybersecurity-foundations.md",
+      "legal_basis": "Cross-cutting discipline — underpins Directive (EU) 2022/2555 (NIS2) Art. 21, Regulation (EU) 2022/2554 (DORA), Regulation (EU) 2016/679 (GDPR) Art. 32, Regulation (EU) 2024/2847 (Cyber Resilience Act)",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "privacy-engineering-foundations",
+        "nis2-foundations",
+        "dora-foundations",
+        "gdpr-foundations"
+      ]
+    },
+    {
+      "id": "consumer-rights-foundations",
+      "title": "Consumer Rights: Foundations (EU & UK)",
+      "topic": "Consumer Rights",
+      "tier": "4",
+      "jurisdiction": "EU, UK",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/13-consumer-rights/consumer-rights-foundations.md",
+      "legal_basis": "Directive 2011/83/EU; Directive 2005/29/EC; Directive 93/13/EEC; Directive (EU) 2019/770; Directive (EU) 2019/771; Directive (EU) 2019/2161; Consumer Rights Act 2015; Consumer Contracts Regulations 2013; Digital Markets, Competition and Consumers Act 2024",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "gdpr-foundations",
+        "dsa-foundations",
+        "dma-foundations",
+        "eprivacy-foundations"
+      ]
+    },
+    {
+      "id": "cloud-hosting-foundations",
+      "title": "Cloud Hosting: Compliance Foundations",
+      "topic": "Cloud Hosting",
+      "tier": "4",
+      "jurisdiction": "EU, UK",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "Medium",
+      "path": "docs/14-cloud-hosting/cloud-hosting-foundations.md",
+      "legal_basis": "Cross-cutting — Regulation (EU) 2016/679 (GDPR) Arts. 28, 32 & Chapter V; Directive (EU) 2022/2555 (NIS2); Regulation (EU) 2022/2554 (DORA); Regulation (EU) 2023/2854 (Data Act); Regulation (EU) 2019/881 (Cybersecurity Act)",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "gdpr-foundations",
+        "privacy-engineering-foundations",
+        "cybersecurity-foundations",
+        "nis2-foundations",
+        "dora-foundations",
+        "data-act-foundations"
+      ]
+    },
+    {
+      "id": "game-hosting-foundations",
+      "title": "Game Hosting: Compliance Foundations",
+      "topic": "Game Hosting",
+      "tier": "4",
+      "jurisdiction": "EU, UK",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "Medium",
+      "path": "docs/15-game-hosting/game-hosting-foundations.md",
+      "legal_basis": "UK GDPR / Regulation (EU) 2016/679; DPA 2018 (esp. ss.9, 123); ePrivacy Directive 2002/58/EC & PECR 2003; Regulation (EU) 2022/2065 (DSA); Regulation (EU) 2024/1689 (AI Act); consumer-protection law (UCPD 2005/29/EC as amended by 2019/2161; DMCCA 2024); Gambling Act 2005; Online Safety Act 2023",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "gdpr-foundations",
+        "uk-gdpr-foundations",
+        "eprivacy-foundations",
+        "privacy-engineering-foundations",
+        "dsa-foundations",
+        "ai-act-foundations",
+        "ai-governance-foundations",
+        "cybersecurity-foundations",
+        "dma-foundations"
+      ]
+    },
+    {
+      "id": "compliance-operations-foundations",
+      "title": "Compliance Operations: Running a Compliance Programme",
+      "topic": "Compliance Operations",
+      "tier": "4",
+      "jurisdiction": "EU, UK",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/16-compliance-operations/compliance-operations-foundations.md",
+      "legal_basis": "GDPR Art. 5(2) accountability (Reg (EU) 2016/679); NIS2 Art. 20 governance (Dir (EU) 2022/2555); DORA Art. 5 governance (Reg (EU) 2022/2554); operationalised via ISO 37301, ISO 31000, IIA Three Lines Model",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "gdpr-foundations",
+        "uk-gdpr-foundations",
+        "eprivacy-foundations",
+        "privacy-engineering-foundations",
+        "ai-act-foundations",
+        "ai-governance-foundations",
+        "data-act-foundations",
+        "dsa-foundations",
+        "dma-foundations",
+        "nis2-foundations",
+        "dora-foundations",
+        "cybersecurity-foundations"
+      ]
+    },
+    {
+      "id": "gdpr-transfers",
+      "title": "GDPR: International Data Transfers (Chapter V)",
+      "topic": "GDPR (EU)",
+      "tier": "1",
+      "jurisdiction": "EU, UK",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/01-gdpr/gdpr-transfers.md",
+      "legal_basis": "Regulation (EU) 2016/679 (Arts. 44–50)",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "gdpr-foundations",
+        "uk-gdpr-foundations",
+        "privacy-engineering-foundations",
+        "eprivacy-foundations"
+      ]
+    },
+    {
+      "id": "duaa-2025-detail",
+      "title": "Data (Use and Access) Act 2025: Detailed Analysis",
+      "topic": "UK GDPR",
+      "tier": "1",
+      "jurisdiction": "UK",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/02-uk-gdpr/duaa-2025-detail.md",
+      "legal_basis": "Data (Use and Access) Act 2025 (c.18); UK GDPR; Data Protection Act 2018; PECR (SI 2003/2426)",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "uk-gdpr-foundations",
+        "gdpr-foundations",
+        "eprivacy-uk",
+        "uk-childrens-code",
+        "uk-transfers"
+      ]
+    },
+    {
+      "id": "ai-act-high-risk",
+      "title": "EU AI Act: High-Risk Systems & Conformity Assessment",
+      "topic": "AI Act",
+      "tier": "2",
+      "jurisdiction": "EU",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "Medium",
+      "path": "docs/05-ai-act/ai-act-high-risk.md",
+      "legal_basis": "Regulation (EU) 2024/1689 (Articles 6–27, 40–49, 71; Annexes I, III, IV, VI, VII)",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "ai-act-foundations",
+        "ai-governance-foundations",
+        "gdpr-foundations",
+        "privacy-engineering-foundations"
+      ]
+    },
+    {
+      "id": "cyber-resilience-act",
+      "title": "EU Cyber Resilience Act: Product Cybersecurity Foundations",
+      "topic": "Cybersecurity",
+      "tier": "3",
+      "jurisdiction": "EU",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/12-cybersecurity/cyber-resilience-act.md",
+      "legal_basis": "Regulation (EU) 2024/2847 (Cyber Resilience Act)",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "cybersecurity-foundations",
+        "nis2-foundations",
+        "dora-foundations",
+        "ai-act-foundations"
+      ]
+    },
+    {
+      "id": "dpia-methodology",
+      "title": "Data Protection Impact Assessments: Methodology",
+      "topic": "Privacy Engineering",
+      "tier": "1",
+      "jurisdiction": "EU, UK",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/04-privacy-engineering/dpia-methodology.md",
+      "legal_basis": "Regulation (EU) 2016/679, Articles 35 & 36",
+      "document_type": "guidance",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "privacy-engineering-foundations",
+        "gdpr-foundations",
+        "uk-gdpr-foundations",
+        "ai-act-foundations",
+        "ai-act-high-risk",
+        "compliance-operations-foundations"
+      ]
+    },
+    {
+      "id": "ai-act-gpai",
+      "title": "EU AI Act: General-Purpose AI Models & Systemic Risk",
+      "topic": "AI Act",
+      "tier": "2",
+      "jurisdiction": "EU",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/05-ai-act/ai-act-gpai.md",
+      "legal_basis": "Regulation (EU) 2024/1689 (Articles 3(63), 3(65)–(66), 51–56, 88–94, 101; Annexes XI, XII, XIII)",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "ai-act-foundations",
+        "ai-act-high-risk",
+        "ai-governance-foundations",
+        "gdpr-foundations"
+      ]
+    },
+    {
+      "id": "digital-omnibus",
+      "title": "The EU Digital Omnibus: Simplification Package (2025–2026)",
+      "topic": "ePrivacy",
+      "tier": "2",
+      "jurisdiction": "EU",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "Medium",
+      "path": "docs/03-eprivacy/digital-omnibus.md",
+      "legal_basis": "COM(2025) 836 (Digital Omnibus on AI, adopted) and COM(2025) 837 (Digital Omnibus Regulation, proposed); amending Regulation (EU) 2024/1689, Regulation (EU) 2016/679, Directive 2002/58/EC, Regulation (EU) 2023/2854",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "eprivacy-foundations",
+        "ai-act-foundations",
+        "ai-act-high-risk",
+        "gdpr-foundations"
+      ]
+    },
+    {
+      "id": "uk-transfers",
+      "title": "UK GDPR: International Data Transfers",
+      "topic": "UK GDPR",
+      "tier": "1",
+      "jurisdiction": "UK",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/02-uk-gdpr/uk-transfers.md",
+      "legal_basis": "UK GDPR (Chapter V, Arts. 44–50, as amended); Data Protection Act 2018; Data (Use and Access) Act 2025 (c.18)",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "uk-gdpr-foundations",
+        "duaa-2025-detail",
+        "gdpr-transfers",
+        "gdpr-foundations",
+        "cloud-hosting-foundations"
+      ]
+    },
+    {
+      "id": "cookie-consent-implementation",
+      "title": "Cookie Consent: Implementation & Consent Management",
+      "topic": "ePrivacy",
+      "tier": "1",
+      "jurisdiction": "EU, UK",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/03-eprivacy/cookie-consent-implementation.md",
+      "legal_basis": "Directive 2002/58/EC Art. 5(3) (as amended by 2009/136/EC); Regulation (EU) 2016/679 Arts. 4(11), 7; PECR 2003 reg. 6",
+      "document_type": "guidance",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "eprivacy-foundations",
+        "gdpr-foundations",
+        "uk-gdpr-foundations",
+        "privacy-engineering-foundations",
+        "dsa-foundations",
+        "consumer-protection-foundations"
+      ]
+    },
+    {
+      "id": "dora-tlpt",
+      "title": "DORA: Threat-Led Penetration Testing (TLPT)",
+      "topic": "DORA",
+      "tier": "3",
+      "jurisdiction": "EU",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/11-dora/dora-tlpt.md",
+      "legal_basis": "Regulation (EU) 2022/2554, Arts. 24–27; Commission Delegated Regulation (EU) 2025/1190",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "dora-foundations",
+        "cybersecurity-foundations",
+        "nis2-foundations"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "gdpr-foundations",
+      "to": "uk-gdpr-foundations",
+      "rel": "foundation for",
+      "target": "known"
+    },
+    {
+      "from": "gdpr-foundations",
+      "to": "eprivacy-foundations",
+      "rel": "lex generalis to",
+      "target": "known"
+    },
+    {
+      "from": "gdpr-foundations",
+      "to": "privacy-engineering-foundations",
+      "rel": "implemented by",
+      "target": "known"
+    },
+    {
+      "from": "gdpr-foundations",
+      "to": "ai-act-foundations",
+      "rel": "interplays with",
+      "target": "known"
+    },
+    {
+      "from": "uk-gdpr-foundations",
+      "to": "gdpr-foundations",
+      "rel": "builds on / diverges from",
+      "target": "known"
+    },
+    {
+      "from": "uk-gdpr-foundations",
+      "to": "duaa-2025-detail",
+      "rel": "detailed by",
+      "target": "known"
+    },
+    {
+      "from": "uk-gdpr-foundations",
+      "to": "uk-transfers",
+      "rel": "detailed by",
+      "target": "known"
+    },
+    {
+      "from": "uk-gdpr-foundations",
+      "to": "uk-childrens-code",
+      "rel": "detailed by",
+      "target": "planned"
+    },
+    {
+      "from": "eprivacy-foundations",
+      "to": "gdpr-foundations",
+      "rel": "lex specialis to",
+      "target": "known"
+    },
+    {
+      "from": "eprivacy-foundations",
+      "to": "uk-gdpr-foundations",
+      "rel": "transposed in UK via PECR, relates to",
+      "target": "known"
+    },
+    {
+      "from": "eprivacy-foundations",
+      "to": "cookie-consent-implementation",
+      "rel": "detailed by",
+      "target": "known"
+    },
+    {
+      "from": "eprivacy-foundations",
+      "to": "digital-omnibus",
+      "rel": "detailed by",
+      "target": "known"
+    },
+    {
+      "from": "eprivacy-foundations",
+      "to": "pecr-detail",
+      "rel": "detailed by",
+      "target": "planned"
+    },
+    {
+      "from": "eprivacy-foundations",
+      "to": "data-retention-caselaw",
+      "rel": "detailed by",
+      "target": "planned"
+    },
+    {
+      "from": "privacy-engineering-foundations",
+      "to": "gdpr-foundations",
+      "rel": "implements",
+      "target": "known"
+    },
+    {
+      "from": "privacy-engineering-foundations",
+      "to": "uk-gdpr-foundations",
+      "rel": "implements",
+      "target": "known"
+    },
+    {
+      "from": "privacy-engineering-foundations",
+      "to": "eprivacy-foundations",
+      "rel": "implements",
+      "target": "known"
+    },
+    {
+      "from": "privacy-engineering-foundations",
+      "to": "dpia-methodology",
+      "rel": "detailed by",
+      "target": "known"
+    },
+    {
+      "from": "privacy-engineering-foundations",
+      "to": "pets-catalogue",
+      "rel": "detailed by",
+      "target": "planned"
+    },
+    {
+      "from": "privacy-engineering-foundations",
+      "to": "privacy-threat-modelling",
+      "rel": "detailed by",
+      "target": "planned"
+    },
+    {
+      "from": "privacy-engineering-foundations",
+      "to": "anonymisation-techniques",
+      "rel": "detailed by",
+      "target": "planned"
+    },
+    {
+      "from": "ai-act-foundations",
+      "to": "gdpr-foundations",
+      "rel": "operates alongside",
+      "target": "known"
+    },
+    {
+      "from": "ai-act-foundations",
+      "to": "ai-governance-foundations",
+      "rel": "operationalised by",
+      "target": "known"
+    },
+    {
+      "from": "ai-act-foundations",
+      "to": "ai-act-high-risk",
+      "rel": "detailed by",
+      "target": "known"
+    },
+    {
+      "from": "ai-act-foundations",
+      "to": "ai-act-gpai",
+      "rel": "detailed by",
+      "target": "known"
+    },
+    {
+      "from": "ai-act-foundations",
+      "to": "digital-omnibus",
+      "rel": "detailed by",
+      "target": "known"
+    },
+    {
+      "from": "ai-act-foundations",
+      "to": "ai-act-prohibited-practices",
+      "rel": "detailed by",
+      "target": "planned"
+    },
+    {
+      "from": "ai-governance-foundations",
+      "to": "ai-act-foundations",
+      "rel": "operationalises; integrates with; builds on",
+      "target": "known"
+    },
+    {
+      "from": "ai-governance-foundations",
+      "to": "gdpr-foundations",
+      "rel": "operationalises; integrates with; builds on",
+      "target": "known"
+    },
+    {
+      "from": "ai-governance-foundations",
+      "to": "privacy-engineering-foundations",
+      "rel": "operationalises; integrates with; builds on",
+      "target": "known"
+    },
+    {
+      "from": "data-act-foundations",
+      "to": "gdpr-foundations",
+      "rel": "complements; adjacent to",
+      "target": "known"
+    },
+    {
+      "from": "data-act-foundations",
+      "to": "ai-act-foundations",
+      "rel": "complements; adjacent to",
+      "target": "known"
+    },
+    {
+      "from": "dsa-foundations",
+      "to": "dma-foundations",
+      "rel": "sibling of; overlaps",
+      "target": "known"
+    },
+    {
+      "from": "dsa-foundations",
+      "to": "ai-act-foundations",
+      "rel": "sibling of; overlaps",
+      "target": "known"
+    },
+    {
+      "from": "dsa-foundations",
+      "to": "gdpr-foundations",
+      "rel": "sibling of; overlaps",
+      "target": "known"
+    },
+    {
+      "from": "dma-foundations",
+      "to": "dsa-foundations",
+      "rel": "complements; relates to",
+      "target": "known"
+    },
+    {
+      "from": "dma-foundations",
+      "to": "gdpr-foundations",
+      "rel": "complements; relates to",
+      "target": "known"
+    },
+    {
+      "from": "nis2-foundations",
+      "to": "dora-foundations",
+      "rel": "supersedes; lex specialis defers to; parallel with",
+      "target": "known"
+    },
+    {
+      "from": "nis2-foundations",
+      "to": "gdpr-foundations",
+      "rel": "supersedes; lex specialis defers to; parallel with",
+      "target": "known"
+    },
+    {
+      "from": "dora-foundations",
+      "to": "nis2-foundations",
+      "rel": "lex specialis to; parallel with",
+      "target": "known"
+    },
+    {
+      "from": "dora-foundations",
+      "to": "gdpr-foundations",
+      "rel": "lex specialis to; parallel with",
+      "target": "known"
+    },
+    {
+      "from": "cybersecurity-foundations",
+      "to": "nis2-foundations",
+      "rel": "implements; complements",
+      "target": "known"
+    },
+    {
+      "from": "cybersecurity-foundations",
+      "to": "dora-foundations",
+      "rel": "implements; complements",
+      "target": "known"
+    },
+    {
+      "from": "cybersecurity-foundations",
+      "to": "gdpr-foundations",
+      "rel": "implements; complements",
+      "target": "known"
+    },
+    {
+      "from": "cybersecurity-foundations",
+      "to": "privacy-engineering-foundations",
+      "rel": "implements; complements",
+      "target": "known"
+    },
+    {
+      "from": "consumer-rights-foundations",
+      "to": "gdpr-foundations",
+      "rel": "parallel to; cross-refs",
+      "target": "known"
+    },
+    {
+      "from": "consumer-rights-foundations",
+      "to": "dsa-foundations",
+      "rel": "parallel to; cross-refs",
+      "target": "known"
+    },
+    {
+      "from": "consumer-rights-foundations",
+      "to": "dma-foundations",
+      "rel": "parallel to; cross-refs",
+      "target": "known"
+    },
+    {
+      "from": "cloud-hosting-foundations",
+      "to": "gdpr-foundations",
+      "rel": "synthesises",
+      "target": "known"
+    },
+    {
+      "from": "cloud-hosting-foundations",
+      "to": "privacy-engineering-foundations",
+      "rel": "synthesises",
+      "target": "known"
+    },
+    {
+      "from": "cloud-hosting-foundations",
+      "to": "cybersecurity-foundations",
+      "rel": "synthesises",
+      "target": "known"
+    },
+    {
+      "from": "cloud-hosting-foundations",
+      "to": "nis2-foundations",
+      "rel": "synthesises",
+      "target": "known"
+    },
+    {
+      "from": "cloud-hosting-foundations",
+      "to": "dora-foundations",
+      "rel": "synthesises",
+      "target": "known"
+    },
+    {
+      "from": "cloud-hosting-foundations",
+      "to": "data-act-foundations",
+      "rel": "synthesises",
+      "target": "known"
+    },
+    {
+      "from": "game-hosting-foundations",
+      "to": "gdpr-foundations",
+      "rel": "synthesises",
+      "target": "known"
+    },
+    {
+      "from": "game-hosting-foundations",
+      "to": "uk-gdpr-foundations",
+      "rel": "synthesises",
+      "target": "known"
+    },
+    {
+      "from": "game-hosting-foundations",
+      "to": "eprivacy-foundations",
+      "rel": "synthesises",
+      "target": "known"
+    },
+    {
+      "from": "game-hosting-foundations",
+      "to": "dsa-foundations",
+      "rel": "synthesises",
+      "target": "known"
+    },
+    {
+      "from": "game-hosting-foundations",
+      "to": "ai-act-foundations",
+      "rel": "synthesises",
+      "target": "known"
+    },
+    {
+      "from": "game-hosting-foundations",
+      "to": "consumer-rights-foundations",
+      "rel": "synthesises",
+      "target": "known"
+    },
+    {
+      "from": "game-hosting-foundations",
+      "to": "cloud-hosting-foundations",
+      "rel": "synthesises",
+      "target": "known"
+    },
+    {
+      "from": "gdpr-transfers",
+      "to": "gdpr-foundations",
+      "rel": "details; relates to",
+      "target": "known"
+    },
+    {
+      "from": "gdpr-transfers",
+      "to": "uk-gdpr-foundations",
+      "rel": "details; relates to",
+      "target": "known"
+    },
+    {
+      "from": "gdpr-transfers",
+      "to": "cloud-hosting-foundations",
+      "rel": "details; relates to",
+      "target": "known"
+    },
+    {
+      "from": "duaa-2025-detail",
+      "to": "uk-gdpr-foundations",
+      "rel": "details",
+      "target": "known"
+    },
+    {
+      "from": "ai-act-high-risk",
+      "to": "ai-act-foundations",
+      "rel": "details; operationalised by; amended by",
+      "target": "known"
+    },
+    {
+      "from": "ai-act-high-risk",
+      "to": "ai-governance-foundations",
+      "rel": "details; operationalised by; amended by",
+      "target": "known"
+    },
+    {
+      "from": "cyber-resilience-act",
+      "to": "cybersecurity-foundations",
+      "rel": "details; complements",
+      "target": "known"
+    },
+    {
+      "from": "cyber-resilience-act",
+      "to": "nis2-foundations",
+      "rel": "details; complements",
+      "target": "known"
+    },
+    {
+      "from": "dpia-methodology",
+      "to": "privacy-engineering-foundations",
+      "rel": "details; implements; dovetails with",
+      "target": "known"
+    },
+    {
+      "from": "dpia-methodology",
+      "to": "gdpr-foundations",
+      "rel": "details; implements; dovetails with",
+      "target": "known"
+    },
+    {
+      "from": "dpia-methodology",
+      "to": "ai-act-high-risk",
+      "rel": "details; implements; dovetails with",
+      "target": "known"
+    },
+    {
+      "from": "ai-act-gpai",
+      "to": "ai-act-foundations",
+      "rel": "details; sibling of; unaffected by",
+      "target": "known"
+    },
+    {
+      "from": "ai-act-gpai",
+      "to": "ai-act-high-risk",
+      "rel": "details; sibling of; unaffected by",
+      "target": "known"
+    },
+    {
+      "from": "digital-omnibus",
+      "to": "eprivacy-foundations",
+      "rel": "deferred from; cross-refs",
+      "target": "known"
+    },
+    {
+      "from": "digital-omnibus",
+      "to": "ai-act-foundations",
+      "rel": "deferred from; cross-refs",
+      "target": "known"
+    },
+    {
+      "from": "digital-omnibus",
+      "to": "ai-act-high-risk",
+      "rel": "deferred from; cross-refs",
+      "target": "known"
+    },
+    {
+      "from": "uk-transfers",
+      "to": "uk-gdpr-foundations",
+      "rel": "details; UK-side sibling of; depends on",
+      "target": "known"
+    },
+    {
+      "from": "uk-transfers",
+      "to": "gdpr-transfers",
+      "rel": "details; UK-side sibling of; depends on",
+      "target": "known"
+    },
+    {
+      "from": "uk-transfers",
+      "to": "duaa-2025-detail",
+      "rel": "details; UK-side sibling of; depends on",
+      "target": "known"
+    },
+    {
+      "from": "cookie-consent-implementation",
+      "to": "eprivacy-foundations",
+      "rel": "details; depends on; reform-watch",
+      "target": "known"
+    },
+    {
+      "from": "cookie-consent-implementation",
+      "to": "gdpr-foundations",
+      "rel": "details; depends on; reform-watch",
+      "target": "known"
+    },
+    {
+      "from": "cookie-consent-implementation",
+      "to": "digital-omnibus",
+      "rel": "details; depends on; reform-watch",
+      "target": "known"
+    },
+    {
+      "from": "dora-tlpt",
+      "to": "dora-foundations",
+      "rel": "details; implemented via",
+      "target": "known"
+    },
+    {
+      "from": "dora-tlpt",
+      "to": "cybersecurity-foundations",
+      "rel": "details; implemented via",
+      "target": "known"
+    },
+    {
+      "from": "uk-gdpr-foundations",
+      "to": "eprivacy-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "uk-gdpr-foundations",
+      "to": "privacy-engineering-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "eprivacy-foundations",
+      "to": "privacy-engineering-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "ai-act-foundations",
+      "to": "privacy-engineering-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "data-act-foundations",
+      "to": "privacy-engineering-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "dma-foundations",
+      "to": "ai-act-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "dma-foundations",
+      "to": "privacy-engineering-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "nis2-foundations",
+      "to": "dsa-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "nis2-foundations",
+      "to": "ai-act-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "dora-foundations",
+      "to": "ai-act-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "dora-foundations",
+      "to": "data-act-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "consumer-rights-foundations",
+      "to": "eprivacy-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "game-hosting-foundations",
+      "to": "privacy-engineering-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "game-hosting-foundations",
+      "to": "ai-governance-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "game-hosting-foundations",
+      "to": "cybersecurity-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "game-hosting-foundations",
+      "to": "dma-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "compliance-operations-foundations",
+      "to": "gdpr-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "compliance-operations-foundations",
+      "to": "uk-gdpr-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "compliance-operations-foundations",
+      "to": "eprivacy-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "compliance-operations-foundations",
+      "to": "privacy-engineering-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "compliance-operations-foundations",
+      "to": "ai-act-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "compliance-operations-foundations",
+      "to": "ai-governance-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "compliance-operations-foundations",
+      "to": "data-act-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "compliance-operations-foundations",
+      "to": "dsa-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "compliance-operations-foundations",
+      "to": "dma-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "compliance-operations-foundations",
+      "to": "nis2-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "compliance-operations-foundations",
+      "to": "dora-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "compliance-operations-foundations",
+      "to": "cybersecurity-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "gdpr-transfers",
+      "to": "privacy-engineering-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "gdpr-transfers",
+      "to": "eprivacy-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "duaa-2025-detail",
+      "to": "gdpr-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "duaa-2025-detail",
+      "to": "eprivacy-uk",
+      "rel": "related",
+      "target": "planned"
+    },
+    {
+      "from": "duaa-2025-detail",
+      "to": "uk-childrens-code",
+      "rel": "related",
+      "target": "planned"
+    },
+    {
+      "from": "duaa-2025-detail",
+      "to": "uk-transfers",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "ai-act-high-risk",
+      "to": "gdpr-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "ai-act-high-risk",
+      "to": "privacy-engineering-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "cyber-resilience-act",
+      "to": "dora-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "cyber-resilience-act",
+      "to": "ai-act-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "dpia-methodology",
+      "to": "uk-gdpr-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "dpia-methodology",
+      "to": "ai-act-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "dpia-methodology",
+      "to": "compliance-operations-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "ai-act-gpai",
+      "to": "ai-governance-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "ai-act-gpai",
+      "to": "gdpr-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "digital-omnibus",
+      "to": "gdpr-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "uk-transfers",
+      "to": "gdpr-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "uk-transfers",
+      "to": "cloud-hosting-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "cookie-consent-implementation",
+      "to": "uk-gdpr-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "cookie-consent-implementation",
+      "to": "privacy-engineering-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "cookie-consent-implementation",
+      "to": "dsa-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "cookie-consent-implementation",
+      "to": "consumer-protection-foundations",
+      "rel": "related",
+      "target": "planned"
+    },
+    {
+      "from": "dora-tlpt",
+      "to": "nis2-foundations",
+      "rel": "related",
+      "target": "known"
+    }
+  ]
+}

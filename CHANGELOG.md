@@ -6,6 +6,18 @@ All notable changes to this repository. Format based on [Keep a Changelog](https
 
 *Nothing yet.*
 
+## [0.12.0] — 2026-07-11
+
+### Added (knowledge-graph & compliance-mapping export)
+
+- `scripts/build_graph.py` — generates machine-readable exports from the catalogue + front matter, and validates cross-references (fails on edges to non-existent, non-`(planned)` ids).
+- `exports/` — `knowledge-graph.json` (26 nodes, 136 typed edges), `knowledge-graph.mmd` (Mermaid), `compliance-matrix.csv` + `.json`, `coverage.md`, and an `exports/README.md`.
+- CI (`qa.yml`): runs `build_graph.py` on every push/PR (cross-reference gate) and fails if committed `exports/` are stale.
+
+### Changed
+
+- `scripts/README.md` — cross-reference validator moved from "recommended" to implemented.
+
 ## [0.11.0] — 2026-07-11
 
 ### Added (second depth-layer sub-topic cluster — approved & frozen at v1.0.0; parallel cluster; workers self-ran the QA validators)

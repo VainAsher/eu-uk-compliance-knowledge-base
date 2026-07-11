@@ -1,7 +1,7 @@
 # Project Status
 
 **Last updated:** 2026-07-11
-**Maturity:** Stage 8 of 10 — *QA automation live; 26 documents approved (16 foundations + 10 depth sub-topics; releases through 0.11.0). Publication/RAG still ahead.*
+**Maturity:** Stage 9 of 10 — *Knowledge-graph & compliance-mapping exports live (release 0.12.0). 26 documents approved. Only publication/RAG (Stage 10) remains — needs a git remote.*
 
 ## Maturity model (repository level)
 
@@ -14,9 +14,9 @@
 | 4 | Tier 2 digital & AI complete | ✅ passed |
 | 5 | Tier 3 security & resilience complete | ✅ passed |
 | 6 | Tier 4 sector/consumer/ops complete | ✅ **current** |
-| 7 | Cross-references & knowledge graph populated | 🟡 partial (knowledge graph populated; sub-topics pending) |
-| 8 | QA automation (lint/link/citation) implemented | ✅ **current** |
-| 9 | Wiki.js / GitHub publication pipeline | ⬜ |
+| 7 | Cross-references & knowledge graph populated | ✅ passed (graph + compliance matrix exported) |
+| 8 | QA automation (lint/link/citation) implemented | ✅ passed |
+| 9 | Wiki.js / GitHub publication pipeline | ⬜ (needs a git remote) |
 | 10 | RAG-ready export + audit dossier | ⬜ |
 
 ## Completed work
@@ -36,8 +36,8 @@
 
 ## In progress
 
-- **Second depth-layer sub-topic cluster (#21–#26) approved & frozen at v1.0.0 (release 0.11.0).** 26 documents total.
-- Remaining phases: knowledge-graph/compliance-mapping export, and publication/RAG (needs a git remote). Further sub-topic clusters can run any time.
+- **Knowledge-graph & compliance-mapping exports implemented (release 0.12.0)** — `scripts/build_graph.py` → `exports/` (graph JSON/Mermaid, compliance matrix CSV/JSON, coverage report), with a CI cross-reference gate.
+- **Only remaining roadmap item:** Stage 10 — publication (Wiki.js / GitHub Pages) + RAG export. Needs a git remote. Further sub-topic clusters can run any time.
 
 ## Pending work
 

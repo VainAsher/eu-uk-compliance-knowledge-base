@@ -1,0 +1,180 @@
+graph LR
+  subgraph Tier1["Tier 1"]
+    cookie_consent_implementation["cookie-consent-implementation"]
+    dpia_methodology["dpia-methodology"]
+    duaa_2025_detail["duaa-2025-detail"]
+    eprivacy_foundations["eprivacy-foundations"]
+    gdpr_foundations["gdpr-foundations"]
+    gdpr_transfers["gdpr-transfers"]
+    privacy_engineering_foundations["privacy-engineering-foundations"]
+    uk_gdpr_foundations["uk-gdpr-foundations"]
+    uk_transfers["uk-transfers"]
+  end
+  subgraph Tier2["Tier 2"]
+    ai_act_foundations["ai-act-foundations"]
+    ai_act_gpai["ai-act-gpai"]
+    ai_act_high_risk["ai-act-high-risk"]
+    ai_governance_foundations["ai-governance-foundations"]
+    data_act_foundations["data-act-foundations"]
+    digital_omnibus["digital-omnibus"]
+    dma_foundations["dma-foundations"]
+    dsa_foundations["dsa-foundations"]
+  end
+  subgraph Tier3["Tier 3"]
+    cyber_resilience_act["cyber-resilience-act"]
+    cybersecurity_foundations["cybersecurity-foundations"]
+    dora_foundations["dora-foundations"]
+    dora_tlpt["dora-tlpt"]
+    nis2_foundations["nis2-foundations"]
+  end
+  subgraph Tier4["Tier 4"]
+    cloud_hosting_foundations["cloud-hosting-foundations"]
+    compliance_operations_foundations["compliance-operations-foundations"]
+    consumer_rights_foundations["consumer-rights-foundations"]
+    game_hosting_foundations["game-hosting-foundations"]
+  end
+  gdpr_foundations -->|foundation for| uk_gdpr_foundations
+  gdpr_foundations -->|lex generalis to| eprivacy_foundations
+  gdpr_foundations -->|implemented by| privacy_engineering_foundations
+  gdpr_foundations -->|interplays with| ai_act_foundations
+  uk_gdpr_foundations -->|builds on / diverges fro| gdpr_foundations
+  uk_gdpr_foundations -->|detailed by| duaa_2025_detail
+  uk_gdpr_foundations -->|detailed by| uk_transfers
+  uk_childrens_code(["uk-childrens-code<br/>(planned)"])
+  uk_gdpr_foundations -.->|detailed by| uk_childrens_code
+  eprivacy_foundations -->|lex specialis to| gdpr_foundations
+  eprivacy_foundations -->|transposed in UK via PEC| uk_gdpr_foundations
+  eprivacy_foundations -->|detailed by| cookie_consent_implementation
+  eprivacy_foundations -->|detailed by| digital_omnibus
+  pecr_detail(["pecr-detail<br/>(planned)"])
+  eprivacy_foundations -.->|detailed by| pecr_detail
+  data_retention_caselaw(["data-retention-caselaw<br/>(planned)"])
+  eprivacy_foundations -.->|detailed by| data_retention_caselaw
+  privacy_engineering_foundations -->|implements| gdpr_foundations
+  privacy_engineering_foundations -->|implements| uk_gdpr_foundations
+  privacy_engineering_foundations -->|implements| eprivacy_foundations
+  privacy_engineering_foundations -->|detailed by| dpia_methodology
+  pets_catalogue(["pets-catalogue<br/>(planned)"])
+  privacy_engineering_foundations -.->|detailed by| pets_catalogue
+  privacy_threat_modelling(["privacy-threat-modelling<br/>(planned)"])
+  privacy_engineering_foundations -.->|detailed by| privacy_threat_modelling
+  anonymisation_techniques(["anonymisation-techniques<br/>(planned)"])
+  privacy_engineering_foundations -.->|detailed by| anonymisation_techniques
+  ai_act_foundations -->|operates alongside| gdpr_foundations
+  ai_act_foundations -->|operationalised by| ai_governance_foundations
+  ai_act_foundations -->|detailed by| ai_act_high_risk
+  ai_act_foundations -->|detailed by| ai_act_gpai
+  ai_act_foundations -->|detailed by| digital_omnibus
+  ai_act_prohibited_practices(["ai-act-prohibited-practices<br/>(planned)"])
+  ai_act_foundations -.->|detailed by| ai_act_prohibited_practices
+  ai_governance_foundations -->|operationalises| ai_act_foundations
+  ai_governance_foundations -->|operationalises| gdpr_foundations
+  ai_governance_foundations -->|operationalises| privacy_engineering_foundations
+  data_act_foundations -->|complements| gdpr_foundations
+  data_act_foundations -->|complements| ai_act_foundations
+  dsa_foundations -->|sibling of| dma_foundations
+  dsa_foundations -->|sibling of| ai_act_foundations
+  dsa_foundations -->|sibling of| gdpr_foundations
+  dma_foundations -->|complements| dsa_foundations
+  dma_foundations -->|complements| gdpr_foundations
+  nis2_foundations -->|supersedes| dora_foundations
+  nis2_foundations -->|supersedes| gdpr_foundations
+  dora_foundations -->|lex specialis to| nis2_foundations
+  dora_foundations -->|lex specialis to| gdpr_foundations
+  cybersecurity_foundations -->|implements| nis2_foundations
+  cybersecurity_foundations -->|implements| dora_foundations
+  cybersecurity_foundations -->|implements| gdpr_foundations
+  cybersecurity_foundations -->|implements| privacy_engineering_foundations
+  consumer_rights_foundations -->|parallel to| gdpr_foundations
+  consumer_rights_foundations -->|parallel to| dsa_foundations
+  consumer_rights_foundations -->|parallel to| dma_foundations
+  cloud_hosting_foundations -->|synthesises| gdpr_foundations
+  cloud_hosting_foundations -->|synthesises| privacy_engineering_foundations
+  cloud_hosting_foundations -->|synthesises| cybersecurity_foundations
+  cloud_hosting_foundations -->|synthesises| nis2_foundations
+  cloud_hosting_foundations -->|synthesises| dora_foundations
+  cloud_hosting_foundations -->|synthesises| data_act_foundations
+  game_hosting_foundations -->|synthesises| gdpr_foundations
+  game_hosting_foundations -->|synthesises| uk_gdpr_foundations
+  game_hosting_foundations -->|synthesises| eprivacy_foundations
+  game_hosting_foundations -->|synthesises| dsa_foundations
+  game_hosting_foundations -->|synthesises| ai_act_foundations
+  game_hosting_foundations -->|synthesises| consumer_rights_foundations
+  game_hosting_foundations -->|synthesises| cloud_hosting_foundations
+  gdpr_transfers -->|details| gdpr_foundations
+  gdpr_transfers -->|details| uk_gdpr_foundations
+  gdpr_transfers -->|details| cloud_hosting_foundations
+  duaa_2025_detail -->|details| uk_gdpr_foundations
+  ai_act_high_risk -->|details| ai_act_foundations
+  ai_act_high_risk -->|details| ai_governance_foundations
+  cyber_resilience_act -->|details| cybersecurity_foundations
+  cyber_resilience_act -->|details| nis2_foundations
+  dpia_methodology -->|details| privacy_engineering_foundations
+  dpia_methodology -->|details| gdpr_foundations
+  dpia_methodology -->|details| ai_act_high_risk
+  ai_act_gpai -->|details| ai_act_foundations
+  ai_act_gpai -->|details| ai_act_high_risk
+  digital_omnibus -->|deferred from| eprivacy_foundations
+  digital_omnibus -->|deferred from| ai_act_foundations
+  digital_omnibus -->|deferred from| ai_act_high_risk
+  uk_transfers -->|details| uk_gdpr_foundations
+  uk_transfers -->|details| gdpr_transfers
+  uk_transfers -->|details| duaa_2025_detail
+  cookie_consent_implementation -->|details| eprivacy_foundations
+  cookie_consent_implementation -->|details| gdpr_foundations
+  cookie_consent_implementation -->|details| digital_omnibus
+  dora_tlpt -->|details| dora_foundations
+  dora_tlpt -->|details| cybersecurity_foundations
+  uk_gdpr_foundations -->|related| eprivacy_foundations
+  uk_gdpr_foundations -->|related| privacy_engineering_foundations
+  eprivacy_foundations -->|related| privacy_engineering_foundations
+  ai_act_foundations -->|related| privacy_engineering_foundations
+  data_act_foundations -->|related| privacy_engineering_foundations
+  dma_foundations -->|related| ai_act_foundations
+  dma_foundations -->|related| privacy_engineering_foundations
+  nis2_foundations -->|related| dsa_foundations
+  nis2_foundations -->|related| ai_act_foundations
+  dora_foundations -->|related| ai_act_foundations
+  dora_foundations -->|related| data_act_foundations
+  consumer_rights_foundations -->|related| eprivacy_foundations
+  game_hosting_foundations -->|related| privacy_engineering_foundations
+  game_hosting_foundations -->|related| ai_governance_foundations
+  game_hosting_foundations -->|related| cybersecurity_foundations
+  game_hosting_foundations -->|related| dma_foundations
+  compliance_operations_foundations -->|related| gdpr_foundations
+  compliance_operations_foundations -->|related| uk_gdpr_foundations
+  compliance_operations_foundations -->|related| eprivacy_foundations
+  compliance_operations_foundations -->|related| privacy_engineering_foundations
+  compliance_operations_foundations -->|related| ai_act_foundations
+  compliance_operations_foundations -->|related| ai_governance_foundations
+  compliance_operations_foundations -->|related| data_act_foundations
+  compliance_operations_foundations -->|related| dsa_foundations
+  compliance_operations_foundations -->|related| dma_foundations
+  compliance_operations_foundations -->|related| nis2_foundations
+  compliance_operations_foundations -->|related| dora_foundations
+  compliance_operations_foundations -->|related| cybersecurity_foundations
+  gdpr_transfers -->|related| privacy_engineering_foundations
+  gdpr_transfers -->|related| eprivacy_foundations
+  duaa_2025_detail -->|related| gdpr_foundations
+  eprivacy_uk(["eprivacy-uk<br/>(planned)"])
+  duaa_2025_detail -.->|related| eprivacy_uk
+  duaa_2025_detail -.->|related| uk_childrens_code
+  duaa_2025_detail -->|related| uk_transfers
+  ai_act_high_risk -->|related| gdpr_foundations
+  ai_act_high_risk -->|related| privacy_engineering_foundations
+  cyber_resilience_act -->|related| dora_foundations
+  cyber_resilience_act -->|related| ai_act_foundations
+  dpia_methodology -->|related| uk_gdpr_foundations
+  dpia_methodology -->|related| ai_act_foundations
+  dpia_methodology -->|related| compliance_operations_foundations
+  ai_act_gpai -->|related| ai_governance_foundations
+  ai_act_gpai -->|related| gdpr_foundations
+  digital_omnibus -->|related| gdpr_foundations
+  uk_transfers -->|related| gdpr_foundations
+  uk_transfers -->|related| cloud_hosting_foundations
+  cookie_consent_implementation -->|related| uk_gdpr_foundations
+  cookie_consent_implementation -->|related| privacy_engineering_foundations
+  cookie_consent_implementation -->|related| dsa_foundations
+  consumer_protection_foundations(["consumer-protection-foundations<br/>(planned)"])
+  cookie_consent_implementation -.->|related| consumer_protection_foundations
+  dora_tlpt -->|related| nis2_foundations
