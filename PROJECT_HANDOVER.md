@@ -10,17 +10,24 @@ An autonomous multi-agent pipeline that produces a professional, evidence-based 
 
 ## Current state (snapshot)
 
-- **Maturity:** Stage 3 — **Tier 1 complete** (Docs #1–#4 approved & frozen at v1.0.0; releases 0.2.0–0.5.0). Tier 2 starting.
-- **Version control:** git on `main`, tags `v0.2.0`–`v0.5.0`. No remote yet.
+- **Maturity:** Stage 4 — **Tiers 1 & 2 complete** (9 docs approved & frozen at v1.0.0; releases 0.2.0–0.7.0). Tier 3 next.
+- **Version control:** git on `main`, tags `v0.2.0`–`v0.7.0`. No remote yet.
 - **Template:** `templates/document_template.md` reconciled to full spec.
 - **Governance files:** all present, incl. `GLOSSARY.md`.
 - **Editorial policy:** shared glossary + dedicated sub-topic documents (see `ROADMAP.md`).
+- **Production model:** parallel cluster — orchestrator (owns control files, git, gate) + per-document worker agents (write own doc, return metadata). First batch (#6–#9) delivered 4 docs concurrently.
 
 ## What to do next
 
-1. Produce **Document #5: AI Act Foundations** (`docs/05-ai-act/ai-act-foundations.md`) — first Tier 2 document; Regulation (EU) 2024/1689. Note the AI Act has a **phased application timeline** (2025–2027) — verify current in-force provisions live.
-2. Present it at the **human review gate** and wait for a decision.
-3. On `APPROVE`: freeze it, update all control files, then continue Tier 2 (AI Governance, Data Act, DSA, DMA) per `ROADMAP.md`.
+1. Run the **Tier 3 (security & resilience) cluster**: NIS2 (#10), DORA (#11), Cybersecurity (#12). Live-verify NIS2 national transposition status and DORA application (17 Jan 2025).
+2. Present the batch at the **human review gate**.
+3. On `APPROVE`: freeze, cut release, then Tier 4 (Consumer Rights, Cloud Hosting, Game Hosting, Compliance Operations).
+
+## Parallel-cluster operating notes (for the orchestrator)
+
+- Workers write ONLY their own doc file and RETURN metadata (index row, glossary terms, source rows, knowledge-graph edges, QA report). They do not touch shared files or run git.
+- Orchestrator merges metadata serially, **independently re-verifies all links** (curl), spot-checks flagged article/recital numbers against enacting text, then freezes and commits.
+- Retain the human gate: present each batch for APPROVE/REVISE before freezing.
 
 ## Open decisions for the human
 
@@ -40,6 +47,9 @@ An autonomous multi-agent pipeline that produces a professional, evidence-based 
 | 2026-07-10 | Document #2 (UK GDPR Foundations) approved & frozen at v1.0.0 | Passed human review gate; DUAA 2025 + adequacy facts live-verified. |
 | 2026-07-11 | Document #3 (ePrivacy Foundations) approved & frozen at v1.0.0 | Passed human review gate; ePrivacy Regulation withdrawal + Digital Omnibus live-verified. |
 | 2026-07-11 | Document #4 (Privacy Engineering) approved & frozen at v1.0.0 — **Tier 1 complete** | Passed human review gate; NIST PF version status live-verified. |
+| 2026-07-11 | Document #5 (AI Act) approved & frozen at v1.0.0 | Passed human review gate; AI Omnibus provisional status live-verified. |
+| 2026-07-11 | Adopt parallel-cluster production model | User request to speed up while retaining quality; orchestrator + worker agents. |
+| 2026-07-11 | Tier 2 batch (#6–#9) approved & frozen at v1.0.0 — **Tier 2 complete** | Batch human gate ("approve with spot check"); DSA article/recital numbers verified against EUR-Lex. |
 
 ## Control files to update after every approved document
 

@@ -1,8 +1,8 @@
 ---
 id: data-act-foundations
 title: "EU Data Act: Foundations, Data Access & Sharing"
-version: 0.1.0
-status: in-review
+version: 1.0.0
+status: approved
 classification: public
 jurisdiction: [EU]
 topic: Data Act
@@ -26,15 +26,15 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | data-act-foundations |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.7.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
 | Last Updated | 2026-07-11 |
 | Review Due | 2027-07-11 |
 | Confidence | High |
-| Approved By | *pending human review* |
+| Approved By | Human reviewer — 2026-07-11 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**. The Data Act's core provisions became applicable on **12 September 2025**; certain obligations phase in later (notably the Article 3(1) connected-product design duty from **12 September 2026** and the withdrawal of cloud switching charges from **12 January 2027**). Always confirm the current in-force dates before relying on them.
 
@@ -287,4 +287,5 @@ Not Applicable — this foundational reference relies on primary legislation and
 
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
-| 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (Reg (EU) 2023/2854) and European Commission sources; application dates (12 Sep 2025 general; 12 Sep 2026 Art. 3(1); 12 Jan 2027 switching charges; 12 Sep 2027 legacy contracts) and GDPR-primacy (Art. 1(5)) live-verified. | *pending human review* |
+| 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (Reg (EU) 2023/2854) and European Commission sources; application dates (12 Sep 2025 general; 12 Sep 2026 Art. 3(1); 12 Jan 2027 switching charges; 12 Sep 2027 legacy contracts) and GDPR-primacy (Art. 1(5)) live-verified. | — |
+| 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at batch human review gate (parallel cluster); frozen in release 0.7.0. | Human reviewer |

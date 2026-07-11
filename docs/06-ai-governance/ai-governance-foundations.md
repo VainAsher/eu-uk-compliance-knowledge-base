@@ -1,8 +1,8 @@
 ---
 id: ai-governance-foundations
 title: "AI Governance: Foundations, ISO/IEC 42001 & Operational Assurance"
-version: 0.1.0
-status: in-review
+version: 1.0.0
+status: approved
 classification: public
 jurisdiction: [EU, UK]
 topic: AI Governance
@@ -26,15 +26,15 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | ai-governance-foundations |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.7.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
 | Last Updated | 2026-07-11 |
 | Review Due | 2027-07-11 |
 | Confidence | High |
-| Approved By | *pending human review* |
+| Approved By | Human reviewer — 2026-07-11 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**. It covers **AI governance and operations** — the management systems and voluntary frameworks organisations use to run AI responsibly. The **law itself** (the EU AI Act) is covered in `ai-act-foundations`; this document operationalises that law and should be read alongside it.
 
@@ -289,4 +289,5 @@ Not Applicable — this foundational reference relies on primary legislation, re
 
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
-| 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against ISO/IEC 42001/23894/22989/42005, NIST AI RMF 1.0 and the Generative AI Profile (NIST AI 600-1, 26 Jul 2024), and the OECD AI Principles (2024 update); framework versions and dates live-verified; all external links checked HTTP 200 on 2026-07-11 (OECD principles cited via OECD.AI and OECD Legal Instruments, as oecd.org main-site pages bot-block curl). | *pending human review* |
+| 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against ISO/IEC 42001/23894/22989/42005, NIST AI RMF 1.0 and the Generative AI Profile (NIST AI 600-1, 26 Jul 2024), and the OECD AI Principles (2024 update); framework versions and dates live-verified; all external links checked HTTP 200 on 2026-07-11 (OECD principles cited via OECD.AI and OECD Legal Instruments, as oecd.org main-site pages bot-block curl). | — |
+| 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at batch human review gate (parallel cluster); frozen in release 0.7.0. | Human reviewer |

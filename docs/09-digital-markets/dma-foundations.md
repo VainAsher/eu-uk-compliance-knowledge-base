@@ -1,8 +1,8 @@
 ---
 id: dma-foundations
 title: "EU Digital Markets Act: Foundations & Gatekeeper Obligations"
-version: 0.1.0
-status: in-review
+version: 1.0.0
+status: approved
 classification: public
 jurisdiction: [EU]
 topic: Digital Markets
@@ -26,15 +26,15 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | dma-foundations |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.7.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
 | Last Updated | 2026-07-11 |
 | Review Due | 2027-07-11 |
 | Confidence | High |
-| Approved By | *pending human review* |
+| Approved By | Human reviewer — 2026-07-11 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**. The DMA's enforcement landscape is **actively evolving** — the designated-gatekeeper list, live non-compliance investigations, appeals and fines change over time. The lists and enforcement outcomes below were **live-verified against European Commission and Court of Justice sources on 2026-07-11**; always re-confirm the current gatekeeper register and open proceedings before relying on them.
 
@@ -302,6 +302,7 @@ Not Applicable — this foundational reference relies on primary legislation, Co
 
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
-| 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (Reg (EU) 2022/1925), European Commission (DMA portal, gatekeepers register, 7 March 2024 applicability, Apple/Meta non-compliance decisions IP/25/1085) and the Court of Justice (General Court judgment of 8 July 2026). Current gatekeeper list (7 gatekeepers / 23 CPS) and enforcement outcomes live-verified 2026-07-11. | *pending human review* |
+| 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (Reg (EU) 2022/1925), European Commission (DMA portal, gatekeepers register, 7 March 2024 applicability, Apple/Meta non-compliance decisions IP/25/1085) and the Court of Justice (General Court judgment of 8 July 2026). Current gatekeeper list (7 gatekeepers / 23 CPS) and enforcement outcomes live-verified 2026-07-11. | — |
+| 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at batch human review gate (parallel cluster); frozen in release 0.7.0. | Human reviewer |
 </content>
 </invoke>

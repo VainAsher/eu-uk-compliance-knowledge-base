@@ -1,8 +1,8 @@
 ---
 id: dsa-foundations
 title: "EU Digital Services Act: Foundations & Platform Obligations"
-version: 0.1.0
-status: in-review
+version: 1.0.0
+status: approved
 classification: public
 jurisdiction: [EU]
 topic: Digital Services
@@ -26,15 +26,15 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | dsa-foundations |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.7.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
 | Last Updated | 2026-07-11 |
 | Review Due | 2027-07-11 |
 | Confidence | High |
-| Approved By | *pending human review* |
+| Approved By | Human reviewer — 2026-07-11 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**. Enforcement under the DSA is **active and evolving**: the VLOP/VLOSE designation list changes as platforms cross or fall below the user threshold, and Commission proceedings are ongoing. Confirm the current designation list and the status of any enforcement action before relying on it.
 
@@ -134,9 +134,9 @@ The DSA regulates providers of **intermediary services** offered to recipients e
 | Recital | Interpretive point | Source |
 |---------|--------------------|--------|
 | Recital 3 | The DSA's objective: a safe, predictable and trusted online environment protecting fundamental rights. | [1] |
-| Recital 9 (area) | Full harmonisation — uniform, directly applicable rules to prevent single-market fragmentation. | [1] |
-| Recital 12 (area) | The broad concept of "illegal content" (whatever is unlawful under EU or national law). | [1] |
-| Recital 22 (area) | Conditions for the hosting exemption — expeditious action on obtaining actual knowledge. | [1] |
+| Recital 9 | Full harmonisation — uniform, directly applicable rules to prevent single-market fragmentation. | [1] |
+| Recital 12 | The broad concept of "illegal content" (whatever is unlawful under EU or national law). | [1] |
+| Recital 22 | Actual knowledge/awareness for the hosting exemption arises via own-initiative investigations or notices; expeditious action then required. | [1] |
 
 ## Relevant Case Law
 
@@ -300,4 +300,5 @@ Not Applicable — this foundational reference relies on primary legislation and
 
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
-| 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (Reg (EU) 2022/2065) and European Commission sources. Full-applicability date (17 Feb 2024), current VLOP/VLOSE designation list (Commission list updated 10 July 2026), the €120m X fine (5 Dec 2025) and the TikTok/Meta preliminary findings (Oct 2025) live-verified. All 7 external links returned HTTP 200. | *pending human review* |
+| 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (Reg (EU) 2022/2065) and European Commission sources. Full-applicability date (17 Feb 2024), current VLOP/VLOSE designation list (Commission list updated 10 July 2026), the €120m X fine (5 Dec 2025) and the TikTok/Meta preliminary findings (Oct 2025) live-verified. All 7 external links returned HTTP 200. | — |
+| 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at batch human review gate; orchestrator spot-checked Arts. 49/52/56/74/76 and Recitals 9/12/22 against the EUR-Lex enacting text (all confirmed; recital hedges removed); frozen in release 0.7.0. | Human reviewer |

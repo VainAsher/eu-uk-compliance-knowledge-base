@@ -1,7 +1,7 @@
 # Project Status
 
 **Last updated:** 2026-07-11
-**Maturity:** Stage 3 of 10 — *Tier 1 (data-protection core) complete: 4/4 approved & frozen (release 0.5.0). Tier 2 starting.*
+**Maturity:** Stage 4 of 10 — *Tiers 1 & 2 complete: 9/16 topics approved & frozen (release 0.7.0). Tier 3 (security & resilience) next.*
 
 ## Maturity model (repository level)
 
@@ -10,8 +10,8 @@
 | 0 | Bare starter kit | ✅ passed |
 | 1 | Governance scaffolding + reconciled template + git | ✅ passed |
 | 2 | First document approved & frozen | ✅ passed |
-| 3 | Tier 1 foundations complete (4 docs) | ✅ **current** |
-| 4 | Tier 2 digital & AI complete | ⬜ |
+| 3 | Tier 1 foundations complete (4 docs) | ✅ passed |
+| 4 | Tier 2 digital & AI complete | ✅ **current** |
 | 5 | Tier 3 security & resilience complete | ⬜ |
 | 6 | Tier 4 sector/consumer/ops complete | ⬜ |
 | 7 | Cross-references & knowledge graph populated | ⬜ |
@@ -28,11 +28,13 @@
 - **Document #2 (UK GDPR Foundations) approved & frozen at v1.0.0 (release 0.3.0).**
 - **Document #3 (ePrivacy Foundations) approved & frozen at v1.0.0 (release 0.4.0).**
 - **Document #4 (Privacy Engineering Foundations) approved & frozen at v1.0.0 (release 0.5.0) — Tier 1 complete.**
-- Adopted shared-glossary + sub-topic-scoping editorial policy.
+- **Document #5 (AI Act Foundations) approved & frozen at v1.0.0 (release 0.6.0).**
+- **Tier 2 batch (#6–#9: AI Governance, Data Act, DSA, DMA) approved & frozen at v1.0.0 (release 0.7.0) — Tier 2 complete.** First parallel-cluster batch.
+- Adopted shared-glossary + sub-topic-scoping editorial policy; introduced parallel-cluster production.
 
 ## In progress
 
-- **Tier 2 cluster batch (#6–#9)** produced in parallel and **awaiting batch human gate**: `ai-governance-foundations`, `data-act-foundations`, `dsa-foundations`, `dma-foundations`. All self-QA'd; orchestrator re-verified all 39 links live (2026-07-11) and citation contiguity.
+- **Tier 3 (security & resilience)** next: NIS2 (#10), DORA (#11), Cybersecurity (#12) — candidate for the next parallel cluster batch.
 
 ## Pending work
 
@@ -60,8 +62,8 @@
 
 | Metric | Value |
 |--------|-------|
-| Approved documents | 5 |
-| Draft documents | 4 (Tier 2 batch #6–#9, in review) |
+| Approved documents | 9 |
+| Draft documents | 0 |
 | Governance files | 9 |
 | Topics covered | 9 / 16 |
 | Sources in registry | see `SOURCE_REGISTRY.md` |

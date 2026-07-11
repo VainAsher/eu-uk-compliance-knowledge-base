@@ -4,11 +4,22 @@ All notable changes to this repository. Format based on [Keep a Changelog](https
 
 ## [Unreleased]
 
-### Added (in-review — awaiting batch human gate; produced by the parallel cluster)
-- `docs/06-ai-governance/ai-governance-foundations.md` — AI Governance Foundations (v0.1.0, in-review). ISO/IEC 42001, NIST AI RMF (+GenAI Profile), OECD Principles, operational assurance; 16 references, all links verified.
-- `docs/07-data-act/data-act-foundations.md` — EU Data Act Foundations (v0.1.0, in-review). Data access/sharing, IoT connected products, cloud switching; application 12 Sep 2025 live-verified.
-- `docs/08-digital-services/dsa-foundations.md` — EU DSA Foundations (v0.1.0, in-review). Platform tiers, VLOPs/VLOSEs, notice-and-action; X €120m fine (Dec 2025) live-verified.
-- `docs/09-digital-markets/dma-foundations.md` — EU DMA Foundations (v0.1.0, in-review). Gatekeepers (7 designated), do's/don'ts; Apple €500m/Meta €200m (Apr 2025) live-verified.
+_Nothing yet._
+
+## [0.7.0] — 2026-07-11
+
+### Added (Tier 2 cluster batch — all approved & frozen at v1.0.0; produced by the parallel cluster)
+- `docs/06-ai-governance/ai-governance-foundations.md` — AI Governance Foundations. ISO/IEC 42001, NIST AI RMF (+GenAI Profile), OECD Principles, operational assurance; 16 references, all links verified.
+- `docs/07-data-act/data-act-foundations.md` — EU Data Act Foundations. Data access/sharing, IoT connected products, cloud switching; application 12 Sep 2025 live-verified.
+- `docs/08-digital-services/dsa-foundations.md` — EU DSA Foundations. Platform tiers, VLOPs/VLOSEs, notice-and-action; X €120m fine (Dec 2025) live-verified.
+- `docs/09-digital-markets/dma-foundations.md` — EU DMA Foundations. Gatekeepers (7 designated), do's/don'ts; Apple €500m/Meta €200m (Apr 2025) live-verified.
+
+### Milestone
+- **Tier 2 (digital & AI regulation) complete** — AI Act, AI Governance, Data Act, DSA, DMA all approved & frozen. Topic coverage 9/16.
+
+### Quality
+- Orchestrator re-verified all 39 links live; spot-checked DSA Arts. 49/52/56/74/76 and Recitals 9/12/22 against EUR-Lex enacting text before freeze.
+- First batch produced via the **parallel cluster** model (4 documents concurrently).
 
 ## [0.6.0] — 2026-07-11
 

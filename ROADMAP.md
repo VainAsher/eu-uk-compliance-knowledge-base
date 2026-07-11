@@ -20,15 +20,17 @@ These underpin almost everything else and are cited by later documents.
 | Order | Topic | Lead instrument(s) | Rationale |
 |-------|-------|--------------------|-----------|
 | 5 | **AI Act** ✅ approved | Regulation (EU) 2024/1689 | Flagship AI law; overlaps GDPR. |
-| 6 | **AI Governance** | AI Act + ISO/IEC 42001 | Operationalising #5. |
-| 7 | **Data Act** | Regulation (EU) 2023/2854 | Data access/sharing; interacts with GDPR. |
-| 8 | **Digital Services** | Regulation (EU) 2022/2065 (DSA) | Platform obligations. |
-| 9 | **Digital Markets** | Regulation (EU) 2022/1925 (DMA) | Gatekeeper obligations. |
+| 6 | **AI Governance** ✅ approved | AI Act + ISO/IEC 42001 | Operationalising #5. |
+| 7 | **Data Act** ✅ approved | Regulation (EU) 2023/2854 | Data access/sharing; interacts with GDPR. |
+| 8 | **Digital Services** ✅ approved | Regulation (EU) 2022/2065 (DSA) | Platform obligations. |
+| 9 | **Digital Markets** ✅ approved | Regulation (EU) 2022/1925 (DMA) | Gatekeeper obligations. |
+
+**Tier 2 complete (2026-07-11) — first parallel-cluster batch (#6–#9).**
 
 ### Tier 3 — Security & resilience
 | Order | Topic | Lead instrument(s) | Rationale |
 |-------|-------|--------------------|-----------|
-| 10 | **NIS2** | Directive (EU) 2022/2555 | Baseline cybersecurity for essential/important entities. |
+| 10 | **NIS2** ⏳ next | Directive (EU) 2022/2555 | Baseline cybersecurity for essential/important entities. |
 | 11 | **DORA** | Regulation (EU) 2022/2554 | Financial-sector operational resilience. |
 | 12 | **Cybersecurity** | NIS2, ISO 27001, NIST CSF, NCSC | Cross-cutting technical security. |
 
