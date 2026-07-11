@@ -300,5 +300,6 @@ Not Applicable — this sub-topic relies on primary legislation, the Art. 26(11)
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (Reg (EU) 2022/2554 Arts. 24–27; Commission Delegated Regulation (EU) 2025/1190), the EBA joint RTS page, the ECB/Eurosystem TIBER-EU framework and the ECB SSM implementation guide, EIOPA, the European Commission (DG FISMA), and ISO/NIST standards. **Live-verified:** the Art. 26(11) RTS is finalised — Reg (EU) 2025/1190 adopted 13 Feb 2025, OJ 18 Jun 2025, in force 8 Jul 2025 — and TIBER-EU was updated on 11 Feb 2025 to align with DORA (Control Team; mandatory purple-teaming; RTS-synchronised deliverables). All external links returned HTTP 200. | — |
 | 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at sub-topics batch 2 human gate; frozen in release 0.11.0. | Human reviewer |
+
 </content>
 </invoke>

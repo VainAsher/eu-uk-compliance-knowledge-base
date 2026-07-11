@@ -185,6 +185,7 @@ A DPIA is only as good as the system description and risk model beneath it. Engi
 Labels: **OBLIGATION** (must, per statute) / **BEST PRACTICE** (should, per standards/regulators) / **EDITORIAL RECOMMENDATION** (we suggest).
 
 **A. Screen every new or changed processing operation.**
+
 1. Run a **threshold/screening assessment** against Art. 35(3), the SA's Art. 35(4) list, and the WP248 nine criteria; treat **two or more** criteria (or a single strong one) as a trigger. *(OBLIGATION to assess; BEST PRACTICE for the questionnaire form.)* [1][7]
 2. **Document a negative screen** — if you decide no DPIA is needed, record why (the processing is unlikely to be high risk). *(OBLIGATION.)* [7]
 
