@@ -2,7 +2,7 @@
 
 Catalogue of all knowledge-base documents. Updated by the Repository Maintainer after every approved document.
 
-**Last updated:** 2026-07-11 — 26 documents approved (16 foundations + 10 depth sub-topics; releases through 0.11.0). QA automation live.
+**Last updated:** 2026-07-11 — 32 documents approved (16 foundations + 16 depth sub-topics; releases through 0.14.0). QA automation + Pages/RAG exports live.
 
 ## Legend
 
@@ -39,29 +39,29 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 | uk-transfers | UK GDPR: International Data Transfers | UK GDPR | 1 | UK | 1.0.0 | approved | High | `docs/02-uk-gdpr/uk-transfers.md` |
 | cookie-consent-implementation | Cookie Consent: Implementation & Consent Management | ePrivacy | 1 | EU, UK | 1.0.0 | approved | High | `docs/03-eprivacy/cookie-consent-implementation.md` |
 | dora-tlpt | DORA: Threat-Led Penetration Testing (TLPT) | DORA | 3 | EU | 1.0.0 | approved | High | `docs/11-dora/dora-tlpt.md` |
-| ai-act-prohibited-practices | EU AI Act: Prohibited Practices (Article 5) | AI Act | 2 | EU | 0.1.0 | in-review | High | `docs/05-ai-act/ai-act-prohibited-practices.md` |
-| gdpr-dsar | GDPR: Data-Subject Rights & Access Requests | GDPR (EU) | 1 | EU, UK | 0.1.0 | in-review | High | `docs/01-gdpr/gdpr-dsar.md` |
-| nis2-incident-reporting | NIS2: Significant-Incident Reporting | NIS2 | 3 | EU | 0.1.0 | in-review | High | `docs/10-nis2/nis2-incident-reporting.md` |
-| dma-obligations | EU Digital Markets Act: Gatekeeper Obligations in Depth | Digital Markets | 2 | EU | 0.1.0 | in-review | High | `docs/09-digital-markets/dma-obligations.md` |
-| uk-childrens-code | UK Children's Code (Age-Appropriate Design Code) | UK GDPR | 1 | UK | 0.1.0 | in-review | High | `docs/02-uk-gdpr/uk-childrens-code.md` |
-| pets-catalogue | Privacy-Enhancing Technologies: A Catalogue | Privacy Engineering | 1 | EU, UK | 0.1.0 | in-review | High | `docs/04-privacy-engineering/pets-catalogue.md` |
+| ai-act-prohibited-practices | EU AI Act: Prohibited Practices (Article 5) | AI Act | 2 | EU | 1.0.0 | approved | High | `docs/05-ai-act/ai-act-prohibited-practices.md` |
+| gdpr-dsar | GDPR: Data-Subject Rights & Access Requests | GDPR (EU) | 1 | EU, UK | 1.0.0 | approved | High | `docs/01-gdpr/gdpr-dsar.md` |
+| nis2-incident-reporting | NIS2: Significant-Incident Reporting | NIS2 | 3 | EU | 1.0.0 | approved | High | `docs/10-nis2/nis2-incident-reporting.md` |
+| dma-obligations | EU Digital Markets Act: Gatekeeper Obligations in Depth | Digital Markets | 2 | EU | 1.0.0 | approved | High | `docs/09-digital-markets/dma-obligations.md` |
+| uk-childrens-code | UK Children's Code (Age-Appropriate Design Code) | UK GDPR | 1 | UK | 1.0.0 | approved | High | `docs/02-uk-gdpr/uk-childrens-code.md` |
+| pets-catalogue | Privacy-Enhancing Technologies: A Catalogue | Privacy Engineering | 1 | EU, UK | 1.0.0 | approved | High | `docs/04-privacy-engineering/pets-catalogue.md` |
 
 ## Topic coverage (16 programme topics)
 
 | Topic | Documents | Status |
 |-------|-----------|--------|
-| GDPR (EU) | 3 | 2 approved + 1 in review (DSAR) |
-| UK GDPR | 4 | 3 approved + 1 in review (children's code) |
-| AI Act | 4 | 3 approved + 1 in review (prohibited practices) |
+| GDPR (EU) | 3 | 3 approved (foundations, transfers, DSAR) |
+| UK GDPR | 4 | 4 approved (foundations, DUAA detail, transfers, children's code) |
+| AI Act | 4 | 4 approved (foundations, high-risk, gpai, prohibited practices) |
 | Data Act | 1 | 1 approved; sub-topics in backlog |
-| NIS2 | 2 | 1 approved + 1 in review (incident reporting) |
+| NIS2 | 2 | 2 approved (foundations, incident reporting) |
 | DORA | 2 | 2 approved (foundations, TLPT) |
 | ePrivacy | 3 | 3 approved (foundations, cookies, digital-omnibus) |
 | Consumer Rights | 1 | 1 approved; sub-topics in backlog |
 | Digital Services | 1 | 1 approved; sub-topics in backlog |
-| Digital Markets | 2 | 1 approved + 1 in review (obligations) |
+| Digital Markets | 2 | 2 approved (foundations, obligations) |
 | AI Governance | 1 | 1 approved; sub-topics in backlog |
-| Privacy Engineering | 3 | 2 approved + 1 in review (PETs catalogue) |
+| Privacy Engineering | 3 | 3 approved (foundations, DPIA, PETs catalogue) |
 | Cloud Hosting | 1 | 1 approved; sub-topics in backlog |
 | Game Hosting | 1 | 1 approved; sub-topics in backlog |
 | Cybersecurity | 2 | 2 approved (foundations + CRA) |
@@ -76,15 +76,15 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 - `gdpr-foundations` → *implemented by* → `privacy-engineering-foundations`
 - `gdpr-foundations` → *interplays with* → `ai-act-foundations`
 - `uk-gdpr-foundations` → *builds on / diverges from* → `gdpr-foundations`
-- `uk-gdpr-foundations` → *detailed by* → `duaa-2025-detail`, `uk-transfers` (approved), `uk-childrens-code` (in review)
+- `uk-gdpr-foundations` → *detailed by* → `duaa-2025-detail`, `uk-transfers` (approved), `uk-childrens-code` (approved)
 - `eprivacy-foundations` → *lex specialis to* → `gdpr-foundations`
 - `eprivacy-foundations` → *transposed in UK via PECR, relates to* → `uk-gdpr-foundations`
 - `eprivacy-foundations` → *detailed by* → `cookie-consent-implementation`, `digital-omnibus` (approved); `pecr-detail`, `data-retention-caselaw` (planned)
 - `privacy-engineering-foundations` → *implements* → `gdpr-foundations`, `uk-gdpr-foundations`, `eprivacy-foundations`
-- `privacy-engineering-foundations` → *detailed by* → `dpia-methodology` (approved), `pets-catalogue` (in review); `privacy-threat-modelling`, `anonymisation-techniques` (planned)
+- `privacy-engineering-foundations` → *detailed by* → `dpia-methodology` (approved), `pets-catalogue` (approved); `privacy-threat-modelling`, `anonymisation-techniques` (planned)
 - `ai-act-foundations` → *operates alongside* → `gdpr-foundations`
 - `ai-act-foundations` → *operationalised by* → `ai-governance-foundations`
-- `ai-act-foundations` → *detailed by* → `ai-act-high-risk`, `ai-act-gpai`, `digital-omnibus` (approved); `ai-act-prohibited-practices` (in review)
+- `ai-act-foundations` → *detailed by* → `ai-act-high-risk`, `ai-act-gpai`, `digital-omnibus` (approved); `ai-act-prohibited-practices` (approved)
 - `ai-governance-foundations` → *operationalises* → `ai-act-foundations`; *integrates with* → `gdpr-foundations`; *builds on* → `privacy-engineering-foundations`
 - `data-act-foundations` → *complements* → `gdpr-foundations` (GDPR prevails on personal-data conflict); *adjacent to* → `ai-act-foundations`
 - `dsa-foundations` → *sibling of* → `dma-foundations` (Digital Services package); *overlaps* → `ai-act-foundations`, `gdpr-foundations`

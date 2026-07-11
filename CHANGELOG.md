@@ -4,7 +4,11 @@ All notable changes to this repository. Format based on [Keep a Changelog](https
 
 ## [Unreleased]
 
-### Added (third depth-layer sub-topic cluster — in-review, awaiting batch gate; workers self-ran all three QA gates)
+*Nothing yet.*
+
+## [0.14.0] — 2026-07-11
+
+### Added (third depth-layer sub-topic cluster — approved & frozen at v1.0.0; workers self-ran all three QA gates)
 
 - `docs/05-ai-act/ai-act-prohibited-practices.md` — Art. 5 prohibited practices; verified the AI-Omnibus NCII/CSAM ("nudifier") addition.
 - `docs/01-gdpr/gdpr-dsar.md` — data-subject rights & DSAR handling; **nine CJEU judgments**; DUAA subject-access changes (stop-the-clock, reasonable-and-proportionate search).

@@ -1,7 +1,7 @@
 ---
 id: gdpr-dsar
 title: "GDPR: Data-Subject Rights & Access Requests"
-version: 0.1.0
+version: 1.0.0
 status: in-review
 classification: public
 jurisdiction: [EU, UK]
@@ -26,15 +26,15 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | gdpr-dsar |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.14.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
 | Last Updated | 2026-07-11 |
 | Review Due | 2027-07-11 |
 | Confidence | High |
-| Approved By | pending human review |
+| Approved By | Human reviewer — 2026-07-11 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**. It covers **two regimes in parallel** — the EU GDPR and the UK GDPR — which have **diverged** on subject access since the **Data (Use and Access) Act 2025 (c.18)** commenced its data-protection provisions on **5 February 2026**. Where the UK position now differs (reasonable-and-proportionate searches; "stop-the-clock"; the legal-professional-privilege exemption), the divergence is flagged inline. Confirm the in-force status of any specific UK provision before relying on it [3][4][5][7].
 
@@ -337,3 +337,4 @@ Labels: **OBLIGATION** / **BEST PRACTICE** / **EDITORIAL RECOMMENDATION**. A pra
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (GDPR Arts. 12–23; nine CJEU judgments incl. C-154/21, C-487/21, C-307/22, C-634/21), EDPB Guidelines 01/2022, ICO right-of-access/DUAA guidance and GOV.UK. **UK DSAR changes live-verified on legislation.gov.uk: DUAA s.76 → UK GDPR Art. 12A "stop-the-clock" (identity/fee/clarification); s.78 → UK GDPR Art. 15(1A) reasonable-and-proportionate search; s.79 → DPA 2018 s.45A legal-professional-privilege exemption; commenced 5 February 2026 via SI 2026/82.** | — |
+| 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at sub-topics batch 3 human gate; frozen in release 0.14.0. | Human reviewer |

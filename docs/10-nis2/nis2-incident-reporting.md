@@ -1,7 +1,7 @@
 ---
 id: nis2-incident-reporting
 title: "NIS2: Significant-Incident Reporting"
-version: 0.1.0
+version: 1.0.0
 status: in-review
 classification: public
 jurisdiction: [EU]
@@ -26,15 +26,15 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | nis2-incident-reporting |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.14.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
 | Last Updated | 2026-07-11 |
 | Review Due | 2027-07-11 |
 | Confidence | High |
-| Approved By | pending human review |
+| Approved By | Human reviewer — 2026-07-11 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**. NIS2 is a **Directive**, so the binding reporting rules that apply to an entity are the **national transposition laws**, which may add national portals, formats and (permitted) stricter timelines; the Article 23 cascade and the Implementing Regulation (EU) 2024/2690 thresholds set the harmonised floor. The **significant-incident thresholds quoted here from Implementing Regulation (EU) 2024/2690 were live-verified against the EUR-Lex text on 2026-07-11**; always confirm the current national transposing law and any sector-specific reporting arrangements before relying on this document. See `nis2-foundations` for scope, entity classification and the wider obligation set.
 
@@ -339,3 +339,4 @@ Not Applicable — this sub-topic relies on primary legislation (the Directive a
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex primary text (Directive (EU) 2022/2555 Art. 23; Commission Implementing Regulation (EU) 2024/2690 Arts. 3–14) plus European Commission and ENISA guidance. **Significant-incident thresholds in Reg (EU) 2024/2690 live-verified on 2026-07-11** (financial loss > €500 000 or 5% turnover; service-specific availability/integrity thresholds; recurring-incident aggregation). Art. 23(4) cascade (24 h / 72 h / 1 month), the trust-service-provider 24 h derogation, and the Art. 23(5) CSIRT 24 h response confirmed against primary/authoritative sources. NIS2 vs GDPR vs DORA comparison built from Arts. 23/33-34/17-19. All 10 external links returned HTTP 200. | pending |
+| 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at sub-topics batch 3 human gate; frozen in release 0.14.0. | Human reviewer |

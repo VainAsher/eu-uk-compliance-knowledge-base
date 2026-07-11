@@ -1,7 +1,7 @@
 # Project Status
 
 **Last updated:** 2026-07-11
-**Maturity:** Stage 10 of 10 — *Full pipeline complete: 26 approved documents, QA automation, knowledge-graph/compliance exports, RAG export, and a MkDocs GitHub Pages site with a deploy workflow (release 0.13.0). Repo published to a private GitHub remote; enable Pages / make public to go live.*
+**Maturity:** Stage 10 of 10 (all complete) — *32 approved documents, QA automation, knowledge-graph/compliance/RAG exports, and a MkDocs GitHub Pages site with a deploy workflow (releases through 0.14.0). Repo on a private GitHub remote (CI green); enable Pages / make public to go live. Ongoing work is depth (more sub-topic clusters) + review cycles.*
 
 ## Maturity model (repository level)
 
@@ -13,7 +13,7 @@
 | 3 | Tier 1 foundations complete (4 docs) | ✅ passed |
 | 4 | Tier 2 digital & AI complete | ✅ passed |
 | 5 | Tier 3 security & resilience complete | ✅ passed |
-| 6 | Tier 4 sector/consumer/ops complete | ✅ **current** |
+| 6 | Tier 4 sector/consumer/ops complete | ✅ passed |
 | 7 | Cross-references & knowledge graph populated | ✅ passed (graph + compliance matrix exported) |
 | 8 | QA automation (lint/link/citation) implemented | ✅ passed |
 | 9 | GitHub Pages publication pipeline | ✅ passed (MkDocs Material + deploy workflow) |
@@ -36,37 +36,33 @@
 
 ## In progress
 
-- **Third depth-layer sub-topic cluster (#27–#32)** produced in parallel, **awaiting batch human gate**: `ai-act-prohibited-practices`, `gdpr-dsar`, `nis2-incident-reporting`, `dma-obligations`, `uk-childrens-code`, `pets-catalogue`. Workers self-ran validate + check_links + markdownlint; orchestrator full-repo QA: validate 32/32 clean, links 99/100 live, lint clean; spot-checked NIS2 2024/2690 thresholds.
+- **Third depth-layer sub-topic cluster (#27–#32) approved & frozen at v1.0.0 (release 0.14.0).** 32 documents total; 10 of 16 topics now have depth docs.
 - **All 10 maturity stages complete;** ongoing work is depth (more clusters) + review cycles. To publish the site, make the repo public / enable Pages (see `PROJECT_HANDOVER.md`).
 
-## Pending work
+## Pending / optional work
 
-- Tier 1–4 topic documents per `ROADMAP.md` (16 topics, ≥16 documents).
-- QA automation toolchain (`scripts/README.md` lists intended tools; none implemented).
-- Knowledge graph / compliance-mapping artefacts.
-- Publication pipeline (Wiki.js, GitHub Pages) and RAG export.
+- **More depth sub-topic clusters** — remaining backlog per topic (see `ROADMAP.md`), e.g. `gdpr-ropa`, `ai-act-conformity`, `dora-oversight-framework`, `dsa-vlop-risk-management`, `data-act-cloud-switching`, `pecr-detail`, `anonymisation-techniques`, `privacy-threat-modelling`, `nis2-transposition-tracker`.
+- **Review cycles** — refresh volatile items before `review_due` 2027-07-11 (AI Omnibus OJ publication, EU-US DPF appeal, Digital Omnibus data strand, revised ICO Children's Code).
+- **Publication** — make the repo public / enable GitHub Pages to deploy the built site.
+- **Optional QA extras** — glossary-consistency checker, `vale` prose linting.
 
 ## Known gaps
 
-| Gap | Impact | Planned resolution |
-|-----|--------|--------------------|
-| No automated link/citation validation | Manual checking only; risk of link rot | Stage 8 |
-| No case-law coverage yet | Legal Framework sections rely on statute + guidance | Case Law Agent per document |
-| No glossary file | Term consistency checked ad hoc | Introduce `GLOSSARY.md` in Tier 1 |
-| ~~No CI/GitHub remote~~ | ✅ Resolved 2026-07-11 | Pushed to private repo `VainAsher/eu-uk-compliance-knowledge-base`; CI green. |
-
-## Research backlog
-
-- GDPR sub-topics: DSAR handling, International transfers (Chapter V), DPIAs (Art. 35), Records of processing (Art. 30).
-- Cross-topic mapping: GDPR ↔ AI Act ↔ Data Act overlaps.
-- Standards deep-dives: ISO/IEC 27001:2022, 27701, 42001; NIST CSF 2.0.
+| Gap | Impact | Status |
+|-----|--------|--------|
+| ~~No automated link/citation validation~~ | — | ✅ Resolved (Stage 8): `validate.py` + `check_links.py` + CI. |
+| ~~No case-law coverage~~ | — | ✅ Resolved: 15+ CJEU judgments cited across GDPR/DSA/DMA/DSAR docs. |
+| ~~No glossary file~~ | — | ✅ Resolved: `GLOSSARY.md` (~120 terms). |
+| ~~No CI/GitHub remote~~ | — | ✅ Resolved: private repo `VainAsher/eu-uk-compliance-knowledge-base`; CI green. |
+| Site not yet live | Rendered site not publicly accessible | Make repo public / enable Pages (free-plan constraint). |
+| Per-Member-State transposition detail (NIS2) | National specifics not enumerated | Planned `nis2-transposition-tracker`. |
 
 ## Repository statistics
 
 | Metric | Value |
 |--------|-------|
-| Approved documents | 26 (16 foundations + 10 sub-topics) |
+| Approved documents | 32 (16 foundations + 16 sub-topics) |
 | Draft documents | 0 |
 | Governance files | 9 |
-| Topics covered | 16 / 16 ✅ (7 topics now have depth docs) |
+| Topics covered | 16 / 16 ✅ (10 topics now have depth docs) |
 | Sources in registry | see `SOURCE_REGISTRY.md` |

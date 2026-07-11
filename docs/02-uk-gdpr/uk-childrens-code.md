@@ -1,7 +1,7 @@
 ---
 id: uk-childrens-code
 title: "UK Children's Code (Age-Appropriate Design Code)"
-version: 0.1.0
+version: 1.0.0
 status: in-review
 classification: public
 jurisdiction: [UK]
@@ -26,15 +26,15 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | uk-childrens-code |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.14.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
 | Last Updated | 2026-07-11 |
 | Review Due | 2027-07-11 |
 | Confidence | High |
-| Approved By | pending human review |
+| Approved By | Human reviewer — 2026-07-11 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**. The Children's Code is a live statutory code; the **Data (Use and Access) Act 2025** has added a new statutory children's duty (UK GDPR Art. 25(1A)/(1B), inserted by DUAA s.81), and the ICO has signalled that the Code itself will be revised and re-laid before Parliament in due course. Confirm the current text of the Code and the in-force status of DUAA provisions before relying on any time-sensitive statement below [5][6][12].
 
@@ -320,6 +320,7 @@ Labels: **OBLIGATION** / **BEST PRACTICE** / **EDITORIAL RECOMMENDATION**. The 1
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against legislation.gov.uk (DPA 2018 ss.123/125/9, UK GDPR Arts. 8/25/35, DUAA 2025 s.81, SI 2026/82, OSA 2023, EUWA 2018 s.3), ICO Children's-code and DUAA guidance, GOV.UK/DSIT and Ofcom. **Live-verified: the 15 AADC standards; Code in force 2 Sep 2020 and enforceable from 2 Sep 2021; DUAA s.81 inserts UK GDPR Art. 25(1A)/(1B) "children's higher protection matters"; Ofcom Protection of Children Codes in force 25 Jul 2025.** | — |
+| 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at sub-topics batch 3 human gate; frozen in release 0.14.0. | Human reviewer |
 
 </content>
 </invoke>

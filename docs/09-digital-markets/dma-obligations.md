@@ -1,7 +1,7 @@
 ---
 id: dma-obligations
 title: "EU Digital Markets Act: Gatekeeper Obligations in Depth"
-version: 0.1.0
+version: 1.0.0
 status: in-review
 classification: public
 jurisdiction: [EU]
@@ -26,15 +26,15 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | dma-obligations |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.14.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
 | Last Updated | 2026-07-11 |
 | Review Due | 2027-07-11 |
 | Confidence | High |
-| Approved By | <pending human review> |
+| Approved By | Human reviewer — 2026-07-11 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**. It is the obligation-by-obligation deep dive that expands the parent overview `dma-foundations`. The DMA's enforcement landscape is **actively evolving** — the designated-gatekeeper register, specification decisions, open non-compliance proceedings, appeals and fines all change over time. The designation and enforcement facts below were **live-verified against European Commission and Court of Justice sources on 2026-07-11**; always re-confirm the current register, the status of specification proceedings and any open proceedings before relying on them.
 
@@ -336,6 +336,7 @@ Not Applicable — this obligation-level reference relies on primary legislation
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; obligation-by-obligation deep dive researched against EUR-Lex (Reg (EU) 2022/1925, Arts. 5–8, 11, 13, 28–31) and European Commission DMA sources. Current designation state (7 gatekeepers / 23 CPS), the 23 April 2025 Apple €500m (Art. 5(4)) and Meta €200m (Art. 5(2)) non-compliance decisions, the 19 March 2025 Article 6(7) Apple interoperability specification decisions, the March 2025 Alphabet preliminary findings, the 5 February 2026 Apple Ads/Maps non-designation, and the 8 July 2026 General Court judgment upholding Apple's designation were live-verified on 2026-07-11. All external links returned HTTP 200. | — |
+| 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at sub-topics batch 3 human gate; frozen in release 0.14.0. | Human reviewer |
 
 </content>
 </invoke>

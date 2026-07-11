@@ -1,7 +1,7 @@
 ---
 id: ai-act-prohibited-practices
 title: "EU AI Act: Prohibited Practices (Article 5)"
-version: 0.1.0
+version: 1.0.0
 status: in-review
 classification: public
 jurisdiction: [EU]
@@ -26,15 +26,15 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | ai-act-prohibited-practices |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.14.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
 | Last Updated | 2026-07-11 |
 | Review Due | 2027-07-11 |
 | Confidence | High |
-| Approved By | pending human review |
+| Approved By | Human reviewer — 2026-07-11 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**. It is a Tier 2 **deep-dive** that details, article-by-article, the Article 5 material introduced at overview level in `ai-act-foundations`; it does not repeat that overview. **Live-verification note:** the Article 5 prohibitions have applied since **2 February 2025** [1][4]; the Commission's non-binding **Guidelines on prohibited AI practices** (C(2025) 884 final, 4 Feb 2025) interpret them [3]; and the **"AI Omnibus"** simplification package — **adopted** by the European Parliament (16 June 2026) and the Council (29 June 2026) — **adds a new Article 5 prohibition** on AI systems that generate or manipulate **non-consensual intimate imagery (NCII)** and **AI-generated child sexual abuse material (CSAM)** ("nudifier" ban), to apply from **2 December 2026**, subject to a safe harbour for adequate technical safeguards [6][7][8]. Confirm the Official Journal citation for the Omnibus before relying on its exact dates.
 
@@ -296,3 +296,4 @@ Not Applicable — the Article 5 prohibitions are outright bans, not conformity-
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft. Deep-dive on AI Act Article 5 prohibited practices (a)–(h) and the Art. 5(2)–(7) RBI safeguards; the 2 Feb 2025 applicability (Art. 113), the Commission Guidelines on prohibited AI practices (C(2025) 884, 4 Feb 2025), the Art. 99(3) penalty, and the prohibition/high-risk boundary. **Live-verified:** the AI Omnibus (adopted EP 16 Jun 2026; Council 29 Jun 2026) ADDS a new Art. 5 prohibition on AI systems generating/manipulating non-consensual intimate imagery and CSAM ("nudifier" ban), applicable 2 Dec 2026 with a technical-safeguards safe harbour; OJ publication pending. All external links checked HTTP 200 on 2026-07-11 (Council/Consilium 29 Jun release corroborated via EP sources, as consilium.europa.eu bot-blocks curl). | — |
+| 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at sub-topics batch 3 human gate; frozen in release 0.14.0. | Human reviewer |

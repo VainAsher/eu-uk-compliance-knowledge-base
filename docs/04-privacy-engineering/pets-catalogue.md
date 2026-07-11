@@ -1,7 +1,7 @@
 ---
 id: pets-catalogue
 title: "Privacy-Enhancing Technologies: A Catalogue"
-version: 0.1.0
+version: 1.0.0
 status: in-review
 classification: public
 jurisdiction: [EU, UK]
@@ -26,15 +26,15 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | pets-catalogue |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.14.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
 | Last Updated | 2026-07-11 |
 | Review Due | 2027-07-11 |
 | Confidence | High |
-| Approved By | pending human review |
+| Approved By | Human reviewer — 2026-07-11 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**.
 
@@ -399,3 +399,4 @@ Labels: **OBLIGATION** (must, per statute) / **BEST PRACTICE** (should, per stan
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (GDPR Arts. 4(5), 5, 25, 32, 89; Recital 26), ICO PETs and anonymisation guidance, ENISA pseudonymisation/data-protection-engineering reports, NIST SP 800-226, ISO/IEC 20889/27701/27002, and the defining peer-reviewed literature (Sweeney; Machanavajjhala; Li; Dwork; Dwork & Roth; Yao; Gentry; Goldwasser–Micali–Rackoff; McMahan; Kairouz; Hoepman). ICO PETs-guidance currency and all external links live-verified. | — |
+| 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at sub-topics batch 3 human gate; frozen in release 0.14.0. | Human reviewer |
