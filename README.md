@@ -1,8 +1,10 @@
-# Compliance Research Bootstrap
+# EU & UK Compliance Knowledge Base
+
+📖 **Rendered site:** <https://vainasher.github.io/eu-uk-compliance-knowledge-base/>
 
 An autonomous multi-agent pipeline that produces a professional, evidence-based compliance knowledge base across 16 regulatory and technical topics (GDPR, UK GDPR, AI Act, Data Act, NIS2, DORA, ePrivacy, Consumer Rights, Digital Services, Digital Markets, AI Governance, Privacy Engineering, Cloud Hosting, Game Hosting, Cybersecurity, Compliance Operations).
 
-Deliverables are Markdown documents suitable for legal research, compliance implementation, developer guidance, AI retrieval (RAG), Wiki.js / GitHub publication, and audit support.
+**32 approved documents (~163k words)** — every factual claim carries a citation to a primary or authoritative source, and links, citations, structure and cross-references are checked automatically in CI. Deliverables are Markdown suitable for legal research, compliance implementation, developer guidance, AI retrieval (RAG) and audit support.
 
 > **Golden rule — evidence over model confidence.** Every claim is backed by a citable primary or authoritative source.
 

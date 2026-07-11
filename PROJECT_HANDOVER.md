@@ -11,7 +11,7 @@ An autonomous multi-agent pipeline that produces a professional, evidence-based 
 ## Current state (snapshot)
 
 - **Maturity:** Stage 10 (all stages complete) — **26 documents approved** (16 foundations + 10 depth sub-topics; releases 0.2.0–0.13.0). QA automation, graph/compliance/RAG exports, and a MkDocs Pages site (deploy workflow dormant/manual) all in place.
-- **Version control:** git on `main`, tags `v0.2.0`–`v0.13.0`. **Remote:** `github.com/VainAsher/eu-uk-compliance-knowledge-base` (**private** — kept private by decision 2026-07-11; free plan can't do private Pages, so `pages.yml` is manual-only until the repo is public). **CI green** on GitHub Actions.
+- **Version control:** git on `main`, tags `v0.2.0`–`v0.14.0`. **Remote:** `github.com/VainAsher/eu-uk-compliance-knowledge-base` (**PUBLIC** as of 2026-07-11 — user authorised THIS repo only). **Live site:** <https://vainasher.github.io/eu-uk-compliance-knowledge-base/> (GitHub Pages, auto-deploys on push via `pages.yml`). **CI green.**
 - **Regulatory-change management proven:** the depth cluster surfaced that the AI Omnibus was adopted (Council 29 Jun 2026); a corrective v1.1.0 revision to the frozen `ai-act-foundations` was applied and re-frozen — the model for keeping frozen docs current.
 - **Template:** `templates/document_template.md` reconciled to full spec.
 - **Governance files:** all present, incl. `GLOSSARY.md` (~70 terms) and `SOURCE_REGISTRY.md` (~120 sources).
@@ -51,7 +51,7 @@ Regenerate after any change to `MASTER_INDEX.md` or a document's front matter.
 
 ## Open decisions for the human
 
-- **Repository visibility** — **kept private (decided 2026-07-11).** The Pages site is built and ready; to go live, make the repo public (`gh repo edit VainAsher/eu-uk-compliance-knowledge-base --visibility public`), enable Pages (Actions source), and run the `Publish (GitHub Pages)` workflow — or upgrade to GitHub Pro for private Pages.
+- **Repository visibility** — **PUBLIC (decided 2026-07-11).** The user authorised making **only this repository** public; do not make other VainAsher repos public. Site is live at <https://vainasher.github.io/eu-uk-compliance-knowledge-base/> and auto-deploys on push.
 - **Directory convention** — documents live under `docs/<NN>-<topic>/<slug>.md`. Confirm or change.
 - **Depth per topic** — one flagship document per topic first, or full sub-topic breakdown immediately? (Currently: flagship first, sub-topics in backlog.)
 
