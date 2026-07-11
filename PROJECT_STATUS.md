@@ -35,7 +35,7 @@
 
 ## In progress
 
-- **Tier 4 (sector, consumer & operations)** next — the final foundation tier: Consumer Rights (#13), Cloud Hosting (#14), Game Hosting (#15), Compliance Operations (#16). Candidate for a 4-worker parallel cluster.
+- **Tier 4 cluster batch (#13–#16)** produced in parallel and **awaiting batch human gate**: `consumer-rights-foundations`, `cloud-hosting-foundations`, `game-hosting-foundations`, `compliance-operations-foundations`. Orchestrator re-verified all 69 links live and spot-checked the DMCCA 2024 commencement (SI 2025/272, 6 Apr 2025). Approval completes all 16 topics.
 
 ## Pending work
 

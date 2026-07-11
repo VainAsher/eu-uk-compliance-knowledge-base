@@ -25,6 +25,10 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 | nis2-foundations | NIS2 Directive: Foundations, Scope & Cybersecurity Obligations | NIS2 | 3 | EU | 1.0.0 | approved | High | `docs/10-nis2/nis2-foundations.md` |
 | dora-foundations | DORA: Foundations & Digital Operational Resilience for Finance | DORA | 3 | EU | 1.0.0 | approved | High | `docs/11-dora/dora-foundations.md` |
 | cybersecurity-foundations | Cybersecurity: Foundations, Frameworks & Controls | Cybersecurity | 3 | EU, UK | 1.0.0 | approved | High | `docs/12-cybersecurity/cybersecurity-foundations.md` |
+| consumer-rights-foundations | Consumer Rights: Foundations (EU & UK) | Consumer Rights | 4 | EU, UK | 0.1.0 | in-review | High | `docs/13-consumer-rights/consumer-rights-foundations.md` |
+| cloud-hosting-foundations | Cloud Hosting: Compliance Foundations | Cloud Hosting | 4 | EU, UK | 0.1.0 | in-review | Medium | `docs/14-cloud-hosting/cloud-hosting-foundations.md` |
+| game-hosting-foundations | Game Hosting: Compliance Foundations | Game Hosting | 4 | EU, UK | 0.1.0 | in-review | Medium | `docs/15-game-hosting/game-hosting-foundations.md` |
+| compliance-operations-foundations | Compliance Operations: Running a Compliance Programme | Compliance Operations | 4 | EU, UK | 0.1.0 | in-review | High | `docs/16-compliance-operations/compliance-operations-foundations.md` |
 
 ## Topic coverage (16 programme topics)
 
@@ -37,15 +41,15 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 | NIS2 | 1 | 1 approved; sub-topics in backlog |
 | DORA | 1 | 1 approved; sub-topics in backlog |
 | ePrivacy | 1 | 1 approved; sub-topics in backlog |
-| Consumer Rights | 0 | not started |
+| Consumer Rights | 1 | 1 in review; sub-topics in backlog |
 | Digital Services | 1 | 1 approved; sub-topics in backlog |
 | Digital Markets | 1 | 1 approved; sub-topics in backlog |
 | AI Governance | 1 | 1 approved; sub-topics in backlog |
 | Privacy Engineering | 1 | 1 approved; sub-topics in backlog |
-| Cloud Hosting | 0 | not started |
-| Game Hosting | 0 | not started |
+| Cloud Hosting | 1 | 1 in review; sub-topics in backlog |
+| Game Hosting | 1 | 1 in review; sub-topics in backlog |
 | Cybersecurity | 1 | 1 approved; sub-topics in backlog |
-| Compliance Operations | 0 | not started |
+| Compliance Operations | 1 | 1 in review; sub-topics in backlog |
 
 ## Knowledge graph (cross-references)
 
@@ -73,3 +77,7 @@ _Populated as documents are approved. Format: `doc-a → relationship → doc-b`
 - `dora-foundations` → *lex specialis to* → `nis2-foundations` (financial entities); *parallel with* → `gdpr-foundations`
 - `cybersecurity-foundations` → *implements* → `nis2-foundations`, `dora-foundations`, `gdpr-foundations` (Art. 32); *complements* → `privacy-engineering-foundations`
 - All three → *relate to* → Cyber Resilience Act (Reg (EU) 2024/2847) (planned `cyber-resilience-act`)
+- `consumer-rights-foundations` → *parallel to* → `gdpr-foundations`; *cross-refs* → `dsa-foundations` (dark patterns), `dma-foundations` (DMCCA)
+- `cloud-hosting-foundations` → *synthesises* → `gdpr-foundations`, `privacy-engineering-foundations`, `cybersecurity-foundations`, `nis2-foundations`, `dora-foundations`, `data-act-foundations`
+- `game-hosting-foundations` → *synthesises* → `gdpr-foundations`, `uk-gdpr-foundations`, `eprivacy-foundations`, `dsa-foundations`, `ai-act-foundations`, `consumer-rights-foundations`, `cloud-hosting-foundations`
+- `compliance-operations-foundations` → *capstone: operationalises* → **all 15 other topic documents** (anchored on GDPR Art. 5(2))

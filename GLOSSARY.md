@@ -4,7 +4,7 @@ Shared, authoritative definitions of terms of art used across the knowledge base
 
 **Convention:** Each term cites its authoritative source. Where a term is defined in legislation, the statutory definition governs. Keys in the *Source* column reference `SOURCE_REGISTRY.md`.
 
-**Last updated:** 2026-07-11 (Tier 3 batch: added essential/important entity, significant incident, CSIRT, digital operational resilience, CTPP, TLPT, CIA triad, ISMS, zero trust, product with digital elements)
+**Last updated:** 2026-07-11 (Tier 4 batch: added consumer/trader, right of withdrawal, unfair commercial practice, dark pattern, ISS, Children's Code, loot box, shared-responsibility model, EUCS, CMS, Three Lines Model, RoPA)
 
 | Term | Definition | Source |
 |------|------------|--------|
@@ -57,5 +57,18 @@ Shared, authoritative definitions of terms of art used across the knowledge base
 | Information Security Management System (ISMS) | A systematic, risk-based framework of policies, processes and controls for protecting information, specified by ISO/IEC 27001. | iso-27001 |
 | Zero trust | A security model removing implicit network-location trust; continuous per-resource verification (NIST SP 800-207). | nist-sp-800-207 |
 | Product with digital elements | A software/hardware product with a data connection, regulated for cybersecurity by the Cyber Resilience Act. | eurlex-cra |
+| Consumer | A natural person acting wholly or mainly outside their trade, business, craft or profession (CRD Art. 2(1); CRA 2015 s.2(3)). | eurlex-crd / uk-cra-2015 |
+| Trader | A person acting for purposes relating to their trade, business, craft or profession in consumer transactions (CRD Art. 2(2)). | eurlex-crd |
+| Right of withdrawal | A consumer's right to withdraw from a distance/off-premises contract within 14 days without reason or cost (CRD Arts. 9–16). | eurlex-crd |
+| Unfair commercial practice | A B2C practice contrary to professional diligence that materially distorts consumers' economic behaviour, or is misleading/aggressive, or blacklisted (UCPD; UK DMCCA). | eurlex-ucpd / uk-dmcca-2024 |
+| Dark pattern | Interface/choice-architecture design that materially distorts a user's ability to make free, informed choices (e.g. drip pricing, obstructed cancellation). | eurlex-dsa / eurlex-ucpd |
+| Information-society service (ISS) | A service normally provided for remuneration, at a distance, by electronic means at a recipient's individual request; online games are ISS. | eurlex-gdpr / dpa-2018-s9 |
+| Children's Code (AADC) | ICO statutory code (DPA 2018 s.123) setting 15 design standards for online services likely to be accessed by children. | dpa-2018-s123 / ico-childrens-code |
+| Loot box | An optional in-game purchase where the player does not know what they receive before buying (loot boxes, card packs, gacha). | pegi-labels / gov-loot-boxes-update |
+| Shared-responsibility model | Division of security/compliance controls between cloud provider (security "of" the cloud) and customer (security "in" the cloud); the split shifts across IaaS/PaaS/SaaS. | eurlex-gdpr / iso-27001 |
+| EUCS | Candidate European Cybersecurity Certification Scheme for cloud services under the Cybersecurity Act; not yet adopted. | eurlex-csa2019 / enisa-eucs |
+| Compliance management system (CMS) | Interrelated elements an organisation uses to set compliance policy/objectives and processes, embedding a compliance culture (ISO 37301). | iso-37301 |
+| Three Lines Model | IIA governance model: first line (operational risk ownership), second line (risk/compliance oversight), third line (independent internal audit); 2020 update of "three lines of defence". | iia-three-lines |
+| Records of Processing Activities (RoPA) | The GDPR Art. 30 record of processing operations (purposes, categories, recipients, transfers, retention, security). | eurlex-gdpr |
 
 > Terms are added as documents introduce them. Do not redefine a glossary term inconsistently in a document; if a narrower meaning is needed, state it explicitly as document-specific.

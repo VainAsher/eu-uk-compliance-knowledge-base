@@ -2,7 +2,7 @@
 
 Canonical registry of authoritative sources cited across the knowledge base. Each source is classified and given a stable short key used in document References. Links are verified per document at that document's `sources_verified` date.
 
-**Last updated:** 2026-07-11 (Tier 3 cluster batch: added NIS2 (impl reg 2024/2690, EC/ENISA, transposition + CJEU-referral press releases), DORA (RTS 2024/1774, ESAs, CTPP designation), and Cybersecurity sources (Cyber Resilience Act, ISO 27002, NIST CSF 2.0, OWASP Top 10:2025, SP 800-207, NCSC, Saltzer & Schroeder))
+**Last updated:** 2026-07-11 (Tier 4 cluster batch: added EU/UK consumer-law instruments incl. DMCCA 2024 + commencement SI; Cybersecurity Act/EUCS, ISO 27017/27018, CSA STAR; children's-code/PEGI/loot-box/OSA sources; ISO 37301/31000/19011/37000, IIA Three Lines, ICO accountability. Deduped consumer-directive keys shared by #13/#15.)
 
 ## Classification classes
 
@@ -113,5 +113,45 @@ Canonical registry of authoritative sources cited across the knowledge base. Eac
 | owasp-top10-2025 | OWASP Top 10:2025 | Standard | OWASP Foundation | https://owasp.org/Top10/2025/ |
 | nist-sp-800-207 | NIST SP 800-207 — Zero Trust Architecture | Standard | NIST | https://csrc.nist.gov/pubs/sp/800/207/final |
 | saltzer-schroeder | Saltzer & Schroeder, "The Protection of Information in Computer Systems" (Proc. IEEE, 1975) | Academic | IEEE / MIT | https://web.mit.edu/Saltzer/www/publications/protection/ |
+| eurlex-crd | Directive 2011/83/EU (Consumer Rights Directive) | Primary | EUR-Lex / EU | https://eur-lex.europa.eu/eli/dir/2011/83/oj |
+| eurlex-ucpd | Directive 2005/29/EC (Unfair Commercial Practices) | Primary | EUR-Lex / EU | https://eur-lex.europa.eu/eli/dir/2005/29/oj |
+| eurlex-uctd | Directive 93/13/EEC (Unfair Contract Terms) | Primary | EUR-Lex / EU | https://eur-lex.europa.eu/eli/dir/1993/13/oj |
+| eurlex-dcd | Directive (EU) 2019/770 (Digital Content and Services) | Primary | EUR-Lex / EU | https://eur-lex.europa.eu/eli/dir/2019/770/oj |
+| eurlex-sgd | Directive (EU) 2019/771 (Sale of Goods) | Primary | EUR-Lex / EU | https://eur-lex.europa.eu/eli/dir/2019/771/oj |
+| eurlex-omnibus | Directive (EU) 2019/2161 (Omnibus/Modernisation) | Primary | EUR-Lex / EU | https://eur-lex.europa.eu/eli/dir/2019/2161/oj |
+| uk-cra-2015 | Consumer Rights Act 2015 (c.15) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/ukpga/2015/15/contents |
+| uk-ccr-2013 | Consumer Contracts Regs 2013 (SI 2013/3134) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/uksi/2013/3134/contents |
+| uk-dmcca-2024 | Digital Markets, Competition and Consumers Act 2024 (c.13) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/ukpga/2024/13/contents |
+| uk-dmcca-comm2-2025 | DMCCA 2024 (Commencement No. 2) Regs 2025 (SI 2025/272) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/uksi/2025/272/contents |
+| cma-cma207 | Unfair commercial practices (CMA207) | Regulatory | CMA / GOV.UK | https://www.gov.uk/government/publications/unfair-commercial-practices-cma207/unfair-commercial-practices |
+| cma-direct-enforcement-1yr | Direct consumer enforcement: one year on (17 Apr 2026) | Regulatory | CMA | https://competitionandmarkets.blog.gov.uk/2026/04/17/direct-consumer-enforcement-one-year-on/ |
+| dbt-subscriptions-response | Govt response — subscription contracts regime (2 Apr 2026) | Regulatory | DBT / GOV.UK | https://www.gov.uk/government/consultations/consultation-on-the-implementation-of-the-new-subscription-contracts-regime/outcome/government-response-to-consultation-on-the-implementation-of-the-new-subscription-contracts-regime-web-accessible-version |
+| ec-crd | Consumer Rights Directive (EU consumer contract law) | Regulatory | European Commission | https://commission.europa.eu/law/law-topic/consumer-protection-law/consumer-contract-law/consumer-rights-directive_en |
+| ec-ucpd | Unfair Commercial Practices Directive | Regulatory | European Commission | https://commission.europa.eu/law/law-topic/consumer-protection-law/unfair-commercial-practices-law/unfair-commercial-practices-directive_en |
+| eurlex-csa2019 | Regulation (EU) 2019/881 (Cybersecurity Act) | Primary | EUR-Lex / EU | https://eur-lex.europa.eu/eli/reg/2019/881/oj |
+| enisa-eucs | EUCS candidate cloud services certification scheme | Regulatory | ENISA | https://www.enisa.europa.eu/publications/eucs-cloud-service-scheme |
+| ec-cyber-cert-framework | EU cybersecurity certification framework | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/policies/cybersecurity-certification-framework |
+| edpb-rec-01-2020 | EDPB Recommendations 01/2020 (supplementary transfer measures) | Regulatory | EDPB | https://www.edpb.europa.eu/our-work-tools/our-documents/recommendations/recommendations-012020-measures-supplement-transfer_en |
+| iso-27017 | ISO/IEC 27017:2015 — cloud security controls | Standard | ISO/IEC | https://www.iso.org/standard/43757.html |
+| iso-27018 | ISO/IEC 27018:2019 — PII in public clouds | Standard | ISO/IEC | https://www.iso.org/standard/76559.html |
+| csa-star | CSA STAR (Security, Trust, Assurance & Risk) | Standard | Cloud Security Alliance | https://cloudsecurityalliance.org/star |
+| dpa-2018-s123 | Data Protection Act 2018, s.123 (Age-appropriate design code) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/ukpga/2018/12/section/123 |
+| uk-gambling-act-2005 | Gambling Act 2005 (c.19) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/ukpga/2005/19/contents |
+| uk-osa-2023 | Online Safety Act 2023 (c.50) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/ukpga/2023/50/contents |
+| ico-childrens-code | Children's code guidance and resources (AADC) | Regulatory | ICO (UK) | https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/ |
+| gov-loot-boxes-update | Loot boxes: industry-led protections update (2023) | Regulatory | GOV.UK / DCMS | https://www.gov.uk/guidance/loot-boxes-in-video-games-update-on-improvements-to-industry-led-protections |
+| gov-loot-boxes-response | Govt response to loot-boxes call for evidence (2022) | Regulatory | GOV.UK / DCMS | https://www.gov.uk/government/calls-for-evidence/loot-boxes-in-video-games-call-for-evidence/outcome/government-response-to-the-call-for-evidence-on-loot-boxes-in-video-games |
+| pegi-interactive-risk | PEGI interactive-risk age categories (Mar 2026) | Regulatory | PEGI | https://pegi.info/news/pegi-expands-age-rating-criteria-interactive-risk-categories |
+| pegi-labels | PEGI — What do the labels mean | Regulatory | PEGI | https://pegi.info/what-do-the-labels-mean |
+| ncsc-dos | Denial of service (DoS) guidance collection | Regulatory | NCSC (UK) | https://www.ncsc.gov.uk/collection/denial-service-dos-guidance-collection |
+| ofcom-online-safety | Online safety (Online Safety Act duties) | Regulatory | Ofcom | https://www.ofcom.org.uk/online-safety/ |
+| iso-37301 | ISO 37301:2021 — Compliance management systems | Standard | ISO | https://www.iso.org/standard/75080.html |
+| iso-31000 | ISO 31000:2018 — Risk management guidelines | Standard | ISO | https://www.iso.org/standard/65694.html |
+| iso-19011 | ISO 19011:2018 — Auditing management systems | Standard | ISO | https://www.iso.org/standard/70017.html |
+| iso-37000 | ISO 37000:2021 — Governance of organizations | Standard | ISO | https://www.iso.org/standard/65036.html |
+| iia-three-lines | IIA Three Lines Model (2020 update) | Standard | Institute of Internal Auditors | https://www.theiia.org/globalassets/documents/resources/the-iias-three-lines-model-an-update-of-the-three-lines-of-defense-july-2020/three-lines-model-updated-english.pdf |
+| ico-accountability | ICO — Guide to accountability and governance | Regulatory | ICO (UK) | https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/guide-to-accountability-and-governance/ |
+| ico-accountability-framework | ICO — Accountability Framework | Regulatory | ICO (UK) | https://ico.org.uk/for-organisations/accountability-framework/ |
+| ico-breach | ICO — Personal data breaches (report a breach) | Regulatory | ICO (UK) | https://ico.org.uk/for-organisations/report-a-breach/personal-data-breach/ |
 
 > Additional sources are appended as documents cite them. Never cite a source not verified live at the citing document's `sources_verified` date.
