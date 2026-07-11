@@ -53,7 +53,7 @@
 | No automated link/citation validation | Manual checking only; risk of link rot | Stage 8 |
 | No case-law coverage yet | Legal Framework sections rely on statute + guidance | Case Law Agent per document |
 | No glossary file | Term consistency checked ad hoc | Introduce `GLOSSARY.md` in Tier 1 |
-| No CI/GitHub remote | Version control is local only | Add remote when user provides one |
+| ~~No CI/GitHub remote~~ | ✅ Resolved 2026-07-11 | Pushed to private repo `VainAsher/eu-uk-compliance-knowledge-base`; CI green. |
 
 ## Research backlog
 

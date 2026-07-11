@@ -11,7 +11,7 @@ An autonomous multi-agent pipeline that produces a professional, evidence-based 
 ## Current state (snapshot)
 
 - **Maturity:** Stage 8 — **26 documents approved** (16 foundations + 10 depth sub-topics; releases 0.2.0–0.11.0). QA automation live (validator + link checker + markdownlint + CI).
-- **Version control:** git on `main`, tags `v0.2.0`–`v0.11.0`. No remote yet.
+- **Version control:** git on `main`, tags `v0.2.0`–`v0.12.0`. **Remote:** `github.com/VainAsher/eu-uk-compliance-knowledge-base` (private). **CI green** on GitHub Actions (validator + cross-ref gate + markdownlint).
 - **Regulatory-change management proven:** the depth cluster surfaced that the AI Omnibus was adopted (Council 29 Jun 2026); a corrective v1.1.0 revision to the frozen `ai-act-foundations` was applied and re-frozen — the model for keeping frozen docs current.
 - **Template:** `templates/document_template.md` reconciled to full spec.
 - **Governance files:** all present, incl. `GLOSSARY.md` (~70 terms) and `SOURCE_REGISTRY.md` (~120 sources).
@@ -43,7 +43,8 @@ Regenerate after any change to `MASTER_INDEX.md` or a document's front matter.
 
 ## Open decisions for the human
 
-- **Git remote / publication target** — none configured. Provide a GitHub repo URL when ready to publish.
+- **Repository visibility** — the GitHub repo is **private**. Flip to public (`gh repo edit VainAsher/eu-uk-compliance-knowledge-base --visibility public`) when you want it published/indexed.
+- **Publication target** — remote is set; decide between **GitHub Pages** vs **Wiki.js** for the rendered site.
 - **Directory convention** — documents live under `docs/<NN>-<topic>/<slug>.md`. Confirm or change.
 - **Depth per topic** — one flagship document per topic first, or full sub-topic breakdown immediately? (Currently: flagship first, sub-topics in backlog.)
 
