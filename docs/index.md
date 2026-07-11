@@ -5,9 +5,9 @@
 
 Evidence-based, source-cited compliance documents across EU & UK digital, data-protection and cybersecurity law.
 
-**38 documents** across **16 / 16 topics** — every factual claim carries a citation to a primary or authoritative source, and links, citations and structure are checked automatically in CI.
+**44 documents** across **16 / 16 topics** — every factual claim carries a citation to a primary or authoritative source, and links, citations and structure are checked automatically in CI.
 
-*Confidence: 32 High · 6 Medium.*  *Jurisdiction: EU 17 · EU, UK 16 · UK 5.*
+*Confidence: 37 High · 7 Medium.*  *Jurisdiction: EU 19 · EU, UK 19 · UK 6.*
 
 ## Tier 1 — Data-protection core
 
@@ -42,12 +42,18 @@ Evidence-based, source-cited compliance documents across EU & UK digital, data-p
 
 ## Tier 3 — Security & resilience
 
+- [GDPR: Records of Processing Activities (Article 30)](01-gdpr/gdpr-ropa.md) — *GDPR (EU)* (EU, UK)
+- [UK PECR: Marketing, Cookies & Enforcement in Depth](03-eprivacy/pecr-detail.md) — *ePrivacy* (UK)
+- [Privacy Threat Modelling (LINDDUN)](04-privacy-engineering/privacy-threat-modelling.md) — *Privacy Engineering* (EU, UK)
 - [NIS2 Directive: Foundations, Scope & Cybersecurity Obligations](10-nis2/nis2-foundations.md) — *NIS2* (EU)
 - [NIS2: Significant-Incident Reporting](10-nis2/nis2-incident-reporting.md) — *NIS2* (EU)
 - [DORA: Foundations & Digital Operational Resilience for Finance](11-dora/dora-foundations.md) — *DORA* (EU)
+- [DORA: Union Oversight Framework for Critical ICT Third-Party Providers](11-dora/dora-oversight-framework.md) — *DORA* (EU)
 - [DORA: Threat-Led Penetration Testing (TLPT)](11-dora/dora-tlpt.md) — *DORA* (EU)
+- [EU Cyber Resilience Act: Conformity Assessment & CE Marking](12-cybersecurity/cra-conformity-assessment.md) — *Cybersecurity* (EU)
 - [EU Cyber Resilience Act: Product Cybersecurity Foundations](12-cybersecurity/cyber-resilience-act.md) — *Cybersecurity* (EU)
 - [Cybersecurity: Foundations, Frameworks & Controls](12-cybersecurity/cybersecurity-foundations.md) — *Cybersecurity* (EU, UK)
+- [Game Hosting: Loot Boxes & In-Game Monetisation](15-game-hosting/game-hosting-loot-boxes.md) — *Game Hosting* (EU, UK)
 
 ## Tier 4 — Sector, consumer & operations
 
@@ -95,12 +101,18 @@ Evidence-based, source-cited compliance documents across EU & UK digital, data-p
         dsa_vlop_obligations["dsa-vlop-obligations"]
       end
       subgraph Tier3["Tier 3"]
+        cra_conformity_assessment["cra-conformity-assessment"]
         cyber_resilience_act["cyber-resilience-act"]
         cybersecurity_foundations["cybersecurity-foundations"]
         dora_foundations["dora-foundations"]
+        dora_oversight_framework["dora-oversight-framework"]
         dora_tlpt["dora-tlpt"]
+        game_hosting_loot_boxes["game-hosting-loot-boxes"]
+        gdpr_ropa["gdpr-ropa"]
         nis2_foundations["nis2-foundations"]
         nis2_incident_reporting["nis2-incident-reporting"]
+        pecr_detail["pecr-detail"]
+        privacy_threat_modelling["privacy-threat-modelling"]
       end
       subgraph Tier4["Tier 4"]
         cloud_hosting_foundations["cloud-hosting-foundations"]
@@ -123,8 +135,7 @@ Evidence-based, source-cited compliance documents across EU & UK digital, data-p
       eprivacy_foundations -->|transposed in UK via PEC| uk_gdpr_foundations
       eprivacy_foundations -->|detailed by| cookie_consent_implementation
       eprivacy_foundations -->|detailed by| digital_omnibus
-      pecr_detail(["pecr-detail<br/>(planned)"])
-      eprivacy_foundations -.->|detailed by| pecr_detail
+      eprivacy_foundations -->|detailed by| pecr_detail
       data_retention_caselaw(["data-retention-caselaw<br/>(planned)"])
       eprivacy_foundations -.->|detailed by| data_retention_caselaw
       privacy_engineering_foundations -->|implements| gdpr_foundations
@@ -132,8 +143,7 @@ Evidence-based, source-cited compliance documents across EU & UK digital, data-p
       privacy_engineering_foundations -->|implements| eprivacy_foundations
       privacy_engineering_foundations -->|detailed by| dpia_methodology
       privacy_engineering_foundations -->|detailed by| pets_catalogue
-      privacy_threat_modelling(["privacy-threat-modelling<br/>(planned)"])
-      privacy_engineering_foundations -.->|detailed by| privacy_threat_modelling
+      privacy_engineering_foundations -->|detailed by| privacy_threat_modelling
       anonymisation_techniques(["anonymisation-techniques<br/>(planned)"])
       privacy_engineering_foundations -.->|detailed by| anonymisation_techniques
       ai_act_foundations -->|operates alongside| gdpr_foundations
@@ -241,6 +251,26 @@ Evidence-based, source-cited compliance documents across EU & UK digital, data-p
       cloud_shared_responsibility -->|details| cybersecurity_foundations
       cloud_shared_responsibility -->|details| privacy_engineering_foundations
       cloud_shared_responsibility -->|details| gdpr_foundations
+      gdpr_ropa -->|details| gdpr_foundations
+      gdpr_ropa -->|details| uk_gdpr_foundations
+      gdpr_ropa -->|details| dpia_methodology
+      pecr_detail -->|details| eprivacy_foundations
+      pecr_detail -->|details| uk_gdpr_foundations
+      pecr_detail -->|details| cookie_consent_implementation
+      pecr_detail -->|details| duaa_2025_detail
+      privacy_threat_modelling -->|details| privacy_engineering_foundations
+      privacy_threat_modelling -->|details| dpia_methodology
+      privacy_threat_modelling -->|details| pets_catalogue
+      dora_oversight_framework -->|details| dora_foundations
+      dora_oversight_framework -->|details| nis2_foundations
+      dora_oversight_framework -->|details| cloud_shared_responsibility
+      cra_conformity_assessment -->|details| cyber_resilience_act
+      cra_conformity_assessment -->|details| cybersecurity_foundations
+      cra_conformity_assessment -->|details| ai_act_high_risk
+      game_hosting_loot_boxes -->|details| game_hosting_foundations
+      game_hosting_loot_boxes -->|details| consumer_rights_foundations
+      game_hosting_loot_boxes -->|details| dsa_foundations
+      game_hosting_loot_boxes -->|details| uk_childrens_code
       uk_gdpr_foundations -->|related| eprivacy_foundations
       uk_gdpr_foundations -->|related| privacy_engineering_foundations
       eprivacy_foundations -->|related| privacy_engineering_foundations
@@ -318,6 +348,19 @@ Evidence-based, source-cited compliance documents across EU & UK digital, data-p
       cloud_shared_responsibility -->|related| dora_foundations
       cloud_shared_responsibility -->|related| nis2_foundations
       cloud_shared_responsibility -->|related| data_act_foundations
+      gdpr_ropa -->|related| duaa_2025_detail
+      gdpr_ropa -->|related| compliance_operations_foundations
+      gdpr_ropa -->|related| gdpr_dsar
+      pecr_detail -->|related| digital_omnibus
+      privacy_threat_modelling -->|related| gdpr_foundations
+      privacy_threat_modelling -->|related| ai_act_foundations
+      dora_oversight_framework -->|related| dora_tlpt
+      dora_technical_standards(["dora-technical-standards<br/>(planned)"])
+      dora_oversight_framework -.->|related| dora_technical_standards
+      dora_third_party_contracts(["dora-third-party-contracts<br/>(planned)"])
+      dora_oversight_framework -.->|related| dora_third_party_contracts
+      cra_conformity_assessment -->|related| nis2_foundations
+      game_hosting_loot_boxes -->|related| ai_act_foundations
     ```
 
 ## Machine-readable exports

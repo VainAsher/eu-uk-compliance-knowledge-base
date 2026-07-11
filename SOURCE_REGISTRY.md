@@ -276,5 +276,6 @@ Canonical registry of authoritative sources cited across the knowledge base. Eac
 | ec-csa-revision-proposal | Proposal for a Regulation for the EU Cybersecurity Act (2026 revision) | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/library/proposal-regulation-eu-cybersecurity-act |
 | csa-ccm | CSA Cloud Controls Matrix (CCM) | Standard | Cloud Security Alliance | https://cloudsecurityalliance.org/research/cloud-controls-matrix |
 | aicpa-soc2 | SOC 2 — Trust Services Criteria (service-org attestation) | Standard | AICPA & CIMA | https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2 |
+| linddun | LINDDUN privacy threat-modelling methodology (GO / PRO / MAESTRO) | Academic | imec-DistriNet, KU Leuven | https://linddun.org/ |
 
 > Additional sources are appended as documents cite them. Never cite a source not verified live at the citing document's `sources_verified` date.

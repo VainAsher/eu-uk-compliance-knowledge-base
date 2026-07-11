@@ -822,6 +822,138 @@
         "nis2-foundations",
         "data-act-foundations"
       ]
+    },
+    {
+      "id": "gdpr-ropa",
+      "title": "GDPR: Records of Processing Activities (Article 30)",
+      "topic": "GDPR (EU)",
+      "tier": "3",
+      "jurisdiction": "EU, UK",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/01-gdpr/gdpr-ropa.md",
+      "legal_basis": "Regulation (EU) 2016/679, Article 30; UK GDPR as assimilated (EUWA 2018 s.3) and DPA 2018",
+      "document_type": "guidance",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "gdpr-foundations",
+        "duaa-2025-detail",
+        "compliance-operations-foundations",
+        "dpia-methodology",
+        "gdpr-dsar"
+      ]
+    },
+    {
+      "id": "pecr-detail",
+      "title": "UK PECR: Marketing, Cookies & Enforcement in Depth",
+      "topic": "ePrivacy",
+      "tier": "3",
+      "jurisdiction": "UK",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/03-eprivacy/pecr-detail.md",
+      "legal_basis": "Privacy and Electronic Communications (EC Directive) Regulations 2003 (SI 2003/2426), as amended by the Data (Use and Access) Act 2025 (c.18)",
+      "document_type": "guidance",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "eprivacy-foundations",
+        "cookie-consent-implementation",
+        "duaa-2025-detail",
+        "uk-gdpr-foundations",
+        "digital-omnibus"
+      ]
+    },
+    {
+      "id": "privacy-threat-modelling",
+      "title": "Privacy Threat Modelling (LINDDUN)",
+      "topic": "Privacy Engineering",
+      "tier": "3",
+      "jurisdiction": "EU, UK",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/04-privacy-engineering/privacy-threat-modelling.md",
+      "legal_basis": "Regulation (EU) 2016/679, Articles 25 & 35",
+      "document_type": "guidance",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "privacy-engineering-foundations",
+        "dpia-methodology",
+        "pets-catalogue",
+        "gdpr-foundations",
+        "ai-act-foundations"
+      ]
+    },
+    {
+      "id": "dora-oversight-framework",
+      "title": "DORA: Union Oversight Framework for Critical ICT Third-Party Providers",
+      "topic": "DORA",
+      "tier": "3",
+      "jurisdiction": "EU",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/11-dora/dora-oversight-framework.md",
+      "legal_basis": "Regulation (EU) 2022/2554, Arts. 28–44; Commission Delegated Regulation (EU) 2024/1502 (designation criteria); Commission Delegated Regulation (EU) 2024/1505 (oversight fees); Commission Delegated Regulation (EU) 2025/532 (subcontracting)",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "dora-foundations",
+        "dora-tlpt",
+        "dora-technical-standards",
+        "dora-third-party-contracts",
+        "cloud-shared-responsibility",
+        "nis2-foundations"
+      ]
+    },
+    {
+      "id": "cra-conformity-assessment",
+      "title": "EU Cyber Resilience Act: Conformity Assessment & CE Marking",
+      "topic": "Cybersecurity",
+      "tier": "3",
+      "jurisdiction": "EU",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/12-cybersecurity/cra-conformity-assessment.md",
+      "legal_basis": "Regulation (EU) 2024/2847 (Cyber Resilience Act), Articles 7–8, 13, 19–20, 24, 27–33, 35–51, 71; Annexes I, III, IV, V, VI, VII, VIII",
+      "document_type": "guidance",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "cyber-resilience-act",
+        "cybersecurity-foundations",
+        "ai-act-high-risk",
+        "nis2-foundations"
+      ]
+    },
+    {
+      "id": "game-hosting-loot-boxes",
+      "title": "Game Hosting: Loot Boxes & In-Game Monetisation",
+      "topic": "Game Hosting",
+      "tier": "3",
+      "jurisdiction": "EU, UK",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "Medium",
+      "path": "docs/15-game-hosting/game-hosting-loot-boxes.md",
+      "legal_basis": "Gambling Act 2005 (c.19); UK GDPR / Regulation (EU) 2016/679 (esp. Art. 8) & DPA 2018 (ss.9, 123); Directive 2005/29/EC (UCPD) as amended by Directive (EU) 2019/2161 (Omnibus); Directive 2011/83/EU (Consumer Rights Directive); Digital Markets, Competition and Consumers Act 2024; Regulation (EU) 2022/2065 (DSA, Arts. 25, 28)",
+      "document_type": "guidance",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "game-hosting-foundations",
+        "consumer-rights-foundations",
+        "uk-childrens-code",
+        "dsa-foundations",
+        "ai-act-foundations"
+      ]
     }
   ],
   "edges": [
@@ -901,7 +1033,7 @@
       "from": "eprivacy-foundations",
       "to": "pecr-detail",
       "rel": "detailed by",
-      "target": "planned"
+      "target": "known"
     },
     {
       "from": "eprivacy-foundations",
@@ -943,7 +1075,7 @@
       "from": "privacy-engineering-foundations",
       "to": "privacy-threat-modelling",
       "rel": "detailed by",
-      "target": "planned"
+      "target": "known"
     },
     {
       "from": "privacy-engineering-foundations",
@@ -1582,6 +1714,126 @@
       "target": "known"
     },
     {
+      "from": "gdpr-ropa",
+      "to": "gdpr-foundations",
+      "rel": "details; relates to",
+      "target": "known"
+    },
+    {
+      "from": "gdpr-ropa",
+      "to": "uk-gdpr-foundations",
+      "rel": "details; relates to",
+      "target": "known"
+    },
+    {
+      "from": "gdpr-ropa",
+      "to": "dpia-methodology",
+      "rel": "details; relates to",
+      "target": "known"
+    },
+    {
+      "from": "pecr-detail",
+      "to": "eprivacy-foundations",
+      "rel": "details; sibling of; enforcement uplift via",
+      "target": "known"
+    },
+    {
+      "from": "pecr-detail",
+      "to": "uk-gdpr-foundations",
+      "rel": "details; sibling of; enforcement uplift via",
+      "target": "known"
+    },
+    {
+      "from": "pecr-detail",
+      "to": "cookie-consent-implementation",
+      "rel": "details; sibling of; enforcement uplift via",
+      "target": "known"
+    },
+    {
+      "from": "pecr-detail",
+      "to": "duaa-2025-detail",
+      "rel": "details; sibling of; enforcement uplift via",
+      "target": "known"
+    },
+    {
+      "from": "privacy-threat-modelling",
+      "to": "privacy-engineering-foundations",
+      "rel": "details; feeds; complements",
+      "target": "known"
+    },
+    {
+      "from": "privacy-threat-modelling",
+      "to": "dpia-methodology",
+      "rel": "details; feeds; complements",
+      "target": "known"
+    },
+    {
+      "from": "privacy-threat-modelling",
+      "to": "pets-catalogue",
+      "rel": "details; feeds; complements",
+      "target": "known"
+    },
+    {
+      "from": "dora-oversight-framework",
+      "to": "dora-foundations",
+      "rel": "details; relates to",
+      "target": "known"
+    },
+    {
+      "from": "dora-oversight-framework",
+      "to": "nis2-foundations",
+      "rel": "details; relates to",
+      "target": "known"
+    },
+    {
+      "from": "dora-oversight-framework",
+      "to": "cloud-shared-responsibility",
+      "rel": "details; relates to",
+      "target": "known"
+    },
+    {
+      "from": "cra-conformity-assessment",
+      "to": "cyber-resilience-act",
+      "rel": "details; complements",
+      "target": "known"
+    },
+    {
+      "from": "cra-conformity-assessment",
+      "to": "cybersecurity-foundations",
+      "rel": "details; complements",
+      "target": "known"
+    },
+    {
+      "from": "cra-conformity-assessment",
+      "to": "ai-act-high-risk",
+      "rel": "details; complements",
+      "target": "known"
+    },
+    {
+      "from": "game-hosting-loot-boxes",
+      "to": "game-hosting-foundations",
+      "rel": "details; relates to",
+      "target": "known"
+    },
+    {
+      "from": "game-hosting-loot-boxes",
+      "to": "consumer-rights-foundations",
+      "rel": "details; relates to",
+      "target": "known"
+    },
+    {
+      "from": "game-hosting-loot-boxes",
+      "to": "dsa-foundations",
+      "rel": "details; relates to",
+      "target": "known"
+    },
+    {
+      "from": "game-hosting-loot-boxes",
+      "to": "uk-childrens-code",
+      "rel": "details; relates to",
+      "target": "known"
+    },
+    {
       "from": "uk-gdpr-foundations",
       "to": "eprivacy-foundations",
       "rel": "related",
@@ -2028,6 +2280,72 @@
     {
       "from": "cloud-shared-responsibility",
       "to": "data-act-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "gdpr-ropa",
+      "to": "duaa-2025-detail",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "gdpr-ropa",
+      "to": "compliance-operations-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "gdpr-ropa",
+      "to": "gdpr-dsar",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "pecr-detail",
+      "to": "digital-omnibus",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "privacy-threat-modelling",
+      "to": "gdpr-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "privacy-threat-modelling",
+      "to": "ai-act-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "dora-oversight-framework",
+      "to": "dora-tlpt",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "dora-oversight-framework",
+      "to": "dora-technical-standards",
+      "rel": "related",
+      "target": "planned"
+    },
+    {
+      "from": "dora-oversight-framework",
+      "to": "dora-third-party-contracts",
+      "rel": "related",
+      "target": "planned"
+    },
+    {
+      "from": "cra-conformity-assessment",
+      "to": "nis2-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "game-hosting-loot-boxes",
+      "to": "ai-act-foundations",
       "rel": "related",
       "target": "known"
     }

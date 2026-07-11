@@ -69,12 +69,18 @@ nav:
       - "EU Digital Markets Act: Foundations & Gatekeeper Obligations": 09-digital-markets/dma-foundations.md
       - "EU Digital Markets Act: Gatekeeper Obligations in Depth": 09-digital-markets/dma-obligations.md
   - "Tier 3 — Security & resilience":
+      - "GDPR: Records of Processing Activities (Article 30)": 01-gdpr/gdpr-ropa.md
+      - "UK PECR: Marketing, Cookies & Enforcement in Depth": 03-eprivacy/pecr-detail.md
+      - "Privacy Threat Modelling (LINDDUN)": 04-privacy-engineering/privacy-threat-modelling.md
       - "NIS2 Directive: Foundations, Scope & Cybersecurity Obligations": 10-nis2/nis2-foundations.md
       - "NIS2: Significant-Incident Reporting": 10-nis2/nis2-incident-reporting.md
       - "DORA: Foundations & Digital Operational Resilience for Finance": 11-dora/dora-foundations.md
+      - "DORA: Union Oversight Framework for Critical ICT Third-Party Providers": 11-dora/dora-oversight-framework.md
       - "DORA: Threat-Led Penetration Testing (TLPT)": 11-dora/dora-tlpt.md
+      - "EU Cyber Resilience Act: Conformity Assessment & CE Marking": 12-cybersecurity/cra-conformity-assessment.md
       - "EU Cyber Resilience Act: Product Cybersecurity Foundations": 12-cybersecurity/cyber-resilience-act.md
       - "Cybersecurity: Foundations, Frameworks & Controls": 12-cybersecurity/cybersecurity-foundations.md
+      - "Game Hosting: Loot Boxes & In-Game Monetisation": 15-game-hosting/game-hosting-loot-boxes.md
   - "Tier 4 — Sector, consumer & operations":
       - "Consumer Rights: Foundations (EU & UK)": 13-consumer-rights/consumer-rights-foundations.md
       - "UK DMCCA 2024: Subscription Contracts Regime": 13-consumer-rights/dmcca-subscriptions.md

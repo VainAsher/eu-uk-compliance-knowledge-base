@@ -4,6 +4,7 @@ Frozen snapshots of the knowledge base. A release is cut when a batch of documen
 
 | Release | Date | Highlights | Docs frozen |
 |---------|------|-----------|-------------|
+| 0.16.0 | 2026-07-11 | **Backlog loop Cluster B** (autonomous): GDPR RoPA (Art. 30), UK PECR detail, privacy threat modelling (LINDDUN), DORA CTPP oversight framework, CRA conformity assessment, game-hosting loot boxes. **Corrective patch:** `cyber-resilience-act` → v1.0.1 (CRA Chapter III/IV + Annex VI/VIII structure re-verified against EUR-Lex and corrected). Registry gains `linddun`. | 44 |
 | 0.15.0 | 2026-07-11 | **Backlog loop Cluster A** (autonomous): Data Act switching, DSA VLOP obligations, DMCCA subscriptions, ISO 42001 AIMS, compliance-audit methodology, cloud shared-responsibility. 15/16 topics now have depth docs. | 38 |
 | 0.14.0 | 2026-07-11 | Third depth sub-topic cluster: AI Act prohibited practices, GDPR DSAR, NIS2 incident reporting, DMA obligations, UK Children's Code, PETs catalogue. Registry gains 9 CJEU judgments + 11 academic works. | 32 |
 | 0.13.0 | 2026-07-11 | **Publication + RAG (Stage 10):** MkDocs Material GitHub Pages site (`build_site.py` + `pages.yml`) and a section-level RAG export (`build_rag.py` → `exports/rag/`, 598 chunks). | 26 |

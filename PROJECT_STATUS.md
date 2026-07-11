@@ -1,7 +1,7 @@
 # Project Status
 
 **Last updated:** 2026-07-11
-**Maturity:** Stage 10 of 10 (all complete) — *38 approved documents; public GitHub Pages site auto-deploys. Autonomous backlog loop in progress (Cluster A frozen, release 0.15.0).*
+**Maturity:** Stage 10 of 10 (all complete) — *44 approved documents; public GitHub Pages site auto-deploys. Autonomous backlog loop in progress (Cluster B frozen, release 0.16.0).*
 
 ## Maturity model (repository level)
 
@@ -36,12 +36,12 @@
 
 ## In progress
 
-- **Autonomous backlog loop running** (user-authorised). **Cluster A (#33–#38) approved & frozen (release 0.15.0)** → 38 docs, 15/16 topics with depth. Next: **Cluster B** (game-hosting-loot-boxes, gdpr-ropa, dora-oversight-framework, cra-conformity-assessment, pecr-detail, privacy-threat-modelling), then **Cluster C**.
+- **Autonomous backlog loop running** (user-authorised). **Cluster B (#39–#44) approved & frozen (release 0.16.0)** → 44 docs, 16/16 topics with depth; also patched `cyber-resilience-act` → v1.0.1 (CRA structure correction). Next: **Cluster C** (anonymisation-techniques, dma-interoperability, dsa-recommender-transparency, nis2-transposition-tracker, data-retention-caselaw, ai-model-risk-management).
 - Site is **public and auto-deploying** at <https://vainasher.github.io/eu-uk-compliance-knowledge-base/>.
 
 ## Pending / optional work
 
-- **Depth backlog** (loop in progress) — remaining candidates: `gdpr-ropa`, `dora-oversight-framework`, `cra-conformity-assessment`, `pecr-detail`, `anonymisation-techniques`, `privacy-threat-modelling`, `nis2-transposition-tracker`, `dma-interoperability`, `dsa-recommender-transparency`, `data-retention-caselaw`, `ai-model-risk-management`, `game-hosting-loot-boxes`, `ugc-moderation`.
+- **Depth backlog** (loop in progress) — remaining candidates: `anonymisation-techniques`, `nis2-transposition-tracker`, `dma-interoperability`, `dsa-recommender-transparency`, `data-retention-caselaw`, `ai-model-risk-management`, `ugc-moderation`.
 - **Review cycles** — refresh volatile items before `review_due` 2027-07-11 (AI Omnibus OJ publication, EU-US DPF appeal, Digital Omnibus data strand, revised ICO Children's Code, ISO 27017/27018 editions).
 - **Optional QA extras** — glossary-consistency checker, `vale` prose linting.
 
@@ -60,8 +60,8 @@
 
 | Metric | Value |
 |--------|-------|
-| Approved documents | 38 (16 foundations + 22 sub-topics) |
+| Approved documents | 44 (16 foundations + 28 sub-topics) |
 | Draft documents | 0 |
 | Governance files | 9 |
-| Topics covered | 16 / 16 ✅ (15 topics now have depth docs) |
+| Topics covered | 16 / 16 ✅ (all 16 topics now have depth docs) |
 | Sources in registry | see `SOURCE_REGISTRY.md` |

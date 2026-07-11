@@ -1,7 +1,7 @@
 ---
 id: cyber-resilience-act
 title: "EU Cyber Resilience Act: Product Cybersecurity Foundations"
-version: 1.0.0
+version: 1.0.1
 status: approved
 classification: public
 jurisdiction: [EU]
@@ -26,8 +26,8 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | cyber-resilience-act |
-| Version | 1.0.0 |
-| Status | approved (frozen in release 0.10.0) |
+| Version | 1.0.1 |
+| Status | approved (frozen in release 0.10.0; corrective patch v1.0.1 in release 0.16.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
@@ -98,11 +98,11 @@ The CRA is a **directly applicable Regulation** structured around the New Legisl
 
 - **Chapter I (Arts. 1–6)** — subject matter, **scope**, **definitions** (incl. Art. 3(1) PDE), and the relationship with other Union law (sectoral carve-outs).
 - **Chapter II (Arts. 13–26)** — **obligations of economic operators**: manufacturers (Art. 13), their reporting duties (Art. 14), the ENISA **single reporting platform** (Art. 16), importers (Art. 19), distributors (Art. 20), and **open-source software stewards** (Art. 24); classification of **important** (Art. 7) and **critical** (Art. 8) products sits at the start of the scope/obligation machinery.
-- **Chapter III (Arts. 27–28)** — **conformity**: presumption of conformity via harmonised standards, and the **EU declaration of conformity**.
-- **Chapter IV (Arts. 29–34)** — **CE marking** (Arts. 29–30) and **conformity-assessment procedures** (Art. 32), performed by **notified bodies** where third-party assessment is required.
+- **Chapter III (Arts. 27–34)** — **conformity**: presumption of conformity via harmonised standards, the **EU declaration of conformity** (Art. 28), **CE marking** (Arts. 29–30) and the **conformity-assessment procedures** (Art. 32).
+- **Chapter IV (Arts. 35–51)** — **notification of conformity assessment bodies** (the notifying authorities and **notified bodies** that carry out third-party assessment).
 - **Chapters V–VII** — notification of conformity-assessment bodies, **market surveillance and enforcement**, and **delegated/implementing powers** (to update Annexes III/IV, specify the SBOM format, and detail reporting).
 - **Penalties** — **Art. 64** (administrative fines).
-- Substance lives in the **Annexes**: **Annex I** (essential requirements — product properties + vulnerability handling), **Annex II** (information to users), **Annex III** (important products, Class I/II), **Annex IV** (critical products), **Annex V** (EU declaration of conformity), **Annex VI** (conformity-assessment procedures).
+- Substance lives in the **Annexes**: **Annex I** (essential requirements — product properties + vulnerability handling), **Annex II** (information to users), **Annex III** (important products, Class I/II), **Annex IV** (critical products), **Annex V** (EU declaration of conformity), **Annex VI** (*simplified* EU declaration of conformity), **Annex VII** (technical documentation), **Annex VIII** (conformity-assessment procedures).
 
 ## Relevant Articles
 
@@ -302,3 +302,4 @@ Not Applicable — this foundational reference relies on the primary Regulation 
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (Regulation (EU) 2024/2847), the European Commission CRA summary/policy pages, ENISA (Single Reporting Platform; JRC/ENISA standards mapping), and standards (ETSI EN 303 645, ISO/IEC 27001, NIST CSF 2.0). **Phased application dates live-verified on 2026-07-11** against EUR-Lex (Art. 71) and the Commission summary: entry into force 10 Dec 2024; notified-body provisions 11 Jun 2026; reporting obligations 11 Sep 2026; full application 11 Dec 2027. Article numbering (Art. 13 manufacturers, Art. 14 reporting, Art. 16 SRP, Arts. 19–20 importers/distributors, Art. 24 stewards, Arts. 29–32 CE/conformity, Art. 64 penalties, Annex I/III/IV), the ≥5-year support period (Art. 13(8)) and the Art. 64 fines (€15m/2.5%; €10m/2%; €5m/1%) verified. All 11 external links returned HTTP 200. | — |
 | 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at sub-topics batch gate; CRA phased dates cross-verified; frozen in release 0.10.0. | Human reviewer |
+| 1.0.1 | 2026-07-11 | Orchestrator (virtual agent) | **Corrective patch.** While authoring `cra-conformity-assessment`, the CRA structural map was re-verified verbatim against EUR-Lex (CELEX 32024R2847). Fixed three structural errors in Legal Framework: (a) Chapter III is Arts. 27–34 (conformity, EU DoC, CE marking, conformity-assessment procedures) — not Arts. 27–28; (b) Chapter IV is Arts. 35–51, *Notification of conformity assessment bodies* (notified bodies) — not "CE marking, Arts. 29–34"; (c) Annex VI is the *simplified* EU DoC and conformity-assessment procedures live in Annex VIII (added Annex VII technical documentation) — Annex VI was mislabelled "conformity-assessment procedures". No substantive obligation changed. | Orchestrator (evidence-verified) |

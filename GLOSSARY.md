@@ -4,7 +4,7 @@ Shared, authoritative definitions of terms of art used across the knowledge base
 
 **Convention:** Each term cites its authoritative source. Where a term is defined in legislation, the statutory definition governs. Keys in the *Source* column reference `SOURCE_REGISTRY.md`.
 
-**Last updated:** 2026-07-11 (backlog Cluster A: added switching, functional equivalence, systemic risk (DSA), advertising repository, vetted researcher, SoA, audit universe, CCM, SOC 2. Earlier batches recorded in git history.)
+**Last updated:** 2026-07-11 (backlog Cluster B: added LINDDUN, Lead Overseer, CE marking, simplified EU declaration of conformity, soft opt-in. Earlier batches recorded in git history.)
 
 | Term | Definition | Source |
 |------|------------|--------|
@@ -114,5 +114,10 @@ Shared, authoritative definitions of terms of art used across the knowledge base
 | Audit universe | The complete inventory of auditable entities (processes, systems, suppliers, regimes) from which a risk-based audit programme is selected. | iso-19011 |
 | Cloud Controls Matrix (CCM) | The CSA cloud-specific control framework with a shared-responsibility mapping; underpins CSA STAR. | csa-ccm |
 | SOC 2 | An AICPA attestation on a service organisation's controls against the Trust Services Criteria (Type I design; Type II operating effectiveness). | aicpa-soc2 |
+| LINDDUN | A privacy threat-modelling methodology mapping seven threat categories — Linking, Identifying, Non-repudiation, Detecting, Data disclosure, Unawareness/Unintervenability, Non-compliance — onto a data-flow diagram. | linddun |
+| Lead Overseer | The ESA (EBA, ESMA or EIOPA) appointed under DORA Art. 31(1)(b) to conduct oversight of a designated Critical ICT Third-Party Provider. | eurlex-dora |
+| CE marking | The mark by which a manufacturer declares a product conforms to all applicable EU harmonisation legislation, including (from 11 Dec 2027) the Cyber Resilience Act (Arts. 29–30). | eurlex-cra |
+| Simplified EU declaration of conformity | The abbreviated conformity declaration permitted under CRA Art. 13(20), following the model in Annex VI, giving an internet address for the full declaration. | eurlex-cra |
+| Soft opt-in | The PECR exception (reg. 22(3)) allowing electronic marketing to existing customers about similar products without prior consent, where an opt-out was offered at collection and in every message. | uk-pecr |
 
 > Terms are added as documents introduce them. Do not redefine a glossary term inconsistently in a document; if a narrower meaning is needed, state it explicitly as document-specific.

@@ -6,6 +6,24 @@ All notable changes to this repository. Format based on [Keep a Changelog](https
 
 *Nothing yet.*
 
+## [0.16.0] — 2026-07-11
+
+### Added (backlog loop — Cluster B; autonomous, workers self-ran all QA gates; auto-frozen on clean QA)
+
+- `docs/01-gdpr/gdpr-ropa.md` — GDPR Art. 30 Records of Processing. **Live-verified the UK DUAA 2025 did NOT change Art. 30** (that was the dropped DPDI Bill); EU Art. 30(5) simplification recorded as *proposal only*.
+- `docs/03-eprivacy/pecr-detail.md` — UK PECR marketing/cookies/enforcement; **DUAA PECR fine uplift to UK GDPR levels (£17.5m/4%)**, soft opt-in, charity exemption, cookie exemptions.
+- `docs/04-privacy-engineering/privacy-threat-modelling.md` — LINDDUN (GO/PRO/MAESTRO) vs STRIDE; mapping into DPbDD (Art. 25) and DPIA (Art. 35). Backed by imec-DistriNet/KU Leuven + NIST Privacy Framework.
+- `docs/11-dora/dora-oversight-framework.md` — DORA Arts. 31–44 CTPP oversight; delegated acts 2024/1502, 2024/1505, 2025/532; Lead Overseer powers.
+- `docs/12-cybersecurity/cra-conformity-assessment.md` — CRA Art. 32 + **Annex VIII modules quoted verbatim**; important/critical product classes; notified bodies; AI-Act Art. 43 interplay.
+- `docs/15-game-hosting/game-hosting-loot-boxes.md` — loot-box regulation (Medium): UK **not** under Gambling Act, NL Raad van State FIFA ruling (ECLI:NL:RVS:2022:690), BE/consumer-law routes.
+
+### Changed
+
+- **`docs/12-cybersecurity/cyber-resilience-act.md` → v1.0.1 (corrective patch).** Re-verified the CRA structural map verbatim against EUR-Lex (CELEX 32024R2847) while authoring `cra-conformity-assessment` and corrected three errors in the Legal Framework section: Chapter III is Arts. 27–34 (conformity, EU DoC, CE marking, conformity-assessment procedures); Chapter IV is Arts. 35–51 *Notification of conformity assessment bodies*; Annex VI is the *simplified* EU DoC and the conformity-assessment procedures live in Annex VIII (Annex VII = technical documentation). No obligation changed.
+- `SOURCE_REGISTRY.md` — added `linddun` (imec-DistriNet/KU Leuven methodology).
+- `GLOSSARY.md` — added LINDDUN, Lead Overseer, CE marking, simplified EU declaration of conformity, soft opt-in.
+- `MASTER_INDEX.md` — 6 catalogue rows, topic-coverage counts, and knowledge-graph edges for Cluster B; `pecr-detail`/`privacy-threat-modelling` moved planned→approved.
+
 ## [0.15.0] — 2026-07-11
 
 ### Added (backlog loop — Cluster A; autonomous, workers self-ran all QA gates; auto-frozen on clean QA)
