@@ -19,11 +19,14 @@ graph LR
     ai_act_high_risk["ai-act-high-risk"]
     ai_act_prohibited_practices["ai-act-prohibited-practices"]
     ai_governance_foundations["ai-governance-foundations"]
+    ai_governance_iso_42001["ai-governance-iso-42001"]
+    data_act_cloud_switching["data-act-cloud-switching"]
     data_act_foundations["data-act-foundations"]
     digital_omnibus["digital-omnibus"]
     dma_foundations["dma-foundations"]
     dma_obligations["dma-obligations"]
     dsa_foundations["dsa-foundations"]
+    dsa_vlop_obligations["dsa-vlop-obligations"]
   end
   subgraph Tier3["Tier 3"]
     cyber_resilience_act["cyber-resilience-act"]
@@ -35,8 +38,11 @@ graph LR
   end
   subgraph Tier4["Tier 4"]
     cloud_hosting_foundations["cloud-hosting-foundations"]
+    cloud_shared_responsibility["cloud-shared-responsibility"]
+    compliance_audit_methodology["compliance-audit-methodology"]
     compliance_operations_foundations["compliance-operations-foundations"]
     consumer_rights_foundations["consumer-rights-foundations"]
+    dmcca_subscriptions["dmcca-subscriptions"]
     game_hosting_foundations["game-hosting-foundations"]
   end
   gdpr_foundations -->|foundation for| uk_gdpr_foundations
@@ -147,6 +153,28 @@ graph LR
   pets_catalogue -->|details| privacy_engineering_foundations
   pets_catalogue -->|details| dpia_methodology
   pets_catalogue -->|details| ai_act_high_risk
+  data_act_cloud_switching -->|details| data_act_foundations
+  data_act_cloud_switching -->|details| cloud_hosting_foundations
+  data_act_cloud_switching -->|details| dora_foundations
+  data_act_cloud_switching -->|details| nis2_foundations
+  dsa_vlop_obligations -->|details| dsa_foundations
+  dsa_vlop_obligations -->|details| dma_obligations
+  dsa_vlop_obligations -->|details| ai_act_foundations
+  dsa_vlop_obligations -->|details| gdpr_foundations
+  dmcca_subscriptions -->|details| consumer_rights_foundations
+  dmcca_subscriptions -->|details| gdpr_foundations
+  ai_governance_iso_42001 -->|details| ai_governance_foundations
+  ai_governance_iso_42001 -->|details| ai_act_high_risk
+  ai_governance_iso_42001 -->|details| dpia_methodology
+  compliance_audit_methodology -->|details| compliance_operations_foundations
+  compliance_audit_methodology -->|details| dpia_methodology
+  compliance_audit_methodology -->|details| gdpr_foundations
+  compliance_audit_methodology -->|details| dora_foundations
+  compliance_audit_methodology -->|details| nis2_foundations
+  cloud_shared_responsibility -->|details| cloud_hosting_foundations
+  cloud_shared_responsibility -->|details| cybersecurity_foundations
+  cloud_shared_responsibility -->|details| privacy_engineering_foundations
+  cloud_shared_responsibility -->|details| gdpr_foundations
   uk_gdpr_foundations -->|related| eprivacy_foundations
   uk_gdpr_foundations -->|related| privacy_engineering_foundations
   eprivacy_foundations -->|related| privacy_engineering_foundations
@@ -213,3 +241,14 @@ graph LR
   pets_catalogue -->|related| gdpr_foundations
   pets_catalogue -.->|related| anonymisation_techniques
   pets_catalogue -->|related| ai_act_foundations
+  data_act_cloud_switching -->|related| gdpr_foundations
+  data_act_cloud_switching -->|related| gdpr_transfers
+  ai_governance_iso_42001 -->|related| ai_act_foundations
+  ai_governance_iso_42001 -->|related| privacy_engineering_foundations
+  compliance_audit_methodology -->|related| uk_gdpr_foundations
+  compliance_audit_methodology -->|related| cybersecurity_foundations
+  compliance_audit_methodology -->|related| ai_governance_foundations
+  cloud_shared_responsibility -->|related| gdpr_transfers
+  cloud_shared_responsibility -->|related| dora_foundations
+  cloud_shared_responsibility -->|related| nis2_foundations
+  cloud_shared_responsibility -->|related| data_act_foundations

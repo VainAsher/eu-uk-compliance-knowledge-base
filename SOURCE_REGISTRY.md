@@ -2,7 +2,7 @@
 
 Canonical registry of authoritative sources cited across the knowledge base. Each source is classified and given a stable short key used in document References. Links are verified per document at that document's `sources_verified` date.
 
-**Last updated:** 2026-07-11 (sub-topics batch 3: added AI Act prohibited-practices guidelines; DMA enforcement/specification sources; UK Children's Code (DPA s.125, DUAA s.81, ICO AADC, Ofcom); GDPR-DSAR sources incl. NINE CJEU judgments + EDPB Guidelines 01/2022 + DUAA ss.76/78/79; NIS2 incident standards (ISO 27035-1, NIST 800-61r3); and PETs sources incl. ENISA/ICO/UN/NIST/ISO guidance and ELEVEN peer-reviewed academic works (Sweeney, Dwork, Yao, Gentry, GMR, McMahan, …).)
+**Last updated:** 2026-07-11 (backlog Cluster A: added Data Act switching (ISO 19941, SWIPO), DSA VLOP (fee delegated reg, GC fee-annulment judgments, X-fine IP, data-access delegated act), DMCCA Part 4 Ch 2, ISO 42006/38507, IIA Global Standards, cloud assurance (CSA CCM, SOC 2, CSA 2026 revision); corrected iso-27018 to the 2025 edition. Earlier — sub-topics batch 3: added AI Act prohibited-practices guidelines; DMA enforcement/specification sources; UK Children's Code (DPA s.125, DUAA s.81, ICO AADC, Ofcom); GDPR-DSAR sources incl. NINE CJEU judgments + EDPB Guidelines 01/2022 + DUAA ss.76/78/79; NIS2 incident standards (ISO 27035-1, NIST 800-61r3); and PETs sources incl. ENISA/ICO/UN/NIST/ISO guidance and ELEVEN peer-reviewed academic works (Sweeney, Dwork, Yao, Gentry, GMR, McMahan, …).)
 
 ## Classification classes
 
@@ -133,7 +133,7 @@ Canonical registry of authoritative sources cited across the knowledge base. Eac
 | ec-cyber-cert-framework | EU cybersecurity certification framework | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/policies/cybersecurity-certification-framework |
 | edpb-rec-01-2020 | EDPB Recommendations 01/2020 (supplementary transfer measures) | Regulatory | EDPB | https://www.edpb.europa.eu/our-work-tools/our-documents/recommendations/recommendations-012020-measures-supplement-transfer_en |
 | iso-27017 | ISO/IEC 27017:2015 — cloud security controls | Standard | ISO/IEC | https://www.iso.org/standard/43757.html |
-| iso-27018 | ISO/IEC 27018:2019 — PII in public clouds | Standard | ISO/IEC | https://www.iso.org/standard/76559.html |
+| iso-27018 | ISO/IEC 27018:2025 — PII in public clouds (supersedes 2019 edition) | Standard | ISO/IEC | https://www.iso.org/standard/27018 |
 | csa-star | CSA STAR (Security, Trust, Assurance & Risk) | Standard | Cloud Security Alliance | https://cloudsecurityalliance.org/star |
 | dpa-2018-s123 | Data Protection Act 2018, s.123 (Age-appropriate design code) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/ukpga/2018/12/section/123 |
 | uk-gambling-act-2005 | Gambling Act 2005 (c.19) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/ukpga/2005/19/contents |
@@ -260,5 +260,21 @@ Canonical registry of authoritative sources cited across the knowledge base. Eac
 | gmr-zkp-1989 | Goldwasser, Micali & Rackoff, "Knowledge Complexity of Interactive Proof Systems" (1989) | Academic | SIAM / MIT | https://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Proof%20Systems/The_Knowledge_Complexity_Of_Interactive_Proof_Systems.pdf |
 | mcmahan-fl-2017 | McMahan et al., federated learning (AISTATS 2017) | Academic | PMLR / arXiv | https://arxiv.org/abs/1602.05629 |
 | kairouz-fl-2021 | Kairouz, McMahan et al., "Advances and Open Problems in Federated Learning" (2021) | Academic | arXiv | https://arxiv.org/abs/1912.04977 |
+| iso-19941 | ISO/IEC 19941:2017 — Cloud computing: interoperability and portability | Standard | ISO/IEC | https://www.iso.org/standard/66639.html |
+| swipo-codes | SWIPO — Switching Cloud Providers & Porting Data Codes of Conduct | Regulatory | SWIPO AISBL | https://swipo.eu/ |
+| eurlex-dsa-fee-1127 | Delegated Regulation (EU) 2023/1127 (DSA supervisory-fee methodology, Art. 43) | Primary | EUR-Lex / EU | https://eur-lex.europa.eu/eli/reg_del/2023/1127/oj |
+| curia-cp-114-25-dsa-fee | GC judgments 10 Sep 2025, Meta (T-55/24) & TikTok (T-58/24) v Commission — Art. 43 fee decisions annulled; CP 114/25 | Primary | CJEU (General Court) | https://curia.europa.eu/site/upload/docs/application/pdf/2025-09/cp250114en.pdf |
+| ec-dsa-x-fine-ip | X fined €120m under the DSA (IP/25/2934, 5 Dec 2025) | Regulatory | European Commission | https://ec.europa.eu/commission/presscorner/detail/en/ip_25_2934 |
+| ec-dsa-data-access-delegated | Delegated act on data access under the DSA (Art. 40; in force 29 Oct 2025) | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/news/commission-adopts-delegated-act-data-access-under-digital-services-act |
+| ec-dsa-vlops | DSA: Very large online platforms and search engines (supervision hub) | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/policies/dsa-vlops |
+| uk-dmcca-2024-p4c2 | DMCCA 2024, Part 4 Chapter 2 (Subscription contracts, ss.253–267) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/ukpga/2024/13/part/4/chapter/2 |
+| iso-42006 | ISO/IEC 42006:2025 — Requirements for bodies auditing/certifying AIMS | Standard | ISO/IEC | https://www.iso.org/standard/42006 |
+| iso-38507 | ISO/IEC 38507:2022 — Governance implications of the use of AI | Standard | ISO/IEC | https://www.iso.org/standard/56641.html |
+| iia-global-standards | Global Internal Audit Standards (2024) | Standard | Institute of Internal Auditors | https://www.theiia.org/en/standards/2024-standards/global-internal-audit-standards/ |
+| ico-audits | ICO — Audits (data-protection audit function) | Regulatory | ICO (UK) | https://ico.org.uk/for-organisations/advice-and-services/audits/ |
+| ec-cyber-package-2026 | New measures to strengthen cybersecurity resilience (20 Jan 2026 package) | Regulatory | European Commission | https://commission.europa.eu/news-and-media/news/new-measures-strengthen-cybersecurity-resilience-and-capabilities-2026-01-20_en |
+| ec-csa-revision-proposal | Proposal for a Regulation for the EU Cybersecurity Act (2026 revision) | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/library/proposal-regulation-eu-cybersecurity-act |
+| csa-ccm | CSA Cloud Controls Matrix (CCM) | Standard | Cloud Security Alliance | https://cloudsecurityalliance.org/research/cloud-controls-matrix |
+| aicpa-soc2 | SOC 2 — Trust Services Criteria (service-org attestation) | Standard | AICPA & CIMA | https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2 |
 
 > Additional sources are appended as documents cite them. Never cite a source not verified live at the citing document's `sources_verified` date.

@@ -2,7 +2,7 @@
 
 Catalogue of all knowledge-base documents. Updated by the Repository Maintainer after every approved document.
 
-**Last updated:** 2026-07-11 — 32 documents approved (16 foundations + 16 depth sub-topics; releases through 0.14.0). QA automation + Pages/RAG exports live.
+**Last updated:** 2026-07-11 — 38 documents approved (16 foundations + 22 depth sub-topics; releases through 0.15.0). Public site auto-deploys via GitHub Pages.
 
 ## Legend
 
@@ -45,6 +45,12 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 | dma-obligations | EU Digital Markets Act: Gatekeeper Obligations in Depth | Digital Markets | 2 | EU | 1.0.0 | approved | High | `docs/09-digital-markets/dma-obligations.md` |
 | uk-childrens-code | UK Children's Code (Age-Appropriate Design Code) | UK GDPR | 1 | UK | 1.0.0 | approved | High | `docs/02-uk-gdpr/uk-childrens-code.md` |
 | pets-catalogue | Privacy-Enhancing Technologies: A Catalogue | Privacy Engineering | 1 | EU, UK | 1.0.0 | approved | High | `docs/04-privacy-engineering/pets-catalogue.md` |
+| data-act-cloud-switching | EU Data Act: Cloud Switching, Portability & Interoperability | Data Act | 2 | EU | 1.0.0 | approved | High | `docs/07-data-act/data-act-cloud-switching.md` |
+| dsa-vlop-obligations | EU Digital Services Act: VLOP & VLOSE Obligations | Digital Services | 2 | EU | 1.0.0 | approved | High | `docs/08-digital-services/dsa-vlop-obligations.md` |
+| dmcca-subscriptions | UK DMCCA 2024: Subscription Contracts Regime | Consumer Rights | 4 | UK | 1.0.0 | approved | High | `docs/13-consumer-rights/dmcca-subscriptions.md` |
+| ai-governance-iso-42001 | AI Governance: Implementing ISO/IEC 42001 (AI Management System) | AI Governance | 2 | EU, UK | 1.0.0 | approved | Medium | `docs/06-ai-governance/ai-governance-iso-42001.md` |
+| compliance-audit-methodology | Compliance Audit & Assurance Methodology | Compliance Operations | 4 | EU, UK | 1.0.0 | approved | High | `docs/16-compliance-operations/compliance-audit-methodology.md` |
+| cloud-shared-responsibility | Cloud Hosting: Shared-Responsibility Models & Assurance | Cloud Hosting | 4 | EU, UK | 1.0.0 | approved | Medium | `docs/14-cloud-hosting/cloud-shared-responsibility.md` |
 
 ## Topic coverage (16 programme topics)
 
@@ -53,19 +59,19 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 | GDPR (EU) | 3 | 3 approved (foundations, transfers, DSAR) |
 | UK GDPR | 4 | 4 approved (foundations, DUAA detail, transfers, children's code) |
 | AI Act | 4 | 4 approved (foundations, high-risk, gpai, prohibited practices) |
-| Data Act | 1 | 1 approved; sub-topics in backlog |
+| Data Act | 2 | 2 approved (foundations, cloud switching) |
 | NIS2 | 2 | 2 approved (foundations, incident reporting) |
 | DORA | 2 | 2 approved (foundations, TLPT) |
 | ePrivacy | 3 | 3 approved (foundations, cookies, digital-omnibus) |
-| Consumer Rights | 1 | 1 approved; sub-topics in backlog |
-| Digital Services | 1 | 1 approved; sub-topics in backlog |
+| Consumer Rights | 2 | 2 approved (foundations, DMCCA subscriptions) |
+| Digital Services | 2 | 2 approved (foundations, VLOP obligations) |
 | Digital Markets | 2 | 2 approved (foundations, obligations) |
-| AI Governance | 1 | 1 approved; sub-topics in backlog |
+| AI Governance | 2 | 2 approved (foundations, ISO 42001) |
 | Privacy Engineering | 3 | 3 approved (foundations, DPIA, PETs catalogue) |
-| Cloud Hosting | 1 | 1 approved; sub-topics in backlog |
+| Cloud Hosting | 2 | 2 approved (foundations, shared responsibility) |
 | Game Hosting | 1 | 1 approved; sub-topics in backlog |
 | Cybersecurity | 2 | 2 approved (foundations + CRA) |
-| Compliance Operations | 1 | 1 approved; sub-topics in backlog |
+| Compliance Operations | 2 | 2 approved (foundations, audit methodology) |
 
 ## Knowledge graph (cross-references)
 
@@ -113,3 +119,9 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 - `dma-obligations` → *details* → `dma-foundations` (Arts. 5–7); *sibling of* → `dsa-foundations`; *relies on* → `gdpr-foundations` (consent)
 - `uk-childrens-code` → *details* → `uk-gdpr-foundations`; *strengthened by* → `duaa-2025-detail` (s.81); *sibling of* → `game-hosting-foundations`; *depends on* → `dpia-methodology`
 - `pets-catalogue` → *details* → `privacy-engineering-foundations`; *feeds* → `dpia-methodology`; *supports* → `ai-act-high-risk` (data governance)
+- `data-act-cloud-switching` → *details* → `data-act-foundations` (Chapters VI/VIII); *feeds* → `cloud-hosting-foundations`; *aligns exit with* → `dora-foundations`, `nis2-foundations`
+- `dsa-vlop-obligations` → *details* → `dsa-foundations` (Arts. 33–43); *sibling of* → `dma-obligations`; *overlaps* → `ai-act-foundations`, `gdpr-foundations`
+- `dmcca-subscriptions` → *details* → `consumer-rights-foundations` (DMCCA Part 4 Ch. 2); *parallel with* → `gdpr-foundations`
+- `ai-governance-iso-42001` → *details* → `ai-governance-foundations`; *operationalises* → `ai-act-high-risk` (Arts. 9–17); *complements* → `dpia-methodology`
+- `compliance-audit-methodology` → *details* → `compliance-operations-foundations`; *complements* → `dpia-methodology`; *tests artefacts of* → `gdpr-foundations`, `dora-foundations`, `nis2-foundations`
+- `cloud-shared-responsibility` → *details* → `cloud-hosting-foundations`; *builds on* → `cybersecurity-foundations`, `privacy-engineering-foundations`; *implements* → `gdpr-foundations` (Arts. 28/32)

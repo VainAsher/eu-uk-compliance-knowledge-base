@@ -4,7 +4,7 @@ Shared, authoritative definitions of terms of art used across the knowledge base
 
 **Convention:** Each term cites its authoritative source. Where a term is defined in legislation, the statutory definition governs. Keys in the *Source* column reference `SOURCE_REGISTRY.md`.
 
-**Last updated:** 2026-07-11 (sub-topics batch 3: added prohibited AI practice, RBI, DSAR, right to erasure, stop-the-clock, reasonable-and-proportionate search, likely-to-be-accessed-by-children, age assurance, k-anonymity, synthetic data, federated learning, homomorphic encryption, SMPC, ZKP)
+**Last updated:** 2026-07-11 (backlog Cluster A: added switching, functional equivalence, systemic risk (DSA), advertising repository, vetted researcher, SoA, audit universe, CCM, SOC 2. Earlier batches recorded in git history.)
 
 | Term | Definition | Source |
 |------|------------|--------|
@@ -105,5 +105,14 @@ Shared, authoritative definitions of terms of art used across the knowledge base
 | Homomorphic encryption | Encryption permitting computation on ciphertext, yielding an encrypted result matching operations on the plaintext. | gentry-fhe-2009 |
 | Secure multi-party computation (SMPC) | Cryptographic protocols letting parties jointly compute a function over their inputs while keeping those inputs private. | yao-1982 |
 | Zero-knowledge proof (ZKP) | A protocol proving a statement is true without revealing anything beyond its truth. | gmr-zkp-1989 |
+| Switching (Data Act) | Changing from one data processing service to another of the same type, or to on-premises ICT, under Data Act Chapter VI (Art. 2(34)). | eurlex-dataact |
+| Functional equivalence | Re-establishing, from the customer's exportable data/digital assets, a minimum level of functionality on a destination service of the same type after switching (Data Act Art. 2(37)). | eurlex-dataact |
+| Systemic risk (DSA) | A risk from the design, functioning or use of a VLOP/VLOSE (incl. algorithms) within a DSA Art. 34(1) category, assessed at Union level. | eurlex-dsa |
+| Advertising repository (DSA) | The public, API-accessible ad database each VLOP/VLOSE must maintain under DSA Art. 39. | eurlex-dsa |
+| Vetted researcher (DSA) | A researcher granted data access under DSA Art. 40(4)–(8) to study systemic risks, operationalised by the 2025 data-access delegated act. | eurlex-dsa / ec-dsa-data-access-delegated |
+| Statement of Applicability (SoA) | A documented statement of which management-system controls are necessary or excluded, with justification (ISO/IEC 27001/42001 Cl. 6.1.3). | iso-42001 |
+| Audit universe | The complete inventory of auditable entities (processes, systems, suppliers, regimes) from which a risk-based audit programme is selected. | iso-19011 |
+| Cloud Controls Matrix (CCM) | The CSA cloud-specific control framework with a shared-responsibility mapping; underpins CSA STAR. | csa-ccm |
+| SOC 2 | An AICPA attestation on a service organisation's controls against the Trust Services Criteria (Type I design; Type II operating effectiveness). | aicpa-soc2 |
 
 > Terms are added as documents introduce them. Do not redefine a glossary term inconsistently in a document; if a narrower meaning is needed, state it explicitly as document-specific.

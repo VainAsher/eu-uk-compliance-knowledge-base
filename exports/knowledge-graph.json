@@ -689,6 +689,139 @@
         "anonymisation-techniques",
         "ai-act-foundations"
       ]
+    },
+    {
+      "id": "data-act-cloud-switching",
+      "title": "EU Data Act: Cloud Switching, Portability & Interoperability",
+      "topic": "Data Act",
+      "tier": "2",
+      "jurisdiction": "EU",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/07-data-act/data-act-cloud-switching.md",
+      "legal_basis": "Regulation (EU) 2023/2854, Chapter VI (Arts. 23–31) and Chapter VIII (Arts. 33–36)",
+      "document_type": "guidance",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "data-act-foundations",
+        "cloud-hosting-foundations",
+        "dora-foundations",
+        "nis2-foundations",
+        "gdpr-foundations",
+        "gdpr-transfers"
+      ]
+    },
+    {
+      "id": "dsa-vlop-obligations",
+      "title": "EU Digital Services Act: VLOP & VLOSE Obligations",
+      "topic": "Digital Services",
+      "tier": "2",
+      "jurisdiction": "EU",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/08-digital-services/dsa-vlop-obligations.md",
+      "legal_basis": "Regulation (EU) 2022/2065",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "dsa-foundations",
+        "dma-obligations",
+        "ai-act-foundations",
+        "gdpr-foundations"
+      ]
+    },
+    {
+      "id": "dmcca-subscriptions",
+      "title": "UK DMCCA 2024: Subscription Contracts Regime",
+      "topic": "Consumer Rights",
+      "tier": "4",
+      "jurisdiction": "UK",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/13-consumer-rights/dmcca-subscriptions.md",
+      "legal_basis": "Digital Markets, Competition and Consumers Act 2024 (c.13) Part 4 Chapter 2; Consumer Rights Act 2015 (c.15); Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013 (SI 2013/3134)",
+      "document_type": "guidance",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "consumer-rights-foundations"
+      ]
+    },
+    {
+      "id": "ai-governance-iso-42001",
+      "title": "AI Governance: Implementing ISO/IEC 42001 (AI Management System)",
+      "topic": "AI Governance",
+      "tier": "2",
+      "jurisdiction": "EU, UK",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "Medium",
+      "path": "docs/06-ai-governance/ai-governance-iso-42001.md",
+      "legal_basis": "ISO/IEC 42001:2023 (voluntary standard) operationalising Regulation (EU) 2024/1689 (AI Act)",
+      "document_type": "guidance",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "ai-governance-foundations",
+        "ai-act-high-risk",
+        "ai-act-foundations",
+        "privacy-engineering-foundations"
+      ]
+    },
+    {
+      "id": "compliance-audit-methodology",
+      "title": "Compliance Audit & Assurance Methodology",
+      "topic": "Compliance Operations",
+      "tier": "4",
+      "jurisdiction": "EU, UK",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/16-compliance-operations/compliance-audit-methodology.md",
+      "legal_basis": "GDPR Art. 5(2) accountability (Reg (EU) 2016/679), operationalised via ISO 19011:2018, ISO 37301:2021 and the IIA Three Lines Model (2020); processor/third-party audit rights under GDPR Art. 28 and DORA Art. 30 (Reg (EU) 2022/2554)",
+      "document_type": "guidance",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "compliance-operations-foundations",
+        "dpia-methodology",
+        "gdpr-foundations",
+        "uk-gdpr-foundations",
+        "dora-foundations",
+        "nis2-foundations",
+        "cybersecurity-foundations",
+        "ai-governance-foundations"
+      ]
+    },
+    {
+      "id": "cloud-shared-responsibility",
+      "title": "Cloud Hosting: Shared-Responsibility Models & Assurance",
+      "topic": "Cloud Hosting",
+      "tier": "4",
+      "jurisdiction": "EU, UK",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "Medium",
+      "path": "docs/14-cloud-hosting/cloud-shared-responsibility.md",
+      "legal_basis": "Regulation (EU) 2016/679 (GDPR) Arts. 5(2), 28, 32 & Chapter V; Regulation (EU) 2019/881 (Cybersecurity Act); Regulation (EU) 2023/2854 (Data Act)",
+      "document_type": "guidance",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "cloud-hosting-foundations",
+        "cybersecurity-foundations",
+        "privacy-engineering-foundations",
+        "gdpr-foundations",
+        "gdpr-transfers",
+        "dora-foundations",
+        "nis2-foundations",
+        "data-act-foundations"
+      ]
     }
   ],
   "edges": [
@@ -1317,6 +1450,138 @@
       "target": "known"
     },
     {
+      "from": "data-act-cloud-switching",
+      "to": "data-act-foundations",
+      "rel": "details; feeds; aligns exit with",
+      "target": "known"
+    },
+    {
+      "from": "data-act-cloud-switching",
+      "to": "cloud-hosting-foundations",
+      "rel": "details; feeds; aligns exit with",
+      "target": "known"
+    },
+    {
+      "from": "data-act-cloud-switching",
+      "to": "dora-foundations",
+      "rel": "details; feeds; aligns exit with",
+      "target": "known"
+    },
+    {
+      "from": "data-act-cloud-switching",
+      "to": "nis2-foundations",
+      "rel": "details; feeds; aligns exit with",
+      "target": "known"
+    },
+    {
+      "from": "dsa-vlop-obligations",
+      "to": "dsa-foundations",
+      "rel": "details; sibling of; overlaps",
+      "target": "known"
+    },
+    {
+      "from": "dsa-vlop-obligations",
+      "to": "dma-obligations",
+      "rel": "details; sibling of; overlaps",
+      "target": "known"
+    },
+    {
+      "from": "dsa-vlop-obligations",
+      "to": "ai-act-foundations",
+      "rel": "details; sibling of; overlaps",
+      "target": "known"
+    },
+    {
+      "from": "dsa-vlop-obligations",
+      "to": "gdpr-foundations",
+      "rel": "details; sibling of; overlaps",
+      "target": "known"
+    },
+    {
+      "from": "dmcca-subscriptions",
+      "to": "consumer-rights-foundations",
+      "rel": "details; parallel with",
+      "target": "known"
+    },
+    {
+      "from": "dmcca-subscriptions",
+      "to": "gdpr-foundations",
+      "rel": "details; parallel with",
+      "target": "known"
+    },
+    {
+      "from": "ai-governance-iso-42001",
+      "to": "ai-governance-foundations",
+      "rel": "details; operationalises; complements",
+      "target": "known"
+    },
+    {
+      "from": "ai-governance-iso-42001",
+      "to": "ai-act-high-risk",
+      "rel": "details; operationalises; complements",
+      "target": "known"
+    },
+    {
+      "from": "ai-governance-iso-42001",
+      "to": "dpia-methodology",
+      "rel": "details; operationalises; complements",
+      "target": "known"
+    },
+    {
+      "from": "compliance-audit-methodology",
+      "to": "compliance-operations-foundations",
+      "rel": "details; complements; tests artefacts of",
+      "target": "known"
+    },
+    {
+      "from": "compliance-audit-methodology",
+      "to": "dpia-methodology",
+      "rel": "details; complements; tests artefacts of",
+      "target": "known"
+    },
+    {
+      "from": "compliance-audit-methodology",
+      "to": "gdpr-foundations",
+      "rel": "details; complements; tests artefacts of",
+      "target": "known"
+    },
+    {
+      "from": "compliance-audit-methodology",
+      "to": "dora-foundations",
+      "rel": "details; complements; tests artefacts of",
+      "target": "known"
+    },
+    {
+      "from": "compliance-audit-methodology",
+      "to": "nis2-foundations",
+      "rel": "details; complements; tests artefacts of",
+      "target": "known"
+    },
+    {
+      "from": "cloud-shared-responsibility",
+      "to": "cloud-hosting-foundations",
+      "rel": "details; builds on; implements",
+      "target": "known"
+    },
+    {
+      "from": "cloud-shared-responsibility",
+      "to": "cybersecurity-foundations",
+      "rel": "details; builds on; implements",
+      "target": "known"
+    },
+    {
+      "from": "cloud-shared-responsibility",
+      "to": "privacy-engineering-foundations",
+      "rel": "details; builds on; implements",
+      "target": "known"
+    },
+    {
+      "from": "cloud-shared-responsibility",
+      "to": "gdpr-foundations",
+      "rel": "details; builds on; implements",
+      "target": "known"
+    },
+    {
       "from": "uk-gdpr-foundations",
       "to": "eprivacy-foundations",
       "rel": "related",
@@ -1697,6 +1962,72 @@
     {
       "from": "pets-catalogue",
       "to": "ai-act-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "data-act-cloud-switching",
+      "to": "gdpr-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "data-act-cloud-switching",
+      "to": "gdpr-transfers",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "ai-governance-iso-42001",
+      "to": "ai-act-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "ai-governance-iso-42001",
+      "to": "privacy-engineering-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "compliance-audit-methodology",
+      "to": "uk-gdpr-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "compliance-audit-methodology",
+      "to": "cybersecurity-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "compliance-audit-methodology",
+      "to": "ai-governance-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "cloud-shared-responsibility",
+      "to": "gdpr-transfers",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "cloud-shared-responsibility",
+      "to": "dora-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "cloud-shared-responsibility",
+      "to": "nis2-foundations",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "cloud-shared-responsibility",
+      "to": "data-act-foundations",
       "rel": "related",
       "target": "known"
     }

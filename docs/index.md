@@ -5,9 +5,9 @@
 
 Evidence-based, source-cited compliance documents across EU & UK digital, data-protection and cybersecurity law.
 
-**32 documents** across **16 / 16 topics** — every factual claim carries a citation to a primary or authoritative source, and links, citations and structure are checked automatically in CI.
+**38 documents** across **16 / 16 topics** — every factual claim carries a citation to a primary or authoritative source, and links, citations and structure are checked automatically in CI.
 
-*Confidence: 28 High · 4 Medium.*  *Jurisdiction: EU 15 · EU, UK 13 · UK 4.*
+*Confidence: 32 High · 6 Medium.*  *Jurisdiction: EU 17 · EU, UK 16 · UK 5.*
 
 ## Tier 1 — Data-protection core
 
@@ -32,8 +32,11 @@ Evidence-based, source-cited compliance documents across EU & UK digital, data-p
 - [EU AI Act: High-Risk Systems & Conformity Assessment](05-ai-act/ai-act-high-risk.md) — *AI Act* (EU)
 - [EU AI Act: Prohibited Practices (Article 5)](05-ai-act/ai-act-prohibited-practices.md) — *AI Act* (EU)
 - [AI Governance: Foundations, ISO/IEC 42001 & Operational Assurance](06-ai-governance/ai-governance-foundations.md) — *AI Governance* (EU, UK)
+- [AI Governance: Implementing ISO/IEC 42001 (AI Management System)](06-ai-governance/ai-governance-iso-42001.md) — *AI Governance* (EU, UK)
+- [EU Data Act: Cloud Switching, Portability & Interoperability](07-data-act/data-act-cloud-switching.md) — *Data Act* (EU)
 - [EU Data Act: Foundations, Data Access & Sharing](07-data-act/data-act-foundations.md) — *Data Act* (EU)
 - [EU Digital Services Act: Foundations & Platform Obligations](08-digital-services/dsa-foundations.md) — *Digital Services* (EU)
+- [EU Digital Services Act: VLOP & VLOSE Obligations](08-digital-services/dsa-vlop-obligations.md) — *Digital Services* (EU)
 - [EU Digital Markets Act: Foundations & Gatekeeper Obligations](09-digital-markets/dma-foundations.md) — *Digital Markets* (EU)
 - [EU Digital Markets Act: Gatekeeper Obligations in Depth](09-digital-markets/dma-obligations.md) — *Digital Markets* (EU)
 
@@ -49,8 +52,11 @@ Evidence-based, source-cited compliance documents across EU & UK digital, data-p
 ## Tier 4 — Sector, consumer & operations
 
 - [Consumer Rights: Foundations (EU & UK)](13-consumer-rights/consumer-rights-foundations.md) — *Consumer Rights* (EU, UK)
+- [UK DMCCA 2024: Subscription Contracts Regime](13-consumer-rights/dmcca-subscriptions.md) — *Consumer Rights* (UK)
 - [Cloud Hosting: Compliance Foundations](14-cloud-hosting/cloud-hosting-foundations.md) — *Cloud Hosting* (EU, UK)
+- [Cloud Hosting: Shared-Responsibility Models & Assurance](14-cloud-hosting/cloud-shared-responsibility.md) — *Cloud Hosting* (EU, UK)
 - [Game Hosting: Compliance Foundations](15-game-hosting/game-hosting-foundations.md) — *Game Hosting* (EU, UK)
+- [Compliance Audit & Assurance Methodology](16-compliance-operations/compliance-audit-methodology.md) — *Compliance Operations* (EU, UK)
 - [Compliance Operations: Running a Compliance Programme](16-compliance-operations/compliance-operations-foundations.md) — *Compliance Operations* (EU, UK)
 
 ## Knowledge graph
@@ -79,11 +85,14 @@ Evidence-based, source-cited compliance documents across EU & UK digital, data-p
         ai_act_high_risk["ai-act-high-risk"]
         ai_act_prohibited_practices["ai-act-prohibited-practices"]
         ai_governance_foundations["ai-governance-foundations"]
+        ai_governance_iso_42001["ai-governance-iso-42001"]
+        data_act_cloud_switching["data-act-cloud-switching"]
         data_act_foundations["data-act-foundations"]
         digital_omnibus["digital-omnibus"]
         dma_foundations["dma-foundations"]
         dma_obligations["dma-obligations"]
         dsa_foundations["dsa-foundations"]
+        dsa_vlop_obligations["dsa-vlop-obligations"]
       end
       subgraph Tier3["Tier 3"]
         cyber_resilience_act["cyber-resilience-act"]
@@ -95,8 +104,11 @@ Evidence-based, source-cited compliance documents across EU & UK digital, data-p
       end
       subgraph Tier4["Tier 4"]
         cloud_hosting_foundations["cloud-hosting-foundations"]
+        cloud_shared_responsibility["cloud-shared-responsibility"]
+        compliance_audit_methodology["compliance-audit-methodology"]
         compliance_operations_foundations["compliance-operations-foundations"]
         consumer_rights_foundations["consumer-rights-foundations"]
+        dmcca_subscriptions["dmcca-subscriptions"]
         game_hosting_foundations["game-hosting-foundations"]
       end
       gdpr_foundations -->|foundation for| uk_gdpr_foundations
@@ -207,6 +219,28 @@ Evidence-based, source-cited compliance documents across EU & UK digital, data-p
       pets_catalogue -->|details| privacy_engineering_foundations
       pets_catalogue -->|details| dpia_methodology
       pets_catalogue -->|details| ai_act_high_risk
+      data_act_cloud_switching -->|details| data_act_foundations
+      data_act_cloud_switching -->|details| cloud_hosting_foundations
+      data_act_cloud_switching -->|details| dora_foundations
+      data_act_cloud_switching -->|details| nis2_foundations
+      dsa_vlop_obligations -->|details| dsa_foundations
+      dsa_vlop_obligations -->|details| dma_obligations
+      dsa_vlop_obligations -->|details| ai_act_foundations
+      dsa_vlop_obligations -->|details| gdpr_foundations
+      dmcca_subscriptions -->|details| consumer_rights_foundations
+      dmcca_subscriptions -->|details| gdpr_foundations
+      ai_governance_iso_42001 -->|details| ai_governance_foundations
+      ai_governance_iso_42001 -->|details| ai_act_high_risk
+      ai_governance_iso_42001 -->|details| dpia_methodology
+      compliance_audit_methodology -->|details| compliance_operations_foundations
+      compliance_audit_methodology -->|details| dpia_methodology
+      compliance_audit_methodology -->|details| gdpr_foundations
+      compliance_audit_methodology -->|details| dora_foundations
+      compliance_audit_methodology -->|details| nis2_foundations
+      cloud_shared_responsibility -->|details| cloud_hosting_foundations
+      cloud_shared_responsibility -->|details| cybersecurity_foundations
+      cloud_shared_responsibility -->|details| privacy_engineering_foundations
+      cloud_shared_responsibility -->|details| gdpr_foundations
       uk_gdpr_foundations -->|related| eprivacy_foundations
       uk_gdpr_foundations -->|related| privacy_engineering_foundations
       eprivacy_foundations -->|related| privacy_engineering_foundations
@@ -273,6 +307,17 @@ Evidence-based, source-cited compliance documents across EU & UK digital, data-p
       pets_catalogue -->|related| gdpr_foundations
       pets_catalogue -.->|related| anonymisation_techniques
       pets_catalogue -->|related| ai_act_foundations
+      data_act_cloud_switching -->|related| gdpr_foundations
+      data_act_cloud_switching -->|related| gdpr_transfers
+      ai_governance_iso_42001 -->|related| ai_act_foundations
+      ai_governance_iso_42001 -->|related| privacy_engineering_foundations
+      compliance_audit_methodology -->|related| uk_gdpr_foundations
+      compliance_audit_methodology -->|related| cybersecurity_foundations
+      compliance_audit_methodology -->|related| ai_governance_foundations
+      cloud_shared_responsibility -->|related| gdpr_transfers
+      cloud_shared_responsibility -->|related| dora_foundations
+      cloud_shared_responsibility -->|related| nis2_foundations
+      cloud_shared_responsibility -->|related| data_act_foundations
     ```
 
 ## Machine-readable exports

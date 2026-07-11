@@ -4,6 +4,7 @@ Frozen snapshots of the knowledge base. A release is cut when a batch of documen
 
 | Release | Date | Highlights | Docs frozen |
 |---------|------|-----------|-------------|
+| 0.15.0 | 2026-07-11 | **Backlog loop Cluster A** (autonomous): Data Act switching, DSA VLOP obligations, DMCCA subscriptions, ISO 42001 AIMS, compliance-audit methodology, cloud shared-responsibility. 15/16 topics now have depth docs. | 38 |
 | 0.14.0 | 2026-07-11 | Third depth sub-topic cluster: AI Act prohibited practices, GDPR DSAR, NIS2 incident reporting, DMA obligations, UK Children's Code, PETs catalogue. Registry gains 9 CJEU judgments + 11 academic works. | 32 |
 | 0.13.0 | 2026-07-11 | **Publication + RAG (Stage 10):** MkDocs Material GitHub Pages site (`build_site.py` + `pages.yml`) and a section-level RAG export (`build_rag.py` → `exports/rag/`, 598 chunks). | 26 |
 | 0.12.0 | 2026-07-11 | Knowledge-graph & compliance-mapping export (`build_graph.py` + `exports/`): graph JSON/Mermaid, compliance matrix CSV/JSON, coverage report; cross-reference gate in CI. | 26 |

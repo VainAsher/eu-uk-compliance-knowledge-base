@@ -1,7 +1,7 @@
 # Project Status
 
 **Last updated:** 2026-07-11
-**Maturity:** Stage 10 of 10 (all complete) — *32 approved documents, QA automation, knowledge-graph/compliance/RAG exports, and a MkDocs GitHub Pages site with a deploy workflow (releases through 0.14.0). Repo on a private GitHub remote (CI green); enable Pages / make public to go live. Ongoing work is depth (more sub-topic clusters) + review cycles.*
+**Maturity:** Stage 10 of 10 (all complete) — *38 approved documents; public GitHub Pages site auto-deploys. Autonomous backlog loop in progress (Cluster A frozen, release 0.15.0).*
 
 ## Maturity model (repository level)
 
@@ -36,14 +36,13 @@
 
 ## In progress
 
-- **Third depth-layer sub-topic cluster (#27–#32) approved & frozen at v1.0.0 (release 0.14.0).** 32 documents total; 10 of 16 topics now have depth docs.
-- **All 10 maturity stages complete;** ongoing work is depth (more clusters) + review cycles. To publish the site, make the repo public / enable Pages (see `PROJECT_HANDOVER.md`).
+- **Autonomous backlog loop running** (user-authorised). **Cluster A (#33–#38) approved & frozen (release 0.15.0)** → 38 docs, 15/16 topics with depth. Next: **Cluster B** (game-hosting-loot-boxes, gdpr-ropa, dora-oversight-framework, cra-conformity-assessment, pecr-detail, privacy-threat-modelling), then **Cluster C**.
+- Site is **public and auto-deploying** at <https://vainasher.github.io/eu-uk-compliance-knowledge-base/>.
 
 ## Pending / optional work
 
-- **More depth sub-topic clusters** — remaining backlog per topic (see `ROADMAP.md`), e.g. `gdpr-ropa`, `ai-act-conformity`, `dora-oversight-framework`, `dsa-vlop-risk-management`, `data-act-cloud-switching`, `pecr-detail`, `anonymisation-techniques`, `privacy-threat-modelling`, `nis2-transposition-tracker`.
-- **Review cycles** — refresh volatile items before `review_due` 2027-07-11 (AI Omnibus OJ publication, EU-US DPF appeal, Digital Omnibus data strand, revised ICO Children's Code).
-- **Publication** — make the repo public / enable GitHub Pages to deploy the built site.
+- **Depth backlog** (loop in progress) — remaining candidates: `gdpr-ropa`, `dora-oversight-framework`, `cra-conformity-assessment`, `pecr-detail`, `anonymisation-techniques`, `privacy-threat-modelling`, `nis2-transposition-tracker`, `dma-interoperability`, `dsa-recommender-transparency`, `data-retention-caselaw`, `ai-model-risk-management`, `game-hosting-loot-boxes`, `ugc-moderation`.
+- **Review cycles** — refresh volatile items before `review_due` 2027-07-11 (AI Omnibus OJ publication, EU-US DPF appeal, Digital Omnibus data strand, revised ICO Children's Code, ISO 27017/27018 editions).
 - **Optional QA extras** — glossary-consistency checker, `vale` prose linting.
 
 ## Known gaps
@@ -54,15 +53,15 @@
 | ~~No case-law coverage~~ | — | ✅ Resolved: 15+ CJEU judgments cited across GDPR/DSA/DMA/DSAR docs. |
 | ~~No glossary file~~ | — | ✅ Resolved: `GLOSSARY.md` (~120 terms). |
 | ~~No CI/GitHub remote~~ | — | ✅ Resolved: private repo `VainAsher/eu-uk-compliance-knowledge-base`; CI green. |
-| Site not yet live | Rendered site not publicly accessible | Make repo public / enable Pages (free-plan constraint). |
+| ~~Site not yet live~~ | — | ✅ Resolved: repo public; site live at vainasher.github.io/eu-uk-compliance-knowledge-base (auto-deploys). |
 | Per-Member-State transposition detail (NIS2) | National specifics not enumerated | Planned `nis2-transposition-tracker`. |
 
 ## Repository statistics
 
 | Metric | Value |
 |--------|-------|
-| Approved documents | 32 (16 foundations + 16 sub-topics) |
+| Approved documents | 38 (16 foundations + 22 sub-topics) |
 | Draft documents | 0 |
 | Governance files | 9 |
-| Topics covered | 16 / 16 ✅ (10 topics now have depth docs) |
+| Topics covered | 16 / 16 ✅ (15 topics now have depth docs) |
 | Sources in registry | see `SOURCE_REGISTRY.md` |

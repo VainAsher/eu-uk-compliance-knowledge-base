@@ -61,8 +61,11 @@ nav:
       - "EU AI Act: High-Risk Systems & Conformity Assessment": 05-ai-act/ai-act-high-risk.md
       - "EU AI Act: Prohibited Practices (Article 5)": 05-ai-act/ai-act-prohibited-practices.md
       - "AI Governance: Foundations, ISO/IEC 42001 & Operational Assurance": 06-ai-governance/ai-governance-foundations.md
+      - "AI Governance: Implementing ISO/IEC 42001 (AI Management System)": 06-ai-governance/ai-governance-iso-42001.md
+      - "EU Data Act: Cloud Switching, Portability & Interoperability": 07-data-act/data-act-cloud-switching.md
       - "EU Data Act: Foundations, Data Access & Sharing": 07-data-act/data-act-foundations.md
       - "EU Digital Services Act: Foundations & Platform Obligations": 08-digital-services/dsa-foundations.md
+      - "EU Digital Services Act: VLOP & VLOSE Obligations": 08-digital-services/dsa-vlop-obligations.md
       - "EU Digital Markets Act: Foundations & Gatekeeper Obligations": 09-digital-markets/dma-foundations.md
       - "EU Digital Markets Act: Gatekeeper Obligations in Depth": 09-digital-markets/dma-obligations.md
   - "Tier 3 — Security & resilience":
@@ -74,6 +77,9 @@ nav:
       - "Cybersecurity: Foundations, Frameworks & Controls": 12-cybersecurity/cybersecurity-foundations.md
   - "Tier 4 — Sector, consumer & operations":
       - "Consumer Rights: Foundations (EU & UK)": 13-consumer-rights/consumer-rights-foundations.md
+      - "UK DMCCA 2024: Subscription Contracts Regime": 13-consumer-rights/dmcca-subscriptions.md
       - "Cloud Hosting: Compliance Foundations": 14-cloud-hosting/cloud-hosting-foundations.md
+      - "Cloud Hosting: Shared-Responsibility Models & Assurance": 14-cloud-hosting/cloud-shared-responsibility.md
       - "Game Hosting: Compliance Foundations": 15-game-hosting/game-hosting-foundations.md
+      - "Compliance Audit & Assurance Methodology": 16-compliance-operations/compliance-audit-methodology.md
       - "Compliance Operations: Running a Compliance Programme": 16-compliance-operations/compliance-operations-foundations.md

@@ -6,6 +6,21 @@ All notable changes to this repository. Format based on [Keep a Changelog](https
 
 *Nothing yet.*
 
+## [0.15.0] — 2026-07-11
+
+### Added (backlog loop — Cluster A; autonomous, workers self-ran all QA gates; auto-frozen on clean QA)
+
+- `docs/07-data-act/data-act-cloud-switching.md` — Data Act Ch. VI/VIII; **Art. 29 charge-prohibition (12 Jan 2027) quoted verbatim** from EUR-Lex.
+- `docs/08-digital-services/dsa-vlop-obligations.md` — Arts. 33–43; X €120m fine + **GC fee-annulment judgments (T-55/24, T-58/24)** + Art. 40 data-access delegated act.
+- `docs/13-consumer-rights/dmcca-subscriptions.md` — DMCCA Part 4 Ch. 2 subscription regime (Spring 2027, PENDING-marked).
+- `docs/06-ai-governance/ai-governance-iso-42001.md` — ISO/IEC 42001 AIMS implementation + AI-Act crosswalk (Medium: standard text paywalled).
+- `docs/16-compliance-operations/compliance-audit-methodology.md` — ISO 19011 audit lifecycle + three-lines assurance.
+- `docs/14-cloud-hosting/cloud-shared-responsibility.md` — shared-responsibility RACI matrix + assurance vehicles (Medium: EUCS unadopted, ISO editions shifting).
+
+### Changed
+
+- Corrected `iso-27018` registry entry to the **2025 edition** (flagged by the cloud worker; parent `cloud-hosting-foundations` still cites 2019 — noted for review cycle).
+
 ## [0.14.0] — 2026-07-11
 
 ### Added (third depth-layer sub-topic cluster — approved & frozen at v1.0.0; workers self-ran all three QA gates)
