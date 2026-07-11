@@ -12,7 +12,10 @@ conformance, link liveness), so every batch self-checks.
 | **Link checker** | `scripts/check_links.py` | Every `http(s)` URL in `docs/` + `SOURCE_REGISTRY.md`/`GLOSSARY.md`/`MASTER_INDEX.md` returns a live status via `curl` (GET, follows redirects). Known bot-blocking hosts (e.g. `consilium.europa.eu`) are allowlisted as WARN. | Yes |
 | **Markdown lint** | `.markdownlint.jsonc` (via `markdownlint-cli2`) | Markdown hygiene, tuned to the house style (multiple H1 sections allowed; bare URLs and `[n]` citation markers allowed; `*asterisk*` emphasis). | No |
 | **Graph / matrix export + cross-ref validator** | `scripts/build_graph.py` | Emits `exports/` (knowledge graph JSON + Mermaid, compliance matrix CSV/JSON, coverage report) from the catalogue + front matter. Exits non-zero on a knowledge-graph edge to a non-existent, non-`(planned)` id. | No |
+| **RAG export** | `scripts/build_rag.py` | Splits every document into one chunk per section and writes `exports/rag/chunks.jsonl` (+ `manifest.json`), with document metadata on each chunk. | No |
+| **Site generator** | `scripts/build_site.py` | Generates `mkdocs.yml` (tier-grouped nav) and `docs/index.md` (landing page) from the catalogue, so the site never drifts. | No |
 | **CI** | `.github/workflows/qa.yml` | Runs the document validator + graph/cross-ref check + markdownlint on every push/PR (and fails if `exports/` is stale); runs the link checker weekly (cron) and on manual dispatch. | — |
+| **Publish** | `.github/workflows/pages.yml` | Regenerates the site and builds MkDocs Material (`--strict`), then deploys to GitHub Pages on push to `main`. | — |
 
 ### Running locally
 
@@ -20,9 +23,14 @@ conformance, link liveness), so every batch self-checks.
 pip install pyyaml
 python scripts/validate.py            # offline: front matter + structure + citations
 python scripts/build_graph.py         # regenerate exports/ + validate cross-references
+python scripts/build_rag.py           # regenerate exports/rag/chunks.jsonl
+python scripts/build_site.py          # regenerate mkdocs.yml + docs/index.md
 python scripts/check_links.py         # network: all external links
 npx markdownlint-cli2 "docs/**/*.md" "*.md"        # lint
 npx markdownlint-cli2 --fix "docs/**/*.md" "*.md"  # auto-fix mechanical issues
+
+# preview the site locally
+pip install mkdocs-material && mkdocs serve
 ```
 
 `validate.py` and `check_links.py` exit non-zero on failure, so they gate CI.

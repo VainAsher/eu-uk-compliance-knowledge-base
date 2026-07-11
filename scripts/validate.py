@@ -162,7 +162,8 @@ def main() -> int:
     args = ap.parse_args()
 
     root = Path(args.docs)
-    files = sorted(root.rglob("*.md"))
+    # index.md is the generated MkDocs landing page, not a knowledge-base document.
+    files = [f for f in sorted(root.rglob("*.md")) if f.name != "index.md"]
     if not files:
         print(f"No markdown files found under {root}/", file=sys.stderr)
         return 2

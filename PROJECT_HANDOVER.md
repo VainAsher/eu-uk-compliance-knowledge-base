@@ -20,11 +20,19 @@ An autonomous multi-agent pipeline that produces a professional, evidence-based 
 
 ## What to do next
 
-Foundations (16), depth sub-topics (10), QA automation, and the knowledge-graph /
-compliance-mapping exports are all **done**. Remaining:
+All 10 maturity stages are **done**: 26 approved documents, QA automation,
+graph/compliance/RAG exports, and a MkDocs GitHub Pages site with a deploy
+workflow (`.github/workflows/pages.yml`).
 
-1. **Publication / RAG (Stage 10)** — Wiki.js or GitHub Pages publication and a chunked RAG export. **Needs a git remote** — provide one and the orchestrator can wire up publishing + a front-matter-aware RAG chunker (one chunk per section).
-2. **More sub-topic clusters** — any time; candidates: `ai-act-prohibited-practices`, `pets-catalogue`, `nis2-incident-reporting`, `dma-obligations`, `pecr-detail`, `uk-childrens-code`, `data-retention-caselaw`.
+**To make the site live** (the `pages.yml` deploy needs Pages enabled):
+
+- On a free account the repo must be **public** — `gh repo edit VainAsher/eu-uk-compliance-knowledge-base --visibility public`, then enable Pages (Settings → Pages → Source: GitHub Actions), or `gh api -X POST repos/VainAsher/eu-uk-compliance-knowledge-base/pages -f build_type=workflow`.
+- On GitHub Pro/Team, Pages can deploy from a private repo directly.
+
+Ongoing / optional:
+
+1. **More sub-topic clusters** — `ai-act-prohibited-practices`, `pets-catalogue`, `nis2-incident-reporting`, `dma-obligations`, `pecr-detail`, `uk-childrens-code`, `data-retention-caselaw`.
+2. **Review cycles** — all docs carry `review_due: 2027-07-11`; refresh volatile items sooner (AI Omnibus OJ publication, DPF appeal, Digital Omnibus data strand).
 3. **Optional QA extras** — glossary-consistency checker, `vale` prose linting.
 
 Run sub-topic work as parallel clusters; run tooling/publication as focused orchestrator work. Present at the human gate before freezing/publishing.

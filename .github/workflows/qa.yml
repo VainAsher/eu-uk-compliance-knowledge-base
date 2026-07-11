@@ -28,8 +28,14 @@ jobs:
         run: python scripts/validate.py
       - name: Build exports & validate cross-references
         run: python scripts/build_graph.py
-      - name: Ensure committed exports are up to date
-        run: git diff --exit-code exports/ || (echo "exports/ is stale — run 'python scripts/build_graph.py' and commit" && exit 1)
+      - name: Build RAG export
+        run: python scripts/build_rag.py
+      - name: Regenerate site scaffolding
+        run: python scripts/build_site.py
+      - name: Ensure committed generated artefacts are up to date
+        run: |
+          git diff --exit-code exports/ mkdocs.yml docs/index.md \
+            || (echo "Generated artefacts are stale — run build_graph.py / build_rag.py / build_site.py and commit" && exit 1)
 
   markdownlint:
     name: Markdown lint

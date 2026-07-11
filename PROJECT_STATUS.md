@@ -1,7 +1,7 @@
 # Project Status
 
 **Last updated:** 2026-07-11
-**Maturity:** Stage 9 of 10 — *Knowledge-graph & compliance-mapping exports live (release 0.12.0). 26 documents approved. Only publication/RAG (Stage 10) remains — needs a git remote.*
+**Maturity:** Stage 10 of 10 — *Full pipeline complete: 26 approved documents, QA automation, knowledge-graph/compliance exports, RAG export, and a MkDocs GitHub Pages site with a deploy workflow (release 0.13.0). Repo published to a private GitHub remote; enable Pages / make public to go live.*
 
 ## Maturity model (repository level)
 
@@ -16,8 +16,8 @@
 | 6 | Tier 4 sector/consumer/ops complete | ✅ **current** |
 | 7 | Cross-references & knowledge graph populated | ✅ passed (graph + compliance matrix exported) |
 | 8 | QA automation (lint/link/citation) implemented | ✅ passed |
-| 9 | Wiki.js / GitHub publication pipeline | ⬜ (needs a git remote) |
-| 10 | RAG-ready export + audit dossier | ⬜ |
+| 9 | GitHub Pages publication pipeline | ✅ passed (MkDocs Material + deploy workflow) |
+| 10 | RAG-ready export + audit dossier | ✅ passed (`exports/rag/` section-level chunks) |
 
 ## Completed work
 
@@ -36,8 +36,9 @@
 
 ## In progress
 
-- **Knowledge-graph & compliance-mapping exports implemented (release 0.12.0)** — `scripts/build_graph.py` → `exports/` (graph JSON/Mermaid, compliance matrix CSV/JSON, coverage report), with a CI cross-reference gate.
-- **Only remaining roadmap item:** Stage 10 — publication (Wiki.js / GitHub Pages) + RAG export. Needs a git remote. Further sub-topic clusters can run any time.
+- **All 10 maturity stages complete.** The pipeline now spans research → QA automation → graph/matrix/RAG exports → a deployable GitHub Pages site.
+- **To go live:** enable GitHub Pages (Actions source) and/or make the repo public — see `PROJECT_HANDOVER.md`.
+- Ongoing/optional work: more sub-topic clusters (depth), document review cycles as law changes (`review_due` 2027-07-11), and optional QA extras (glossary-consistency checker, `vale`).
 
 ## Pending work
 

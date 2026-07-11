@@ -14,3 +14,7 @@ __pycache__/
 
 # Local Claude state (keep committed governance, ignore transient)
 .claude/*.local.json
+
+# MkDocs build output
+site/
+_site_test/
