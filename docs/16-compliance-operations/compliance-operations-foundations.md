@@ -1,8 +1,8 @@
 ---
 id: compliance-operations-foundations
 title: "Compliance Operations: Running a Compliance Programme"
-version: 0.1.0
-status: in-review
+version: 1.0.0
+status: approved
 classification: public
 jurisdiction: [EU, UK]
 topic: Compliance Operations
@@ -26,15 +26,15 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | compliance-operations-foundations |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.9.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
 | Last Updated | 2026-07-11 |
 | Review Due | 2027-07-11 |
 | Confidence | High |
-| Approved By | pending human review |
+| Approved By | Human reviewer — 2026-07-11 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**. It is the **cross-cutting capstone** of the knowledge base: it describes *how to operate a compliance programme* across every regime the other documents cover. Where each topic document states *what a given law requires*, this document sets out the *operating model, artefacts and processes* that discharge and evidence those requirements together.
 
@@ -311,4 +311,5 @@ Not Applicable — this operational capstone relies on primary legislation, regu
 
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
-| 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft of the cross-cutting compliance-operations capstone; anchored on GDPR Art. 5(2) accountability, NIS2 Art. 20 and DORA Art. 5 governance duties; operationalised via ISO 37301, ISO 31000, ISO 19011 and the IIA Three Lines Model (2020). Standard editions and IIA model version live-verified; all external links checked HTTP 200 on 2026-07-11 (IIA Three Lines Model cited to the official position-paper PDF, as the HTML landing page returns 404). | pending |
+| 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft of the cross-cutting compliance-operations capstone; anchored on GDPR Art. 5(2) accountability, NIS2 Art. 20 and DORA Art. 5 governance duties; operationalised via ISO 37301, ISO 31000, ISO 19011 and the IIA Three Lines Model (2020). Standard editions and IIA model version live-verified; all external links checked HTTP 200 on 2026-07-11 (IIA Three Lines Model cited to the official position-paper PDF, as the HTML landing page returns 404). | — |
+| 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at batch human review gate; capstone completing all 16 topics; frozen in release 0.9.0. | Human reviewer |

@@ -1,8 +1,8 @@
 ---
 id: consumer-rights-foundations
 title: "Consumer Rights: Foundations (EU & UK)"
-version: 0.1.0
-status: in-review
+version: 1.0.0
+status: approved
 classification: public
 jurisdiction: [EU, UK]
 topic: Consumer Rights
@@ -26,15 +26,15 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | consumer-rights-foundations |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.9.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
 | Last Updated | 2026-07-11 |
 | Review Due | 2027-07-11 |
 | Confidence | High |
-| Approved By | pending human review |
+| Approved By | Human reviewer — 2026-07-11 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**. The UK regime is undergoing **phased commencement** under the Digital Markets, Competition and Consumers Act 2024 — in particular the **subscription-contracts rules were re-timetabled to Spring 2027** — always confirm the current in-force status of a specific provision before relying on it [12][13].
 
@@ -310,4 +310,5 @@ Not Applicable — this foundational reference relies on primary legislation and
 
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
-| 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (CRD, UCPD, UCTD, Dirs 2019/770, 2019/771, 2019/2161), legislation.gov.uk (CRA 2015, CCR 2013, DMCCA 2024 + Commencement No. 2 Regs), CMA and DBT/GOV.UK sources. DMCCA commencement status live-verified: consumer provisions in force 6 April 2025; subscription regime delayed to Spring 2027 per DBT consultation response of 2 April 2026 and CMA one-year review of April 2026. | pending |
+| 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; researched against EUR-Lex (CRD, UCPD, UCTD, Dirs 2019/770, 2019/771, 2019/2161), legislation.gov.uk (CRA 2015, CCR 2013, DMCCA 2024 + Commencement No. 2 Regs), CMA and DBT/GOV.UK sources. DMCCA commencement status live-verified: consumer provisions in force 6 April 2025; subscription regime delayed to Spring 2027 per DBT consultation response of 2 April 2026 and CMA one-year review of April 2026. | — |
+| 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at batch human review gate; orchestrator verified DMCCA 2024 commencement (SI 2025/272, 6 Apr 2025); frozen in release 0.9.0. | Human reviewer |

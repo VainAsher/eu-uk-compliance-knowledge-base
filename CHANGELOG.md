@@ -4,11 +4,21 @@ All notable changes to this repository. Format based on [Keep a Changelog](https
 
 ## [Unreleased]
 
-### Added (in-review — awaiting batch human gate; parallel cluster — final foundation tier)
+_Nothing yet._
+
+## [0.9.0] — 2026-07-11
+
+### Added (Tier 4 cluster batch — all approved & frozen at v1.0.0; parallel cluster — final foundation tier)
 - `docs/13-consumer-rights/consumer-rights-foundations.md` — Consumer Rights (EU & UK). CRD/UCPD/UCTD/DCD/SGD/Omnibus, CRA 2015, and DMCCA 2024 live-verified (consumer provisions in force 6 Apr 2025; subscription regime delayed to Spring 2027).
 - `docs/14-cloud-hosting/cloud-hosting-foundations.md` — Cloud Hosting synthesis (Art. 28/32, transfers, NIS2, DORA, Data Act switching, ISO 27017/27018). EUCS confirmed not yet adopted. Confidence Medium (moving targets).
 - `docs/15-game-hosting/game-hosting-foundations.md` — Game Hosting synthesis (children's data/AADC, PECR/SDKs, DSA, loot boxes, PEGI June-2026 changes). Confidence Medium.
 - `docs/16-compliance-operations/compliance-operations-foundations.md` — Compliance Operations capstone (three lines, ISO 37301/31000, RoPA/DPIA, incident management across GDPR/NIS2/DORA). Ties together all 16 topics.
+
+### Milestone
+- **🏁 ALL 16 FOUNDATION TOPICS COMPLETE** — the full foundation layer of the knowledge base is approved & frozen (12 High confidence, 2 Medium).
+
+### Quality
+- Orchestrator re-verified all 69 links live; spot-checked DMCCA 2024 commencement (SI 2025/272, 6 Apr 2025); deduped overlapping consumer-law sources between #13 and #15.
 
 ## [0.8.0] — 2026-07-11
 

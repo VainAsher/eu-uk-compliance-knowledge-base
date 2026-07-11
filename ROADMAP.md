@@ -39,10 +39,12 @@ These underpin almost everything else and are cited by later documents.
 ### Tier 4 — Sector, consumer & operations
 | Order | Topic | Lead instrument(s) | Rationale |
 |-------|-------|--------------------|-----------|
-| 13 | **Consumer Rights** ⏳ next | Consumer Rights Act 2015; Dir. 2011/83/EU | B2C obligations. |
-| 14 | **Cloud Hosting** | GDPR, NIS2, ISO 27017 | Infrastructure compliance. |
-| 15 | **Game Hosting** | GDPR (children/Art.8), DSA, PEGI | Sector specialisation of #14. |
-| 16 | **Compliance Operations** | Cross-cutting | How to run the programme; ties everything together. |
+| 13 | **Consumer Rights** ✅ approved | Consumer Rights Act 2015; Dir. 2011/83/EU; DMCCA 2024 | B2C obligations. |
+| 14 | **Cloud Hosting** ✅ approved | GDPR, NIS2, ISO 27017 | Infrastructure compliance. |
+| 15 | **Game Hosting** ✅ approved | GDPR (children/Art.8), DSA, PEGI | Sector specialisation of #14. |
+| 16 | **Compliance Operations** ✅ approved | ISO 37301/31000; cross-cutting | How to run the programme; ties everything together. |
+
+**Tier 4 complete (2026-07-11) — third parallel-cluster batch (#13–#16). 🏁 ALL 16 FOUNDATION TOPICS COMPLETE.**
 
 ## Backlog & known gaps
 

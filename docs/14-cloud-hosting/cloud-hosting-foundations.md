@@ -1,8 +1,8 @@
 ---
 id: cloud-hosting-foundations
 title: "Cloud Hosting: Compliance Foundations"
-version: 0.1.0
-status: in-review
+version: 1.0.0
+status: approved
 classification: public
 jurisdiction: [EU, UK]
 topic: Cloud Hosting
@@ -26,15 +26,15 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | cloud-hosting-foundations |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.9.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
 | Last Updated | 2026-07-11 |
 | Review Due | 2027-07-11 |
 | Confidence | Medium |
-| Approved By | pending human review |
+| Approved By | Human reviewer — 2026-07-11 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**. It is a **cross-cutting synthesis** drawing together instruments treated in depth elsewhere (`gdpr-foundations`, `nis2-foundations`, `dora-foundations`, `data-act-foundations`, `privacy-engineering-foundations`, `cybersecurity-foundations`); the primary obligations live in those documents. Two areas are **moving targets** and are flagged throughout: the **EU Cloud Services certification scheme (EUCS)**, which at this document's date **remains a candidate/draft scheme and has not been adopted** as an implementing act under the Cybersecurity Act [7][8][9]; and the **Data Act cloud-switching timeline**, whose withdrawal of switching charges bites on **12 January 2027** [4][10]. Confirm both before relying on them.
 
@@ -334,4 +334,5 @@ Not Applicable — this cross-cutting synthesis relies on primary legislation, r
 
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
-| 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; cross-cutting synthesis of cloud-hosting compliance. Researched against EUR-Lex (GDPR consolidated Arts. 28/32/Ch.V, NIS2, DORA, Data Act, Cybersecurity Act 2019/881, Schrems II), EDPB Recommendations 01/2020, ENISA/EC certification-framework pages, ESAs CTPP designation, EC cloud-switching, and ISO/IEC 27001/27002/27017/27018/27701 and CSA STAR. **EUCS status live-verified as not yet adopted** (only EUCC adopted; CSA revision proposed 20 Jan 2026); **Data Act switching-charge date (12 Jan 2027) verified**. All 18 external links returned HTTP 200 on 2026-07-11. | pending |
+| 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; cross-cutting synthesis of cloud-hosting compliance. Researched against EUR-Lex (GDPR consolidated Arts. 28/32/Ch.V, NIS2, DORA, Data Act, Cybersecurity Act 2019/881, Schrems II), EDPB Recommendations 01/2020, ENISA/EC certification-framework pages, ESAs CTPP designation, EC cloud-switching, and ISO/IEC 27001/27002/27017/27018/27701 and CSA STAR. **EUCS status live-verified as not yet adopted** (only EUCC adopted; CSA revision proposed 20 Jan 2026); **Data Act switching-charge date (12 Jan 2027) verified**. All 18 external links returned HTTP 200 on 2026-07-11. | — |
+| 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at batch human review gate; EUCS-not-adopted status noted; frozen in release 0.9.0. | Human reviewer |

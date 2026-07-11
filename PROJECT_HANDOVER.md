@@ -10,18 +10,22 @@ An autonomous multi-agent pipeline that produces a professional, evidence-based 
 
 ## Current state (snapshot)
 
-- **Maturity:** Stage 4 — **Tiers 1–3 complete** (12 docs approved & frozen at v1.0.0; releases 0.2.0–0.8.0). Tier 4 is the final foundation tier.
-- **Version control:** git on `main`, tags `v0.2.0`–`v0.8.0`. No remote yet.
+- **Maturity:** Stage 6 — **🏁 ALL 16 foundation topics complete** (16 docs approved & frozen at v1.0.0; releases 0.2.0–0.9.0).
+- **Version control:** git on `main`, tags `v0.2.0`–`v0.9.0`. No remote yet.
 - **Template:** `templates/document_template.md` reconciled to full spec.
-- **Governance files:** all present, incl. `GLOSSARY.md`.
+- **Governance files:** all present, incl. `GLOSSARY.md` (~70 terms) and `SOURCE_REGISTRY.md` (~120 sources).
 - **Editorial policy:** shared glossary + dedicated sub-topic documents (see `ROADMAP.md`).
-- **Production model:** parallel cluster — orchestrator (owns control files, git, gate) + per-document worker agents (write own doc, return metadata). First batch (#6–#9) delivered 4 docs concurrently.
+- **Production model:** parallel cluster — orchestrator (owns control files, git, gate, independent link re-verification + spot-checks) + per-document worker agents. Three batches delivered 11 docs concurrently.
 
-## What to do next
+## What to do next (Stage 7+ — depth, quality, publication)
 
-1. Run the **Tier 4 (sector, consumer & operations) cluster** — the final foundation tier: Consumer Rights (#13), Cloud Hosting (#14), Game Hosting (#15), Compliance Operations (#16).
-2. Present the batch at the **human review gate**; on `APPROVE`, freeze and cut release 0.9.0.
-3. After Tier 4: all 16 topics covered → move to Stage 5+ (backlog sub-topics, QA automation, knowledge graph, publication/RAG export). Consider `duaa-2025-detail`, `digital-omnibus`, `cyber-resilience-act` as high-value backlog docs.
+The foundation layer (one flagship doc per topic) is done. The natural next phases:
+1. **High-value backlog sub-topics** — e.g. `duaa-2025-detail`, `digital-omnibus`, `cyber-resilience-act`, `gdpr-transfers`, `dpia-methodology`, `ai-act-high-risk`. Each topic's planned document set is in `ROADMAP.md`; the full backlog is in `PROJECT_STATUS.md`.
+2. **QA automation** — implement the toolchain in `scripts/README.md` (markdownlint, yamllint, lychee/markdown-link-check, vale, a citation validator, glossary consistency checker) + CI.
+3. **Knowledge-graph / compliance-mapping artefacts** — machine-readable cross-reference and control-mapping exports.
+4. **Publication / RAG** — Wiki.js or GitHub Pages publication and a chunked RAG export. Provide a git remote when ready to publish.
+
+Each of the above can be run as a parallel cluster (for sub-topic docs) or as focused orchestrator work (automation/publication). Present at the human gate before freezing/publishing.
 
 ## Parallel-cluster operating notes (for the orchestrator)
 
@@ -51,6 +55,7 @@ An autonomous multi-agent pipeline that produces a professional, evidence-based 
 | 2026-07-11 | Adopt parallel-cluster production model | User request to speed up while retaining quality; orchestrator + worker agents. |
 | 2026-07-11 | Tier 2 batch (#6–#9) approved & frozen at v1.0.0 — **Tier 2 complete** | Batch human gate ("approve with spot check"); DSA article/recital numbers verified against EUR-Lex. |
 | 2026-07-11 | Tier 3 batch (#10–#12) approved & frozen at v1.0.0 — **Tier 3 complete** | Batch human gate ("APPROVE ALL"); NIS2 Art. 23/34 verified against EUR-Lex raw text. |
+| 2026-07-11 | Tier 4 batch (#13–#16) approved & frozen at v1.0.0 — **🏁 all 16 topics complete** | Batch human gate ("APPROVE ALL"); DMCCA 2024 commencement verified (SI 2025/272). |
 
 ## Control files to update after every approved document
 

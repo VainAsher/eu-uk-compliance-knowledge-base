@@ -1,7 +1,7 @@
 # Project Status
 
 **Last updated:** 2026-07-11
-**Maturity:** Stage 4 of 10 — *Tiers 1–3 complete: 12/16 topics approved & frozen (release 0.8.0). Tier 4 (sector/consumer/ops) is the final foundation tier.*
+**Maturity:** Stage 6 of 10 — *🏁 ALL 16 foundation topics approved & frozen (release 0.9.0). Foundation layer complete; next is depth (sub-topics), QA automation and publication.*
 
 ## Maturity model (repository level)
 
@@ -12,9 +12,9 @@
 | 2 | First document approved & frozen | ✅ passed |
 | 3 | Tier 1 foundations complete (4 docs) | ✅ passed |
 | 4 | Tier 2 digital & AI complete | ✅ passed |
-| 5 | Tier 3 security & resilience complete | ✅ **current** |
-| 6 | Tier 4 sector/consumer/ops complete | ⬜ |
-| 7 | Cross-references & knowledge graph populated | ⬜ |
+| 5 | Tier 3 security & resilience complete | ✅ passed |
+| 6 | Tier 4 sector/consumer/ops complete | ✅ **current** |
+| 7 | Cross-references & knowledge graph populated | 🟡 partial (knowledge graph populated; sub-topics pending) |
 | 8 | QA automation (lint/link/citation) implemented | ⬜ |
 | 9 | Wiki.js / GitHub publication pipeline | ⬜ |
 | 10 | RAG-ready export + audit dossier | ⬜ |
@@ -31,11 +31,12 @@
 - **Document #5 (AI Act Foundations) approved & frozen at v1.0.0 (release 0.6.0).**
 - **Tier 2 batch (#6–#9: AI Governance, Data Act, DSA, DMA) approved & frozen at v1.0.0 (release 0.7.0) — Tier 2 complete.** First parallel-cluster batch.
 - **Tier 3 batch (#10–#12: NIS2, DORA, Cybersecurity) approved & frozen at v1.0.0 (release 0.8.0) — Tier 3 complete.**
-- Adopted shared-glossary + sub-topic-scoping editorial policy; introduced parallel-cluster production.
+- **Tier 4 batch (#13–#16: Consumer Rights, Cloud Hosting, Game Hosting, Compliance Operations) approved & frozen at v1.0.0 (release 0.9.0) — 🏁 all 16 topics complete.**
+- Adopted shared-glossary + sub-topic-scoping editorial policy; introduced parallel-cluster production (3 batches, 11 docs).
 
 ## In progress
 
-- **Tier 4 cluster batch (#13–#16)** produced in parallel and **awaiting batch human gate**: `consumer-rights-foundations`, `cloud-hosting-foundations`, `game-hosting-foundations`, `compliance-operations-foundations`. Orchestrator re-verified all 69 links live and spot-checked the DMCCA 2024 commencement (SI 2025/272, 6 Apr 2025). Approval completes all 16 topics.
+- **Foundation layer complete.** Next phase (Stage 7+): high-value backlog sub-topics, QA automation (lint/link/citation), knowledge-graph/compliance-mapping artefacts, and the publication/RAG pipeline. See `PROJECT_HANDOVER.md` → *What to do next*.
 
 ## Pending work
 
@@ -63,8 +64,8 @@
 
 | Metric | Value |
 |--------|-------|
-| Approved documents | 12 |
+| Approved documents | 16 |
 | Draft documents | 0 |
 | Governance files | 9 |
-| Topics covered | 12 / 16 |
+| Topics covered | 16 / 16 ✅ |
 | Sources in registry | see `SOURCE_REGISTRY.md` |

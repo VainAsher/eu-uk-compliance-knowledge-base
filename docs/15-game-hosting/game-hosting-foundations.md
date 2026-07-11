@@ -1,8 +1,8 @@
 ---
 id: game-hosting-foundations
 title: "Game Hosting: Compliance Foundations"
-version: 0.1.0
-status: in-review
+version: 1.0.0
+status: approved
 classification: public
 jurisdiction: [EU, UK]
 topic: Game Hosting
@@ -26,15 +26,15 @@ sources_verified: 2026-07-11
 | Field | Value |
 |-------|-------|
 | Document ID | game-hosting-foundations |
-| Version | 0.1.0 |
-| Status | in-review |
+| Version | 1.0.0 |
+| Status | approved (frozen in release 0.9.0) |
 | Classification | public |
 | Owner | Compliance Research Pipeline |
 | Created | 2026-07-11 |
 | Last Updated | 2026-07-11 |
 | Review Due | 2027-07-11 |
 | Confidence | Medium |
-| Approved By | pending human review |
+| Approved By | Human reviewer — 2026-07-11 |
 
 **Change gate:** This document was produced by the multi-agent pipeline and is subject to the human review gate. It is a research and implementation reference, **not legal advice**. It is a *sector synthesis* that assumes the reader has the frozen foundational documents to hand and does not restate them. Several areas it touches are fast-moving — the UK loot-box position, PEGI's rating criteria (changed June 2026), the ICO Children's Code, and UK/EU consumer-protection reform — so confirm the live position before relying on any time-sensitive statement below.
 
@@ -318,4 +318,5 @@ Not Applicable — this foundational sector synthesis relies on primary legislat
 
 | Version | Date | Author | Change | Approved By |
 |---------|------|--------|--------|-------------|
-| 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; sector synthesis researched against EUR-Lex (GDPR, ePrivacy, DSA, AI Act, UCPD/Omnibus/CRD), legislation.gov.uk (DPA 2018 ss.9/123, Gambling Act 2005, DMCCA 2024, OSA 2023), ICO, GOV.UK/DCMS and PEGI. Loot-box position and PEGI June 2026 criteria change live-verified against primary sources. | pending |
+| 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; sector synthesis researched against EUR-Lex (GDPR, ePrivacy, DSA, AI Act, UCPD/Omnibus/CRD), legislation.gov.uk (DPA 2018 ss.9/123, Gambling Act 2005, DMCCA 2024, OSA 2023), ICO, GOV.UK/DCMS and PEGI. Loot-box position and PEGI June 2026 criteria change live-verified against primary sources. | — |
+| 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at batch human review gate; PEGI June-2026 change and UK loot-box position verified; frozen in release 0.9.0. | Human reviewer |
