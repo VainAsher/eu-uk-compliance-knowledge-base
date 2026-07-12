@@ -1,7 +1,7 @@
 # Project Status
 
 **Last updated:** 2026-07-11
-**Maturity:** Stage 10 of 10 (all complete) — *50 approved documents; public GitHub Pages site auto-deploys. Autonomous backlog loop in progress (Cluster C frozen, release 0.17.0).*
+**Maturity:** Stage 10 of 10 (all complete) — *54 approved documents; public GitHub Pages site auto-deploys. Autonomous backlog loop complete (Cluster D frozen, release 0.18.0).*
 
 ## Maturity model (repository level)
 
@@ -36,12 +36,12 @@
 
 ## In progress
 
-- **Autonomous backlog loop running** (user-authorised). **Cluster C (#45–#50) approved & frozen (release 0.17.0)** → 50 docs; every one of the 16 topics now has at least two depth documents. Remaining backlog is thin (see below); the loop can wind down or continue on the smaller residual list.
+- **Autonomous backlog loop complete** (user-authorised). **Cluster D (#51–#54) approved & frozen (release 0.18.0)** → 54 docs. The residual backlog (ugc-moderation, edpb-transfer-tools, ai-act-transparency-obligations, data-act-b2g) is now cleared. No planned documents remain; the pipeline moves to maintenance/review-cycle mode.
 - Site is **public and auto-deploying** at <https://vainasher.github.io/eu-uk-compliance-knowledge-base/>.
 
 ## Pending / optional work
 
-- **Depth backlog** (residual) — remaining candidates: `ugc-moderation` (DSA content moderation), `edpb-transfer-tools`, `ai-act-transparency-obligations`, `data-act-b2g`, plus any topic the reviewer wants deepened further. No high-priority gaps remain.
+- **Depth backlog** — cleared. Any further documents are reviewer-initiated (e.g. a dedicated `uk-online-safety-act` doc flagged by the ugc-moderation worker; pre-DSA CJEU liability cases *Glawischnig-Piesczek* / *L'Oréal v eBay* if a case-law deep-dive is wanted). No standing backlog.
 - **Review cycles** — refresh volatile items before `review_due` 2027-07-11 (AI Omnibus OJ publication, EU-US DPF appeal, Digital Omnibus data strand, revised ICO Children's Code, ISO 27017/27018 editions).
 - **Optional QA extras** — glossary-consistency checker, `vale` prose linting.
 
@@ -60,7 +60,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Approved documents | 50 (16 foundations + 34 sub-topics) |
+| Approved documents | 54 (16 foundations + 38 sub-topics) |
 | Draft documents | 0 |
 | Governance files | 9 |
 | Topics covered | 16 / 16 ✅ (every topic has ≥2 depth docs) |

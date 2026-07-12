@@ -2,7 +2,7 @@
 
 Catalogue of all knowledge-base documents. Updated by the Repository Maintainer after every approved document.
 
-**Last updated:** 2026-07-12 — 50 documents approved (16 foundations + 34 depth sub-topics; releases through 0.17.0). Public site auto-deploys via GitHub Pages.
+**Last updated:** 2026-07-12 — 54 documents approved (16 foundations + 38 depth sub-topics; releases through 0.18.0). Public site auto-deploys via GitHub Pages.
 
 ## Legend
 
@@ -63,20 +63,24 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 | dma-interoperability | DMA: Interoperability Obligations (Messaging & Core Platform Services) | Digital Markets | 3 | EU | 1.0.0 | approved | High | `docs/09-digital-markets/dma-interoperability.md` |
 | nis2-transposition-tracker | NIS2: National Transposition Tracker & Divergence | NIS2 | 3 | EU | 1.0.0 | approved | Medium | `docs/10-nis2/nis2-transposition-tracker.md` |
 | ai-model-risk-management | AI Model Risk Management & Evaluation | AI Governance | 2 | EU, UK | 1.0.0 | approved | Medium | `docs/06-ai-governance/ai-model-risk-management.md` |
+| ugc-moderation | DSA: Content Moderation, Notice-and-Action & Statements of Reasons | Digital Services | 3 | EU, UK | 1.0.0 | approved | High | `docs/08-digital-services/ugc-moderation.md` |
+| edpb-transfer-tools | GDPR Transfer Tools: SCCs, BCRs & Transfer Impact Assessments | GDPR (EU) | 3 | EU, UK | 1.0.0 | approved | High | `docs/01-gdpr/edpb-transfer-tools.md` |
+| ai-act-transparency-obligations | EU AI Act: Transparency Obligations (Article 50) | AI Act | 2 | EU | 1.0.0 | approved | High | `docs/05-ai-act/ai-act-transparency-obligations.md` |
+| data-act-b2g | EU Data Act: Business-to-Government Data Sharing (Chapter V) | Data Act | 2 | EU | 1.0.0 | approved | High | `docs/07-data-act/data-act-b2g.md` |
 
 ## Topic coverage (16 programme topics)
 
 | Topic | Documents | Status |
 |-------|-----------|--------|
-| GDPR (EU) | 4 | 4 approved (foundations, transfers, DSAR, RoPA) |
+| GDPR (EU) | 5 | 5 approved (foundations, transfers, DSAR, RoPA, transfer tools) |
 | UK GDPR | 4 | 4 approved (foundations, DUAA detail, transfers, children's code) |
-| AI Act | 4 | 4 approved (foundations, high-risk, gpai, prohibited practices) |
-| Data Act | 2 | 2 approved (foundations, cloud switching) |
+| AI Act | 5 | 5 approved (foundations, high-risk, gpai, prohibited practices, transparency) |
+| Data Act | 3 | 3 approved (foundations, cloud switching, B2G) |
 | NIS2 | 3 | 3 approved (foundations, incident reporting, transposition tracker) |
 | DORA | 3 | 3 approved (foundations, TLPT, oversight framework) |
 | ePrivacy | 5 | 5 approved (foundations, cookies, digital-omnibus, PECR detail, retention case law) |
 | Consumer Rights | 2 | 2 approved (foundations, DMCCA subscriptions) |
-| Digital Services | 3 | 3 approved (foundations, VLOP obligations, recommender transparency) |
+| Digital Services | 4 | 4 approved (foundations, VLOP obligations, recommender transparency, content moderation) |
 | Digital Markets | 3 | 3 approved (foundations, obligations, interoperability) |
 | AI Governance | 3 | 3 approved (foundations, ISO 42001, model risk management) |
 | Privacy Engineering | 5 | 5 approved (foundations, DPIA, PETs catalogue, threat modelling, anonymisation) |
@@ -149,3 +153,7 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 - `dma-interoperability` → *details* → `dma-obligations` (Arts. 6(7) & 7), `dma-foundations`; *sibling of* → `dsa-foundations`; *relies on* → `gdpr-foundations` (data minimisation); *relates to* → `cybersecurity-foundations` (E2EE, Art. 7(3))
 - `nis2-transposition-tracker` → *details* → `nis2-foundations` (Art. 41); *complements* → `nis2-incident-reporting`; *contrasts with* → `dora-foundations` (Regulation vs Directive); *relates to* → `cybersecurity-foundations`
 - `ai-model-risk-management` → *details* → `ai-governance-foundations`; *populates* → `ai-governance-iso-42001`; *operationalises* → `ai-act-foundations`; *satisfies* → `ai-act-high-risk` (Arts. 9 & 15), `ai-act-gpai` (Art. 55); *complements* → `privacy-threat-modelling`
+- `ugc-moderation` → *details* → `dsa-foundations` (Arts. 16–23); *sibling of* → `dsa-vlop-obligations`; *relates to* → `dsa-recommender-transparency` (Art. 25); *cross-refs* → `consumer-rights-foundations`; *parallel to* → `uk-childrens-code` (UK OSA)
+- `edpb-transfer-tools` → *details* → `gdpr-transfers` (Art. 46 toolbox); *EU-side sibling of* → `uk-transfers` (IDTA/Addendum); *implements* → `gdpr-foundations` (Arts. 46–47); *applied by* → `cloud-shared-responsibility`; *relies on* → `anonymisation-techniques` (supplementary measures)
+- `ai-act-transparency-obligations` → *details* → `ai-act-foundations` (Art. 50); *screens before* → `ai-act-prohibited-practices`; *distinct from* → `ai-act-high-risk` (Art. 13 vs Art. 50); *overlaps* → `ai-act-gpai` (generative marking); *stacks with* → `dsa-recommender-transparency`; *parallel to* → `gdpr-foundations`
+- `data-act-b2g` → *details* → `data-act-foundations` (Chapter V); *complements* → `gdpr-foundations` (GDPR prevails on personal-data conflict); *sibling of* → `data-act-cloud-switching`; *relates to* → `nis2-foundations` (major cyber incident as public emergency)

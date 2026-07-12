@@ -4,7 +4,7 @@ Shared, authoritative definitions of terms of art used across the knowledge base
 
 **Convention:** Each term cites its authoritative source. Where a term is defined in legislation, the statutory definition governs. Keys in the *Source* column reference `SOURCE_REGISTRY.md`.
 
-**Last updated:** 2026-07-12 (backlog Cluster C: added anonymisation/re-identification family, DMA interoperability terms, data-retention doctrine, DSA recommender/profiling terms, AI model-risk-management vocabulary, and NIS2 transposition terms. Earlier batches recorded in git history.)
+**Last updated:** 2026-07-12 (backlog Cluster D: added DSA content-moderation terms, GDPR transfer-tool vocabulary (SCC modules, BCRs, EEG), AI Act Art. 50 transparency terms, and Data Act B2G terms. Earlier batches recorded in git history.)
 
 | Term | Definition | Source |
 |------|------------|--------|
@@ -152,5 +152,22 @@ Shared, authoritative definitions of terms of art used across the knowledge base
 | Dangerous-capability evaluation | An evaluation detecting whether a (frontier) model has capabilities or propensities enabling large-scale harm (cyber, CBRN uplift, deception). | shevlane-extreme-risks |
 | Transposition | The process by which a Member State gives effect to an EU Directive in national law; under NIS2 Art. 41, measures had to be adopted/published by 17 Oct 2024 and applied from 18 Oct 2024. | eurlex-nis2 |
 | Reasoned opinion | Second stage of an EU infringement procedure (Art. 258 TFEU): a formal Commission statement of the alleged breach requiring compliance within a set period or referral to the CJEU. | ec-nis2-19ms-reasoned |
+| Notice-and-action | The DSA Art. 16 mechanism letting any person notify a hosting provider of specific allegedly illegal content, triggering a duty to act in a timely, diligent, non-arbitrary and objective manner; a substantiated notice confers actual knowledge (Art. 16(3)). | eurlex-dsa |
+| Statement of reasons | The DSA Art. 17 clear, specific explanation a hosting provider must give an affected recipient for any restriction imposed on legality or terms-of-service grounds; published (anonymised) to the DSA Transparency Database. | eurlex-dsa |
+| Trusted flagger | An entity awarded status by a Digital Services Coordinator (expertise, independence, diligence) whose notices online platforms must handle with priority (DSA Art. 22). | eurlex-dsa |
+| Internal complaint-handling system | The free, electronic, ≥6-month appeal system online platforms must operate against moderation decisions, with non-solely-automated, reversible review (DSA Art. 20). | eurlex-dsa |
+| Out-of-court dispute settlement body | A body certified by a Digital Services Coordinator to resolve moderation disputes recipients may refer under DSA Art. 21; decisions are non-binding. | eurlex-dsa |
+| Illegal content | Any information that, in itself or by reference to an activity, does not comply with EU or Member State law (DSA Art. 3(h)). | eurlex-dsa |
+| SCC module | One of the four role-based variants in Decision (EU) 2021/914 — Module One (C2C), Two (C2P), Three (P2P), Four (P2C) — chosen by the exporter's/importer's controller/processor status. | eurlex-sccs-2021 |
+| Docking clause | Clause 7 of the 2021 SCCs, letting a non-original party accede to the existing clauses via the annex without a fresh contract. | eurlex-sccs-2021 |
+| European Essential Guarantees (EEG) | Four benchmarks (clear/precise/accessible rules; necessity and proportionality; independent oversight; effective remedies) for judging third-country surveillance law in a TIA. | edpb-rec-02-2020 |
+| Supplementary measures | Technical, contractual or organisational measures added to an Art. 46 transfer tool to raise protection to the EU standard where a TIA finds a gap. | edpb-rec-01-2020 |
+| BCR-C / BCR-P | Controller and Processor Binding Corporate Rules — the intra-group Art. 47 instruments for group-internal transfers. | edpb-rec-01-2022-bcr-c |
+| Deep fake | AI-generated or -manipulated image, audio or video content resembling real persons, objects, places, entities or events that would falsely appear authentic (AI Act Art. 3(60)). | eurlex-aiact-eli |
+| Machine-readable marking (AI content) | Marking embedded in or attached to AI output, detectable by automated means as artificially generated or manipulated, "effective, interoperable, robust and reliable as far as technically feasible" (AI Act Art. 50(2)). | eurlex-aiact-eli |
+| Content provenance (C2PA / Content Credentials) | Open specifications binding tamper-evident, cryptographically-signed origin/edit-history metadata to an asset; a best-practice (not mandated) means of meeting AI Act Art. 50(2). | c2pa |
+| Exceptional need | The bounded trigger for Data Act Chapter V: a time- and scope-limited need to use data, existing only to respond to a public emergency (Art. 15(1)(a)) or, for non-personal data, where a body cannot otherwise fulfil a public-interest task explicitly provided for by law (Art. 15(1)(b)). | eurlex-dataact |
+| Public emergency | An exceptional, time-limited situation negatively affecting the population — e.g. a public-health emergency, natural or human-induced major disaster, or major cybersecurity incident (Data Act Art. 2; Art. 15(1)(a)). | eurlex-dataact |
+| Business-to-government (B2G) data sharing | The making available of privately held data to public sector bodies, the Commission, the ECB or Union bodies on the basis of exceptional need under Data Act Chapter V — distinct from public-sector-information re-use and freedom-of-information access. | eurlex-dataact |
 
 > Terms are added as documents introduce them. Do not redefine a glossary term inconsistently in a document; if a narrower meaning is needed, state it explicitly as document-specific.

@@ -319,5 +319,19 @@ Canonical registry of authoritative sources cited across the knowledge base. Eac
 | it-dlgs-138-2024 | Decreto Legislativo 138/2024 (Italy NIS2 transposition, in force 16 Oct 2024) | Primary | Gazzetta Ufficiale / Italy | https://www.gazzettaufficiale.it/eli/id/2024/10/01/24G00155/sg |
 | acn-nis | NIS (D.Lgs 138/2024) national authority page | Regulatory | ACN (Italy) | https://www.acn.gov.it/portale/nis |
 | bsi-nis-2 | NIS-2 (NIS2UmsuCG / BSIG) implementation | Regulatory | BSI (Germany) | https://www.bsi.bund.de/dok/nis-2 |
+| eurlex-ecommerce | Directive 2000/31/EC (e-Commerce Directive) — former Arts. 12–15 safe harbours, deleted by DSA Art. 89 | Primary | EUR-Lex / EU | https://eur-lex.europa.eu/eli/dir/2000/31/oj |
+| ec-dsa-transparency-db | DSA Transparency Database (statements of reasons, Arts. 17(4)/24(5)) | Regulatory | European Commission | https://transparency.dsa.ec.europa.eu/ |
+| ec-dsa-qa | The Digital Services Act — Questions and Answers | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/faqs/digital-services-act-questions-and-answers |
+| ofcom-illegal-harms | Protecting people from illegal harms online (illegal-content codes) | Regulatory | Ofcom | https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/statement-protecting-people-from-illegal-harms-online/ |
+| edpb-rec-02-2020 | EDPB Recommendations 02/2020 (European Essential Guarantees for surveillance measures) | Regulatory | EDPB | https://www.edpb.europa.eu/our-work-tools/our-documents/recommendations/recommendations-022020-european-essential-guarantees_en |
+| edpb-rec-01-2022-bcr-c | EDPB Recommendations 1/2022 (Controller BCR — BCR-C application & referential) | Regulatory | EDPB | https://www.edpb.europa.eu/system/files/2023-06/edpb_recommendations_20221_bcr-c_v2_en.pdf |
+| ec-bcr | Binding Corporate Rules (BCR) — approval via consistency mechanism | Regulatory | European Commission | https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/binding-corporate-rules-bcr_en |
+| ec-scc | Standard Contractual Clauses (SCC) — overview | Regulatory | European Commission | https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc_en |
+| ec-scc-qa | New Standard Contractual Clauses — Questions and Answers overview | Regulatory | European Commission | https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/new-standard-contractual-clauses-questions-and-answers-overview_en |
+| ec-scc-art3-2-consultation | SCCs for third-country controllers/processors subject to GDPR (Art. 3(2)) — initiative/consultation (not yet adopted) | Regulatory | European Commission | https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14404-Standard-contractual-clauses-for-the-transfer-of-data-to-third-country-controllers-and-processors-subject-to-the-GDPR_en |
+| c2pa | C2PA — Content Provenance and Authenticity (Content Credentials) | Standard | Coalition for Content Provenance and Authenticity | https://c2pa.org/ |
+| eurlex-odd | Directive (EU) 2019/1024 (Open Data Directive) | Primary | EUR-Lex / EU | https://eur-lex.europa.eu/eli/dir/2019/1024/oj |
+| eprs-data-act | The Data Act (EPRS briefing, PE 733.681) | Regulatory | European Parliament (EPRS) | https://www.europarl.europa.eu/RegData/etudes/BRIE/2022/733681/EPRS_BRI(2022)733681_EN.pdf |
+| dataact-law-eu | EU Data Act — annotated per-article text | Further | data-act-law.eu | https://data-act-law.eu/article/15/ |
 
 > Additional sources are appended as documents cite them. Never cite a source not verified live at the citing document's `sources_verified` date.

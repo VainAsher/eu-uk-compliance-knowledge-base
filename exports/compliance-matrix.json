@@ -698,5 +698,61 @@
     "confidence": "Medium",
     "review_due": "2027-07-11",
     "path": "docs/06-ai-governance/ai-model-risk-management.md"
+  },
+  {
+    "id": "ugc-moderation",
+    "title": "DSA: Content Moderation, Notice-and-Action & Statements of Reasons",
+    "topic": "Digital Services",
+    "tier": "3",
+    "jurisdiction": "EU, UK",
+    "document_type": "reference",
+    "legal_basis": "Regulation (EU) 2022/2065",
+    "version": "1.0.0",
+    "status": "approved",
+    "confidence": "High",
+    "review_due": "2027-07-12",
+    "path": "docs/08-digital-services/ugc-moderation.md"
+  },
+  {
+    "id": "edpb-transfer-tools",
+    "title": "GDPR Transfer Tools: SCCs, BCRs & Transfer Impact Assessments",
+    "topic": "GDPR (EU)",
+    "tier": "3",
+    "jurisdiction": "EU, UK",
+    "document_type": "guidance",
+    "legal_basis": "Regulation (EU) 2016/679 (Arts. 46–47); Commission Implementing Decision (EU) 2021/914",
+    "version": "1.0.0",
+    "status": "approved",
+    "confidence": "High",
+    "review_due": "2027-07-12",
+    "path": "docs/01-gdpr/edpb-transfer-tools.md"
+  },
+  {
+    "id": "ai-act-transparency-obligations",
+    "title": "EU AI Act: Transparency Obligations (Article 50)",
+    "topic": "AI Act",
+    "tier": "2",
+    "jurisdiction": "EU",
+    "document_type": "reference",
+    "legal_basis": "Regulation (EU) 2024/1689 (Article 50; Articles 3, 99, 113; Recitals 132–137)",
+    "version": "1.0.0",
+    "status": "approved",
+    "confidence": "High",
+    "review_due": "2027-07-12",
+    "path": "docs/05-ai-act/ai-act-transparency-obligations.md"
+  },
+  {
+    "id": "data-act-b2g",
+    "title": "EU Data Act: Business-to-Government Data Sharing (Chapter V)",
+    "topic": "Data Act",
+    "tier": "2",
+    "jurisdiction": "EU",
+    "document_type": "reference",
+    "legal_basis": "Regulation (EU) 2023/2854, Chapter V (Arts. 14–22)",
+    "version": "1.0.0",
+    "status": "approved",
+    "confidence": "High",
+    "review_due": "2027-07-12",
+    "path": "docs/07-data-act/data-act-b2g.md"
   }
 ]

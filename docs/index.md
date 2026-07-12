@@ -5,9 +5,9 @@
 
 Evidence-based, source-cited compliance documents across EU & UK digital, data-protection and cybersecurity law.
 
-**50 documents** across **16 / 16 topics** — every factual claim carries a citation to a primary or authoritative source, and links, citations and structure are checked automatically in CI.
+**54 documents** across **16 / 16 topics** — every factual claim carries a citation to a primary or authoritative source, and links, citations and structure are checked automatically in CI.
 
-*Confidence: 41 High · 9 Medium.*  *Jurisdiction: EU 22 · EU, UK 22 · UK 6.*
+*Confidence: 45 High · 9 Medium.*  *Jurisdiction: EU 24 · EU, UK 24 · UK 6.*
 
 ## Tier 1 — Data-protection core
 
@@ -31,9 +31,11 @@ Evidence-based, source-cited compliance documents across EU & UK digital, data-p
 - [EU AI Act: General-Purpose AI Models & Systemic Risk](05-ai-act/ai-act-gpai.md) — *AI Act* (EU)
 - [EU AI Act: High-Risk Systems & Conformity Assessment](05-ai-act/ai-act-high-risk.md) — *AI Act* (EU)
 - [EU AI Act: Prohibited Practices (Article 5)](05-ai-act/ai-act-prohibited-practices.md) — *AI Act* (EU)
+- [EU AI Act: Transparency Obligations (Article 50)](05-ai-act/ai-act-transparency-obligations.md) — *AI Act* (EU)
 - [AI Governance: Foundations, ISO/IEC 42001 & Operational Assurance](06-ai-governance/ai-governance-foundations.md) — *AI Governance* (EU, UK)
 - [AI Governance: Implementing ISO/IEC 42001 (AI Management System)](06-ai-governance/ai-governance-iso-42001.md) — *AI Governance* (EU, UK)
 - [AI Model Risk Management & Evaluation](06-ai-governance/ai-model-risk-management.md) — *AI Governance* (EU, UK)
+- [EU Data Act: Business-to-Government Data Sharing (Chapter V)](07-data-act/data-act-b2g.md) — *Data Act* (EU)
 - [EU Data Act: Cloud Switching, Portability & Interoperability](07-data-act/data-act-cloud-switching.md) — *Data Act* (EU)
 - [EU Data Act: Foundations, Data Access & Sharing](07-data-act/data-act-foundations.md) — *Data Act* (EU)
 - [EU Digital Services Act: Foundations & Platform Obligations](08-digital-services/dsa-foundations.md) — *Digital Services* (EU)
@@ -43,12 +45,14 @@ Evidence-based, source-cited compliance documents across EU & UK digital, data-p
 
 ## Tier 3 — Security & resilience
 
+- [GDPR Transfer Tools: SCCs, BCRs & Transfer Impact Assessments](01-gdpr/edpb-transfer-tools.md) — *GDPR (EU)* (EU, UK)
 - [GDPR: Records of Processing Activities (Article 30)](01-gdpr/gdpr-ropa.md) — *GDPR (EU)* (EU, UK)
 - [Data Retention & Communications Metadata: The CJEU Case Law](03-eprivacy/data-retention-caselaw.md) — *ePrivacy* (EU, UK)
 - [UK PECR: Marketing, Cookies & Enforcement in Depth](03-eprivacy/pecr-detail.md) — *ePrivacy* (UK)
 - [Anonymisation, Pseudonymisation & Re-identification Risk](04-privacy-engineering/anonymisation-techniques.md) — *Privacy Engineering* (EU, UK)
 - [Privacy Threat Modelling (LINDDUN)](04-privacy-engineering/privacy-threat-modelling.md) — *Privacy Engineering* (EU, UK)
 - [DSA: Recommender-System Transparency & Online Advertising](08-digital-services/dsa-recommender-transparency.md) — *Digital Services* (EU)
+- [DSA: Content Moderation, Notice-and-Action & Statements of Reasons](08-digital-services/ugc-moderation.md) — *Digital Services* (EU, UK)
 - [DMA: Interoperability Obligations (Messaging & Core Platform Services)](09-digital-markets/dma-interoperability.md) — *Digital Markets* (EU)
 - [NIS2 Directive: Foundations, Scope & Cybersecurity Obligations](10-nis2/nis2-foundations.md) — *NIS2* (EU)
 - [NIS2: Significant-Incident Reporting](10-nis2/nis2-incident-reporting.md) — *NIS2* (EU)
@@ -96,9 +100,11 @@ Evidence-based, source-cited compliance documents across EU & UK digital, data-p
         ai_act_gpai["ai-act-gpai"]
         ai_act_high_risk["ai-act-high-risk"]
         ai_act_prohibited_practices["ai-act-prohibited-practices"]
+        ai_act_transparency_obligations["ai-act-transparency-obligations"]
         ai_governance_foundations["ai-governance-foundations"]
         ai_governance_iso_42001["ai-governance-iso-42001"]
         ai_model_risk_management["ai-model-risk-management"]
+        data_act_b2g["data-act-b2g"]
         data_act_cloud_switching["data-act-cloud-switching"]
         data_act_foundations["data-act-foundations"]
         digital_omnibus["digital-omnibus"]
@@ -118,6 +124,7 @@ Evidence-based, source-cited compliance documents across EU & UK digital, data-p
         dora_oversight_framework["dora-oversight-framework"]
         dora_tlpt["dora-tlpt"]
         dsa_recommender_transparency["dsa-recommender-transparency"]
+        edpb_transfer_tools["edpb-transfer-tools"]
         game_hosting_loot_boxes["game-hosting-loot-boxes"]
         gdpr_ropa["gdpr-ropa"]
         nis2_foundations["nis2-foundations"]
@@ -125,6 +132,7 @@ Evidence-based, source-cited compliance documents across EU & UK digital, data-p
         nis2_transposition_tracker["nis2-transposition-tracker"]
         pecr_detail["pecr-detail"]
         privacy_threat_modelling["privacy-threat-modelling"]
+        ugc_moderation["ugc-moderation"]
       end
       subgraph Tier4["Tier 4"]
         cloud_hosting_foundations["cloud-hosting-foundations"]
@@ -310,6 +318,26 @@ Evidence-based, source-cited compliance documents across EU & UK digital, data-p
       ai_model_risk_management -->|details| ai_act_high_risk
       ai_model_risk_management -->|details| ai_act_gpai
       ai_model_risk_management -->|details| privacy_threat_modelling
+      ugc_moderation -->|details| dsa_foundations
+      ugc_moderation -->|details| dsa_vlop_obligations
+      ugc_moderation -->|details| dsa_recommender_transparency
+      ugc_moderation -->|details| consumer_rights_foundations
+      ugc_moderation -->|details| uk_childrens_code
+      edpb_transfer_tools -->|details| gdpr_transfers
+      edpb_transfer_tools -->|details| uk_transfers
+      edpb_transfer_tools -->|details| gdpr_foundations
+      edpb_transfer_tools -->|details| cloud_shared_responsibility
+      edpb_transfer_tools -->|details| anonymisation_techniques
+      ai_act_transparency_obligations -->|details| ai_act_foundations
+      ai_act_transparency_obligations -->|details| ai_act_prohibited_practices
+      ai_act_transparency_obligations -->|details| ai_act_high_risk
+      ai_act_transparency_obligations -->|details| ai_act_gpai
+      ai_act_transparency_obligations -->|details| dsa_recommender_transparency
+      ai_act_transparency_obligations -->|details| gdpr_foundations
+      data_act_b2g -->|details| data_act_foundations
+      data_act_b2g -->|details| gdpr_foundations
+      data_act_b2g -->|details| data_act_cloud_switching
+      data_act_b2g -->|details| nis2_foundations
       uk_gdpr_foundations -->|related| eprivacy_foundations
       uk_gdpr_foundations -->|related| privacy_engineering_foundations
       eprivacy_foundations -->|related| privacy_engineering_foundations

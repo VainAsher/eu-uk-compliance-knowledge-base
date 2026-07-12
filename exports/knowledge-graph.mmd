@@ -18,9 +18,11 @@ graph LR
     ai_act_gpai["ai-act-gpai"]
     ai_act_high_risk["ai-act-high-risk"]
     ai_act_prohibited_practices["ai-act-prohibited-practices"]
+    ai_act_transparency_obligations["ai-act-transparency-obligations"]
     ai_governance_foundations["ai-governance-foundations"]
     ai_governance_iso_42001["ai-governance-iso-42001"]
     ai_model_risk_management["ai-model-risk-management"]
+    data_act_b2g["data-act-b2g"]
     data_act_cloud_switching["data-act-cloud-switching"]
     data_act_foundations["data-act-foundations"]
     digital_omnibus["digital-omnibus"]
@@ -40,6 +42,7 @@ graph LR
     dora_oversight_framework["dora-oversight-framework"]
     dora_tlpt["dora-tlpt"]
     dsa_recommender_transparency["dsa-recommender-transparency"]
+    edpb_transfer_tools["edpb-transfer-tools"]
     game_hosting_loot_boxes["game-hosting-loot-boxes"]
     gdpr_ropa["gdpr-ropa"]
     nis2_foundations["nis2-foundations"]
@@ -47,6 +50,7 @@ graph LR
     nis2_transposition_tracker["nis2-transposition-tracker"]
     pecr_detail["pecr-detail"]
     privacy_threat_modelling["privacy-threat-modelling"]
+    ugc_moderation["ugc-moderation"]
   end
   subgraph Tier4["Tier 4"]
     cloud_hosting_foundations["cloud-hosting-foundations"]
@@ -232,6 +236,26 @@ graph LR
   ai_model_risk_management -->|details| ai_act_high_risk
   ai_model_risk_management -->|details| ai_act_gpai
   ai_model_risk_management -->|details| privacy_threat_modelling
+  ugc_moderation -->|details| dsa_foundations
+  ugc_moderation -->|details| dsa_vlop_obligations
+  ugc_moderation -->|details| dsa_recommender_transparency
+  ugc_moderation -->|details| consumer_rights_foundations
+  ugc_moderation -->|details| uk_childrens_code
+  edpb_transfer_tools -->|details| gdpr_transfers
+  edpb_transfer_tools -->|details| uk_transfers
+  edpb_transfer_tools -->|details| gdpr_foundations
+  edpb_transfer_tools -->|details| cloud_shared_responsibility
+  edpb_transfer_tools -->|details| anonymisation_techniques
+  ai_act_transparency_obligations -->|details| ai_act_foundations
+  ai_act_transparency_obligations -->|details| ai_act_prohibited_practices
+  ai_act_transparency_obligations -->|details| ai_act_high_risk
+  ai_act_transparency_obligations -->|details| ai_act_gpai
+  ai_act_transparency_obligations -->|details| dsa_recommender_transparency
+  ai_act_transparency_obligations -->|details| gdpr_foundations
+  data_act_b2g -->|details| data_act_foundations
+  data_act_b2g -->|details| gdpr_foundations
+  data_act_b2g -->|details| data_act_cloud_switching
+  data_act_b2g -->|details| nis2_foundations
   uk_gdpr_foundations -->|related| eprivacy_foundations
   uk_gdpr_foundations -->|related| privacy_engineering_foundations
   eprivacy_foundations -->|related| privacy_engineering_foundations

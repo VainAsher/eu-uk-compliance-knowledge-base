@@ -60,9 +60,11 @@ nav:
       - "EU AI Act: General-Purpose AI Models & Systemic Risk": 05-ai-act/ai-act-gpai.md
       - "EU AI Act: High-Risk Systems & Conformity Assessment": 05-ai-act/ai-act-high-risk.md
       - "EU AI Act: Prohibited Practices (Article 5)": 05-ai-act/ai-act-prohibited-practices.md
+      - "EU AI Act: Transparency Obligations (Article 50)": 05-ai-act/ai-act-transparency-obligations.md
       - "AI Governance: Foundations, ISO/IEC 42001 & Operational Assurance": 06-ai-governance/ai-governance-foundations.md
       - "AI Governance: Implementing ISO/IEC 42001 (AI Management System)": 06-ai-governance/ai-governance-iso-42001.md
       - "AI Model Risk Management & Evaluation": 06-ai-governance/ai-model-risk-management.md
+      - "EU Data Act: Business-to-Government Data Sharing (Chapter V)": 07-data-act/data-act-b2g.md
       - "EU Data Act: Cloud Switching, Portability & Interoperability": 07-data-act/data-act-cloud-switching.md
       - "EU Data Act: Foundations, Data Access & Sharing": 07-data-act/data-act-foundations.md
       - "EU Digital Services Act: Foundations & Platform Obligations": 08-digital-services/dsa-foundations.md
@@ -70,12 +72,14 @@ nav:
       - "EU Digital Markets Act: Foundations & Gatekeeper Obligations": 09-digital-markets/dma-foundations.md
       - "EU Digital Markets Act: Gatekeeper Obligations in Depth": 09-digital-markets/dma-obligations.md
   - "Tier 3 — Security & resilience":
+      - "GDPR Transfer Tools: SCCs, BCRs & Transfer Impact Assessments": 01-gdpr/edpb-transfer-tools.md
       - "GDPR: Records of Processing Activities (Article 30)": 01-gdpr/gdpr-ropa.md
       - "Data Retention & Communications Metadata: The CJEU Case Law": 03-eprivacy/data-retention-caselaw.md
       - "UK PECR: Marketing, Cookies & Enforcement in Depth": 03-eprivacy/pecr-detail.md
       - "Anonymisation, Pseudonymisation & Re-identification Risk": 04-privacy-engineering/anonymisation-techniques.md
       - "Privacy Threat Modelling (LINDDUN)": 04-privacy-engineering/privacy-threat-modelling.md
       - "DSA: Recommender-System Transparency & Online Advertising": 08-digital-services/dsa-recommender-transparency.md
+      - "DSA: Content Moderation, Notice-and-Action & Statements of Reasons": 08-digital-services/ugc-moderation.md
       - "DMA: Interoperability Obligations (Messaging & Core Platform Services)": 09-digital-markets/dma-interoperability.md
       - "NIS2 Directive: Foundations, Scope & Cybersecurity Obligations": 10-nis2/nis2-foundations.md
       - "NIS2: Significant-Incident Reporting": 10-nis2/nis2-incident-reporting.md

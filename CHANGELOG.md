@@ -6,6 +6,21 @@ All notable changes to this repository. Format based on [Keep a Changelog](https
 
 *Nothing yet.*
 
+## [0.18.0] — 2026-07-12
+
+### Added (backlog loop — Cluster D, residual list; autonomous, workers self-ran all QA gates; auto-frozen on clean QA + orchestrator link re-verification)
+
+- `docs/08-digital-services/ugc-moderation.md` — DSA content moderation: notice-and-action (Art. 16), statements of reasons (Art. 17) + Transparency Database, redress ladder (Arts. 20–21), trusted flaggers (Art. 22), safe harbour / no-general-monitoring (Arts. 6–8, ex e-Commerce Directive); UK OSA contrast.
+- `docs/01-gdpr/edpb-transfer-tools.md` — the Art. 46 toolbox: 2021 SCC modules + docking clause, BCR content/approval (Art. 47), the six-step TIA and supplementary measures (EDPB Rec 01/2020) + European Essential Guarantees (Rec 02/2020); UK IDTA/Addendum. Scoped not to duplicate `gdpr-transfers`/`uk-transfers`.
+- `docs/05-ai-act/ai-act-transparency-obligations.md` — AI Act Art. 50 (chatbot disclosure, synthetic-content marking, emotion-recognition/biometric-categorisation notice, deepfake disclosure); provider/deployer split; result-based marking (C2PA best-practice, not mandated); base date 2 Aug 2026 with post-Omnibus transitional nuance flagged.
+- `docs/07-data-act/data-act-b2g.md` — Data Act Chapter V (Arts. 14–22): B2G data sharing on exceptional need; public-emergency vs non-emergency limbs; micro/small carve-out (non-emergency only); exclusions (Art. 16); compensation (Art. 20); GDPR still applies.
+
+### Changed
+
+- `SOURCE_REGISTRY.md` — added 14 sources (e-Commerce Directive; DSA Transparency Database; EDPB Rec 02/2020 & Rec 1/2022 BCR-C; Commission SCC/BCR pages + Art. 3(2) SCC consultation; C2PA; Open Data Directive; EPRS Data Act briefing).
+- `GLOSSARY.md` — added 17 terms across DSA moderation, GDPR transfer tools, AI Act Art. 50, and Data Act B2G.
+- `MASTER_INDEX.md` — 4 catalogue rows, topic-coverage counts, and knowledge-graph edges for Cluster D.
+
 ## [0.17.0] — 2026-07-12
 
 ### Added (backlog loop — Cluster C; autonomous, workers self-ran all QA gates; auto-frozen on clean QA + orchestrator link re-verification)
