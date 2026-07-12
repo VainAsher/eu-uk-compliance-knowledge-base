@@ -2,7 +2,7 @@
 
 Catalogue of all knowledge-base documents. Updated by the Repository Maintainer after every approved document.
 
-**Last updated:** 2026-07-11 — 38 documents approved (16 foundations + 22 depth sub-topics; releases through 0.15.0). Public site auto-deploys via GitHub Pages.
+**Last updated:** 2026-07-12 — 50 documents approved (16 foundations + 34 depth sub-topics; releases through 0.17.0). Public site auto-deploys via GitHub Pages.
 
 ## Legend
 
@@ -57,6 +57,12 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 | dora-oversight-framework | DORA: Union Oversight Framework for Critical ICT Third-Party Providers | DORA | 3 | EU | 1.0.0 | approved | High | `docs/11-dora/dora-oversight-framework.md` |
 | cra-conformity-assessment | EU Cyber Resilience Act: Conformity Assessment & CE Marking | Cybersecurity | 3 | EU | 1.0.0 | approved | High | `docs/12-cybersecurity/cra-conformity-assessment.md` |
 | game-hosting-loot-boxes | Game Hosting: Loot Boxes & In-Game Monetisation | Game Hosting | 3 | EU, UK | 1.0.0 | approved | Medium | `docs/15-game-hosting/game-hosting-loot-boxes.md` |
+| anonymisation-techniques | Anonymisation, Pseudonymisation & Re-identification Risk | Privacy Engineering | 3 | EU, UK | 1.0.0 | approved | High | `docs/04-privacy-engineering/anonymisation-techniques.md` |
+| data-retention-caselaw | Data Retention & Communications Metadata: The CJEU Case Law | ePrivacy | 3 | EU, UK | 1.0.0 | approved | High | `docs/03-eprivacy/data-retention-caselaw.md` |
+| dsa-recommender-transparency | DSA: Recommender-System Transparency & Online Advertising | Digital Services | 3 | EU | 1.0.0 | approved | High | `docs/08-digital-services/dsa-recommender-transparency.md` |
+| dma-interoperability | DMA: Interoperability Obligations (Messaging & Core Platform Services) | Digital Markets | 3 | EU | 1.0.0 | approved | High | `docs/09-digital-markets/dma-interoperability.md` |
+| nis2-transposition-tracker | NIS2: National Transposition Tracker & Divergence | NIS2 | 3 | EU | 1.0.0 | approved | Medium | `docs/10-nis2/nis2-transposition-tracker.md` |
+| ai-model-risk-management | AI Model Risk Management & Evaluation | AI Governance | 2 | EU, UK | 1.0.0 | approved | Medium | `docs/06-ai-governance/ai-model-risk-management.md` |
 
 ## Topic coverage (16 programme topics)
 
@@ -66,14 +72,14 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 | UK GDPR | 4 | 4 approved (foundations, DUAA detail, transfers, children's code) |
 | AI Act | 4 | 4 approved (foundations, high-risk, gpai, prohibited practices) |
 | Data Act | 2 | 2 approved (foundations, cloud switching) |
-| NIS2 | 2 | 2 approved (foundations, incident reporting) |
+| NIS2 | 3 | 3 approved (foundations, incident reporting, transposition tracker) |
 | DORA | 3 | 3 approved (foundations, TLPT, oversight framework) |
-| ePrivacy | 4 | 4 approved (foundations, cookies, digital-omnibus, PECR detail) |
+| ePrivacy | 5 | 5 approved (foundations, cookies, digital-omnibus, PECR detail, retention case law) |
 | Consumer Rights | 2 | 2 approved (foundations, DMCCA subscriptions) |
-| Digital Services | 2 | 2 approved (foundations, VLOP obligations) |
-| Digital Markets | 2 | 2 approved (foundations, obligations) |
-| AI Governance | 2 | 2 approved (foundations, ISO 42001) |
-| Privacy Engineering | 4 | 4 approved (foundations, DPIA, PETs catalogue, threat modelling) |
+| Digital Services | 3 | 3 approved (foundations, VLOP obligations, recommender transparency) |
+| Digital Markets | 3 | 3 approved (foundations, obligations, interoperability) |
+| AI Governance | 3 | 3 approved (foundations, ISO 42001, model risk management) |
+| Privacy Engineering | 5 | 5 approved (foundations, DPIA, PETs catalogue, threat modelling, anonymisation) |
 | Cloud Hosting | 2 | 2 approved (foundations, shared responsibility) |
 | Game Hosting | 2 | 2 approved (foundations, loot boxes) |
 | Cybersecurity | 3 | 3 approved (foundations, CRA, CRA conformity assessment) |
@@ -91,9 +97,9 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 - `uk-gdpr-foundations` → *detailed by* → `duaa-2025-detail`, `uk-transfers` (approved), `uk-childrens-code` (approved)
 - `eprivacy-foundations` → *lex specialis to* → `gdpr-foundations`
 - `eprivacy-foundations` → *transposed in UK via PECR, relates to* → `uk-gdpr-foundations`
-- `eprivacy-foundations` → *detailed by* → `cookie-consent-implementation`, `digital-omnibus`, `pecr-detail` (approved); `data-retention-caselaw` (planned)
+- `eprivacy-foundations` → *detailed by* → `cookie-consent-implementation`, `digital-omnibus`, `pecr-detail`, `data-retention-caselaw` (approved)
 - `privacy-engineering-foundations` → *implements* → `gdpr-foundations`, `uk-gdpr-foundations`, `eprivacy-foundations`
-- `privacy-engineering-foundations` → *detailed by* → `dpia-methodology`, `pets-catalogue`, `privacy-threat-modelling` (approved); `anonymisation-techniques` (planned)
+- `privacy-engineering-foundations` → *detailed by* → `dpia-methodology`, `pets-catalogue`, `privacy-threat-modelling`, `anonymisation-techniques` (approved)
 - `ai-act-foundations` → *operates alongside* → `gdpr-foundations`
 - `ai-act-foundations` → *operationalised by* → `ai-governance-foundations`
 - `ai-act-foundations` → *detailed by* → `ai-act-high-risk`, `ai-act-gpai`, `digital-omnibus` (approved); `ai-act-prohibited-practices` (approved)
@@ -137,3 +143,9 @@ Confidence: evidence sufficiency — `High` · `Medium` · `Low`
 - `dora-oversight-framework` → *details* → `dora-foundations` (Arts. 31–44, CTPP oversight); *relates to* → `nis2-foundations`, `cloud-shared-responsibility`
 - `cra-conformity-assessment` → *details* → `cyber-resilience-act` (Arts. 32/Annex VIII modules), `cybersecurity-foundations`; *complements* → `ai-act-high-risk` (Art. 43 interplay)
 - `game-hosting-loot-boxes` → *details* → `game-hosting-foundations`; *relates to* → `consumer-rights-foundations` (dark patterns/DMCCA), `dsa-foundations`, `uk-childrens-code`
+- `anonymisation-techniques` → *details* → `privacy-engineering-foundations`; *sibling of* → `pets-catalogue`; *feeds* → `dpia-methodology`; *implements* → `gdpr-foundations` (Art. 4(1)/(5), Recital 26); *supports* → `gdpr-transfers`
+- `data-retention-caselaw` → *details* → `eprivacy-foundations` (Art. 15 line); *sibling of* → `pecr-detail`; *relates to* → `gdpr-foundations` (Charter Arts. 7/8/11); *diverges under UK law via* → `uk-gdpr-foundations` (IPA 2016)
+- `dsa-recommender-transparency` → *details* → `dsa-foundations` (Arts. 25–28), `dsa-vlop-obligations` (Arts. 38–40); *overlaps* → `gdpr-foundations` (profiling), `ai-act-foundations`; *parallel to* → `uk-childrens-code`
+- `dma-interoperability` → *details* → `dma-obligations` (Arts. 6(7) & 7), `dma-foundations`; *sibling of* → `dsa-foundations`; *relies on* → `gdpr-foundations` (data minimisation); *relates to* → `cybersecurity-foundations` (E2EE, Art. 7(3))
+- `nis2-transposition-tracker` → *details* → `nis2-foundations` (Art. 41); *complements* → `nis2-incident-reporting`; *contrasts with* → `dora-foundations` (Regulation vs Directive); *relates to* → `cybersecurity-foundations`
+- `ai-model-risk-management` → *details* → `ai-governance-foundations`; *populates* → `ai-governance-iso-42001`; *operationalises* → `ai-act-foundations`; *satisfies* → `ai-act-high-risk` (Arts. 9 & 15), `ai-act-gpai` (Art. 55); *complements* → `privacy-threat-modelling`

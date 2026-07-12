@@ -4,7 +4,7 @@ Shared, authoritative definitions of terms of art used across the knowledge base
 
 **Convention:** Each term cites its authoritative source. Where a term is defined in legislation, the statutory definition governs. Keys in the *Source* column reference `SOURCE_REGISTRY.md`.
 
-**Last updated:** 2026-07-11 (backlog Cluster B: added LINDDUN, Lead Overseer, CE marking, simplified EU declaration of conformity, soft opt-in. Earlier batches recorded in git history.)
+**Last updated:** 2026-07-12 (backlog Cluster C: added anonymisation/re-identification family, DMA interoperability terms, data-retention doctrine, DSA recommender/profiling terms, AI model-risk-management vocabulary, and NIS2 transposition terms. Earlier batches recorded in git history.)
 
 | Term | Definition | Source |
 |------|------------|--------|
@@ -118,6 +118,39 @@ Shared, authoritative definitions of terms of art used across the knowledge base
 | Lead Overseer | The ESA (EBA, ESMA or EIOPA) appointed under DORA Art. 31(1)(b) to conduct oversight of a designated Critical ICT Third-Party Provider. | eurlex-dora |
 | CE marking | The mark by which a manufacturer declares a product conforms to all applicable EU harmonisation legislation, including (from 11 Dec 2027) the Cyber Resilience Act (Arts. 29–30). | eurlex-cra |
 | Simplified EU declaration of conformity | The abbreviated conformity declaration permitted under CRA Art. 13(20), following the model in Annex VI, giving an internet address for the full declaration. | eurlex-cra |
-| Soft opt-in | The PECR exception (reg. 22(3)) allowing electronic marketing to existing customers about similar products without prior consent, where an opt-out was offered at collection and in every message. | uk-pecr |
+| Soft opt-in | The PECR exception (reg. 22(3)) allowing electronic marketing to existing customers about similar products without prior consent, where an opt-out was offered at collection and in every message. | uk-pecr-2003 |
+| Anonymisation | Rendering personal data such that the subject is no longer identifiable by any means reasonably likely to be used, so the data falls outside the GDPR (Recital 26). Contrast pseudonymisation. | eurlex-gdpr / wp216-anonymisation |
+| Re-identification | Restoring the link between a de-identified record and the individual it concerns, defeating anonymisation. | wp216-anonymisation |
+| Singling out | The ability to isolate records that identify an individual within a dataset (WP216 re-identification risk). | wp216-anonymisation |
+| Linkability | The ability to link at least two records concerning the same individual, within or across datasets (WP216). | wp216-anonymisation |
+| Inference (attack) | The ability to deduce, with significant probability, an attribute's value from other values in a dataset (WP216). | wp216-anonymisation |
+| Motivated intruder test | The ICO benchmark: whether a reasonably competent, motivated person, without specialist skills or unlawful means, could re-identify individuals in a dataset. | ico-anonymisation-intro |
+| Quasi-identifier | An attribute that, alone or combined with others, can single out an individual (e.g. postcode + date of birth + sex). | sweeney-k-anonymity / iso-20889 |
+| Relative (contextual) identifiability | The principle that identifiability is judged by the means reasonably likely to be used by the specific party holding the data; the same data may be personal for one party and anonymous for another (Breyer; EDPS v SRB). | eurlex-gdpr / case-breyer / case-edps-srb |
+| Pseudonymisation domain | The EDPB concept (Guidelines 01/2025) of the context in which pseudonymisation precludes attribution and from which attribution-enabling additional information is excluded. | edpb-guidelines-01-2025 |
+| l-diversity | A strengthening of k-anonymity requiring each equivalence class to hold at least l well-represented sensitive values, resisting attribute inference. | machanavajjhala-l-diversity |
+| t-closeness | A strengthening requiring each class's sensitive-attribute distribution to stay within distance t of the overall distribution. | li-t-closeness |
+| Number-independent interpersonal communications service (NIICS) | An interpersonal communications service that does not connect with the public switched telephone network (e.g. many messaging apps); the DMA core platform service subject to the Art. 7 messaging-interoperability duty. | eurlex-dma |
+| Reference offer (DMA) | The published statement of technical details and general terms under which a NIICS gatekeeper provides messaging interoperability, including security/encryption details (DMA Art. 7(4)). | eurlex-dma |
+| End-to-end encryption (E2EE) | Encryption in which only the communicating end users can read message content; DMA Art. 7(3) requires the security level, including E2EE where the gatekeeper provides it, to be preserved across interoperable services. | rfc-9420 / eurlex-dma |
+| Communications metadata | Traffic and location data (and associated subscriber data) processed in connection with an electronic communication — the who/when/where/how, as distinct from content. | eurlex-eprivacy-consolidated |
+| General and indiscriminate retention | A retention obligation covering, in a generalised way, the traffic/location data of all users without differentiation; precluded by Art. 15(1)/Charter save for a genuine serious national-security threat. | case-tele2-watson |
+| Targeted retention | Retention limited by categories of persons or geographical criteria, on objective and non-discriminatory factors, to what is strictly necessary. | case-lqdn-2020 |
+| Expedited retention ("quick freeze") | An order requiring providers to preserve data already held, for a limited period, for specific persons in a particular investigation. | case-lqdn-2020 |
+| Prior independent review (data access) | Review of a metadata-access request, before access, by a court or an independent administrative body not involved in the investigation (a prosecutor directing the case is insufficient). | case-prokuratuur |
+| Recommender system | A fully or partially automated system an online platform uses to suggest, prioritise or rank information in its interface (DSA Art. 3(s)). | eurlex-dsa |
+| Main parameters (recommender) | The criteria most significant in determining what a recommender suggests, and the reasons for their relative importance; the core of the DSA Art. 27 disclosure. | eurlex-dsa |
+| Non-profiling recommender option | A recommender configuration not based on profiling (GDPR Art. 4(4)) that each VLOP/VLOSE must offer under DSA Art. 38. | eurlex-dsa / eurlex-gdpr |
+| Profiling | Automated processing of personal data to evaluate or predict personal aspects of a person (GDPR Art. 4(4)); imported by DSA Arts. 26(3), 28 and 38. | eurlex-gdpr |
+| Model risk | Potential for adverse consequences from decisions based on incorrect or misused model outputs; arises from fundamental errors and from use outside intended purpose. | fed-sr-11-7 / pra-ss1-23 |
+| Model risk management (MRM) | Governance, policies, controls and lifecycle processes to identify, measure, monitor and mitigate model risk. | fed-sr-11-7 / pra-ss1-23 |
+| Effective challenge | Critical analysis by objective, competent parties independent of development, with authority and incentive to identify limitations and require change. | fed-sr-11-7 |
+| Model validation | Processes verifying a model works as intended: conceptual-soundness evaluation, ongoing monitoring, and outcomes analysis/back-testing. | fed-sr-11-7 |
+| Red-teaming (AI) | Structured adversarial testing to elicit harmful or policy-violating behaviour, performed manually and via automated/model-generated inputs. | perez-red-teaming |
+| Adversarial robustness | Resilience to inputs crafted to cause failure or manipulation — data/model poisoning, evasion, and model-confidentiality/extraction attacks. | eurlex-aiact-eli |
+| Model card | A standardised document stating a model's intended use, evaluation data, metrics, disaggregated performance and limitations. | mitchell-model-cards |
+| Dangerous-capability evaluation | An evaluation detecting whether a (frontier) model has capabilities or propensities enabling large-scale harm (cyber, CBRN uplift, deception). | shevlane-extreme-risks |
+| Transposition | The process by which a Member State gives effect to an EU Directive in national law; under NIS2 Art. 41, measures had to be adopted/published by 17 Oct 2024 and applied from 18 Oct 2024. | eurlex-nis2 |
+| Reasoned opinion | Second stage of an EU infringement procedure (Art. 258 TFEU): a formal Commission statement of the alleged breach requiring compliance within a set period or referral to the CJEU. | ec-nis2-19ms-reasoned |
 
 > Terms are added as documents introduce them. Do not redefine a glossary term inconsistently in a document; if a narrower meaning is needed, state it explicitly as document-specific.

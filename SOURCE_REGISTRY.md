@@ -277,5 +277,47 @@ Canonical registry of authoritative sources cited across the knowledge base. Eac
 | csa-ccm | CSA Cloud Controls Matrix (CCM) | Standard | Cloud Security Alliance | https://cloudsecurityalliance.org/research/cloud-controls-matrix |
 | aicpa-soc2 | SOC 2 — Trust Services Criteria (service-org attestation) | Standard | AICPA & CIMA | https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2 |
 | linddun | LINDDUN privacy threat-modelling methodology (GO / PRO / MAESTRO) | Academic | imec-DistriNet, KU Leuven | https://linddun.org/ |
+| ec-dma-imessage-closed-2024 | Commission closes market investigations on Microsoft's and Apple's services under the DMA (13 Feb 2024) | Regulatory | European Commission | https://digital-markets-act.ec.europa.eu/commission-closes-market-investigations-microsofts-and-apples-services-under-digital-markets-act-2024-02-13_en |
+| rfc-9420 | RFC 9420 — The Messaging Layer Security (MLS) Protocol (Jul 2023) | Standard | IETF | https://www.rfc-editor.org/rfc/rfc9420 |
+| ietf-mimi | More Instant Messaging Interoperability (MIMI) working group | Standard | IETF | https://datatracker.ietf.org/wg/mimi/about/ |
+| case-edps-srb | EDPS v SRB, C-413/23 P (CJEU, 4 Sep 2025 — relative approach to pseudonymised data) | Primary | CJEU | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62023CJ0413 |
+| wp216-anonymisation | Opinion 05/2014 on Anonymisation Techniques (WP216) | Regulatory | Art. 29 WP (EDPB-endorsed) | https://ec.europa.eu/justice/article-29/documentation/opinion-recommendation/files/2014/wp216_en.pdf |
+| edpb-guidelines-01-2025 | Guidelines 01/2025 on Pseudonymisation (adopted 16 Jan 2025) | Regulatory | EDPB | https://www.edpb.europa.eu/system/files/2025-01/edpb_guidelines_202501_pseudonymisation_en.pdf |
+| nist-sp-800-188 | NIST SP 800-188 — De-Identifying Government Datasets (final, Sep 2023) | Standard | NIST | https://csrc.nist.gov/pubs/sp/800/188/final |
+| ico-what-is-personal-data | What is personal data? (identifiability; means reasonably likely to be used) | Regulatory | ICO (UK) | https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/personal-information-what-is-it/what-is-personal-data/what-is-personal-data/ |
+| eu-charter | Charter of Fundamental Rights of the EU (Arts. 7, 8, 11, 52) | Primary | EUR-Lex / EU | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12012P/TXT |
+| eurlex-drd-2006-24 | Directive 2006/24/EC (Data Retention Directive; invalidated) | Primary | EUR-Lex / EU | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0024 |
+| case-digital-rights-ireland | Digital Rights Ireland, C-293/12 & C-594/12, ECLI:EU:C:2014:238 | Primary | CJEU | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62012CJ0293 |
+| case-tele2-watson | Tele2 Sverige/Watson, C-203/15 & C-698/15, ECLI:EU:C:2016:970 | Primary | CJEU | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62015CJ0203 |
+| case-ministerio-fiscal | Ministerio Fiscal, C-207/16, ECLI:EU:C:2018:788 | Primary | CJEU | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62016CJ0207 |
+| case-lqdn-2020 | La Quadrature du Net, C-511/18, C-512/18 & C-520/18, ECLI:EU:C:2020:791 | Primary | CJEU | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62018CJ0511 |
+| case-privacy-international | Privacy International, C-623/17, ECLI:EU:C:2020:790 | Primary | CJEU | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62017CJ0623 |
+| case-prokuratuur | Prokuratuur (H. K.), C-746/18, ECLI:EU:C:2021:152 | Primary | CJEU | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62018CJ0746 |
+| case-garda-siochana | Commissioner of An Garda Síochána (G. D.), C-140/20, ECLI:EU:C:2022:258 | Primary | CJEU | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62020CJ0140 |
+| case-spacenet | SpaceNet & Telekom Deutschland, C-793/19 & C-794/19, ECLI:EU:C:2022:702 | Primary | CJEU | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62019CJ0793 |
+| case-vd-sr | VD & SR, C-339/20 & C-397/20, ECLI:EU:C:2022:703 | Primary | CJEU | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62020CJ0339 |
+| case-lqdn-2024 | La Quadrature du Net II (IP addresses), C-470/21, ECLI:EU:C:2024:370 | Primary | CJEU | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62021CJ0470 |
+| uk-ipa-2016 | Investigatory Powers Act 2016 (c.25) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/ukpga/2016/25/contents |
+| uk-drar-2018 | Data Retention and Acquisition Regulations 2018 (SI 2018/1123) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/uksi/2018/1123/contents |
+| uk-dripa-2014 | Data Retention and Investigatory Powers Act 2014 (c.27) | Primary | legislation.gov.uk | https://www.legislation.gov.uk/ukpga/2014/27/contents |
+| ho-comms-data-code | Communications Data Code of Practice (IPA 2016 Part 3) | Regulatory | Home Office / GOV.UK | https://www.gov.uk/government/publications/communications-data-code-of-practice |
+| ec-dsa-tiktok-proceedings | Commission opens formal proceedings against TikTok under the DSA (19 Feb 2024) | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/news/commission-opens-formal-proceedings-against-tiktok-under-digital-services-act |
+| ec-dsa-tiktok-addictive | Commission preliminarily finds TikTok's addictive design in breach of the DSA (6 Feb 2026) | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-addictive-design-breach-digital-services-act |
+| ec-dsa-meta-minors-proceedings | Commission opens formal proceedings against Meta — protection of minors (IP/24/2664, 16 May 2024) | Regulatory | European Commission | https://ec.europa.eu/commission/presscorner/detail/en/ip_24_2664 |
+| ec-dsa-meta-addictive | Commission preliminarily finds Meta's addictive design in breach of the DSA (IP/26/1579, 10 Jul 2026) | Regulatory | European Commission | https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1579 |
+| ec-dsa-minors-guidelines | Guidelines on the protection of minors online (DSA Art. 28(1), 14 Jul 2025) | Regulatory | European Commission | https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-protection-minors |
+| pra-ss1-23 | PRA Supervisory Statement SS1/23 — Model risk management principles for banks (May 2023) | Regulatory | Bank of England / PRA | https://www.bankofengland.co.uk/prudential-regulation/publication/2023/may/model-risk-management-principles-for-banks-ss |
+| fed-sr-11-7 | SR 11-7 — Supervisory Guidance on Model Risk Management (4 Apr 2011) | Regulatory | US Federal Reserve / OCC | https://www.federalreserve.gov/boarddocs/srletters/2011/sr1107a1.pdf |
+| fed-sr-26-2 | SR 26-2 — Revised Guidance on Model Risk Management (17 Apr 2026; supersedes SR 11-7 & SR 21-8) | Regulatory | US Federal Reserve / OCC / FDIC | https://www.federalreserve.gov/supervisionreg/srletters/sr2602.htm |
+| uk-aisi | AI Security Institute (frontier-model evaluation; formerly AI Safety Institute) | Regulatory | UK Government (AISI) | https://www.aisi.gov.uk/ |
+| aisi-inspect | Inspect — open-source LLM evaluation framework | Standard | UK AI Security Institute | https://inspect.aisi.org.uk/ |
+| mitchell-model-cards | Mitchell et al., "Model Cards for Model Reporting" (FAT* 2019) | Academic | arXiv | https://arxiv.org/abs/1810.03993 |
+| shevlane-extreme-risks | Shevlane et al., "Model evaluation for extreme risks" (2023) | Academic | arXiv | https://arxiv.org/abs/2305.15324 |
+| liang-helm | Liang et al., "Holistic Evaluation of Language Models (HELM)" (2022) | Academic | arXiv | https://arxiv.org/abs/2211.09110 |
+| perez-red-teaming | Perez et al., "Red Teaming Language Models with Language Models" (EMNLP 2022) | Academic | arXiv | https://arxiv.org/abs/2202.03286 |
+| weidinger-sociotechnical | Weidinger et al., "Sociotechnical Safety Evaluation of Generative AI Systems" (2023) | Academic | arXiv | https://arxiv.org/abs/2310.11986 |
+| it-dlgs-138-2024 | Decreto Legislativo 138/2024 (Italy NIS2 transposition, in force 16 Oct 2024) | Primary | Gazzetta Ufficiale / Italy | https://www.gazzettaufficiale.it/eli/id/2024/10/01/24G00155/sg |
+| acn-nis | NIS (D.Lgs 138/2024) national authority page | Regulatory | ACN (Italy) | https://www.acn.gov.it/portale/nis |
+| bsi-nis-2 | NIS-2 (NIS2UmsuCG / BSIG) implementation | Regulatory | BSI (Germany) | https://www.bsi.bund.de/dok/nis-2 |
 
 > Additional sources are appended as documents cite them. Never cite a source not verified live at the citing document's `sources_verified` date.

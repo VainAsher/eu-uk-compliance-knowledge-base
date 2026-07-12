@@ -20,6 +20,7 @@ graph LR
     ai_act_prohibited_practices["ai-act-prohibited-practices"]
     ai_governance_foundations["ai-governance-foundations"]
     ai_governance_iso_42001["ai-governance-iso-42001"]
+    ai_model_risk_management["ai-model-risk-management"]
     data_act_cloud_switching["data-act-cloud-switching"]
     data_act_foundations["data-act-foundations"]
     digital_omnibus["digital-omnibus"]
@@ -29,16 +30,21 @@ graph LR
     dsa_vlop_obligations["dsa-vlop-obligations"]
   end
   subgraph Tier3["Tier 3"]
+    anonymisation_techniques["anonymisation-techniques"]
     cra_conformity_assessment["cra-conformity-assessment"]
     cyber_resilience_act["cyber-resilience-act"]
     cybersecurity_foundations["cybersecurity-foundations"]
+    data_retention_caselaw["data-retention-caselaw"]
+    dma_interoperability["dma-interoperability"]
     dora_foundations["dora-foundations"]
     dora_oversight_framework["dora-oversight-framework"]
     dora_tlpt["dora-tlpt"]
+    dsa_recommender_transparency["dsa-recommender-transparency"]
     game_hosting_loot_boxes["game-hosting-loot-boxes"]
     gdpr_ropa["gdpr-ropa"]
     nis2_foundations["nis2-foundations"]
     nis2_incident_reporting["nis2-incident-reporting"]
+    nis2_transposition_tracker["nis2-transposition-tracker"]
     pecr_detail["pecr-detail"]
     privacy_threat_modelling["privacy-threat-modelling"]
   end
@@ -64,16 +70,14 @@ graph LR
   eprivacy_foundations -->|detailed by| cookie_consent_implementation
   eprivacy_foundations -->|detailed by| digital_omnibus
   eprivacy_foundations -->|detailed by| pecr_detail
-  data_retention_caselaw(["data-retention-caselaw<br/>(planned)"])
-  eprivacy_foundations -.->|detailed by| data_retention_caselaw
+  eprivacy_foundations -->|detailed by| data_retention_caselaw
   privacy_engineering_foundations -->|implements| gdpr_foundations
   privacy_engineering_foundations -->|implements| uk_gdpr_foundations
   privacy_engineering_foundations -->|implements| eprivacy_foundations
   privacy_engineering_foundations -->|detailed by| dpia_methodology
   privacy_engineering_foundations -->|detailed by| pets_catalogue
   privacy_engineering_foundations -->|detailed by| privacy_threat_modelling
-  anonymisation_techniques(["anonymisation-techniques<br/>(planned)"])
-  privacy_engineering_foundations -.->|detailed by| anonymisation_techniques
+  privacy_engineering_foundations -->|detailed by| anonymisation_techniques
   ai_act_foundations -->|operates alongside| gdpr_foundations
   ai_act_foundations -->|operationalised by| ai_governance_foundations
   ai_act_foundations -->|detailed by| ai_act_high_risk
@@ -199,6 +203,35 @@ graph LR
   game_hosting_loot_boxes -->|details| consumer_rights_foundations
   game_hosting_loot_boxes -->|details| dsa_foundations
   game_hosting_loot_boxes -->|details| uk_childrens_code
+  anonymisation_techniques -->|details| privacy_engineering_foundations
+  anonymisation_techniques -->|details| pets_catalogue
+  anonymisation_techniques -->|details| dpia_methodology
+  anonymisation_techniques -->|details| gdpr_foundations
+  anonymisation_techniques -->|details| gdpr_transfers
+  data_retention_caselaw -->|details| eprivacy_foundations
+  data_retention_caselaw -->|details| pecr_detail
+  data_retention_caselaw -->|details| gdpr_foundations
+  data_retention_caselaw -->|details| uk_gdpr_foundations
+  dsa_recommender_transparency -->|details| dsa_foundations
+  dsa_recommender_transparency -->|details| dsa_vlop_obligations
+  dsa_recommender_transparency -->|details| gdpr_foundations
+  dsa_recommender_transparency -->|details| ai_act_foundations
+  dsa_recommender_transparency -->|details| uk_childrens_code
+  dma_interoperability -->|details| dma_obligations
+  dma_interoperability -->|details| dma_foundations
+  dma_interoperability -->|details| dsa_foundations
+  dma_interoperability -->|details| gdpr_foundations
+  dma_interoperability -->|details| cybersecurity_foundations
+  nis2_transposition_tracker -->|details| nis2_foundations
+  nis2_transposition_tracker -->|details| nis2_incident_reporting
+  nis2_transposition_tracker -->|details| dora_foundations
+  nis2_transposition_tracker -->|details| cybersecurity_foundations
+  ai_model_risk_management -->|details| ai_governance_foundations
+  ai_model_risk_management -->|details| ai_governance_iso_42001
+  ai_model_risk_management -->|details| ai_act_foundations
+  ai_model_risk_management -->|details| ai_act_high_risk
+  ai_model_risk_management -->|details| ai_act_gpai
+  ai_model_risk_management -->|details| privacy_threat_modelling
   uk_gdpr_foundations -->|related| eprivacy_foundations
   uk_gdpr_foundations -->|related| privacy_engineering_foundations
   eprivacy_foundations -->|related| privacy_engineering_foundations
@@ -263,7 +296,7 @@ graph LR
   uk_childrens_code -->|related| eprivacy_foundations
   uk_childrens_code -->|related| privacy_engineering_foundations
   pets_catalogue -->|related| gdpr_foundations
-  pets_catalogue -.->|related| anonymisation_techniques
+  pets_catalogue -->|related| anonymisation_techniques
   pets_catalogue -->|related| ai_act_foundations
   data_act_cloud_switching -->|related| gdpr_foundations
   data_act_cloud_switching -->|related| gdpr_transfers

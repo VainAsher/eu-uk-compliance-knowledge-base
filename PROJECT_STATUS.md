@@ -1,7 +1,7 @@
 # Project Status
 
 **Last updated:** 2026-07-11
-**Maturity:** Stage 10 of 10 (all complete) — *44 approved documents; public GitHub Pages site auto-deploys. Autonomous backlog loop in progress (Cluster B frozen, release 0.16.0).*
+**Maturity:** Stage 10 of 10 (all complete) — *50 approved documents; public GitHub Pages site auto-deploys. Autonomous backlog loop in progress (Cluster C frozen, release 0.17.0).*
 
 ## Maturity model (repository level)
 
@@ -36,12 +36,12 @@
 
 ## In progress
 
-- **Autonomous backlog loop running** (user-authorised). **Cluster B (#39–#44) approved & frozen (release 0.16.0)** → 44 docs, 16/16 topics with depth; also patched `cyber-resilience-act` → v1.0.1 (CRA structure correction). Next: **Cluster C** (anonymisation-techniques, dma-interoperability, dsa-recommender-transparency, nis2-transposition-tracker, data-retention-caselaw, ai-model-risk-management).
+- **Autonomous backlog loop running** (user-authorised). **Cluster C (#45–#50) approved & frozen (release 0.17.0)** → 50 docs; every one of the 16 topics now has at least two depth documents. Remaining backlog is thin (see below); the loop can wind down or continue on the smaller residual list.
 - Site is **public and auto-deploying** at <https://vainasher.github.io/eu-uk-compliance-knowledge-base/>.
 
 ## Pending / optional work
 
-- **Depth backlog** (loop in progress) — remaining candidates: `anonymisation-techniques`, `nis2-transposition-tracker`, `dma-interoperability`, `dsa-recommender-transparency`, `data-retention-caselaw`, `ai-model-risk-management`, `ugc-moderation`.
+- **Depth backlog** (residual) — remaining candidates: `ugc-moderation` (DSA content moderation), `edpb-transfer-tools`, `ai-act-transparency-obligations`, `data-act-b2g`, plus any topic the reviewer wants deepened further. No high-priority gaps remain.
 - **Review cycles** — refresh volatile items before `review_due` 2027-07-11 (AI Omnibus OJ publication, EU-US DPF appeal, Digital Omnibus data strand, revised ICO Children's Code, ISO 27017/27018 editions).
 - **Optional QA extras** — glossary-consistency checker, `vale` prose linting.
 
@@ -54,14 +54,14 @@
 | ~~No glossary file~~ | — | ✅ Resolved: `GLOSSARY.md` (~120 terms). |
 | ~~No CI/GitHub remote~~ | — | ✅ Resolved: private repo `VainAsher/eu-uk-compliance-knowledge-base`; CI green. |
 | ~~Site not yet live~~ | — | ✅ Resolved: repo public; site live at vainasher.github.io/eu-uk-compliance-knowledge-base (auto-deploys). |
-| Per-Member-State transposition detail (NIS2) | National specifics not enumerated | Planned `nis2-transposition-tracker`. |
+| ~~Per-Member-State transposition detail (NIS2)~~ | — | ✅ Resolved: `nis2-transposition-tracker` (dated snapshot + divergence axes; Medium confidence, "verify before relying"). |
 
 ## Repository statistics
 
 | Metric | Value |
 |--------|-------|
-| Approved documents | 44 (16 foundations + 28 sub-topics) |
+| Approved documents | 50 (16 foundations + 34 sub-topics) |
 | Draft documents | 0 |
 | Governance files | 9 |
-| Topics covered | 16 / 16 ✅ (all 16 topics now have depth docs) |
+| Topics covered | 16 / 16 ✅ (every topic has ≥2 depth docs) |
 | Sources in registry | see `SOURCE_REGISTRY.md` |

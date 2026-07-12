@@ -6,6 +6,23 @@ All notable changes to this repository. Format based on [Keep a Changelog](https
 
 *Nothing yet.*
 
+## [0.17.0] — 2026-07-12
+
+### Added (backlog loop — Cluster C; autonomous, workers self-ran all QA gates; auto-frozen on clean QA + orchestrator link re-verification)
+
+- `docs/04-privacy-engineering/anonymisation-techniques.md` — anonymisation vs pseudonymisation; WP29 05/2014 three-criteria test; k-anonymity/l-diversity/t-closeness/differential privacy; **relative identifiability (Breyer; EDPS v SRB C-413/23 P, 2025)**; re-confirmed DUAA did not change the UK identifiability test.
+- `docs/03-eprivacy/data-retention-caselaw.md` — the full CJEU line (Digital Rights Ireland → Tele2/Watson → La Quadrature I → Prokuratuur → SpaceNet → La Quadrature II C-470/21); **all ten ECLIs individually verified**; UK IPA 2016 divergence.
+- `docs/08-digital-services/dsa-recommender-transparency.md` — DSA Arts. 27/38/26/28; non-profiling option; minors ad ban; TikTok/Meta addictive-design preliminary findings verified.
+- `docs/09-digital-markets/dma-interoperability.md` — DMA Art. 7 messaging interoperability (E2EE safeguard, reference offer) + Art. 6(7); Apple Mar-2025 specification decisions; iMessage non-designation.
+- `docs/10-nis2/nis2-transposition-tracker.md` — dated transposition snapshot (Medium; explicit "verify before relying"); Art. 41 deadline, reasoned opinions to 19 MS, CJEU referrals; IT D.Lgs 138/2024, DE NIS2UmsuCG.
+- `docs/06-ai-governance/ai-model-risk-management.md` — AI Act Arts. 9/15/55; NIST AI RMF + GenAI profile; SR 11-7 → **SR 26-2 (17 Apr 2026)**, PRA SS1/23; red-teaming & dangerous-capability evals (Medium; the MRM↔AI crosswalk is a reasoned best-practice mapping).
+
+### Changed
+
+- `SOURCE_REGISTRY.md` — added 41 sources (incl. 12 CJEU data-retention judgments + the Charter and DRD as Primary; NIST SP 800-188; EDPB Pseudonymisation Guidelines 01/2025; SR 11-7/SR 26-2/SS1/23; UK AISI/Inspect; 5 arXiv evaluation papers).
+- `GLOSSARY.md` — added 33 terms across anonymisation, DMA interoperability, data-retention doctrine, DSA recommender/profiling, AI model-risk-management, and NIS2 transposition.
+- `MASTER_INDEX.md` — 6 catalogue rows, topic-coverage counts, knowledge-graph edges; `anonymisation-techniques` and `data-retention-caselaw` moved planned→approved.
+
 ## [0.16.0] — 2026-07-11
 
 ### Added (backlog loop — Cluster B; autonomous, workers self-ran all QA gates; auto-frozen on clean QA)

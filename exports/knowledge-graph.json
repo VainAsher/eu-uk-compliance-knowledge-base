@@ -954,6 +954,137 @@
         "dsa-foundations",
         "ai-act-foundations"
       ]
+    },
+    {
+      "id": "anonymisation-techniques",
+      "title": "Anonymisation, Pseudonymisation & Re-identification Risk",
+      "topic": "Privacy Engineering",
+      "tier": "3",
+      "jurisdiction": "EU, UK",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/04-privacy-engineering/anonymisation-techniques.md",
+      "legal_basis": "Regulation (EU) 2016/679, Article 4(1) & 4(5) and Recital 26",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "privacy-engineering-foundations",
+        "pets-catalogue",
+        "dpia-methodology",
+        "gdpr-foundations",
+        "gdpr-transfers"
+      ]
+    },
+    {
+      "id": "data-retention-caselaw",
+      "title": "Data Retention & Communications Metadata: The CJEU Case Law",
+      "topic": "ePrivacy",
+      "tier": "3",
+      "jurisdiction": "EU, UK",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/03-eprivacy/data-retention-caselaw.md",
+      "legal_basis": "Directive 2002/58/EC Art. 15(1) read with the Charter of Fundamental Rights (Arts. 7, 8, 11, 52)",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "eprivacy-foundations",
+        "pecr-detail",
+        "gdpr-foundations",
+        "uk-gdpr-foundations"
+      ]
+    },
+    {
+      "id": "dsa-recommender-transparency",
+      "title": "DSA: Recommender-System Transparency & Online Advertising",
+      "topic": "Digital Services",
+      "tier": "3",
+      "jurisdiction": "EU",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/08-digital-services/dsa-recommender-transparency.md",
+      "legal_basis": "Regulation (EU) 2022/2065",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "dsa-foundations",
+        "dsa-vlop-obligations",
+        "gdpr-foundations",
+        "ai-act-foundations",
+        "uk-childrens-code"
+      ]
+    },
+    {
+      "id": "dma-interoperability",
+      "title": "DMA: Interoperability Obligations (Messaging & Core Platform Services)",
+      "topic": "Digital Markets",
+      "tier": "3",
+      "jurisdiction": "EU",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "High",
+      "path": "docs/09-digital-markets/dma-interoperability.md",
+      "legal_basis": "Regulation (EU) 2022/1925",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "dma-foundations",
+        "dma-obligations",
+        "dsa-foundations",
+        "gdpr-foundations",
+        "cybersecurity-foundations"
+      ]
+    },
+    {
+      "id": "nis2-transposition-tracker",
+      "title": "NIS2: National Transposition Tracker & Divergence",
+      "topic": "NIS2",
+      "tier": "3",
+      "jurisdiction": "EU",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "Medium",
+      "path": "docs/10-nis2/nis2-transposition-tracker.md",
+      "legal_basis": "Directive (EU) 2022/2555; Commission Implementing Regulation (EU) 2024/2690",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "nis2-foundations",
+        "nis2-incident-reporting",
+        "dora-foundations",
+        "cybersecurity-foundations"
+      ]
+    },
+    {
+      "id": "ai-model-risk-management",
+      "title": "AI Model Risk Management & Evaluation",
+      "topic": "AI Governance",
+      "tier": "2",
+      "jurisdiction": "EU, UK",
+      "version": "1.0.0",
+      "status": "approved",
+      "confidence": "Medium",
+      "path": "docs/06-ai-governance/ai-model-risk-management.md",
+      "legal_basis": "Regulation (EU) 2024/1689 (AI Act) Arts. 9, 15, 55 — operationalised via ISO/IEC 23894, NIST AI RMF, and model-risk-management supervisory practice (PRA SS1/23; Fed SR 11-7 lineage)",
+      "document_type": "reference",
+      "review_due": "2027-07-11",
+      "created": "2026-07-11",
+      "related": [
+        "ai-governance-foundations",
+        "ai-governance-iso-42001",
+        "ai-act-foundations",
+        "ai-act-high-risk",
+        "ai-act-gpai",
+        "privacy-threat-modelling"
+      ]
     }
   ],
   "edges": [
@@ -1039,7 +1170,7 @@
       "from": "eprivacy-foundations",
       "to": "data-retention-caselaw",
       "rel": "detailed by",
-      "target": "planned"
+      "target": "known"
     },
     {
       "from": "privacy-engineering-foundations",
@@ -1081,7 +1212,7 @@
       "from": "privacy-engineering-foundations",
       "to": "anonymisation-techniques",
       "rel": "detailed by",
-      "target": "planned"
+      "target": "known"
     },
     {
       "from": "ai-act-foundations",
@@ -1834,6 +1965,180 @@
       "target": "known"
     },
     {
+      "from": "anonymisation-techniques",
+      "to": "privacy-engineering-foundations",
+      "rel": "details; sibling of; feeds; implements; supports",
+      "target": "known"
+    },
+    {
+      "from": "anonymisation-techniques",
+      "to": "pets-catalogue",
+      "rel": "details; sibling of; feeds; implements; supports",
+      "target": "known"
+    },
+    {
+      "from": "anonymisation-techniques",
+      "to": "dpia-methodology",
+      "rel": "details; sibling of; feeds; implements; supports",
+      "target": "known"
+    },
+    {
+      "from": "anonymisation-techniques",
+      "to": "gdpr-foundations",
+      "rel": "details; sibling of; feeds; implements; supports",
+      "target": "known"
+    },
+    {
+      "from": "anonymisation-techniques",
+      "to": "gdpr-transfers",
+      "rel": "details; sibling of; feeds; implements; supports",
+      "target": "known"
+    },
+    {
+      "from": "data-retention-caselaw",
+      "to": "eprivacy-foundations",
+      "rel": "details; sibling of; relates to; diverges under UK law via",
+      "target": "known"
+    },
+    {
+      "from": "data-retention-caselaw",
+      "to": "pecr-detail",
+      "rel": "details; sibling of; relates to; diverges under UK law via",
+      "target": "known"
+    },
+    {
+      "from": "data-retention-caselaw",
+      "to": "gdpr-foundations",
+      "rel": "details; sibling of; relates to; diverges under UK law via",
+      "target": "known"
+    },
+    {
+      "from": "data-retention-caselaw",
+      "to": "uk-gdpr-foundations",
+      "rel": "details; sibling of; relates to; diverges under UK law via",
+      "target": "known"
+    },
+    {
+      "from": "dsa-recommender-transparency",
+      "to": "dsa-foundations",
+      "rel": "details; overlaps; parallel to",
+      "target": "known"
+    },
+    {
+      "from": "dsa-recommender-transparency",
+      "to": "dsa-vlop-obligations",
+      "rel": "details; overlaps; parallel to",
+      "target": "known"
+    },
+    {
+      "from": "dsa-recommender-transparency",
+      "to": "gdpr-foundations",
+      "rel": "details; overlaps; parallel to",
+      "target": "known"
+    },
+    {
+      "from": "dsa-recommender-transparency",
+      "to": "ai-act-foundations",
+      "rel": "details; overlaps; parallel to",
+      "target": "known"
+    },
+    {
+      "from": "dsa-recommender-transparency",
+      "to": "uk-childrens-code",
+      "rel": "details; overlaps; parallel to",
+      "target": "known"
+    },
+    {
+      "from": "dma-interoperability",
+      "to": "dma-obligations",
+      "rel": "details; sibling of; relies on; relates to",
+      "target": "known"
+    },
+    {
+      "from": "dma-interoperability",
+      "to": "dma-foundations",
+      "rel": "details; sibling of; relies on; relates to",
+      "target": "known"
+    },
+    {
+      "from": "dma-interoperability",
+      "to": "dsa-foundations",
+      "rel": "details; sibling of; relies on; relates to",
+      "target": "known"
+    },
+    {
+      "from": "dma-interoperability",
+      "to": "gdpr-foundations",
+      "rel": "details; sibling of; relies on; relates to",
+      "target": "known"
+    },
+    {
+      "from": "dma-interoperability",
+      "to": "cybersecurity-foundations",
+      "rel": "details; sibling of; relies on; relates to",
+      "target": "known"
+    },
+    {
+      "from": "nis2-transposition-tracker",
+      "to": "nis2-foundations",
+      "rel": "details; complements; contrasts with; relates to",
+      "target": "known"
+    },
+    {
+      "from": "nis2-transposition-tracker",
+      "to": "nis2-incident-reporting",
+      "rel": "details; complements; contrasts with; relates to",
+      "target": "known"
+    },
+    {
+      "from": "nis2-transposition-tracker",
+      "to": "dora-foundations",
+      "rel": "details; complements; contrasts with; relates to",
+      "target": "known"
+    },
+    {
+      "from": "nis2-transposition-tracker",
+      "to": "cybersecurity-foundations",
+      "rel": "details; complements; contrasts with; relates to",
+      "target": "known"
+    },
+    {
+      "from": "ai-model-risk-management",
+      "to": "ai-governance-foundations",
+      "rel": "details; populates; operationalises; satisfies; complements",
+      "target": "known"
+    },
+    {
+      "from": "ai-model-risk-management",
+      "to": "ai-governance-iso-42001",
+      "rel": "details; populates; operationalises; satisfies; complements",
+      "target": "known"
+    },
+    {
+      "from": "ai-model-risk-management",
+      "to": "ai-act-foundations",
+      "rel": "details; populates; operationalises; satisfies; complements",
+      "target": "known"
+    },
+    {
+      "from": "ai-model-risk-management",
+      "to": "ai-act-high-risk",
+      "rel": "details; populates; operationalises; satisfies; complements",
+      "target": "known"
+    },
+    {
+      "from": "ai-model-risk-management",
+      "to": "ai-act-gpai",
+      "rel": "details; populates; operationalises; satisfies; complements",
+      "target": "known"
+    },
+    {
+      "from": "ai-model-risk-management",
+      "to": "privacy-threat-modelling",
+      "rel": "details; populates; operationalises; satisfies; complements",
+      "target": "known"
+    },
+    {
       "from": "uk-gdpr-foundations",
       "to": "eprivacy-foundations",
       "rel": "related",
@@ -2209,7 +2514,7 @@
       "from": "pets-catalogue",
       "to": "anonymisation-techniques",
       "rel": "related",
-      "target": "planned"
+      "target": "known"
     },
     {
       "from": "pets-catalogue",
