@@ -2,7 +2,7 @@
 id: ai-act-prohibited-practices
 title: "EU AI Act: Prohibited Practices (Article 5)"
 version: 1.0.0
-status: in-review
+status: approved
 classification: public
 jurisdiction: [EU]
 topic: AI Act

@@ -2,7 +2,7 @@
 id: uk-transfers
 title: "UK GDPR: International Data Transfers"
 version: 1.0.0
-status: in-review
+status: approved
 classification: public
 jurisdiction: [UK]
 topic: UK GDPR

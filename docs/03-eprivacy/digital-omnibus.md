@@ -2,7 +2,7 @@
 id: digital-omnibus
 title: "The EU Digital Omnibus: Simplification Package (2025–2026)"
 version: 1.0.0
-status: in-review
+status: approved
 classification: public
 jurisdiction: [EU]
 topic: ePrivacy

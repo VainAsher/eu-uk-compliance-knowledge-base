@@ -2,7 +2,7 @@
 id: cookie-consent-implementation
 title: "Cookie Consent: Implementation & Consent Management"
 version: 1.0.0
-status: in-review
+status: approved
 classification: public
 jurisdiction: [EU, UK]
 topic: ePrivacy

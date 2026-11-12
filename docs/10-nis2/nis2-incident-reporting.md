@@ -2,7 +2,7 @@
 id: nis2-incident-reporting
 title: "NIS2: Significant-Incident Reporting"
 version: 1.0.0
-status: in-review
+status: approved
 classification: public
 jurisdiction: [EU]
 topic: NIS2

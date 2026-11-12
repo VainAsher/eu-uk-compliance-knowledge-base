@@ -2,7 +2,7 @@
 id: dsa-vlop-obligations
 title: "EU Digital Services Act: VLOP & VLOSE Obligations"
 version: 1.0.0
-status: in-review
+status: approved
 classification: public
 jurisdiction: [EU]
 topic: Digital Services

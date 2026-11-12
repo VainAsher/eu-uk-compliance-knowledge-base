@@ -2,7 +2,7 @@
 id: dma-obligations
 title: "EU Digital Markets Act: Gatekeeper Obligations in Depth"
 version: 1.0.0
-status: in-review
+status: approved
 classification: public
 jurisdiction: [EU]
 topic: Digital Markets

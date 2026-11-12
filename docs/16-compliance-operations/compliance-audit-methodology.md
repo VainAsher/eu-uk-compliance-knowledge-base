@@ -2,7 +2,7 @@
 id: compliance-audit-methodology
 title: "Compliance Audit & Assurance Methodology"
 version: 1.0.0
-status: in-review
+status: approved
 classification: public
 jurisdiction: [EU, UK]
 topic: Compliance Operations

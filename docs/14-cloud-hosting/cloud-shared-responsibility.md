@@ -2,7 +2,7 @@
 id: cloud-shared-responsibility
 title: "Cloud Hosting: Shared-Responsibility Models & Assurance"
 version: 1.0.0
-status: in-review
+status: approved
 classification: public
 jurisdiction: [EU, UK]
 topic: Cloud Hosting

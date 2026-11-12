@@ -2,7 +2,7 @@
 id: data-act-cloud-switching
 title: "EU Data Act: Cloud Switching, Portability & Interoperability"
 version: 1.0.0
-status: in-review
+status: approved
 classification: public
 jurisdiction: [EU]
 topic: Data Act

@@ -2,7 +2,7 @@
 id: ai-act-gpai
 title: "EU AI Act: General-Purpose AI Models & Systemic Risk"
 version: 1.0.0
-status: in-review
+status: approved
 classification: public
 jurisdiction: [EU]
 topic: AI Act

@@ -2,7 +2,7 @@
 id: pets-catalogue
 title: "Privacy-Enhancing Technologies: A Catalogue"
 version: 1.0.0
-status: in-review
+status: approved
 classification: public
 jurisdiction: [EU, UK]
 topic: Privacy Engineering

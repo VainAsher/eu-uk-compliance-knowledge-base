@@ -2,7 +2,7 @@
 id: dmcca-subscriptions
 title: "UK DMCCA 2024: Subscription Contracts Regime"
 version: 1.0.0
-status: in-review
+status: approved
 classification: public
 jurisdiction: [UK]
 topic: Consumer Rights

@@ -2,7 +2,7 @@
 id: dora-tlpt
 title: "DORA: Threat-Led Penetration Testing (TLPT)"
 version: 1.0.0
-status: in-review
+status: approved
 classification: public
 jurisdiction: [EU]
 topic: DORA

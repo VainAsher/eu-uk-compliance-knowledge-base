@@ -2,7 +2,7 @@
 id: uk-childrens-code
 title: "UK Children's Code (Age-Appropriate Design Code)"
 version: 1.0.0
-status: in-review
+status: approved
 classification: public
 jurisdiction: [UK]
 topic: UK GDPR
