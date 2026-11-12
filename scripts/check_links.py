@@ -39,9 +39,18 @@ def clean_url(raw: str) -> str:
     return url
 
 # Hosts known to serve pages fine in-browser but 403 automated user-agents.
+# Added 2026-11-12 after the weekly QA failed on 31 links, all HTTP 403 from the GitHub runners. Each URL was
+# opened in a real browser and loaded with the expected title (iso.org standard pages, doi.org -> dl.acm.org, europarl.europa.eu pages and PDF).
 BOT_BLOCK_HOSTS = {
     "www.consilium.europa.eu",
     "consilium.europa.eu",
+    "www.iso.org",
+    "doi.org",
+    "www.ofcom.org.uk",
+    "www.raadvanstate.nl",
+    "ecs-org.eu",
+    "commonslibrary.parliament.uk",
+    "www.europarl.europa.eu",
 }
 
 DEFAULT_PATHS = [
