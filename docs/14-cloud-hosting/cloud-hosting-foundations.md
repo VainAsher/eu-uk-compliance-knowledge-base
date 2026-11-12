@@ -1,7 +1,7 @@
 ---
 id: cloud-hosting-foundations
 title: "Cloud Hosting: Compliance Foundations"
-version: 1.0.0
+version: 1.0.1
 status: approved
 classification: public
 jurisdiction: [EU, UK]
@@ -11,7 +11,7 @@ owner: Compliance Research Pipeline
 authors:
   - Technical Writer (virtual agent)
 created: 2026-07-11
-updated: 2026-07-11
+updated: 2026-11-12
 review_due: 2027-07-11
 confidence: Medium
 supersedes: Not Applicable
@@ -56,7 +56,7 @@ The single most important operational message: **map every control to an owner**
 - **DORA** treats a cloud provider serving financial entities as an **ICT third-party provider**; if systemically important it may be designated a **CTPP** under direct ESA oversight (first designations 18 Nov 2025), and financial-entity contracts must carry the **Art. 30** key provisions [3][11]. *(Legal obligation — assess role.)*
 - The **Data Act** subjects cloud "data processing services" to **switching, export and interoperability** duties; **switching charges are prohibited from 12 January 2027** [4][10]. *(Legal obligation — phased.)*
 - **ISO/IEC 27017** (cloud security controls) and **ISO/IEC 27018** (PII in public cloud) extend ISO/IEC 27001/27002 for cloud; **CSA STAR** provides a cloud-specific assurance registry [13][14][15][16][18]. *(Best practice / standards.)*
-- The **EUCS** cloud certification scheme is, at this document's date, **still a candidate/draft** under the Cybersecurity Act (only the **EUCC** products scheme has been adopted); do not assume EUCS certification is available [5][7][8][9]. *(Verified status — not asserted.)*
+- The **EUCS** cloud certification scheme is, at this document's date, **still a candidate/draft** under the Cybersecurity Act (only the **EUCC** products scheme has been adopted); do not assume EUCS certification is available [5][7][8]. *(Verified status — not asserted.)*
 
 # Purpose
 
@@ -143,7 +143,7 @@ This document describes a **cross-cutting application**, not a single instrument
 
 - **EDPB** — on transfers, **Recommendations 01/2020** set out the six-step methodology (know your transfers, identify the mechanism, assess third-country law, adopt supplementary measures, procedural steps, re-evaluate) that operationalises Schrems II for cloud data flows; SCCs alone do not suffice where third-country law compromises them [12]. *(Regulatory interpretation.)*
 - **ENISA** — prepared the **EUCS** candidate scheme under the Cybersecurity Act and maintains the certification portal; ENISA's own page presents EUCS as a **draft candidate** scheme, not an adopted regulation [7]. ENISA also supports NIS2 implementation for digital-infrastructure providers. *(Regulatory / technical guidance.)*
-- **European Commission** — confirms that under the certification framework the **only adopted scheme is EUCC** (Common Criteria, for ICT products, available from 27 February 2025); a cloud services scheme is **not among the adopted schemes**, and the Commission proposed a **revision of the Cybersecurity Act on 20 January 2026** partly to unblock scheme development [8][9]. On the Data Act, the Commission frames the switching rules as targeting **vendor lock-in**, requiring removal of commercial, technical and contractual obstacles and withdrawal of switching charges over a transition period [10]. *(Regulatory interpretation.)*
+- **European Commission** — confirms that under the certification framework the **only adopted scheme is EUCC** (Common Criteria, for ICT products, available from 27 February 2025); a cloud services scheme is **not among the adopted schemes** [8], and the Commission proposed a **revision of the Cybersecurity Act on 20 January 2026** to clarify rules and simplify procedures under the certification framework [9]. On the Data Act, the Commission frames the switching rules as targeting **vendor lock-in**, requiring removal of commercial, technical and contractual obstacles and withdrawal of switching charges over a transition period [10]. *(Regulatory interpretation.)*
 - **ESAs (EBA/EIOPA/ESMA)** — designated the **first CTPPs on 18 November 2025** (reported as 19 providers, including hyperscale cloud), placing them under direct oversight with a Lead Overseer; the list is re-assessed over time, so cloud customers in finance should track it [11]. *(Regulatory interpretation — verify the live list.)*
 - Regulators consistently treat **certification as evidence, not proof**: ISO/IEC 27001/27017/27018 or CSA STAR are strong evidence of appropriate measures but do not by themselves discharge a specific legal duty on specific facts [8][13]. *(Regulatory interpretation.)*
 
@@ -294,7 +294,7 @@ Labels: **OBLIGATION** (a cited law requires the outcome) / **BEST PRACTICE** (s
 
 - [7] **EUCS — Cloud Services Scheme** (candidate/draft scheme prepared under the Cybersecurity Act; not adopted). ENISA. https://www.enisa.europa.eu/publications/eucs-cloud-service-scheme
 - [8] **The EU cybersecurity certification framework** (EUCC adopted and available from 27 Feb 2025; cloud scheme not among adopted schemes). European Commission, Shaping Europe's Digital Future. https://digital-strategy.ec.europa.eu/en/policies/cybersecurity-certification-framework
-- [9] **Cybersecurity Act review: what to expect** (EPRS briefing, Jan 2026 — EUCS still awaiting adoption; CSA revision proposed 20 Jan 2026). European Parliamentary Research Service. https://epthinktank.eu/2026/01/05/cybersecurity-act-review-what-to-expect/
+- [9] **New measures to strengthen cybersecurity resilience and capabilities** (cybersecurity package incl. proposed Cybersecurity Act revision, 20 January 2026; the revision aims to clarify rules and simplify procedures under the certification framework). European Commission. https://commission.europa.eu/news-and-media/news/new-measures-strengthen-cybersecurity-resilience-and-capabilities-2026-01-20_en
 - [10] **Switching cloud service providers / cloud switching** (Data Act Chapter VI; removal of obstacles and withdrawal of switching charges). European Commission, Shaping Europe's Digital Future. https://digital-strategy.ec.europa.eu/en/policies/cloud-switching
 - [11] **European Supervisory Authorities designate critical ICT third-party providers under DORA** (first CTPP list, 18 November 2025). EIOPA/EBA/ESMA. https://www.eiopa.europa.eu/european-supervisory-authorities-designate-critical-ict-third-party-providers-under-digital-2025-11-18_en
 - [12] **Recommendations 01/2020 on measures that supplement transfer tools** (six-step Schrems II methodology). European Data Protection Board (EDPB). https://www.edpb.europa.eu/our-work-tools/our-documents/recommendations/recommendations-012020-measures-supplement-transfer_en
@@ -337,3 +337,4 @@ Not Applicable — this cross-cutting synthesis relies on primary legislation, r
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-07-11 | Technical Writer (virtual agent) | Initial draft; cross-cutting synthesis of cloud-hosting compliance. Researched against EUR-Lex (GDPR consolidated Arts. 28/32/Ch.V, NIS2, DORA, Data Act, Cybersecurity Act 2019/881, Schrems II), EDPB Recommendations 01/2020, ENISA/EC certification-framework pages, ESAs CTPP designation, EC cloud-switching, and ISO/IEC 27001/27002/27017/27018/27701 and CSA STAR. **EUCS status live-verified as not yet adopted** (only EUCC adopted; CSA revision proposed 20 Jan 2026); **Data Act switching-charge date (12 Jan 2027) verified**. All 18 external links returned HTTP 200 on 2026-07-11. | — |
 | 1.0.0 | 2026-07-11 | Editorial Reviewer (virtual agent) | Approved at batch human review gate; EUCS-not-adopted status noted; frozen in release 0.9.0. | Human reviewer |
+| 1.0.1 | 2026-11-12 | Orchestrator | Dead EPRS reference [9] (epthinktank.eu, 404) replaced by the Commission's 20 Jan 2026 Cybersecurity Act announcement; claims narrowed to what that page states. | Human reviewer (instructed 2026-11-12) |
